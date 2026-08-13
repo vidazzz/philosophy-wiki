@@ -1,0 +1,17 @@
+# macOS
+.DS_Store
+
+# 编辑器
+.vscode/
+.idea/
+*.swp
+*~
+
+# 临时文件
+*.tmp
+*.bak
+
+# 注意：raw/ 目录的 .md 笔记应当被追踪，作为事实源
+# 如需忽略大型二进制文件，可启用下面两行：
+# raw/*.pdf
+# raw/*.epub
