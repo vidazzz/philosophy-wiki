@@ -3,7 +3,14 @@
     "allow": [
       "Bash(git config *)",
       "Bash(git init *)",
-      "Bash(git add *)"
+      "Bash(git add *)",
+      "Bash(echo \"Git global user.name: [$\\(git config --global user.name\\)]\")",
+      "Bash(echo \"Git global user.email: [$\\(git config --global user.email\\)]\")",
+      "Bash(gh auth *)",
+      "Read(//Users/vidazhou/.ssh/**)",
+      "Bash(gh api *)",
+      "Bash(git commit -m 'chore: initial project skeleton *)",
+      "Bash(git commit -m 'chore: update Claude Code local permissions *)"
     ]
   }
 }
