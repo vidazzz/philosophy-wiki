@@ -27,6 +27,8 @@
 │
 ├── wiki/                ← Wiki 主体（AI 维护，可演化）
 │   ├── index.md         ← 总索引（每次 Ingest/Lint 后必须更新）
+│   ├── graph.md         ← 知识图谱可视化页（vis-network）
+│   ├── stylesheets/     ← MkDocs 自定义 CSS
 │   ├── philosophers/    ← 哲学家页
 │   ├── concepts/        ← 概念页
 │   ├── works/           ← 著作页
@@ -37,11 +39,22 @@
 │
 ├── templates/           ← 各类型页面的空白模板
 │
+├── hooks/               ← MkDocs 自定义钩子（构建时执行）
+│   ├── __init__.py      ←   共享 STATE
+│   ├── wikilinks.py     ←   [[X]] 解析 + 待创建徽章
+│   ├── backlinks.py     ←   反链面板注入
+│   └── graph.py         ←   写 site/assets/graph.json
+│
+├── mkdocs.yml           ← MkDocs 站点配置
+├── requirements.txt     ← Python 依赖（mkdocs + mkdocs-material）
+│
 └── meta/                ← 项目元数据（不属于 Wiki 主体）
     ├── methodology.md   ← LLM Wiki 模式说明
     ├── glossary.md      ← 核心术语统一表
     ├── progress.md      ← 研读进度看板
     └── reading-list.md  ← 延伸阅读书单（按主题组织的待读/已读书目）
+
+构建产物 `site/` 目录在 .gitignore 中（部署时通过 `mkdocs gh-deploy` 推到 gh-pages 分支）。
 ```
 
 ---
@@ -190,6 +203,11 @@ for link in $(grep -rhoE '\[\[[^]]+\]\]' wiki/ | sed 's/\[\[//;s/\]\]//' | sort 
   name="${link%%|*}"
   [ -f "wiki/$name.md" ] || [ -f "wiki/philosophers/$name.md" ] || echo "死链: $name"
 done
+
+# 站点构建 / 预览 / 部署（需要先激活 venv：source .venv/bin/activate）
+mkdocs serve                                          # 本地预览 http://127.0.0.1:8000
+mkdocs build --strict                                 # 全站构建 + 断链检查
+mkdocs gh-deploy --force                              # 部署到 GitHub Pages（推到 gh-pages 分支）
 ```
 
 ---
@@ -199,3 +217,53 @@ done
 > 起步期：刚搭建骨架，Wiki 主体为空。下一步是与用户确认第一个切入点和第一批资料。
 
 参见 `meta/progress.md`。
+
+---
+
+## 十一、静态站点发布（MkDocs + Material → GitHub Pages）
+
+本项目通过 [MkDocs](https://www.mkdocs.org/) + [Material](https://squidfunk.github.io/mkdocs-material/) 主题构建静态站点，托管在 GitHub Pages。
+
+### 站点地址
+
+`https://vidazhou.github.io/philosophy-wiki/`
+
+### 三大自定义功能（由 `hooks/` 实现）
+
+- **`hooks/wikilinks.py`** —— 构建时扫描每页 Markdown，将 `[[X]]` 和 `[[X|Y]]` 解析为：
+  - 目标存在 → 真正的 `<a href>` 链接
+  - 目标不存在 → `<span class="wikilink-stub">` "待创建" 样式（CSS 在 `wiki/stylesheets/extra.css`）
+- **`hooks/backlinks.py`** —— 每页渲染后，在末尾自动追加 `<aside class="backlinks">` "被引用于" 面板，列出所有反向链接
+- **`hooks/graph.py`** —— 构建结束（`on_post_build`）时，写出 `site/assets/graph.json`（含 nodes + edges），由 `wiki/graph.md` 用 [vis-network](https://visjs.github.io/vis-network/) 渲染
+
+### 站点内容来源
+
+- `mkdocs.yml` 的 `docs_dir: wiki` 让 MkDocs 直接读 `wiki/` 目录（**不动 wiki 内容**）
+- `wiki/graph.md` 是知识图谱可视化页（vis-network 通过 CDN 加载）
+- `wiki/stylesheets/extra.css` 自定义反链面板、stub 链接、知识图谱容器的样式
+
+### 工作流
+
+```bash
+cd /Users/vidazhou/西方哲学研读
+source .venv/bin/activate        # 激活 venv
+
+mkdocs serve                     # 本地预览：http://127.0.0.1:8000
+mkdocs build --strict            # 全站构建（含断链检查）
+mkdocs gh-deploy --force         # 部署到 GitHub Pages
+```
+
+### 注意事项
+
+- **URL 路径**：因部署在 GitHub Pages 子路径下，生成 HTML 中的链接是相对路径；本地预览用 `mkdocs serve` 测试
+- **frontmatter 中的 `[[链接]]`**：hooks 会跳过 YAML 块（用 `split("---", 2)` 分离），但 body 内会替换
+- **forward link**（指向不存在页面的 `[[X]]`）会显示为虚线下划线 + 紫色"待创建"徽章
+- **构建产物 `site/`** 在 .gitignore 中；部署通过 `mkdocs gh-deploy` 推到 `gh-pages` 分支
+- **GitHub Pages 设置**：Settings → Pages → Build & deployment → Branch = `gh-pages` / `/ (root)`
+
+### 日常维护要点
+
+- 修改 `wiki/` 内容后，执行 `mkdocs gh-deploy --force` 即可
+- 修改 `hooks/` 后，必须重新 build（不要假设 dev server 自动刷新 hook 代码）
+- 私有仓库 + GitHub Pages 需要 GitHub Pro；公开访问仅限已登录用户
+- 如新增分类目录，记得在 `wiki/<新目录>/index.md` 放一个一行标题文件，让 Material 的 `navigation.indexes` 渲染出分类入口

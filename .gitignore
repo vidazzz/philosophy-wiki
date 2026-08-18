@@ -15,3 +15,13 @@
 # 如需忽略大型二进制文件，可启用下面两行：
 # raw/*.pdf
 # raw/*.epub
+
+# MkDocs 构建产物
+/site/
+/.cache/
+
+# Python
+/.venv/
+__pycache__/
+*.pyc
+/hooks/__pycache__/
