@@ -16,7 +16,8 @@
       "Bash(git commit -m 'feat: first Ingest workflow - pre-Socratic meta-observation *)",
       "Bash(git commit -m 'feat: second Ingest - '\\\\''wonder'\\\\'' concept from Sophie'\\\\''s World opening *)",
       "Bash(git commit -m 'feat: third Ingest - Socratic turn + philosophy-science relationship *)",
-      "Bash(git commit -m 'feat: add reading-list.md - meta tracking for延伸阅读 *)"
+      "Bash(git commit -m 'feat: add reading-list.md - meta tracking for延伸阅读 *)",
+      "Bash(git commit -m 'fix: restore missing meta-info lines in wiki/index.md *)"
     ]
   }
 }

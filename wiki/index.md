@@ -71,6 +71,9 @@
 - **最近一次 Ingest**：2026-08-13（簇 3 首批：前苏格拉底时期 + 用户元观察）
 - **最近一次 Lint**：尚未进行
 - **待补充条目**：参见 `meta/progress.md`
+- **Wiki 总页数**：14 stub
+- **资料来源类型规则**：见 CLAUDE.md §7.1（primary / secondary / ai_summary）
+- **Ingest 累计**：3 次（2026-08-13，簇 3 前苏格拉底 + 开篇惊异 + 苏格拉底转向）
 - **延伸阅读书单**：参见 `meta/reading-list.md`（按主题组织，按优先级标注）
 
 ---
