@@ -133,6 +133,33 @@
 - **术语**：使用 `meta/glossary.md` 中约定的中文译名
 - **简洁**：页面应是知识浓缩，不是论文；冗长内容拆分为子页
 
+### 7.1 资料来源类型标注（source_type）
+
+为清晰区分资料的可信度层级，所有 Wiki 页面的 frontmatter 必须包含 `sources` 字段，按 `primary / secondary / ai_summary` 三类标注来源：
+
+```yaml
+sources:
+  - file: raw/2026-08-XX-理想国读书笔记.md
+    type: primary        # 原始文献（最高优先级）
+    citation: "卷七 514a-517c"
+  - file: raw/2026-08-XX-苏菲的世界笔记.md
+    type: secondary      # 后世解读（中等优先级）
+    citation: "Gaarder 1991, 第N章"
+  - type: ai_summary     # AI 综合推论（最低优先级）
+    note: "根据已有 primary/secondary 推导"
+```
+
+| 类型 | 说明 | 可信度 |
+|------|------|--------|
+| `primary` | 原始文献（柏拉图对话录、西塞罗著作、康德三大批判等） | 最高 |
+| `secondary` | 后世解读（研究专著、《苏菲的世界》、维基百科、教科书） | 中等 |
+| `ai_summary` | AI 综合推论（无具体来源支撑的总结） | 最低 |
+
+**规则**：
+- 页面正文优先追溯 primary source；用 secondary 时须明确标注。
+- 同一论断有多源时，按类型优先级排序引用。
+- 普及性读物（如《苏菲的世界》）覆盖广但深度浅，可用作 survey / 导航工具 —— 用户据此创建 stub 后，再决定是否回到原始文献（primary）填充。
+
 ---
 
 ## 八、与用户的协作约定

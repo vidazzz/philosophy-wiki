@@ -11,7 +11,8 @@
       "Bash(gh api *)",
       "Bash(git commit -m 'chore: initial project skeleton *)",
       "Bash(git commit -m 'chore: update Claude Code local permissions *)",
-      "Bash(git commit -m 'feat: add Cicero/De Legibus stub cluster *)"
+      "Bash(git commit -m 'feat: add Cicero/De Legibus stub cluster *)",
+      "Bash(git commit -m 'feat: add Sophie'\\\\''s World stub + source_type rule *)"
     ]
   }
 }
