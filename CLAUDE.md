@@ -40,7 +40,8 @@
 └── meta/                ← 项目元数据（不属于 Wiki 主体）
     ├── methodology.md   ← LLM Wiki 模式说明
     ├── glossary.md      ← 核心术语统一表
-    └── progress.md      ← 研读进度看板
+    ├── progress.md      ← 研读进度看板
+    └── reading-list.md  ← 延伸阅读书单（按主题组织的待读/已读书目）
 ```
 
 ---

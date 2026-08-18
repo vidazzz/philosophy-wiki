@@ -142,3 +142,4 @@
   - 《苏菲的世界》（普及性 survey，已读前苏格拉底章节，已沉淀 1 条元观察 → 持续 secondary Ingest）
 - 资料来源类型规则见 CLAUDE.md §7.1（primary / secondary / ai_summary），所有 stub 页面应在 Ingest 时更新 frontmatter 的 `sources` 字段。
 - 用户的元观察**本身就是知识资产** —— 它体现了用户对"前苏格拉底 vs 现代科学"的元层面思考，比任何"百科式复述"更有价值。这种"读者视角的元命题"应当继续鼓励。
+- **延伸阅读书单**已建立：`meta/reading-list.md`，按主题 / 优先级 / 资料类型组织，含四阶段选读顺序建议。任何 Wiki 新增概念/哲学家都应在此补充对应书目。
