@@ -226,7 +226,7 @@ mkdocs gh-deploy --force                              # 部署到 GitHub Pages�
 
 ### 站点地址
 
-`https://vidazhou.github.io/philosophy-wiki/`
+`https://vidazzz.github.io/philosophy-wiki/`
 
 ### 三大自定义功能（由 `hooks/` 实现）
 

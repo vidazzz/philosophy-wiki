@@ -1,9 +1,9 @@
 site_name: 西方哲学研读
 site_description: 个人西方哲学学习研究项目，以 LLM Wiki 模式维护的双向链接知识库
-site_url: https://vidazhou.github.io/philosophy-wiki/
-site_author: vidazhou
-repo_url: https://github.com/vidazhou/philosophy-wiki
-repo_name: vidazhou/philosophy-wiki
+site_url: https://vidazzz.github.io/philosophy-wiki/
+site_author: vidazzz
+repo_url: https://github.com/vidazzz/philosophy-wiki
+repo_name: vidazzz/philosophy-wiki
 
 docs_dir: wiki
 site_dir: site
