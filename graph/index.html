@@ -1409,6 +1409,20 @@
 
 <div id="graph-container"></div>
 
+<!-- 边点击预览选单：单次出现自动跳转，多次出现时列出所有引用位置供选择 -->
+<div id="edge-popup" class="edge-popup" style="display: none;">
+  <div class="edge-popup-header">
+    <div class="edge-popup-title">
+      <span class="popup-from"></span>
+      <span class="popup-arrow">→</span>
+      <span class="popup-to"></span>
+    </div>
+    <button class="edge-popup-close" type="button" aria-label="关闭">×</button>
+  </div>
+  <div class="edge-popup-hint">点击行号跳转（共 <span class="popup-count">0</span> 处引用）：</div>
+  <ol class="edge-popup-list"></ol>
+</div>
+
 <script src="https://unpkg.com/vis-network@9.1.9/standalone/umd/vis-network.min.js"></script>
 <script>
 (async function() {
@@ -1503,7 +1517,70 @@
   // graph page itself sits at /graph/, so all target URLs need a `../`
   // prefix to escape it (otherwise the browser resolves them relative
   // to /graph/ and 404s).
+  //
+  // When the same source page contains several <span class="wikilink-stub" title="待创建页面: X">X<sup class="wikilink-stub-marker">待创建</sup></span> links to the same
+  // target, clicking the edge shows a popup listing every occurrence
+  // line; the user picks which line to land on. Single-occurrence edges
+  // jump directly without a popup.
+  function hideEdgePopup() {
+    const popup = document.getElementById('edge-popup');
+    if (popup) popup.style.display = 'none';
+  }
+
+  function showEdgePopup(edge, pointer) {
+    const occurrences = edge.allOccurrences || [];
+
+    // 0 occurrences recorded (shouldn't happen, but be defensive) or
+    // exactly 1 occurrence: just navigate directly.
+    if (occurrences.length <= 1) {
+      const anchor = occurrences.length === 1 ? '#' + occurrences[0].anchor : '';
+      window.location.href = '../' + edge.fromUrl + anchor;
+      return;
+    }
+
+    const popup = document.getElementById('edge-popup');
+    if (!popup) return;
+
+    popup.querySelector('.popup-from').textContent = edge.fromLabel;
+    popup.querySelector('.popup-to').textContent = edge.toLabel;
+    popup.querySelector('.popup-count').textContent = occurrences.length;
+
+    const listEl = popup.querySelector('.edge-popup-list');
+    listEl.innerHTML = '';
+    for (const occ of occurrences) {
+      const li = document.createElement('li');
+      const a = document.createElement('a');
+      a.href = '../' + edge.fromUrl + '#' + occ.anchor;
+      a.textContent = '第 ' + occ.line + ' 行';
+      li.appendChild(a);
+      listEl.appendChild(li);
+    }
+
+    // Position with fixed coordinates; vis-network's pointer.DOM is
+    // page-relative, so subtract scroll to get viewport coords.
+    const dom = (pointer && pointer.DOM) || { x: window.innerWidth / 2, y: window.innerHeight / 2 };
+    popup.style.display = 'block';   // show first so offsetWidth/Height are real
+    const margin = 8;
+    const popupW = popup.offsetWidth;
+    const popupH = popup.offsetHeight;
+    const vpX = dom.x - window.scrollX;
+    const vpY = dom.y - window.scrollY;
+    const x = Math.min(Math.max(vpX, margin), window.innerWidth - popupW - margin);
+    const y = Math.min(Math.max(vpY, margin), window.innerHeight - popupH - margin);
+    popup.style.left = x + 'px';
+    popup.style.top = y + 'px';
+  }
+
+  // Dismiss popup with × button
+  document.querySelector('#edge-popup .edge-popup-close')
+    .addEventListener('click', hideEdgePopup);
+  // Esc key also dismisses
+  document.addEventListener('keydown', e => {
+    if (e.key === 'Escape') hideEdgePopup();
+  });
+
   container.on('click', params => {
+    hideEdgePopup();   // always reset popup state on any graph click
     if (params.nodes.length > 0) {
       const node = nodes.find(n => n.id === params.nodes[0]);
       if (node && node.url !== undefined) {
@@ -1512,7 +1589,7 @@
     } else if (params.edges.length > 0) {
       const edge = edges.find(e => e.id === params.edges[0]);
       if (edge && edge.fromUrl !== undefined) {
-        window.location.href = '../' + edge.fromUrl;
+        showEdgePopup(edge, params.pointer);
       }
     }
   });
