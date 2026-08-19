@@ -1433,21 +1433,27 @@
     edgeHover: isDark ? '#90caf9' : '#1976d2',
   };
 
-  // Re-load when the user *manually* toggles Material's palette. We must
-  // skip the initial attribute set (Material adds `data-md-color-scheme`
-  // on every page load), otherwise the observer fires once, reloads, and
-  // loops forever. Only reload if the value actually differs from what
-  // it was at observer registration time.
-  const initialScheme = document.body.getAttribute('data-md-color-scheme');
+  // Re-load when the user *manually* toggles Material's palette. The
+  // first mutation we see is Material setting `data-md-color-scheme`
+  // on page load (sometimes AFTER our script runs, depending on the
+  // browser) — we adopt that value as the baseline and ignore it. Any
+  // subsequent change is treated as a user action.
+  let lastKnownScheme = document.body.getAttribute('data-md-color-scheme');
+  let observerReady = false;
   let reloadTimer = null;
   new MutationObserver(() => {
     const current = document.body.getAttribute('data-md-color-scheme');
-    if (current === initialScheme || reloadTimer) return;
+    if (!observerReady) {
+      observerReady = true;
+      lastKnownScheme = current;
+      return; // first mutation is Material's bootstrap — adopt as baseline
+    }
+    if (current === lastKnownScheme || reloadTimer) return;
+    lastKnownScheme = current;
     reloadTimer = setTimeout(() => location.reload(), 250);
   }).observe(document.body, {
     attributes: true,
     attributeFilter: ['data-md-color-scheme'],
-    attributeOldValue: true,
   });
 
   const res = await fetch('../assets/graph.json');
@@ -1497,7 +1503,7 @@
   }));
 
   const container = document.getElementById('graph-container');
-  new vis.Network(container, {
+  const network = new vis.Network(container, {
     nodes: new vis.DataSet(nodes),
     edges: new vis.DataSet(edges),
   }, {
@@ -1579,7 +1585,13 @@
     if (e.key === 'Escape') hideEdgePopup();
   });
 
-  container.on('click', params => {
+  // Bind the click handler to the vis-network INSTANCE (not the DOM
+  // container). vis-network uses hammer.js internally and calls
+  // `preventDefault()` on touch events, which means the browser does
+  // NOT synthesize a `click` event on mobile — so `container.on('click')`
+  // would never fire there. `network.on('click')` is vis-network's own
+  // event and fires for both desktop clicks and mobile taps.
+  network.on('click', params => {
     hideEdgePopup();   // always reset popup state on any graph click
     if (params.nodes.length > 0) {
       const node = nodes.find(n => n.id === params.nodes[0]);
