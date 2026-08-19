@@ -1451,18 +1451,23 @@
 
   const nodes = data.nodes.map(n => {
     const fill = COLOR[n.type] || '#9e9e9e';
+    const isStub = n.status === 'stub';
     return {
       id: n.id,
       label: n.label,
       url: n.url,
       title: n.id + ' — ' + n.type + ' [' + n.status + ']',
+      // Stub (dot): shrink the radius — default 25 is way too big.
+      // Active/Mature (box): shrink via font size + shapeProperties padding.
+      size: isStub ? 10 : undefined,
       color: {
         background: fill,
-        border: n.status === 'stub' ? '#9e9e9e' : fill,
+        border: isStub ? '#9e9e9e' : fill,
         highlight: { background: fill, border: '#000' },
       },
-      shape: n.status === 'stub' ? 'dot' : 'box',
-      font: { color: theme.text, face: 'Noto Sans SC, sans-serif', size: 14 },
+      shape: isStub ? 'dot' : 'box',
+      shapeProperties: isStub ? {} : { borderRadius: 3, padding: 4 },
+      font: { color: theme.text, face: 'Noto Sans SC, sans-serif', size: 11 },
     };
   });
 
@@ -1481,10 +1486,13 @@
   }, {
     physics: {
       stabilization: { iterations: 200 },
-      barnesHut: { gravitationalConstant: -8000, springLength: 120 },
+      // springLength is the *rest length* of each edge spring; higher =
+      // longer arrows. 120 was too cramped — push to 220.
+      barnesHut: { gravitationalConstant: -8000, springLength: 220, springConstant: 0.04 },
     },
     interaction: { hover: true, tooltipDelay: 100 },
-    nodes: { borderWidth: 2 },
+    nodes: { borderWidth: 1.5 },
+    edges: { smooth: { type: 'continuous' } },
   });
 
   container.on('click', params => {
