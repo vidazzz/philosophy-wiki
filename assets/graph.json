@@ -19,7 +19,7 @@
     {
       "id": "index",
       "label": "index",
-      "url": "arguments/",
+      "url": "",
       "type": "page",
       "group": "page",
       "status": "stub"
@@ -27,7 +27,7 @@
     {
       "id": "洞穴比喻",
       "label": "洞穴比喻",
-      "url": "arguments/%E6%B4%9E%E7%A9%B4%E6%AF%94%E5%96%BB/",
+      "url": "arguments/洞穴比喻/",
       "type": "page",
       "group": "page",
       "status": "stub"
@@ -35,7 +35,7 @@
     {
       "id": "index",
       "label": "index",
-      "url": "concepts/",
+      "url": "",
       "type": "page",
       "group": "page",
       "status": "stub"
@@ -43,7 +43,7 @@
     {
       "id": "惊异",
       "label": "惊异",
-      "url": "concepts/%E6%83%8A%E5%BC%82/",
+      "url": "concepts/惊异/",
       "type": "page",
       "group": "page",
       "status": "stub"
@@ -51,7 +51,7 @@
     {
       "id": "理念论",
       "label": "理念论",
-      "url": "concepts/%E7%90%86%E5%BF%B5%E8%AE%BA/",
+      "url": "concepts/理念论/",
       "type": "concept",
       "group": "concept",
       "status": "stub"
@@ -59,7 +59,7 @@
     {
       "id": "自然法",
       "label": "自然法",
-      "url": "concepts/%E8%87%AA%E7%84%B6%E6%B3%95/",
+      "url": "concepts/自然法/",
       "type": "concept",
       "group": "concept",
       "status": "stub"
@@ -67,7 +67,7 @@
     {
       "id": "苏格拉底的转向",
       "label": "苏格拉底的转向",
-      "url": "concepts/%E8%8B%8F%E6%A0%BC%E6%8B%89%E5%BA%95%E7%9A%84%E8%BD%AC%E5%90%91/",
+      "url": "concepts/苏格拉底的转向/",
       "type": "concept",
       "group": "concept",
       "status": "stub"
@@ -75,7 +75,7 @@
     {
       "id": "index",
       "label": "index",
-      "url": "periods/",
+      "url": "",
       "type": "page",
       "group": "page",
       "status": "stub"
@@ -83,7 +83,7 @@
     {
       "id": "前苏格拉底时期",
       "label": "前苏格拉底时期",
-      "url": "periods/%E5%89%8D%E8%8B%8F%E6%A0%BC%E6%8B%89%E5%BA%95%E6%97%B6%E6%9C%9F/",
+      "url": "periods/前苏格拉底时期/",
       "type": "period",
       "group": "period",
       "status": "stub"
@@ -91,7 +91,7 @@
     {
       "id": "index",
       "label": "index",
-      "url": "philosophers/",
+      "url": "",
       "type": "page",
       "group": "page",
       "status": "stub"
@@ -99,7 +99,7 @@
     {
       "id": "柏拉图",
       "label": "柏拉图",
-      "url": "philosophers/%E6%9F%8F%E6%8B%89%E5%9B%BE/",
+      "url": "philosophers/柏拉图/",
       "type": "philosopher",
       "group": "philosopher",
       "status": "stub"
@@ -107,7 +107,7 @@
     {
       "id": "苏格拉底",
       "label": "苏格拉底",
-      "url": "philosophers/%E8%8B%8F%E6%A0%BC%E6%8B%89%E5%BA%95/",
+      "url": "philosophers/苏格拉底/",
       "type": "philosopher",
       "group": "philosopher",
       "status": "stub"
@@ -115,7 +115,7 @@
     {
       "id": "西塞罗",
       "label": "西塞罗",
-      "url": "philosophers/%E8%A5%BF%E5%A1%9E%E7%BD%97/",
+      "url": "philosophers/西塞罗/",
       "type": "philosopher",
       "group": "philosopher",
       "status": "stub"
@@ -123,7 +123,7 @@
     {
       "id": "index",
       "label": "index",
-      "url": "schools/",
+      "url": "",
       "type": "page",
       "group": "page",
       "status": "stub"
@@ -131,7 +131,7 @@
     {
       "id": "斯多亚学派",
       "label": "斯多亚学派",
-      "url": "schools/%E6%96%AF%E5%A4%9A%E4%BA%9A%E5%AD%A6%E6%B4%BE/",
+      "url": "schools/斯多亚学派/",
       "type": "school",
       "group": "school",
       "status": "stub"
@@ -139,7 +139,7 @@
     {
       "id": "index",
       "label": "index",
-      "url": "works/",
+      "url": "",
       "type": "page",
       "group": "page",
       "status": "stub"
@@ -147,7 +147,7 @@
     {
       "id": "理想国",
       "label": "理想国",
-      "url": "works/%E7%90%86%E6%83%B3%E5%9B%BD/",
+      "url": "works/理想国/",
       "type": "work",
       "group": "work",
       "status": "stub"
@@ -155,7 +155,7 @@
     {
       "id": "苏菲的世界",
       "label": "苏菲的世界",
-      "url": "works/%E8%8B%8F%E8%8F%B2%E7%9A%84%E4%B8%96%E7%95%8C/",
+      "url": "works/苏菲的世界/",
       "type": "work",
       "group": "work",
       "status": "stub"
@@ -163,7 +163,7 @@
     {
       "id": "论共和国",
       "label": "论共和国",
-      "url": "works/%E8%AE%BA%E5%85%B1%E5%92%8C%E5%9B%BD/",
+      "url": "works/论共和国/",
       "type": "work",
       "group": "work",
       "status": "stub"
@@ -171,7 +171,7 @@
     {
       "id": "论法律",
       "label": "论法律",
-      "url": "works/%E8%AE%BA%E6%B3%95%E5%BE%8B/",
+      "url": "works/论法律/",
       "type": "work",
       "group": "work",
       "status": "stub"
