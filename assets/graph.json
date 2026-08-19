@@ -2,7 +2,7 @@
   "nodes": [
     {
       "id": "index",
-      "label": "index",
+      "label": "Wiki 总索引",
       "url": "",
       "type": "page",
       "group": "page",
@@ -10,16 +10,8 @@
     },
     {
       "id": "graph",
-      "label": "graph",
+      "label": "知识图谱",
       "url": "graph/",
-      "type": "page",
-      "group": "page",
-      "status": "stub"
-    },
-    {
-      "id": "index",
-      "label": "index",
-      "url": "",
       "type": "page",
       "group": "page",
       "status": "stub"
@@ -28,16 +20,8 @@
       "id": "洞穴比喻",
       "label": "洞穴比喻",
       "url": "arguments/洞穴比喻/",
-      "type": "page",
-      "group": "page",
-      "status": "stub"
-    },
-    {
-      "id": "index",
-      "label": "index",
-      "url": "",
-      "type": "page",
-      "group": "page",
+      "type": "argument",
+      "group": "argument",
       "status": "stub"
     },
     {
@@ -60,8 +44,8 @@
       "id": "惊异",
       "label": "惊异",
       "url": "concepts/惊异/",
-      "type": "page",
-      "group": "page",
+      "type": "concept",
+      "group": "concept",
       "status": "stub"
     },
     {
@@ -89,27 +73,11 @@
       "status": "stub"
     },
     {
-      "id": "index",
-      "label": "index",
-      "url": "",
-      "type": "page",
-      "group": "page",
-      "status": "stub"
-    },
-    {
       "id": "前苏格拉底时期",
       "label": "前苏格拉底时期",
       "url": "periods/前苏格拉底时期/",
       "type": "period",
       "group": "period",
-      "status": "stub"
-    },
-    {
-      "id": "index",
-      "label": "index",
-      "url": "",
-      "type": "page",
-      "group": "page",
       "status": "stub"
     },
     {
@@ -137,14 +105,6 @@
       "status": "stub"
     },
     {
-      "id": "index",
-      "label": "index",
-      "url": "",
-      "type": "page",
-      "group": "page",
-      "status": "stub"
-    },
-    {
       "id": "斯多亚学派",
       "label": "斯多亚学派",
       "url": "schools/斯多亚学派/",
@@ -158,14 +118,6 @@
       "url": "schools/智者派/",
       "type": "school",
       "group": "school",
-      "status": "stub"
-    },
-    {
-      "id": "index",
-      "label": "index",
-      "url": "",
-      "type": "page",
-      "group": "page",
       "status": "stub"
     },
     {
@@ -1181,7 +1133,7 @@
   ],
   "meta": {
     "generated_by": "hooks/graph.py",
-    "node_count": 25,
+    "node_count": 19,
     "edge_count": 244
   }
 }
