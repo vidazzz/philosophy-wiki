@@ -1495,11 +1495,24 @@
     id: e.id,
     from: e.from,
     to: e.to,
+    // Keep the navigation metadata the click handler and popup need.
+    // (Forgetting any of these makes the edge "click does nothing" bug
+    // reappear — see commit b1323cd → ... in git history.)
+    fromUrl: e.fromUrl,
+    toUrl: e.toUrl,
+    fromLabel: e.fromLabel,
+    toLabel: e.toLabel,
+    firstLine: e.firstLine,
+    firstAnchor: e.firstAnchor,
+    allOccurrences: e.allOccurrences || [],
     arrows: 'to',
-    // Tooltip on hover so the user knows what clicking does
+    // Hover tooltip (desktop only — mobile has no hover)
     title: `${e.fromLabel} → ${e.toLabel}（点击跳转到来源页）`,
     color: { color: theme.edge, highlight: theme.edgeHover },
     smooth: { type: 'continuous' },
+    // Slightly thicker default so edges are easier to tap on mobile.
+    width: 1.5,
+    selectionWidth: 2.5,
   }));
 
   const container = document.getElementById('graph-container');
@@ -1601,6 +1614,22 @@
     } else if (params.edges.length > 0) {
       const edge = edges.find(e => e.id === params.edges[0]);
       if (edge && edge.fromUrl !== undefined) {
+        showEdgePopup(edge, params.pointer);
+      }
+    }
+  });
+
+  // Mobile fallback: edges are thin lines and notoriously hard to tap
+  // precisely on a touchscreen. Long-press (the vis-network `hold` event)
+  // gives mobile users a reliable way to access an edge: it shows the
+  // same popup (or directly navigates if there's only one occurrence).
+  // On desktop this maps to a right-click-style "context" gesture, so
+  // it doesn't interfere with normal click navigation.
+  network.on('hold', params => {
+    if (params.edges.length > 0 && params.nodes.length === 0) {
+      const edge = edges.find(e => e.id === params.edges[0]);
+      if (edge && edge.fromUrl !== undefined) {
+        hideEdgePopup();
         showEdgePopup(edge, params.pointer);
       }
     }
