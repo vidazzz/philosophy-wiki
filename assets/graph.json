@@ -155,985 +155,2214 @@
   ],
   "edges": [
     {
+      "id": "e0",
       "from": "Wiki 总索引",
-      "to": "graph"
+      "to": "graph",
+      "fromUrl": "",
+      "toUrl": "graph/",
+      "fromLabel": "Wiki 总索引",
+      "toLabel": "知识图谱"
     },
     {
+      "id": "e1",
       "from": "Wiki 总索引",
-      "to": "wikilink"
+      "to": "wikilink",
+      "fromUrl": "",
+      "toUrl": "",
+      "fromLabel": "Wiki 总索引",
+      "toLabel": "wikilink"
     },
     {
+      "id": "e2",
       "from": "Wiki 总索引",
-      "to": "伊壁鸠鲁学派"
+      "to": "伊壁鸠鲁学派",
+      "fromUrl": "",
+      "toUrl": "",
+      "fromLabel": "Wiki 总索引",
+      "toLabel": "伊壁鸠鲁学派"
     },
     {
+      "id": "e3",
       "from": "Wiki 总索引",
-      "to": "先验论"
+      "to": "先验论",
+      "fromUrl": "",
+      "toUrl": "concepts/先验论/",
+      "fromLabel": "Wiki 总索引",
+      "toLabel": "先验论"
     },
     {
+      "id": "e4",
       "from": "Wiki 总索引",
-      "to": "分有"
+      "to": "分有",
+      "fromUrl": "",
+      "toUrl": "",
+      "fromLabel": "Wiki 总索引",
+      "toLabel": "分有"
     },
     {
+      "id": "e5",
       "from": "Wiki 总索引",
-      "to": "前苏格拉底时期"
+      "to": "前苏格拉底时期",
+      "fromUrl": "",
+      "toUrl": "periods/前苏格拉底时期/",
+      "fromLabel": "Wiki 总索引",
+      "toLabel": "前苏格拉底时期"
     },
     {
+      "id": "e6",
       "from": "Wiki 总索引",
-      "to": "吕克昂"
+      "to": "吕克昂",
+      "fromUrl": "",
+      "toUrl": "",
+      "fromLabel": "Wiki 总索引",
+      "toLabel": "吕克昂"
     },
     {
+      "id": "e7",
       "from": "Wiki 总索引",
-      "to": "哲人王"
+      "to": "哲人王",
+      "fromUrl": "",
+      "toUrl": "",
+      "fromLabel": "Wiki 总索引",
+      "toLabel": "哲人王"
     },
     {
+      "id": "e8",
       "from": "Wiki 总索引",
-      "to": "善的理念"
+      "to": "善的理念",
+      "fromUrl": "",
+      "toUrl": "",
+      "fromLabel": "Wiki 总索引",
+      "toLabel": "善的理念"
     },
     {
+      "id": "e9",
       "from": "Wiki 总索引",
-      "to": "回忆说"
+      "to": "回忆说",
+      "fromUrl": "",
+      "toUrl": "concepts/回忆说/",
+      "fromLabel": "Wiki 总索引",
+      "toLabel": "回忆说"
     },
     {
+      "id": "e10",
       "from": "Wiki 总索引",
-      "to": "塞涅卡"
+      "to": "塞涅卡",
+      "fromUrl": "",
+      "toUrl": "",
+      "fromLabel": "Wiki 总索引",
+      "toLabel": "塞涅卡"
     },
     {
+      "id": "e11",
       "from": "Wiki 总索引",
-      "to": "康德"
+      "to": "康德",
+      "fromUrl": "",
+      "toUrl": "",
+      "fromLabel": "Wiki 总索引",
+      "toLabel": "康德"
     },
     {
+      "id": "e12",
       "from": "Wiki 总索引",
-      "to": "惊异"
+      "to": "惊异",
+      "fromUrl": "",
+      "toUrl": "concepts/惊异/",
+      "fromLabel": "Wiki 总索引",
+      "toLabel": "惊异"
     },
     {
+      "id": "e13",
       "from": "Wiki 总索引",
-      "to": "斯多亚学派"
+      "to": "斯多亚学派",
+      "fromUrl": "",
+      "toUrl": "schools/斯多亚学派/",
+      "fromLabel": "Wiki 总索引",
+      "toLabel": "斯多亚学派"
     },
     {
+      "id": "e14",
       "from": "Wiki 总索引",
-      "to": "智者派"
+      "to": "智者派",
+      "fromUrl": "",
+      "toUrl": "schools/智者派/",
+      "fromLabel": "Wiki 总索引",
+      "toLabel": "智者派"
     },
     {
+      "id": "e15",
       "from": "Wiki 总索引",
-      "to": "柏拉图"
+      "to": "柏拉图",
+      "fromUrl": "",
+      "toUrl": "philosophers/柏拉图/",
+      "fromLabel": "Wiki 总索引",
+      "toLabel": "柏拉图"
     },
     {
+      "id": "e16",
       "from": "Wiki 总索引",
-      "to": "柏拉图学园"
+      "to": "柏拉图学园",
+      "fromUrl": "",
+      "toUrl": "",
+      "fromLabel": "Wiki 总索引",
+      "toLabel": "柏拉图学园"
     },
     {
+      "id": "e17",
       "from": "Wiki 总索引",
-      "to": "洞穴比喻"
+      "to": "洞穴比喻",
+      "fromUrl": "",
+      "toUrl": "arguments/洞穴比喻/",
+      "fromLabel": "Wiki 总索引",
+      "toLabel": "洞穴比喻"
     },
     {
+      "id": "e18",
       "from": "Wiki 总索引",
-      "to": "理念论"
+      "to": "理念论",
+      "fromUrl": "",
+      "toUrl": "concepts/理念论/",
+      "fromLabel": "Wiki 总索引",
+      "toLabel": "理念论"
     },
     {
+      "id": "e19",
       "from": "Wiki 总索引",
-      "to": "理想国"
+      "to": "理想国",
+      "fromUrl": "",
+      "toUrl": "works/理想国/",
+      "fromLabel": "Wiki 总索引",
+      "toLabel": "理想国"
     },
     {
+      "id": "e20",
       "from": "Wiki 总索引",
-      "to": "笛卡尔"
+      "to": "笛卡尔",
+      "fromUrl": "",
+      "toUrl": "",
+      "fromLabel": "Wiki 总索引",
+      "toLabel": "笛卡尔"
     },
     {
+      "id": "e21",
       "from": "Wiki 总索引",
-      "to": "米利都学派"
+      "to": "米利都学派",
+      "fromUrl": "",
+      "toUrl": "",
+      "fromLabel": "Wiki 总索引",
+      "toLabel": "米利都学派"
     },
     {
+      "id": "e22",
       "from": "Wiki 总索引",
-      "to": "胡塞尔"
+      "to": "胡塞尔",
+      "fromUrl": "",
+      "toUrl": "",
+      "fromLabel": "Wiki 总索引",
+      "toLabel": "胡塞尔"
     },
     {
+      "id": "e23",
       "from": "Wiki 总索引",
-      "to": "自然权利"
+      "to": "自然权利",
+      "fromUrl": "",
+      "toUrl": "",
+      "fromLabel": "Wiki 总索引",
+      "toLabel": "自然权利"
     },
     {
+      "id": "e24",
       "from": "Wiki 总索引",
-      "to": "自然法"
+      "to": "自然法",
+      "fromUrl": "",
+      "toUrl": "concepts/自然法/",
+      "fromLabel": "Wiki 总索引",
+      "toLabel": "自然法"
     },
     {
+      "id": "e25",
       "from": "Wiki 总索引",
-      "to": "苏格拉底"
+      "to": "苏格拉底",
+      "fromUrl": "",
+      "toUrl": "philosophers/苏格拉底/",
+      "fromLabel": "Wiki 总索引",
+      "toLabel": "苏格拉底"
     },
     {
+      "id": "e26",
       "from": "Wiki 总索引",
-      "to": "苏格拉底的转向"
+      "to": "苏格拉底的转向",
+      "fromUrl": "",
+      "toUrl": "concepts/苏格拉底的转向/",
+      "fromLabel": "Wiki 总索引",
+      "toLabel": "苏格拉底的转向"
     },
     {
+      "id": "e27",
       "from": "Wiki 总索引",
-      "to": "苏菲的世界"
+      "to": "苏菲的世界",
+      "fromUrl": "",
+      "toUrl": "works/苏菲的世界/",
+      "fromLabel": "Wiki 总索引",
+      "toLabel": "苏菲的世界"
     },
     {
+      "id": "e28",
       "from": "Wiki 总索引",
-      "to": "莱布尼茨"
+      "to": "莱布尼茨",
+      "fromUrl": "",
+      "toUrl": "",
+      "fromLabel": "Wiki 总索引",
+      "toLabel": "莱布尼茨"
     },
     {
+      "id": "e29",
       "from": "Wiki 总索引",
-      "to": "西塞罗"
+      "to": "西塞罗",
+      "fromUrl": "",
+      "toUrl": "philosophers/西塞罗/",
+      "fromLabel": "Wiki 总索引",
+      "toLabel": "西塞罗"
     },
     {
+      "id": "e30",
       "from": "Wiki 总索引",
-      "to": "论共和国"
+      "to": "论共和国",
+      "fromUrl": "",
+      "toUrl": "works/论共和国/",
+      "fromLabel": "Wiki 总索引",
+      "toLabel": "论共和国"
     },
     {
+      "id": "e31",
       "from": "Wiki 总索引",
-      "to": "论法律"
+      "to": "论法律",
+      "fromUrl": "",
+      "toUrl": "works/论法律/",
+      "fromLabel": "Wiki 总索引",
+      "toLabel": "论法律"
     },
     {
+      "id": "e32",
       "from": "Wiki 总索引",
-      "to": "链接"
+      "to": "链接",
+      "fromUrl": "",
+      "toUrl": "",
+      "fromLabel": "Wiki 总索引",
+      "toLabel": "链接"
     },
     {
+      "id": "e33",
       "from": "先验论",
-      "to": "先天综合判断"
+      "to": "先天综合判断",
+      "fromUrl": "concepts/先验论/",
+      "toUrl": "",
+      "fromLabel": "先验论",
+      "toLabel": "先天综合判断"
     },
     {
+      "id": "e34",
       "from": "先验论",
-      "to": "先验演绎"
+      "to": "先验演绎",
+      "fromUrl": "concepts/先验论/",
+      "toUrl": "",
+      "fromLabel": "先验论",
+      "toLabel": "先验演绎"
     },
     {
+      "id": "e36",
       "from": "先验论",
-      "to": "回忆说"
+      "to": "回忆说",
+      "fromUrl": "concepts/先验论/",
+      "toUrl": "concepts/回忆说/",
+      "fromLabel": "先验论",
+      "toLabel": "回忆说"
     },
     {
+      "id": "e37",
       "from": "先验论",
-      "to": "天赋观念"
+      "to": "天赋观念",
+      "fromUrl": "concepts/先验论/",
+      "toUrl": "",
+      "fromLabel": "先验论",
+      "toLabel": "天赋观念"
     },
     {
+      "id": "e38",
       "from": "先验论",
-      "to": "康德"
+      "to": "康德",
+      "fromUrl": "concepts/先验论/",
+      "toUrl": "",
+      "fromLabel": "先验论",
+      "toLabel": "康德"
     },
     {
+      "id": "e39",
       "from": "先验论",
-      "to": "忏悔录"
+      "to": "忏悔录",
+      "fromUrl": "concepts/先验论/",
+      "toUrl": "",
+      "fromLabel": "先验论",
+      "toLabel": "忏悔录"
     },
     {
+      "id": "e40",
       "from": "先验论",
-      "to": "柏拉图"
+      "to": "柏拉图",
+      "fromUrl": "concepts/先验论/",
+      "toUrl": "philosophers/柏拉图/",
+      "fromLabel": "先验论",
+      "toLabel": "柏拉图"
     },
     {
+      "id": "e41",
       "from": "先验论",
-      "to": "现象学"
+      "to": "现象学",
+      "fromUrl": "concepts/先验论/",
+      "toUrl": "",
+      "fromLabel": "先验论",
+      "toLabel": "现象学"
     },
     {
+      "id": "e42",
       "from": "先验论",
-      "to": "理念论"
+      "to": "理念论",
+      "fromUrl": "concepts/先验论/",
+      "toUrl": "concepts/理念论/",
+      "fromLabel": "先验论",
+      "toLabel": "理念论"
     },
     {
+      "id": "e43",
       "from": "先验论",
-      "to": "笛卡尔"
+      "to": "笛卡尔",
+      "fromUrl": "concepts/先验论/",
+      "toUrl": "",
+      "fromLabel": "先验论",
+      "toLabel": "笛卡尔"
     },
     {
+      "id": "e44",
       "from": "先验论",
-      "to": "经验论"
+      "to": "经验论",
+      "fromUrl": "concepts/先验论/",
+      "toUrl": "",
+      "fromLabel": "先验论",
+      "toLabel": "经验论"
     },
     {
+      "id": "e45",
       "from": "先验论",
-      "to": "胡塞尔"
+      "to": "胡塞尔",
+      "fromUrl": "concepts/先验论/",
+      "toUrl": "",
+      "fromLabel": "先验论",
+      "toLabel": "胡塞尔"
     },
     {
+      "id": "e46",
       "from": "先验论",
-      "to": "范畴"
+      "to": "范畴",
+      "fromUrl": "concepts/先验论/",
+      "toUrl": "",
+      "fromLabel": "先验论",
+      "toLabel": "范畴"
     },
     {
+      "id": "e47",
       "from": "先验论",
-      "to": "莱布尼茨"
+      "to": "莱布尼茨",
+      "fromUrl": "concepts/先验论/",
+      "toUrl": "",
+      "fromLabel": "先验论",
+      "toLabel": "莱布尼茨"
     },
     {
+      "id": "e48",
       "from": "前苏格拉底时期",
-      "to": "亚里士多德"
+      "to": "亚里士多德",
+      "fromUrl": "periods/前苏格拉底时期/",
+      "toUrl": "",
+      "fromLabel": "前苏格拉底时期",
+      "toLabel": "亚里士多德"
     },
     {
+      "id": "e50",
       "from": "前苏格拉底时期",
-      "to": "巴门尼德"
+      "to": "巴门尼德",
+      "fromUrl": "periods/前苏格拉底时期/",
+      "toUrl": "",
+      "fromLabel": "前苏格拉底时期",
+      "toLabel": "巴门尼德"
     },
     {
+      "id": "e51",
       "from": "前苏格拉底时期",
-      "to": "希腊化时期"
+      "to": "希腊化时期",
+      "fromUrl": "periods/前苏格拉底时期/",
+      "toUrl": "",
+      "fromLabel": "前苏格拉底时期",
+      "toLabel": "希腊化时期"
     },
     {
+      "id": "e52",
       "from": "前苏格拉底时期",
-      "to": "德谟克利特"
+      "to": "德谟克利特",
+      "fromUrl": "periods/前苏格拉底时期/",
+      "toUrl": "",
+      "fromLabel": "前苏格拉底时期",
+      "toLabel": "德谟克利特"
     },
     {
+      "id": "e53",
       "from": "前苏格拉底时期",
-      "to": "斯多亚学派"
+      "to": "斯多亚学派",
+      "fromUrl": "periods/前苏格拉底时期/",
+      "toUrl": "schools/斯多亚学派/",
+      "fromLabel": "前苏格拉底时期",
+      "toLabel": "斯多亚学派"
     },
     {
+      "id": "e54",
       "from": "前苏格拉底时期",
-      "to": "柏拉图"
+      "to": "柏拉图",
+      "fromUrl": "periods/前苏格拉底时期/",
+      "toUrl": "philosophers/柏拉图/",
+      "fromLabel": "前苏格拉底时期",
+      "toLabel": "柏拉图"
     },
     {
+      "id": "e55",
       "from": "前苏格拉底时期",
-      "to": "泰勒斯"
+      "to": "泰勒斯",
+      "fromUrl": "periods/前苏格拉底时期/",
+      "toUrl": "",
+      "fromLabel": "前苏格拉底时期",
+      "toLabel": "泰勒斯"
     },
     {
+      "id": "e56",
       "from": "前苏格拉底时期",
-      "to": "苏格拉底"
+      "to": "苏格拉底",
+      "fromUrl": "periods/前苏格拉底时期/",
+      "toUrl": "philosophers/苏格拉底/",
+      "fromLabel": "前苏格拉底时期",
+      "toLabel": "苏格拉底"
     },
     {
+      "id": "e57",
       "from": "前苏格拉底时期",
-      "to": "苏菲的世界"
+      "to": "苏菲的世界",
+      "fromUrl": "periods/前苏格拉底时期/",
+      "toUrl": "works/苏菲的世界/",
+      "fromLabel": "前苏格拉底时期",
+      "toLabel": "苏菲的世界"
     },
     {
+      "id": "e58",
       "from": "前苏格拉底时期",
-      "to": "赫拉克利特"
+      "to": "赫拉克利特",
+      "fromUrl": "periods/前苏格拉底时期/",
+      "toUrl": "",
+      "fromLabel": "前苏格拉底时期",
+      "toLabel": "赫拉克利特"
     },
     {
+      "id": "e59",
       "from": "回忆说",
-      "to": "会饮"
+      "to": "会饮",
+      "fromUrl": "concepts/回忆说/",
+      "toUrl": "",
+      "fromLabel": "回忆说",
+      "toLabel": "会饮"
     },
     {
+      "id": "e60",
       "from": "回忆说",
-      "to": "先天综合判断"
+      "to": "先天综合判断",
+      "fromUrl": "concepts/回忆说/",
+      "toUrl": "",
+      "fromLabel": "回忆说",
+      "toLabel": "先天综合判断"
     },
     {
+      "id": "e61",
       "from": "回忆说",
-      "to": "先验论"
+      "to": "先验论",
+      "fromUrl": "concepts/回忆说/",
+      "toUrl": "concepts/先验论/",
+      "fromLabel": "回忆说",
+      "toLabel": "先验论"
     },
     {
+      "id": "e63",
       "from": "回忆说",
-      "to": "天赋观念"
+      "to": "天赋观念",
+      "fromUrl": "concepts/回忆说/",
+      "toUrl": "",
+      "fromLabel": "回忆说",
+      "toLabel": "天赋观念"
     },
     {
+      "id": "e64",
       "from": "回忆说",
-      "to": "奥古斯丁"
+      "to": "奥古斯丁",
+      "fromUrl": "concepts/回忆说/",
+      "toUrl": "",
+      "fromLabel": "回忆说",
+      "toLabel": "奥古斯丁"
     },
     {
+      "id": "e65",
       "from": "回忆说",
-      "to": "康德"
+      "to": "康德",
+      "fromUrl": "concepts/回忆说/",
+      "toUrl": "",
+      "fromLabel": "回忆说",
+      "toLabel": "康德"
     },
     {
+      "id": "e66",
       "from": "回忆说",
-      "to": "斐多"
+      "to": "斐多",
+      "fromUrl": "concepts/回忆说/",
+      "toUrl": "",
+      "fromLabel": "回忆说",
+      "toLabel": "斐多"
     },
     {
+      "id": "e67",
       "from": "回忆说",
-      "to": "斐德罗"
+      "to": "斐德罗",
+      "fromUrl": "concepts/回忆说/",
+      "toUrl": "",
+      "fromLabel": "回忆说",
+      "toLabel": "斐德罗"
     },
     {
+      "id": "e68",
       "from": "回忆说",
-      "to": "普罗提诺"
+      "to": "普罗提诺",
+      "fromUrl": "concepts/回忆说/",
+      "toUrl": "",
+      "fromLabel": "回忆说",
+      "toLabel": "普罗提诺"
     },
     {
+      "id": "e69",
       "from": "回忆说",
-      "to": "柏拉图"
+      "to": "柏拉图",
+      "fromUrl": "concepts/回忆说/",
+      "toUrl": "philosophers/柏拉图/",
+      "fromLabel": "回忆说",
+      "toLabel": "柏拉图"
     },
     {
+      "id": "e70",
       "from": "回忆说",
-      "to": "洞穴比喻"
+      "to": "洞穴比喻",
+      "fromUrl": "concepts/回忆说/",
+      "toUrl": "arguments/洞穴比喻/",
+      "fromLabel": "回忆说",
+      "toLabel": "洞穴比喻"
     },
     {
+      "id": "e71",
       "from": "回忆说",
-      "to": "灵魂"
+      "to": "灵魂",
+      "fromUrl": "concepts/回忆说/",
+      "toUrl": "",
+      "fromLabel": "回忆说",
+      "toLabel": "灵魂"
     },
     {
+      "id": "e72",
       "from": "回忆说",
-      "to": "理念论"
+      "to": "理念论",
+      "fromUrl": "concepts/回忆说/",
+      "toUrl": "concepts/理念论/",
+      "fromLabel": "回忆说",
+      "toLabel": "理念论"
     },
     {
+      "id": "e73",
       "from": "回忆说",
-      "to": "理想国"
+      "to": "理想国",
+      "fromUrl": "concepts/回忆说/",
+      "toUrl": "works/理想国/",
+      "fromLabel": "回忆说",
+      "toLabel": "理想国"
     },
     {
+      "id": "e74",
       "from": "回忆说",
-      "to": "笛卡尔"
+      "to": "笛卡尔",
+      "fromUrl": "concepts/回忆说/",
+      "toUrl": "",
+      "fromLabel": "回忆说",
+      "toLabel": "笛卡尔"
     },
     {
+      "id": "e75",
       "from": "回忆说",
-      "to": "美诺"
+      "to": "美诺",
+      "fromUrl": "concepts/回忆说/",
+      "toUrl": "",
+      "fromLabel": "回忆说",
+      "toLabel": "美诺"
     },
     {
+      "id": "e76",
       "from": "回忆说",
-      "to": "苏菲的世界"
+      "to": "苏菲的世界",
+      "fromUrl": "concepts/回忆说/",
+      "toUrl": "works/苏菲的世界/",
+      "fromLabel": "回忆说",
+      "toLabel": "苏菲的世界"
     },
     {
+      "id": "e77",
       "from": "惊异",
-      "to": "亚里士多德"
+      "to": "亚里士多德",
+      "fromUrl": "concepts/惊异/",
+      "toUrl": "",
+      "fromLabel": "惊异",
+      "toLabel": "亚里士多德"
     },
     {
+      "id": "e78",
       "from": "惊异",
-      "to": "前苏格拉底时期"
+      "to": "前苏格拉底时期",
+      "fromUrl": "concepts/惊异/",
+      "toUrl": "periods/前苏格拉底时期/",
+      "fromLabel": "惊异",
+      "toLabel": "前苏格拉底时期"
     },
     {
+      "id": "e79",
       "from": "惊异",
-      "to": "好奇心"
+      "to": "好奇心",
+      "fromUrl": "concepts/惊异/",
+      "toUrl": "",
+      "fromLabel": "惊异",
+      "toLabel": "好奇心"
     },
     {
+      "id": "e80",
       "from": "惊异",
-      "to": "形而上学"
+      "to": "形而上学",
+      "fromUrl": "concepts/惊异/",
+      "toUrl": "",
+      "fromLabel": "惊异",
+      "toLabel": "形而上学"
     },
     {
+      "id": "e81",
       "from": "惊异",
-      "to": "怀疑论"
+      "to": "怀疑论",
+      "fromUrl": "concepts/惊异/",
+      "toUrl": "",
+      "fromLabel": "惊异",
+      "toLabel": "怀疑论"
     },
     {
+      "id": "e83",
       "from": "惊异",
-      "to": "无知"
+      "to": "无知",
+      "fromUrl": "concepts/惊异/",
+      "toUrl": "",
+      "fromLabel": "惊异",
+      "toLabel": "无知"
     },
     {
+      "id": "e84",
       "from": "惊异",
-      "to": "柏拉图"
+      "to": "柏拉图",
+      "fromUrl": "concepts/惊异/",
+      "toUrl": "philosophers/柏拉图/",
+      "fromLabel": "惊异",
+      "toLabel": "柏拉图"
     },
     {
+      "id": "e85",
       "from": "惊异",
-      "to": "泰阿泰德"
+      "to": "泰阿泰德",
+      "fromUrl": "concepts/惊异/",
+      "toUrl": "",
+      "fromLabel": "惊异",
+      "toLabel": "泰阿泰德"
     },
     {
+      "id": "e86",
       "from": "惊异",
-      "to": "洞穴比喻"
+      "to": "洞穴比喻",
+      "fromUrl": "concepts/惊异/",
+      "toUrl": "arguments/洞穴比喻/",
+      "fromLabel": "惊异",
+      "toLabel": "洞穴比喻"
     },
     {
+      "id": "e87",
       "from": "惊异",
-      "to": "理想国"
+      "to": "理想国",
+      "fromUrl": "concepts/惊异/",
+      "toUrl": "works/理想国/",
+      "fromLabel": "惊异",
+      "toLabel": "理想国"
     },
     {
+      "id": "e88",
       "from": "惊异",
-      "to": "苏格拉底"
+      "to": "苏格拉底",
+      "fromUrl": "concepts/惊异/",
+      "toUrl": "philosophers/苏格拉底/",
+      "fromLabel": "惊异",
+      "toLabel": "苏格拉底"
     },
     {
+      "id": "e89",
       "from": "惊异",
-      "to": "苏格拉底反诘法"
+      "to": "苏格拉底反诘法",
+      "fromUrl": "concepts/惊异/",
+      "toUrl": "",
+      "fromLabel": "惊异",
+      "toLabel": "苏格拉底反诘法"
     },
     {
+      "id": "e90",
       "from": "惊异",
-      "to": "苏菲的世界"
+      "to": "苏菲的世界",
+      "fromUrl": "concepts/惊异/",
+      "toUrl": "works/苏菲的世界/",
+      "fromLabel": "惊异",
+      "toLabel": "苏菲的世界"
     },
     {
+      "id": "e91",
       "from": "斯多亚学派",
-      "to": "亚里士多德"
+      "to": "亚里士多德",
+      "fromUrl": "schools/斯多亚学派/",
+      "toUrl": "",
+      "fromLabel": "斯多亚学派",
+      "toLabel": "亚里士多德"
     },
     {
+      "id": "e92",
       "from": "斯多亚学派",
-      "to": "伊壁鸠鲁学派"
+      "to": "伊壁鸠鲁学派",
+      "fromUrl": "schools/斯多亚学派/",
+      "toUrl": "",
+      "fromLabel": "斯多亚学派",
+      "toLabel": "伊壁鸠鲁学派"
     },
     {
+      "id": "e93",
       "from": "斯多亚学派",
-      "to": "塞涅卡"
+      "to": "塞涅卡",
+      "fromUrl": "schools/斯多亚学派/",
+      "toUrl": "",
+      "fromLabel": "斯多亚学派",
+      "toLabel": "塞涅卡"
     },
     {
+      "id": "e94",
       "from": "斯多亚学派",
-      "to": "奥古斯丁"
+      "to": "奥古斯丁",
+      "fromUrl": "schools/斯多亚学派/",
+      "toUrl": "",
+      "fromLabel": "斯多亚学派",
+      "toLabel": "奥古斯丁"
     },
     {
+      "id": "e96",
       "from": "斯多亚学派",
-      "to": "柏拉图"
+      "to": "柏拉图",
+      "fromUrl": "schools/斯多亚学派/",
+      "toUrl": "philosophers/柏拉图/",
+      "fromLabel": "斯多亚学派",
+      "toLabel": "柏拉图"
     },
     {
+      "id": "e97",
       "from": "斯多亚学派",
-      "to": "柏拉图学园"
+      "to": "柏拉图学园",
+      "fromUrl": "schools/斯多亚学派/",
+      "toUrl": "",
+      "fromLabel": "斯多亚学派",
+      "toLabel": "柏拉图学园"
     },
     {
+      "id": "e98",
       "from": "斯多亚学派",
-      "to": "自然法"
+      "to": "自然法",
+      "fromUrl": "schools/斯多亚学派/",
+      "toUrl": "concepts/自然法/",
+      "fromLabel": "斯多亚学派",
+      "toLabel": "自然法"
     },
     {
+      "id": "e99",
       "from": "斯多亚学派",
-      "to": "芝诺"
+      "to": "芝诺",
+      "fromUrl": "schools/斯多亚学派/",
+      "toUrl": "",
+      "fromLabel": "斯多亚学派",
+      "toLabel": "芝诺"
     },
     {
+      "id": "e100",
       "from": "斯多亚学派",
-      "to": "西塞罗"
+      "to": "西塞罗",
+      "fromUrl": "schools/斯多亚学派/",
+      "toUrl": "philosophers/西塞罗/",
+      "fromLabel": "斯多亚学派",
+      "toLabel": "西塞罗"
     },
     {
+      "id": "e101",
       "from": "斯多亚学派",
-      "to": "赫拉克利特"
+      "to": "赫拉克利特",
+      "fromUrl": "schools/斯多亚学派/",
+      "toUrl": "",
+      "fromLabel": "斯多亚学派",
+      "toLabel": "赫拉克利特"
     },
     {
+      "id": "e102",
       "from": "智者派",
-      "to": "亚里士多德"
+      "to": "亚里士多德",
+      "fromUrl": "schools/智者派/",
+      "toUrl": "",
+      "fromLabel": "智者派",
+      "toLabel": "亚里士多德"
     },
     {
+      "id": "e103",
       "from": "智者派",
-      "to": "伯罗奔尼撒战争"
+      "to": "伯罗奔尼撒战争",
+      "fromUrl": "schools/智者派/",
+      "toUrl": "",
+      "fromLabel": "智者派",
+      "toLabel": "伯罗奔尼撒战争"
     },
     {
+      "id": "e104",
       "from": "智者派",
-      "to": "回忆说"
+      "to": "回忆说",
+      "fromUrl": "schools/智者派/",
+      "toUrl": "concepts/回忆说/",
+      "fromLabel": "智者派",
+      "toLabel": "回忆说"
     },
     {
+      "id": "e105",
       "from": "智者派",
-      "to": "塞克斯都·恩披里柯"
+      "to": "塞克斯都·恩披里柯",
+      "fromUrl": "schools/智者派/",
+      "toUrl": "",
+      "fromLabel": "智者派",
+      "toLabel": "塞克斯都·恩披里柯"
     },
     {
+      "id": "e106",
       "from": "智者派",
-      "to": "斯多亚学派"
+      "to": "斯多亚学派",
+      "fromUrl": "schools/智者派/",
+      "toUrl": "schools/斯多亚学派/",
+      "fromLabel": "智者派",
+      "toLabel": "斯多亚学派"
     },
     {
+      "id": "e107",
       "from": "智者派",
-      "to": "普罗泰戈拉"
+      "to": "普罗泰戈拉",
+      "fromUrl": "schools/智者派/",
+      "toUrl": "",
+      "fromLabel": "智者派",
+      "toLabel": "普罗泰戈拉"
     },
     {
+      "id": "e109",
       "from": "智者派",
-      "to": "柏拉图"
+      "to": "柏拉图",
+      "fromUrl": "schools/智者派/",
+      "toUrl": "philosophers/柏拉图/",
+      "fromLabel": "智者派",
+      "toLabel": "柏拉图"
     },
     {
+      "id": "e110",
       "from": "智者派",
-      "to": "泰阿泰德"
+      "to": "泰阿泰德",
+      "fromUrl": "schools/智者派/",
+      "toUrl": "",
+      "fromLabel": "智者派",
+      "toLabel": "泰阿泰德"
     },
     {
+      "id": "e111",
       "from": "智者派",
-      "to": "理念论"
+      "to": "理念论",
+      "fromUrl": "schools/智者派/",
+      "toUrl": "concepts/理念论/",
+      "fromLabel": "智者派",
+      "toLabel": "理念论"
     },
     {
+      "id": "e112",
       "from": "智者派",
-      "to": "皮浪"
+      "to": "皮浪",
+      "fromUrl": "schools/智者派/",
+      "toUrl": "",
+      "fromLabel": "智者派",
+      "toLabel": "皮浪"
     },
     {
+      "id": "e113",
       "from": "智者派",
-      "to": "美诺"
+      "to": "美诺",
+      "fromUrl": "schools/智者派/",
+      "toUrl": "",
+      "fromLabel": "智者派",
+      "toLabel": "美诺"
     },
     {
+      "id": "e114",
       "from": "智者派",
-      "to": "自然法"
+      "to": "自然法",
+      "fromUrl": "schools/智者派/",
+      "toUrl": "concepts/自然法/",
+      "fromLabel": "智者派",
+      "toLabel": "自然法"
     },
     {
+      "id": "e115",
       "from": "智者派",
-      "to": "色诺芬"
+      "to": "色诺芬",
+      "fromUrl": "schools/智者派/",
+      "toUrl": "",
+      "fromLabel": "智者派",
+      "toLabel": "色诺芬"
     },
     {
+      "id": "e116",
       "from": "智者派",
-      "to": "苏格拉底"
+      "to": "苏格拉底",
+      "fromUrl": "schools/智者派/",
+      "toUrl": "philosophers/苏格拉底/",
+      "fromLabel": "智者派",
+      "toLabel": "苏格拉底"
     },
     {
+      "id": "e117",
       "from": "智者派",
-      "to": "苏菲的世界"
+      "to": "苏菲的世界",
+      "fromUrl": "schools/智者派/",
+      "toUrl": "works/苏菲的世界/",
+      "fromLabel": "智者派",
+      "toLabel": "苏菲的世界"
     },
     {
+      "id": "e118",
       "from": "智者派",
-      "to": "高尔吉亚"
+      "to": "高尔吉亚",
+      "fromUrl": "schools/智者派/",
+      "toUrl": "",
+      "fromLabel": "智者派",
+      "toLabel": "高尔吉亚"
     },
     {
+      "id": "e119",
       "from": "柏拉图",
-      "to": "亚里士多德"
+      "to": "亚里士多德",
+      "fromUrl": "philosophers/柏拉图/",
+      "toUrl": "",
+      "fromLabel": "柏拉图",
+      "toLabel": "亚里士多德"
     },
     {
+      "id": "e120",
       "from": "柏拉图",
-      "to": "会饮"
+      "to": "会饮",
+      "fromUrl": "philosophers/柏拉图/",
+      "toUrl": "",
+      "fromLabel": "柏拉图",
+      "toLabel": "会饮"
     },
     {
+      "id": "e121",
       "from": "柏拉图",
-      "to": "先验论"
+      "to": "先验论",
+      "fromUrl": "philosophers/柏拉图/",
+      "toUrl": "concepts/先验论/",
+      "fromLabel": "柏拉图",
+      "toLabel": "先验论"
     },
     {
+      "id": "e122",
       "from": "柏拉图",
-      "to": "吕克昂"
+      "to": "吕克昂",
+      "fromUrl": "philosophers/柏拉图/",
+      "toUrl": "",
+      "fromLabel": "柏拉图",
+      "toLabel": "吕克昂"
     },
     {
+      "id": "e123",
       "from": "柏拉图",
-      "to": "回忆说"
+      "to": "回忆说",
+      "fromUrl": "philosophers/柏拉图/",
+      "toUrl": "concepts/回忆说/",
+      "fromLabel": "柏拉图",
+      "toLabel": "回忆说"
     },
     {
+      "id": "e124",
       "from": "柏拉图",
-      "to": "奥古斯丁"
+      "to": "奥古斯丁",
+      "fromUrl": "philosophers/柏拉图/",
+      "toUrl": "",
+      "fromLabel": "柏拉图",
+      "toLabel": "奥古斯丁"
     },
     {
+      "id": "e125",
       "from": "柏拉图",
-      "to": "巴门尼德"
+      "to": "巴门尼德",
+      "fromUrl": "philosophers/柏拉图/",
+      "toUrl": "",
+      "fromLabel": "柏拉图",
+      "toLabel": "巴门尼德"
     },
     {
+      "id": "e126",
       "from": "柏拉图",
-      "to": "康德"
+      "to": "康德",
+      "fromUrl": "philosophers/柏拉图/",
+      "toUrl": "",
+      "fromLabel": "柏拉图",
+      "toLabel": "康德"
     },
     {
+      "id": "e127",
       "from": "柏拉图",
-      "to": "斐多"
+      "to": "斐多",
+      "fromUrl": "philosophers/柏拉图/",
+      "toUrl": "",
+      "fromLabel": "柏拉图",
+      "toLabel": "斐多"
     },
     {
+      "id": "e128",
       "from": "柏拉图",
-      "to": "斐德罗"
+      "to": "斐德罗",
+      "fromUrl": "philosophers/柏拉图/",
+      "toUrl": "",
+      "fromLabel": "柏拉图",
+      "toLabel": "斐德罗"
     },
     {
+      "id": "e129",
       "from": "柏拉图",
-      "to": "新柏拉图主义"
+      "to": "新柏拉图主义",
+      "fromUrl": "philosophers/柏拉图/",
+      "toUrl": "",
+      "fromLabel": "柏拉图",
+      "toLabel": "新柏拉图主义"
     },
     {
+      "id": "e130",
       "from": "柏拉图",
-      "to": "普罗提诺"
+      "to": "普罗提诺",
+      "fromUrl": "philosophers/柏拉图/",
+      "toUrl": "",
+      "fromLabel": "柏拉图",
+      "toLabel": "普罗提诺"
     },
     {
+      "id": "e131",
       "from": "柏拉图",
-      "to": "智者派"
+      "to": "智者派",
+      "fromUrl": "philosophers/柏拉图/",
+      "toUrl": "schools/智者派/",
+      "fromLabel": "柏拉图",
+      "toLabel": "智者派"
     },
     {
+      "id": "e133",
       "from": "柏拉图",
-      "to": "柏拉图学园"
+      "to": "柏拉图学园",
+      "fromUrl": "philosophers/柏拉图/",
+      "toUrl": "",
+      "fromLabel": "柏拉图",
+      "toLabel": "柏拉图学园"
     },
     {
+      "id": "e134",
       "from": "柏拉图",
-      "to": "毕达哥拉斯学派"
+      "to": "毕达哥拉斯学派",
+      "fromUrl": "philosophers/柏拉图/",
+      "toUrl": "",
+      "fromLabel": "柏拉图",
+      "toLabel": "毕达哥拉斯学派"
     },
     {
+      "id": "e135",
       "from": "柏拉图",
-      "to": "泰阿泰德"
+      "to": "泰阿泰德",
+      "fromUrl": "philosophers/柏拉图/",
+      "toUrl": "",
+      "fromLabel": "柏拉图",
+      "toLabel": "泰阿泰德"
     },
     {
+      "id": "e136",
       "from": "柏拉图",
-      "to": "洞穴比喻"
+      "to": "洞穴比喻",
+      "fromUrl": "philosophers/柏拉图/",
+      "toUrl": "arguments/洞穴比喻/",
+      "fromLabel": "柏拉图",
+      "toLabel": "洞穴比喻"
     },
     {
+      "id": "e137",
       "from": "柏拉图",
-      "to": "理念论"
+      "to": "理念论",
+      "fromUrl": "philosophers/柏拉图/",
+      "toUrl": "concepts/理念论/",
+      "fromLabel": "柏拉图",
+      "toLabel": "理念论"
     },
     {
+      "id": "e138",
       "from": "柏拉图",
-      "to": "理想国"
+      "to": "理想国",
+      "fromUrl": "philosophers/柏拉图/",
+      "toUrl": "works/理想国/",
+      "fromLabel": "柏拉图",
+      "toLabel": "理想国"
     },
     {
+      "id": "e139",
       "from": "柏拉图",
-      "to": "笛卡尔"
+      "to": "笛卡尔",
+      "fromUrl": "philosophers/柏拉图/",
+      "toUrl": "",
+      "fromLabel": "柏拉图",
+      "toLabel": "笛卡尔"
     },
     {
+      "id": "e140",
       "from": "柏拉图",
-      "to": "美诺"
+      "to": "美诺",
+      "fromUrl": "philosophers/柏拉图/",
+      "toUrl": "",
+      "fromLabel": "柏拉图",
+      "toLabel": "美诺"
     },
     {
+      "id": "e141",
       "from": "柏拉图",
-      "to": "胡塞尔"
+      "to": "胡塞尔",
+      "fromUrl": "philosophers/柏拉图/",
+      "toUrl": "",
+      "fromLabel": "柏拉图",
+      "toLabel": "胡塞尔"
     },
     {
+      "id": "e142",
       "from": "柏拉图",
-      "to": "苏格拉底"
+      "to": "苏格拉底",
+      "fromUrl": "philosophers/柏拉图/",
+      "toUrl": "philosophers/苏格拉底/",
+      "fromLabel": "柏拉图",
+      "toLabel": "苏格拉底"
     },
     {
+      "id": "e143",
       "from": "柏拉图",
-      "to": "赫拉克利特"
+      "to": "赫拉克利特",
+      "fromUrl": "philosophers/柏拉图/",
+      "toUrl": "",
+      "fromLabel": "柏拉图",
+      "toLabel": "赫拉克利特"
     },
     {
+      "id": "e144",
       "from": "洞穴比喻",
-      "to": "回忆说"
+      "to": "回忆说",
+      "fromUrl": "arguments/洞穴比喻/",
+      "toUrl": "concepts/回忆说/",
+      "fromLabel": "洞穴比喻",
+      "toLabel": "回忆说"
     },
     {
+      "id": "e146",
       "from": "洞穴比喻",
-      "to": "理念论"
+      "to": "理念论",
+      "fromUrl": "arguments/洞穴比喻/",
+      "toUrl": "concepts/理念论/",
+      "fromLabel": "洞穴比喻",
+      "toLabel": "理念论"
     },
     {
+      "id": "e147",
       "from": "洞穴比喻",
-      "to": "理想国"
+      "to": "理想国",
+      "fromUrl": "arguments/洞穴比喻/",
+      "toUrl": "works/理想国/",
+      "fromLabel": "洞穴比喻",
+      "toLabel": "理想国"
     },
     {
+      "id": "e148",
       "from": "理念论",
-      "to": "亚里士多德"
+      "to": "亚里士多德",
+      "fromUrl": "concepts/理念论/",
+      "toUrl": "",
+      "fromLabel": "理念论",
+      "toLabel": "亚里士多德"
     },
     {
+      "id": "e149",
       "from": "理念论",
-      "to": "先验理念"
+      "to": "先验理念",
+      "fromUrl": "concepts/理念论/",
+      "toUrl": "",
+      "fromLabel": "理念论",
+      "toLabel": "先验理念"
     },
     {
+      "id": "e150",
       "from": "理念论",
-      "to": "分有"
+      "to": "分有",
+      "fromUrl": "concepts/理念论/",
+      "toUrl": "",
+      "fromLabel": "理念论",
+      "toLabel": "分有"
     },
     {
+      "id": "e151",
       "from": "理念论",
-      "to": "奥卡姆"
+      "to": "奥卡姆",
+      "fromUrl": "concepts/理念论/",
+      "toUrl": "",
+      "fromLabel": "理念论",
+      "toLabel": "奥卡姆"
     },
     {
+      "id": "e152",
       "from": "理念论",
-      "to": "形式"
+      "to": "形式",
+      "fromUrl": "concepts/理念论/",
+      "toUrl": "",
+      "fromLabel": "理念论",
+      "toLabel": "形式"
     },
     {
+      "id": "e153",
       "from": "理念论",
-      "to": "新柏拉图主义"
+      "to": "新柏拉图主义",
+      "fromUrl": "concepts/理念论/",
+      "toUrl": "",
+      "fromLabel": "理念论",
+      "toLabel": "新柏拉图主义"
     },
     {
+      "id": "e154",
       "from": "理念论",
-      "to": "普罗提诺"
+      "to": "普罗提诺",
+      "fromUrl": "concepts/理念论/",
+      "toUrl": "",
+      "fromLabel": "理念论",
+      "toLabel": "普罗提诺"
     },
     {
+      "id": "e155",
       "from": "理念论",
-      "to": "柏拉图"
+      "to": "柏拉图",
+      "fromUrl": "concepts/理念论/",
+      "toUrl": "philosophers/柏拉图/",
+      "fromLabel": "理念论",
+      "toLabel": "柏拉图"
     },
     {
+      "id": "e156",
       "from": "理念论",
-      "to": "柏拉图主义"
+      "to": "柏拉图主义",
+      "fromUrl": "concepts/理念论/",
+      "toUrl": "",
+      "fromLabel": "理念论",
+      "toLabel": "柏拉图主义"
     },
     {
+      "id": "e157",
       "from": "理念论",
-      "to": "洞穴比喻"
+      "to": "洞穴比喻",
+      "fromUrl": "concepts/理念论/",
+      "toUrl": "arguments/洞穴比喻/",
+      "fromLabel": "理念论",
+      "toLabel": "洞穴比喻"
     },
     {
+      "id": "e159",
       "from": "理念论",
-      "to": "理想国"
+      "to": "理想国",
+      "fromUrl": "concepts/理念论/",
+      "toUrl": "works/理想国/",
+      "fromLabel": "理念论",
+      "toLabel": "理想国"
     },
     {
+      "id": "e160",
       "from": "理念论",
-      "to": "苏格拉底"
+      "to": "苏格拉底",
+      "fromUrl": "concepts/理念论/",
+      "toUrl": "philosophers/苏格拉底/",
+      "fromLabel": "理念论",
+      "toLabel": "苏格拉底"
     },
     {
+      "id": "e161",
       "from": "理想国",
-      "to": "哲人王"
+      "to": "哲人王",
+      "fromUrl": "works/理想国/",
+      "toUrl": "",
+      "fromLabel": "理想国",
+      "toLabel": "哲人王"
     },
     {
+      "id": "e162",
       "from": "理想国",
-      "to": "善的理念"
+      "to": "善的理念",
+      "fromUrl": "works/理想国/",
+      "toUrl": "",
+      "fromLabel": "理想国",
+      "toLabel": "善的理念"
     },
     {
+      "id": "e163",
       "from": "理想国",
-      "to": "普罗提诺"
+      "to": "普罗提诺",
+      "fromUrl": "works/理想国/",
+      "toUrl": "",
+      "fromLabel": "理想国",
+      "toLabel": "普罗提诺"
     },
     {
+      "id": "e164",
       "from": "理想国",
-      "to": "柏拉图"
+      "to": "柏拉图",
+      "fromUrl": "works/理想国/",
+      "toUrl": "philosophers/柏拉图/",
+      "fromLabel": "理想国",
+      "toLabel": "柏拉图"
     },
     {
+      "id": "e165",
       "from": "理想国",
-      "to": "洛克"
+      "to": "洛克",
+      "fromUrl": "works/理想国/",
+      "toUrl": "",
+      "fromLabel": "理想国",
+      "toLabel": "洛克"
     },
     {
+      "id": "e166",
       "from": "理想国",
-      "to": "洞穴比喻"
+      "to": "洞穴比喻",
+      "fromUrl": "works/理想国/",
+      "toUrl": "arguments/洞穴比喻/",
+      "fromLabel": "理想国",
+      "toLabel": "洞穴比喻"
     },
     {
+      "id": "e168",
       "from": "理想国",
-      "to": "罗尔斯"
+      "to": "罗尔斯",
+      "fromUrl": "works/理想国/",
+      "toUrl": "",
+      "fromLabel": "理想国",
+      "toLabel": "罗尔斯"
     },
     {
+      "id": "e169",
       "from": "理想国",
-      "to": "苏格拉底"
+      "to": "苏格拉底",
+      "fromUrl": "works/理想国/",
+      "toUrl": "philosophers/苏格拉底/",
+      "fromLabel": "理想国",
+      "toLabel": "苏格拉底"
     },
     {
+      "id": "e170",
       "from": "知识图谱",
-      "to": "wikilink"
+      "to": "link",
+      "fromUrl": "",
+      "toUrl": "",
+      "fromLabel": "知识图谱",
+      "toLabel": "link"
     },
     {
+      "id": "e171",
+      "from": "知识图谱",
+      "to": "wikilink",
+      "fromUrl": "",
+      "toUrl": "",
+      "fromLabel": "知识图谱",
+      "toLabel": "wikilink"
+    },
+    {
+      "id": "e172",
       "from": "自然法",
-      "to": "logos"
+      "to": "logos",
+      "fromUrl": "concepts/自然法/",
+      "toUrl": "",
+      "fromLabel": "自然法",
+      "toLabel": "logos"
     },
     {
+      "id": "e173",
       "from": "自然法",
-      "to": "奥古斯丁"
+      "to": "奥古斯丁",
+      "fromUrl": "concepts/自然法/",
+      "toUrl": "",
+      "fromLabel": "自然法",
+      "toLabel": "奥古斯丁"
     },
     {
+      "id": "e174",
       "from": "自然法",
-      "to": "实在法"
+      "to": "实在法",
+      "fromUrl": "concepts/自然法/",
+      "toUrl": "",
+      "fromLabel": "自然法",
+      "toLabel": "实在法"
     },
     {
+      "id": "e175",
       "from": "自然法",
-      "to": "托马斯·阿奎那"
+      "to": "托马斯·阿奎那",
+      "fromUrl": "concepts/自然法/",
+      "toUrl": "",
+      "fromLabel": "自然法",
+      "toLabel": "托马斯·阿奎那"
     },
     {
+      "id": "e176",
       "from": "自然法",
-      "to": "斯多亚学派"
+      "to": "斯多亚学派",
+      "fromUrl": "concepts/自然法/",
+      "toUrl": "schools/斯多亚学派/",
+      "fromLabel": "自然法",
+      "toLabel": "斯多亚学派"
     },
     {
+      "id": "e177",
       "from": "自然法",
-      "to": "正义"
+      "to": "正义",
+      "fromUrl": "concepts/自然法/",
+      "toUrl": "",
+      "fromLabel": "自然法",
+      "toLabel": "正义"
     },
     {
+      "id": "e178",
       "from": "自然法",
-      "to": "洛克"
+      "to": "洛克",
+      "fromUrl": "concepts/自然法/",
+      "toUrl": "",
+      "fromLabel": "自然法",
+      "toLabel": "洛克"
     },
     {
+      "id": "e179",
       "from": "自然法",
-      "to": "理性"
+      "to": "理性",
+      "fromUrl": "concepts/自然法/",
+      "toUrl": "",
+      "fromLabel": "自然法",
+      "toLabel": "理性"
     },
     {
+      "id": "e180",
       "from": "自然法",
-      "to": "神法"
+      "to": "神法",
+      "fromUrl": "concepts/自然法/",
+      "toUrl": "",
+      "fromLabel": "自然法",
+      "toLabel": "神法"
     },
     {
+      "id": "e181",
       "from": "自然法",
-      "to": "罗尔斯"
+      "to": "罗尔斯",
+      "fromUrl": "concepts/自然法/",
+      "toUrl": "",
+      "fromLabel": "自然法",
+      "toLabel": "罗尔斯"
     },
     {
+      "id": "e182",
       "from": "自然法",
-      "to": "自然权利"
+      "to": "自然权利",
+      "fromUrl": "concepts/自然法/",
+      "toUrl": "",
+      "fromLabel": "自然法",
+      "toLabel": "自然权利"
     },
     {
+      "id": "e184",
       "from": "自然法",
-      "to": "西塞罗"
+      "to": "西塞罗",
+      "fromUrl": "concepts/自然法/",
+      "toUrl": "philosophers/西塞罗/",
+      "fromLabel": "自然法",
+      "toLabel": "西塞罗"
     },
     {
+      "id": "e185",
       "from": "自然法",
-      "to": "论共和国"
+      "to": "论共和国",
+      "fromUrl": "concepts/自然法/",
+      "toUrl": "works/论共和国/",
+      "fromLabel": "自然法",
+      "toLabel": "论共和国"
     },
     {
+      "id": "e186",
       "from": "自然法",
-      "to": "论法律"
+      "to": "论法律",
+      "fromUrl": "concepts/自然法/",
+      "toUrl": "works/论法律/",
+      "fromLabel": "自然法",
+      "toLabel": "论法律"
     },
     {
+      "id": "e187",
       "from": "苏格拉底",
-      "to": "亚里士多德"
+      "to": "亚里士多德",
+      "fromUrl": "philosophers/苏格拉底/",
+      "toUrl": "",
+      "fromLabel": "苏格拉底",
+      "toLabel": "亚里士多德"
     },
     {
+      "id": "e188",
       "from": "苏格拉底",
-      "to": "弗里德里希·施莱尔马赫"
+      "to": "弗里德里希·施莱尔马赫",
+      "fromUrl": "philosophers/苏格拉底/",
+      "toUrl": "",
+      "fromLabel": "苏格拉底",
+      "toLabel": "弗里德里希·施莱尔马赫"
     },
     {
+      "id": "e189",
       "from": "苏格拉底",
-      "to": "普罗泰戈拉"
+      "to": "普罗泰戈拉",
+      "fromUrl": "philosophers/苏格拉底/",
+      "toUrl": "",
+      "fromLabel": "苏格拉底",
+      "toLabel": "普罗泰戈拉"
     },
     {
+      "id": "e190",
       "from": "苏格拉底",
-      "to": "智者派"
+      "to": "智者派",
+      "fromUrl": "philosophers/苏格拉底/",
+      "toUrl": "schools/智者派/",
+      "fromLabel": "苏格拉底",
+      "toLabel": "智者派"
     },
     {
+      "id": "e191",
       "from": "苏格拉底",
-      "to": "柏拉图"
+      "to": "柏拉图",
+      "fromUrl": "philosophers/苏格拉底/",
+      "toUrl": "philosophers/柏拉图/",
+      "fromLabel": "苏格拉底",
+      "toLabel": "柏拉图"
     },
     {
+      "id": "e192",
       "from": "苏格拉底",
-      "to": "理念论"
+      "to": "理念论",
+      "fromUrl": "philosophers/苏格拉底/",
+      "toUrl": "concepts/理念论/",
+      "fromLabel": "苏格拉底",
+      "toLabel": "理念论"
     },
     {
+      "id": "e193",
       "from": "苏格拉底",
-      "to": "色诺芬"
+      "to": "色诺芬",
+      "fromUrl": "philosophers/苏格拉底/",
+      "toUrl": "",
+      "fromLabel": "苏格拉底",
+      "toLabel": "色诺芬"
     },
     {
+      "id": "e195",
       "from": "苏格拉底",
-      "to": "苏菲的世界"
+      "to": "苏菲的世界",
+      "fromUrl": "philosophers/苏格拉底/",
+      "toUrl": "works/苏菲的世界/",
+      "fromLabel": "苏格拉底",
+      "toLabel": "苏菲的世界"
     },
     {
+      "id": "e196",
       "from": "苏格拉底",
-      "to": "阿里斯托芬"
+      "to": "阿里斯托芬",
+      "fromUrl": "philosophers/苏格拉底/",
+      "toUrl": "",
+      "fromLabel": "苏格拉底",
+      "toLabel": "阿里斯托芬"
     },
     {
+      "id": "e197",
       "from": "苏格拉底的转向",
-      "to": "亚里士多德"
+      "to": "亚里士多德",
+      "fromUrl": "concepts/苏格拉底的转向/",
+      "toUrl": "",
+      "fromLabel": "苏格拉底的转向",
+      "toLabel": "亚里士多德"
     },
     {
+      "id": "e198",
       "from": "苏格拉底的转向",
-      "to": "前苏格拉底时期"
+      "to": "前苏格拉底时期",
+      "fromUrl": "concepts/苏格拉底的转向/",
+      "toUrl": "periods/前苏格拉底时期/",
+      "fromLabel": "苏格拉底的转向",
+      "toLabel": "前苏格拉底时期"
     },
     {
+      "id": "e199",
       "from": "苏格拉底的转向",
-      "to": "巴门尼德"
+      "to": "巴门尼德",
+      "fromUrl": "concepts/苏格拉底的转向/",
+      "toUrl": "",
+      "fromLabel": "苏格拉底的转向",
+      "toLabel": "巴门尼德"
     },
     {
+      "id": "e200",
       "from": "苏格拉底的转向",
-      "to": "形而上学"
+      "to": "形而上学",
+      "fromUrl": "concepts/苏格拉底的转向/",
+      "toUrl": "",
+      "fromLabel": "苏格拉底的转向",
+      "toLabel": "形而上学"
     },
     {
+      "id": "e201",
       "from": "苏格拉底的转向",
-      "to": "德谟克利特"
+      "to": "德谟克利特",
+      "fromUrl": "concepts/苏格拉底的转向/",
+      "toUrl": "",
+      "fromLabel": "苏格拉底的转向",
+      "toLabel": "德谟克利特"
     },
     {
+      "id": "e202",
       "from": "苏格拉底的转向",
-      "to": "恩培多克勒"
+      "to": "恩培多克勒",
+      "fromUrl": "concepts/苏格拉底的转向/",
+      "toUrl": "",
+      "fromLabel": "苏格拉底的转向",
+      "toLabel": "恩培多克勒"
     },
     {
+      "id": "e203",
       "from": "苏格拉底的转向",
-      "to": "惊异"
+      "to": "惊异",
+      "fromUrl": "concepts/苏格拉底的转向/",
+      "toUrl": "concepts/惊异/",
+      "fromLabel": "苏格拉底的转向",
+      "toLabel": "惊异"
     },
     {
+      "id": "e204",
       "from": "苏格拉底的转向",
-      "to": "普罗泰戈拉"
+      "to": "普罗泰戈拉",
+      "fromUrl": "concepts/苏格拉底的转向/",
+      "toUrl": "",
+      "fromLabel": "苏格拉底的转向",
+      "toLabel": "普罗泰戈拉"
     },
     {
+      "id": "e205",
       "from": "苏格拉底的转向",
-      "to": "柏拉图"
+      "to": "柏拉图",
+      "fromUrl": "concepts/苏格拉底的转向/",
+      "toUrl": "philosophers/柏拉图/",
+      "fromLabel": "苏格拉底的转向",
+      "toLabel": "柏拉图"
     },
     {
+      "id": "e206",
       "from": "苏格拉底的转向",
-      "to": "泰勒斯"
+      "to": "泰勒斯",
+      "fromUrl": "concepts/苏格拉底的转向/",
+      "toUrl": "",
+      "fromLabel": "苏格拉底的转向",
+      "toLabel": "泰勒斯"
     },
     {
+      "id": "e207",
       "from": "苏格拉底的转向",
-      "to": "洞穴比喻"
+      "to": "洞穴比喻",
+      "fromUrl": "concepts/苏格拉底的转向/",
+      "toUrl": "arguments/洞穴比喻/",
+      "fromLabel": "苏格拉底的转向",
+      "toLabel": "洞穴比喻"
     },
     {
+      "id": "e208",
       "from": "苏格拉底的转向",
-      "to": "自然法"
+      "to": "自然法",
+      "fromUrl": "concepts/苏格拉底的转向/",
+      "toUrl": "concepts/自然法/",
+      "fromLabel": "苏格拉底的转向",
+      "toLabel": "自然法"
     },
     {
+      "id": "e209",
       "from": "苏格拉底的转向",
-      "to": "色诺芬"
+      "to": "色诺芬",
+      "fromUrl": "concepts/苏格拉底的转向/",
+      "toUrl": "",
+      "fromLabel": "苏格拉底的转向",
+      "toLabel": "色诺芬"
     },
     {
+      "id": "e210",
       "from": "苏格拉底的转向",
-      "to": "苏格拉底"
+      "to": "苏格拉底",
+      "fromUrl": "concepts/苏格拉底的转向/",
+      "toUrl": "philosophers/苏格拉底/",
+      "fromLabel": "苏格拉底的转向",
+      "toLabel": "苏格拉底"
     },
     {
+      "id": "e211",
       "from": "苏格拉底的转向",
-      "to": "苏格拉底反诘法"
+      "to": "苏格拉底反诘法",
+      "fromUrl": "concepts/苏格拉底的转向/",
+      "toUrl": "",
+      "fromLabel": "苏格拉底的转向",
+      "toLabel": "苏格拉底反诘法"
     },
     {
+      "id": "e213",
       "from": "苏格拉底的转向",
-      "to": "苏菲的世界"
+      "to": "苏菲的世界",
+      "fromUrl": "concepts/苏格拉底的转向/",
+      "toUrl": "works/苏菲的世界/",
+      "fromLabel": "苏格拉底的转向",
+      "toLabel": "苏菲的世界"
     },
     {
+      "id": "e214",
       "from": "苏格拉底的转向",
-      "to": "西塞罗"
+      "to": "西塞罗",
+      "fromUrl": "concepts/苏格拉底的转向/",
+      "toUrl": "philosophers/西塞罗/",
+      "fromLabel": "苏格拉底的转向",
+      "toLabel": "西塞罗"
     },
     {
+      "id": "e215",
       "from": "苏格拉底的转向",
-      "to": "赫拉克利特"
+      "to": "赫拉克利特",
+      "fromUrl": "concepts/苏格拉底的转向/",
+      "toUrl": "",
+      "fromLabel": "苏格拉底的转向",
+      "toLabel": "赫拉克利特"
     },
     {
+      "id": "e216",
       "from": "苏格拉底的转向",
-      "to": "阿那克萨戈拉"
+      "to": "阿那克萨戈拉",
+      "fromUrl": "concepts/苏格拉底的转向/",
+      "toUrl": "",
+      "fromLabel": "苏格拉底的转向",
+      "toLabel": "阿那克萨戈拉"
     },
     {
+      "id": "e217",
       "from": "苏格拉底的转向",
-      "to": "阿那克西美尼"
+      "to": "阿那克西美尼",
+      "fromUrl": "concepts/苏格拉底的转向/",
+      "toUrl": "",
+      "fromLabel": "苏格拉底的转向",
+      "toLabel": "阿那克西美尼"
     },
     {
+      "id": "e218",
       "from": "苏格拉底的转向",
-      "to": "阿里斯托芬"
+      "to": "阿里斯托芬",
+      "fromUrl": "concepts/苏格拉底的转向/",
+      "toUrl": "",
+      "fromLabel": "苏格拉底的转向",
+      "toLabel": "阿里斯托芬"
     },
     {
+      "id": "e219",
       "from": "苏菲的世界",
-      "to": "亚里士多德"
+      "to": "亚里士多德",
+      "fromUrl": "works/苏菲的世界/",
+      "toUrl": "",
+      "fromLabel": "苏菲的世界",
+      "toLabel": "亚里士多德"
     },
     {
+      "id": "e220",
       "from": "苏菲的世界",
-      "to": "伊壁鸠鲁学派"
+      "to": "伊壁鸠鲁学派",
+      "fromUrl": "works/苏菲的世界/",
+      "toUrl": "",
+      "fromLabel": "苏菲的世界",
+      "toLabel": "伊壁鸠鲁学派"
     },
     {
+      "id": "e221",
       "from": "苏菲的世界",
-      "to": "前苏格拉底时期"
+      "to": "前苏格拉底时期",
+      "fromUrl": "works/苏菲的世界/",
+      "toUrl": "periods/前苏格拉底时期/",
+      "fromLabel": "苏菲的世界",
+      "toLabel": "前苏格拉底时期"
     },
     {
+      "id": "e222",
       "from": "苏菲的世界",
-      "to": "奥古斯丁"
+      "to": "奥古斯丁",
+      "fromUrl": "works/苏菲的世界/",
+      "toUrl": "",
+      "fromLabel": "苏菲的世界",
+      "toLabel": "奥古斯丁"
     },
     {
+      "id": "e223",
       "from": "苏菲的世界",
-      "to": "康德"
+      "to": "康德",
+      "fromUrl": "works/苏菲的世界/",
+      "toUrl": "",
+      "fromLabel": "苏菲的世界",
+      "toLabel": "康德"
     },
     {
+      "id": "e224",
       "from": "苏菲的世界",
-      "to": "惊异"
+      "to": "惊异",
+      "fromUrl": "works/苏菲的世界/",
+      "toUrl": "concepts/惊异/",
+      "fromLabel": "苏菲的世界",
+      "toLabel": "惊异"
     },
     {
+      "id": "e225",
       "from": "苏菲的世界",
-      "to": "托马斯·阿奎那"
+      "to": "托马斯·阿奎那",
+      "fromUrl": "works/苏菲的世界/",
+      "toUrl": "",
+      "fromLabel": "苏菲的世界",
+      "toLabel": "托马斯·阿奎那"
     },
     {
+      "id": "e226",
       "from": "苏菲的世界",
-      "to": "斯多亚学派"
+      "to": "斯多亚学派",
+      "fromUrl": "works/苏菲的世界/",
+      "toUrl": "schools/斯多亚学派/",
+      "fromLabel": "苏菲的世界",
+      "toLabel": "斯多亚学派"
     },
     {
+      "id": "e227",
       "from": "苏菲的世界",
-      "to": "柏拉图"
+      "to": "柏拉图",
+      "fromUrl": "works/苏菲的世界/",
+      "toUrl": "philosophers/柏拉图/",
+      "fromLabel": "苏菲的世界",
+      "toLabel": "柏拉图"
     },
     {
+      "id": "e228",
       "from": "苏菲的世界",
-      "to": "理想国"
+      "to": "理想国",
+      "fromUrl": "works/苏菲的世界/",
+      "toUrl": "works/理想国/",
+      "fromLabel": "苏菲的世界",
+      "toLabel": "理想国"
     },
     {
+      "id": "e229",
       "from": "苏菲的世界",
-      "to": "苏格拉底"
+      "to": "苏格拉底",
+      "fromUrl": "works/苏菲的世界/",
+      "toUrl": "philosophers/苏格拉底/",
+      "fromLabel": "苏菲的世界",
+      "toLabel": "苏格拉底"
     },
     {
+      "id": "e230",
       "from": "苏菲的世界",
-      "to": "苏格拉底的转向"
+      "to": "苏格拉底的转向",
+      "fromUrl": "works/苏菲的世界/",
+      "toUrl": "concepts/苏格拉底的转向/",
+      "fromLabel": "苏菲的世界",
+      "toLabel": "苏格拉底的转向"
     },
     {
+      "id": "e232",
       "from": "苏菲的世界",
-      "to": "论法律"
+      "to": "论法律",
+      "fromUrl": "works/苏菲的世界/",
+      "toUrl": "works/论法律/",
+      "fromLabel": "苏菲的世界",
+      "toLabel": "论法律"
     },
     {
+      "id": "e233",
       "from": "西塞罗",
-      "to": "亚里士多德"
+      "to": "亚里士多德",
+      "fromUrl": "philosophers/西塞罗/",
+      "toUrl": "",
+      "fromLabel": "西塞罗",
+      "toLabel": "亚里士多德"
     },
     {
+      "id": "e234",
       "from": "西塞罗",
-      "to": "卢克莱修"
+      "to": "卢克莱修",
+      "fromUrl": "philosophers/西塞罗/",
+      "toUrl": "",
+      "fromLabel": "西塞罗",
+      "toLabel": "卢克莱修"
     },
     {
+      "id": "e235",
       "from": "西塞罗",
-      "to": "帕那提乌"
+      "to": "帕那提乌",
+      "fromUrl": "philosophers/西塞罗/",
+      "toUrl": "",
+      "fromLabel": "西塞罗",
+      "toLabel": "帕那提乌"
     },
     {
+      "id": "e236",
       "from": "西塞罗",
-      "to": "托马斯·阿奎那"
+      "to": "托马斯·阿奎那",
+      "fromUrl": "philosophers/西塞罗/",
+      "toUrl": "",
+      "fromLabel": "西塞罗",
+      "toLabel": "托马斯·阿奎那"
     },
     {
+      "id": "e237",
       "from": "西塞罗",
-      "to": "斯多亚学派"
+      "to": "斯多亚学派",
+      "fromUrl": "philosophers/西塞罗/",
+      "toUrl": "schools/斯多亚学派/",
+      "fromLabel": "西塞罗",
+      "toLabel": "斯多亚学派"
     },
     {
+      "id": "e238",
       "from": "西塞罗",
-      "to": "柏拉图"
+      "to": "柏拉图",
+      "fromUrl": "philosophers/西塞罗/",
+      "toUrl": "philosophers/柏拉图/",
+      "fromLabel": "西塞罗",
+      "toLabel": "柏拉图"
     },
     {
+      "id": "e239",
       "from": "西塞罗",
-      "to": "柏拉图学园"
+      "to": "柏拉图学园",
+      "fromUrl": "philosophers/西塞罗/",
+      "toUrl": "",
+      "fromLabel": "西塞罗",
+      "toLabel": "柏拉图学园"
     },
     {
+      "id": "e240",
       "from": "西塞罗",
-      "to": "波西多纽"
+      "to": "波西多纽",
+      "fromUrl": "philosophers/西塞罗/",
+      "toUrl": "",
+      "fromLabel": "西塞罗",
+      "toLabel": "波西多纽"
     },
     {
+      "id": "e241",
       "from": "西塞罗",
-      "to": "洛克"
+      "to": "洛克",
+      "fromUrl": "philosophers/西塞罗/",
+      "toUrl": "",
+      "fromLabel": "西塞罗",
+      "toLabel": "洛克"
     },
     {
+      "id": "e242",
       "from": "西塞罗",
-      "to": "理想国"
+      "to": "理想国",
+      "fromUrl": "philosophers/西塞罗/",
+      "toUrl": "works/理想国/",
+      "fromLabel": "西塞罗",
+      "toLabel": "理想国"
     },
     {
+      "id": "e243",
       "from": "西塞罗",
-      "to": "自然法"
+      "to": "自然法",
+      "fromUrl": "philosophers/西塞罗/",
+      "toUrl": "concepts/自然法/",
+      "fromLabel": "西塞罗",
+      "toLabel": "自然法"
     },
     {
+      "id": "e245",
       "from": "西塞罗",
-      "to": "论共和国"
+      "to": "论共和国",
+      "fromUrl": "philosophers/西塞罗/",
+      "toUrl": "works/论共和国/",
+      "fromLabel": "西塞罗",
+      "toLabel": "论共和国"
     },
     {
+      "id": "e246",
       "from": "西塞罗",
-      "to": "论法律"
+      "to": "论法律",
+      "fromUrl": "philosophers/西塞罗/",
+      "toUrl": "works/论法律/",
+      "fromLabel": "西塞罗",
+      "toLabel": "论法律"
     },
     {
+      "id": "e247",
       "from": "论共和国",
-      "to": "奥古斯丁"
+      "to": "奥古斯丁",
+      "fromUrl": "works/论共和国/",
+      "toUrl": "",
+      "fromLabel": "论共和国",
+      "toLabel": "奥古斯丁"
     },
     {
+      "id": "e248",
       "from": "论共和国",
-      "to": "柏拉图"
+      "to": "柏拉图",
+      "fromUrl": "works/论共和国/",
+      "toUrl": "philosophers/柏拉图/",
+      "fromLabel": "论共和国",
+      "toLabel": "柏拉图"
     },
     {
+      "id": "e249",
       "from": "论共和国",
-      "to": "理想国"
+      "to": "理想国",
+      "fromUrl": "works/论共和国/",
+      "toUrl": "works/理想国/",
+      "fromLabel": "论共和国",
+      "toLabel": "理想国"
     },
     {
+      "id": "e250",
       "from": "论共和国",
-      "to": "自然法"
+      "to": "自然法",
+      "fromUrl": "works/论共和国/",
+      "toUrl": "concepts/自然法/",
+      "fromLabel": "论共和国",
+      "toLabel": "自然法"
     },
     {
+      "id": "e251",
       "from": "论共和国",
-      "to": "西塞罗"
+      "to": "西塞罗",
+      "fromUrl": "works/论共和国/",
+      "toUrl": "philosophers/西塞罗/",
+      "fromLabel": "论共和国",
+      "toLabel": "西塞罗"
     },
     {
+      "id": "e253",
       "from": "论共和国",
-      "to": "论法律"
+      "to": "论法律",
+      "fromUrl": "works/论共和国/",
+      "toUrl": "works/论法律/",
+      "fromLabel": "论共和国",
+      "toLabel": "论法律"
     },
     {
+      "id": "e254",
       "from": "论法律",
-      "to": "奥古斯丁"
+      "to": "奥古斯丁",
+      "fromUrl": "works/论法律/",
+      "toUrl": "",
+      "fromLabel": "论法律",
+      "toLabel": "奥古斯丁"
     },
     {
+      "id": "e255",
       "from": "论法律",
-      "to": "托马斯·阿奎那"
+      "to": "托马斯·阿奎那",
+      "fromUrl": "works/论法律/",
+      "toUrl": "",
+      "fromLabel": "论法律",
+      "toLabel": "托马斯·阿奎那"
     },
     {
+      "id": "e256",
       "from": "论法律",
-      "to": "柏拉图"
+      "to": "柏拉图",
+      "fromUrl": "works/论法律/",
+      "toUrl": "philosophers/柏拉图/",
+      "fromLabel": "论法律",
+      "toLabel": "柏拉图"
     },
     {
+      "id": "e257",
       "from": "论法律",
-      "to": "理想国"
+      "to": "理想国",
+      "fromUrl": "works/论法律/",
+      "toUrl": "works/理想国/",
+      "fromLabel": "论法律",
+      "toLabel": "理想国"
     },
     {
+      "id": "e258",
       "from": "论法律",
-      "to": "自然法"
+      "to": "自然法",
+      "fromUrl": "works/论法律/",
+      "toUrl": "concepts/自然法/",
+      "fromLabel": "论法律",
+      "toLabel": "自然法"
     },
     {
+      "id": "e259",
       "from": "论法律",
-      "to": "西塞罗"
+      "to": "西塞罗",
+      "fromUrl": "works/论法律/",
+      "toUrl": "philosophers/西塞罗/",
+      "fromLabel": "论法律",
+      "toLabel": "西塞罗"
     },
     {
+      "id": "e260",
       "from": "论法律",
-      "to": "论共和国"
+      "to": "论共和国",
+      "fromUrl": "works/论法律/",
+      "toUrl": "works/论共和国/",
+      "fromLabel": "论法律",
+      "toLabel": "论共和国"
     }
   ],
   "meta": {
     "generated_by": "hooks/graph.py",
     "node_count": 19,
-    "edge_count": 244
+    "edge_count": 245
   }
 }

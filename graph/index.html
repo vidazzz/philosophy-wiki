@@ -1472,9 +1472,12 @@
   });
 
   const edges = data.edges.map(e => ({
+    id: e.id,
     from: e.from,
     to: e.to,
     arrows: 'to',
+    // Tooltip on hover so the user knows what clicking does
+    title: `${e.fromLabel} → ${e.toLabel}（点击跳转到来源页）`,
     color: { color: theme.edge, highlight: theme.edgeHover },
     smooth: { type: 'continuous' },
   }));
@@ -1495,10 +1498,22 @@
     edges: { smooth: { type: 'continuous' } },
   });
 
+  // Click handler — node click navigates to the node's page; edge click
+  // navigates to the *source* page (where the <span class="wikilink-stub" title="待创建页面: link">link<sup class="wikilink-stub-marker">待创建</sup></span> was authored). The
+  // graph page itself sits at /graph/, so all target URLs need a `../`
+  // prefix to escape it (otherwise the browser resolves them relative
+  // to /graph/ and 404s).
   container.on('click', params => {
     if (params.nodes.length > 0) {
       const node = nodes.find(n => n.id === params.nodes[0]);
-      if (node && node.url) window.location.href = node.url;
+      if (node && node.url !== undefined) {
+        window.location.href = '../' + node.url;
+      }
+    } else if (params.edges.length > 0) {
+      const edge = edges.find(e => e.id === params.edges[0]);
+      if (edge && edge.fromUrl !== undefined) {
+        window.location.href = '../' + edge.fromUrl;
+      }
     }
   });
 })();
