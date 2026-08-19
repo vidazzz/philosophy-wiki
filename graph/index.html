@@ -1418,10 +1418,23 @@
     edge:      isDark ? '#666666' : '#bdbdbd',
     edgeHover: isDark ? '#90caf9' : '#1976d2',
   };
-  // Re-load when Material's color scheme flips
-  new MutationObserver(() => location.reload()).observe(
-    document.body, { attributes: true, attributeFilter: ['data-md-color-scheme'] }
-  );
+
+  // Re-load when the user *manually* toggles Material's palette. We must
+  // skip the initial attribute set (Material adds `data-md-color-scheme`
+  // on every page load), otherwise the observer fires once, reloads, and
+  // loops forever. Only reload if the value actually differs from what
+  // it was at observer registration time.
+  const initialScheme = document.body.getAttribute('data-md-color-scheme');
+  let reloadTimer = null;
+  new MutationObserver(() => {
+    const current = document.body.getAttribute('data-md-color-scheme');
+    if (current === initialScheme || reloadTimer) return;
+    reloadTimer = setTimeout(() => location.reload(), 250);
+  }).observe(document.body, {
+    attributes: true,
+    attributeFilter: ['data-md-color-scheme'],
+    attributeOldValue: true,
+  });
 
   const res = await fetch('../assets/graph.json');
   if (!res.ok) { document.getElementById('graph-container').innerText = 'graph.json 未找到'; return; }
