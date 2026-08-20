@@ -17,7 +17,7 @@ _PROJECT_ROOT = Path(__file__).resolve().parent.parent
 if str(_PROJECT_ROOT) not in sys.path:
     sys.path.insert(0, str(_PROJECT_ROOT))
 
-from hooks import STATE  # noqa: E402
+from hooks import STATE, rel_url  # noqa: E402
 
 
 TEMPLATE = """
@@ -41,13 +41,17 @@ def on_page_content(html, page, config, files):
             seen.setdefault((src_name, src_url), []).append(anchor)
 
         items: list[str] = []
+        # `page.url` is the current page (the one whose backlinks we're
+        # rendering). `src_url` is the page that links TO it. We need a
+        # relative URL from the current page to the source.
+        current_url = page.url
         for (src_name, src_url), anchors in sorted(seen.items()):
             anchor_tags = "".join(
                 f' <sup>[{escape(a)}]</sup>' for a in anchors if a
             )
-            abs_href = "/" + src_url.lstrip("/") if src_url else "/"
+            href = rel_url(current_url, src_url)
             items.append(
-                f'<li><a href="{escape(abs_href)}">{escape(src_name)}</a>'
+                f'<li><a href="{escape(href)}">{escape(src_name)}</a>'
                 f'{anchor_tags}</li>'
             )
         rows = "<ul>" + "".join(items) + "</ul>"
