@@ -1708,9 +1708,11 @@
 <h1 id="_1">知识图谱<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h1>
 <p>本页可视化 Wiki 中所有页面（节点）与所有 <code>&lt;span class="wikilink-stub" title="待创建页面: wikilink"&gt;wikilink&lt;sup class="wikilink-stub-marker"&gt;待创建&lt;/sup&gt;&lt;/span&gt;</code>（边）。</p>
 <ul>
-<li><strong>节点形状</strong>：方框 = active/mature 页面，圆点 = stub 页面</li>
 <li><strong>节点颜色</strong>：哲学家用靛蓝、概念用绿、著作用橙、学派用紫、时期用青、论证用红</li>
-<li><strong>悬停</strong>查看类型信息，<strong>点击</strong>跳转页面</li>
+<li><strong>节点大小</strong>：关联越多节点越大（Obsidian 风格）— 节点的圆点越大表示被引用越多</li>
+<li><strong>节点透明度</strong>：stub 状态略透明，active/mature 状态实心</li>
+<li><strong>无方向箭头</strong>（Obsidian 风格）：边不表示方向，只表示两节点相互引用过</li>
+<li><strong>悬停</strong>查看类型与状态信息，<strong>点击</strong>跳转页面（点击边会弹出该来源页中所有引用位置）</li>
 <li><strong>拖拽</strong>节点，<strong>滚轮</strong>缩放</li>
 </ul>
 <div class="graph-legend">
@@ -1720,7 +1722,7 @@
   <span><span class="legend-dot" style="background:#ab47bc"></span>学派</span> &nbsp;
   <span><span class="legend-dot" style="background:#26c6da"></span>时期</span> &nbsp;
   <span><span class="legend-dot" style="background:#ef5350"></span>论证</span> &nbsp;
-  <span><span class="legend-dot" style="background:#9e9e9e"></span>stub / 待创建</span>
+  <span style="margin-left:1em; font-size:0.85em; opacity:0.7">节点越大 = 关联越多 · 较透明 = stub · 实心 = active/mature</span>
 </div>
 
 <div id="graph-container"></div>
@@ -1730,12 +1732,12 @@
   <div class="edge-popup-header">
     <div class="edge-popup-title">
       <span class="popup-from"></span>
-      <span class="popup-arrow">→</span>
+      <span class="popup-relation">引用了</span>
       <span class="popup-to"></span>
     </div>
     <button class="edge-popup-close" type="button" aria-label="关闭">×</button>
   </div>
-  <div class="edge-popup-hint">点击行号跳转（共 <span class="popup-count">0</span> 处引用）：</div>
+  <div class="edge-popup-hint"><span class="popup-from"></span> 中共有 <span class="popup-count">0</span> 处对 <span class="popup-to"></span> 的引用，点击行号跳转：</div>
   <ol class="edge-popup-list"></ol>
 </div>
 
@@ -1785,25 +1787,42 @@
     argument:    '#ef5350',
   };
 
+  // Obsidian-style: node size scales with degree (number of connections).
+  // A node with many in/out edges becomes a larger dot — clusters visually.
+  const degreeById = {};
+  for (const e of data.edges) {
+    degreeById[e.from] = (degreeById[e.from] || 0) + 1;
+    degreeById[e.to]   = (degreeById[e.to]   || 0) + 1;
+  }
+
   const nodes = data.nodes.map(n => {
     const fill = COLOR[n.type] || '#9e9e9e';
     const isStub = n.status === 'stub';
+    const degree = degreeById[n.id] || 0;
+    // Base size: stub 10, active/mature 14. Bonus from sqrt(degree).
+    // Caps at 28 so hub nodes don't dominate the canvas.
+    const baseSize = isStub ? 10 : 14;
+    const size = Math.min(baseSize + Math.sqrt(degree) * 3.5, 28);
     return {
       id: n.id,
       label: n.label,
       url: n.url,
-      title: n.id + ' — ' + n.type + ' [' + n.status + ']',
-      // Stub (dot): shrink the radius — default 25 is way too big.
-      // Active/Mature (box): shrink via font size + shapeProperties padding.
-      size: isStub ? 10 : undefined,
+      title: n.id + ' — ' + n.type + ' [' + n.status + ']（关联 ' + degree + ' 次）',
+      size: size,
+      // Obsidian uses circles for everything — no shape distinction.
+      // Stub nodes fade slightly so active/mature pages stand out.
+      shape: 'dot',
       color: {
         background: fill,
-        border: isStub ? '#9e9e9e' : fill,
-        highlight: { background: fill, border: '#000' },
+        border: fill,
+        // Stub: 60% opacity on background (faded dot).
+        // Active/Mature: full opacity.
+        opacity: isStub ? 0.55 : 1.0,
+        highlight: { background: fill, border: '#000', opacity: 1.0 },
       },
-      shape: isStub ? 'dot' : 'box',
-      shapeProperties: isStub ? {} : { borderRadius: 3, padding: 4 },
-      font: { color: theme.text, face: 'Noto Sans SC, sans-serif', size: 11 },
+      // Hide the default label below the dot — Obsidian only labels on hover.
+      // We show the label as the hover title instead.
+      font: { color: theme.text, face: 'Noto Sans SC, sans-serif', size: 0 },
     };
   });
 
@@ -1821,14 +1840,18 @@
     firstLine: e.firstLine,
     firstAnchor: e.firstAnchor,
     allOccurrences: e.allOccurrences || [],
-    arrows: 'to',
-    // Hover tooltip (desktop only — mobile has no hover)
-    title: `${e.fromLabel} → ${e.toLabel}（点击跳转到来源页）`,
-    color: { color: theme.edge, highlight: theme.edgeHover },
+    // Obsidian-style: NO ARROWS. Edges are undirected lines showing
+    // "these two pages reference each other", not directional flow.
+    arrows: '',
+    // No hover title — Obsidian doesn't label edges either. The edge
+    // click popup carries all the source/target context.
+    title: '',
+    color: { color: theme.edge, highlight: theme.edgeHover, opacity: 0.6 },
     smooth: { type: 'continuous' },
-    // Slightly thicker default so edges are easier to tap on mobile.
-    width: 1.5,
-    selectionWidth: 2.5,
+    // Thinner than before (was 1.5). Obsidian uses hairline edges so
+    // clusters read as clusters, not as messy line tangles.
+    width: 0.7,
+    selectionWidth: 1.5,
   }));
 
   const container = document.getElementById('graph-container');
@@ -1837,13 +1860,21 @@
     edges: new vis.DataSet(edges),
   }, {
     physics: {
-      stabilization: { iterations: 200 },
-      // springLength is the *rest length* of each edge spring; higher =
-      // longer arrows. 120 was too cramped — push to 220.
-      barnesHut: { gravitationalConstant: -8000, springLength: 220, springConstant: 0.04 },
+      stabilization: { iterations: 300 },
+      // Obsidian-feel: tighter clusters since nodes are smaller dots now.
+      // - Strong central pull so the graph doesn't drift to a corner.
+      // - Longer springs so related nodes can form visible clusters.
+      // - High damping so it stops jiggling quickly.
+      barnesHut: {
+        gravitationalConstant: -12000,
+        springLength: 180,
+        springConstant: 0.04,
+        damping: 0.5,
+        avoidOverlap: 0.3,
+      },
     },
-    interaction: { hover: true, tooltipDelay: 100 },
-    nodes: { borderWidth: 1.5 },
+    interaction: { hover: true, tooltipDelay: 100, hideEdgesOnDrag: true },
+    nodes: { borderWidth: 1 },
     edges: { smooth: { type: 'continuous' } },
   });
 
@@ -1876,8 +1907,8 @@
     const popup = document.getElementById('edge-popup');
     if (!popup) return;
 
-    popup.querySelector('.popup-from').textContent = edge.fromLabel;
-    popup.querySelector('.popup-to').textContent = edge.toLabel;
+    popup.querySelectorAll('.popup-from').forEach(el => el.textContent = edge.fromLabel);
+    popup.querySelectorAll('.popup-to').forEach(el => el.textContent = edge.toLabel);
     popup.querySelector('.popup-count').textContent = occurrences.length;
 
     const listEl = popup.querySelector('.edge-popup-list');
