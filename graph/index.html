@@ -1741,6 +1741,9 @@
   <ol class="edge-popup-list"></ol>
 </div>
 
+<!-- 边悬浮提示：自定义实现，避免 vis-network 内置 tooltip 刷新延迟 -->
+<div id="edge-hover" class="edge-hover" style="display: none;"></div>
+
 <script src="https://unpkg.com/vis-network@9.1.9/standalone/umd/vis-network.min.js"></script>
 <script>
 (async function() {
@@ -1849,12 +1852,14 @@
     allOccurrences: e.allOccurrences || [],
     // Obsidian-style: NO ARROWS in the visualization. Edges are
     // undirected lines showing "these two pages reference each other".
-    // But the TOOLTIP keeps the arrow direction — the title is text,
-    // not the canvas, so direction is still discoverable on hover.
     arrows: '',
-    // Hover tooltip: source → target + occurrence count + click hint.
-    // Desktop only — mobile has no hover (use long-press instead).
-    title: `${e.fromLabel} → ${e.toLabel}（${(e.allOccurrences || []).length} 处引用，点击查看）`,
+    // IMPORTANT: do NOT set vis-network's built-in `title` here.
+    // vis-network's built-in tooltip has a known bug where the text
+    // gets stuck on the previous edge when the mouse moves quickly
+    // between lines — the highlight updates but the tooltip stays
+    // stale. We instead show a custom tooltip driven by hoverEdge /
+    // blurEdge events below, which always stays in sync.
+    title: '',
     color: { color: theme.edge, highlight: theme.edgeHover, opacity: 0.6 },
     smooth: { type: 'continuous' },
     // Thinner than before (was 1.5). Obsidian uses hairline edges so
@@ -1954,6 +1959,64 @@
     if (e.key === 'Escape') hideEdgePopup();
   });
 
+  // Custom edge hover tooltip.
+  //
+  // We don't use vis-network's built-in tooltip because it has a known
+  // bug: when the mouse moves quickly between edges, the highlight
+  // (line thickening) updates correctly, but the tooltip DOM element
+  // gets stuck on the previous edge's text. This is because vis-network
+  // recycles the same tooltip element and the textContent update can
+  // lag the hover event. Listening to hoverEdge + blurEdge ourselves
+  // and managing a separate tooltip element keeps them strictly in sync.
+  function showHoverTooltip(edge, pointer) {
+    let el = document.getElementById('edge-hover');
+    if (!el) return;
+    const count = (edge.allOccurrences || []).length;
+    el.textContent = `${edge.fromLabel} → ${edge.toLabel}（${count} 处引用，点击查看）`;
+    el.style.display = 'block';
+    // Position near the cursor (viewport coords for position:fixed).
+    const dom = (pointer && pointer.DOM) || { x: window.innerWidth / 2, y: window.innerHeight / 2 };
+    const margin = 14;
+    // Make it visible first so offsetWidth/Height are real.
+    el.style.left = '0px';
+    el.style.top = '0px';
+    const elW = el.offsetWidth;
+    const elH = el.offsetHeight;
+    const vpX = dom.x - window.scrollX;
+    const vpY = dom.y - window.scrollY;
+    let x = vpX + margin;
+    let y = vpY + margin;
+    // Clamp inside viewport so the tooltip doesn't get cut off at the edge.
+    if (x + elW + margin > window.innerWidth)  x = vpX - elW - margin;
+    if (y + elH + margin > window.innerHeight) y = vpY - elH - margin;
+    if (x < margin) x = margin;
+    if (y < margin) y = margin;
+    el.style.left = x + 'px';
+    el.style.top  = y + 'px';
+  }
+
+  function hideHoverTooltip() {
+    const el = document.getElementById('edge-hover');
+    if (el) el.style.display = 'none';
+  }
+
+  // hoverEdge fires whenever the cursor enters an edge — including
+  // moving from one edge to another. Each fire updates the tooltip
+  // text, so the tooltip always shows the *current* edge's info, never
+  // stale text from the previous edge.
+  network.on('hoverEdge', params => {
+    if (!params.edge) return;
+    const edge = edges.find(e => e.id === params.edge);
+    if (edge) showHoverTooltip(edge, params.pointer);
+  });
+
+  // blurEdge fires when the cursor leaves an edge (including moving to
+  // another edge — vis-network fires blur on the old edge before hover
+  // on the new one, so there's a brief moment where no tooltip shows).
+  network.on('blurEdge', () => {
+    hideHoverTooltip();
+  });
+
   // Bind the click handler to the vis-network INSTANCE (not the DOM
   // container). vis-network uses hammer.js internally and calls
   // `preventDefault()` on touch events, which means the browser does
@@ -1962,6 +2025,7 @@
   // event and fires for both desktop clicks and mobile taps.
   network.on('click', params => {
     hideEdgePopup();   // always reset popup state on any graph click
+    hideHoverTooltip(); // and the hover tooltip — click popup takes over
     if (params.nodes.length > 0) {
       const node = nodes.find(n => n.id === params.nodes[0]);
       if (node && node.url !== undefined) {
@@ -1986,6 +2050,7 @@
       const edge = edges.find(e => e.id === params.edges[0]);
       if (edge && edge.fromUrl !== undefined) {
         hideEdgePopup();
+        hideHoverTooltip();
         showEdgePopup(edge, params.pointer);
       }
     }

@@ -4760,12 +4760,12 @@
       "toUrl": "",
       "fromLabel": "知识图谱",
       "toLabel": "X",
-      "firstLine": 190,
-      "firstAnchor": "cite-190-3",
+      "firstLine": 195,
+      "firstAnchor": "cite-195-3",
       "allOccurrences": [
         {
-          "line": 190,
-          "anchor": "cite-190-3"
+          "line": 195,
+          "anchor": "cite-195-3"
         }
       ]
     },
@@ -4777,12 +4777,12 @@
       "toUrl": "",
       "fromLabel": "知识图谱",
       "toLabel": "link",
-      "firstLine": 185,
-      "firstAnchor": "cite-185-2",
+      "firstLine": 190,
+      "firstAnchor": "cite-190-2",
       "allOccurrences": [
         {
-          "line": 185,
-          "anchor": "cite-185-2"
+          "line": 190,
+          "anchor": "cite-190-2"
         }
       ]
     },

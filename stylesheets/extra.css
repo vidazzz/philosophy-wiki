@@ -75,6 +75,24 @@
   vertical-align: middle;
 }
 
+/* --- 边悬浮提示（自定义实现，避免 vis-network 内置 tooltip 刷新延迟） --- */
+.edge-hover {
+  position: fixed;
+  z-index: 999;
+  background: var(--md-default-bg-color);
+  color: var(--md-default-fg-color);
+  border: 1px solid var(--md-default-fg-color--light);
+  border-radius: 4px;
+  padding: 0.35rem 0.6rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  font-size: 0.82rem;
+  /* Don't intercept mouse events — the cursor must pass through to the
+     edge underneath so hover/blur keep firing correctly. */
+  pointer-events: none;
+  max-width: 320px;
+  line-height: 1.4;
+}
+
 /* --- 边点击预览选单（出现在点击的箭头旁边） --- */
 .edge-popup {
   position: fixed;
