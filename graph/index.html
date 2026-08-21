@@ -1820,9 +1820,16 @@
         opacity: isStub ? 0.55 : 1.0,
         highlight: { background: fill, border: '#000', opacity: 1.0 },
       },
-      // Hide the default label below the dot — Obsidian only labels on hover.
-      // We show the label as the hover title instead.
-      font: { color: theme.text, face: 'Noto Sans SC, sans-serif', size: 0 },
+      // Show the label below the dot (Obsidian style). Stub labels are
+      // slightly faded to match their dot opacity. Larger degree = more
+      // prominent label.
+      font: {
+        color: theme.text,
+        face: 'Noto Sans SC, sans-serif',
+        size: 12,
+        strokeWidth: 0,
+        strokeColor: 'transparent',
+      },
     };
   });
 
@@ -1840,12 +1847,14 @@
     firstLine: e.firstLine,
     firstAnchor: e.firstAnchor,
     allOccurrences: e.allOccurrences || [],
-    // Obsidian-style: NO ARROWS. Edges are undirected lines showing
-    // "these two pages reference each other", not directional flow.
+    // Obsidian-style: NO ARROWS in the visualization. Edges are
+    // undirected lines showing "these two pages reference each other".
+    // But the TOOLTIP keeps the arrow direction — the title is text,
+    // not the canvas, so direction is still discoverable on hover.
     arrows: '',
-    // No hover title — Obsidian doesn't label edges either. The edge
-    // click popup carries all the source/target context.
-    title: '',
+    // Hover tooltip: source → target + occurrence count + click hint.
+    // Desktop only — mobile has no hover (use long-press instead).
+    title: `${e.fromLabel} → ${e.toLabel}（${(e.allOccurrences || []).length} 处引用，点击查看）`,
     color: { color: theme.edge, highlight: theme.edgeHover, opacity: 0.6 },
     smooth: { type: 'continuous' },
     // Thinner than before (was 1.5). Obsidian uses hairline edges so
