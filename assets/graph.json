@@ -33,6 +33,14 @@
       "status": "stub"
     },
     {
+      "id": "一元论",
+      "label": "一元论",
+      "url": "concepts/一元论/",
+      "type": "concept",
+      "group": "concept",
+      "status": "stub"
+    },
+    {
       "id": "中庸",
       "label": "中庸",
       "url": "concepts/中庸/",
@@ -105,6 +113,14 @@
       "status": "stub"
     },
     {
+      "id": "神秘主义",
+      "label": "神秘主义",
+      "url": "concepts/神秘主义/",
+      "type": "concept",
+      "group": "concept",
+      "status": "stub"
+    },
+    {
       "id": "第一推动者",
       "label": "第一推动者",
       "url": "concepts/第一推动者/",
@@ -145,9 +161,33 @@
       "status": "stub"
     },
     {
+      "id": "希腊化时期",
+      "label": "希腊化时期",
+      "url": "periods/希腊化时期/",
+      "type": "period",
+      "group": "period",
+      "status": "stub"
+    },
+    {
       "id": "亚里士多德",
       "label": "亚里士多德",
       "url": "philosophers/亚里士多德/",
+      "type": "philosopher",
+      "group": "philosopher",
+      "status": "stub"
+    },
+    {
+      "id": "伊壁鸠鲁",
+      "label": "伊壁鸠鲁",
+      "url": "philosophers/伊壁鸠鲁/",
+      "type": "philosopher",
+      "group": "philosopher",
+      "status": "stub"
+    },
+    {
+      "id": "普罗提诺",
+      "label": "普罗提诺",
+      "url": "philosophers/普罗提诺/",
       "type": "philosopher",
       "group": "philosopher",
       "status": "stub"
@@ -177,6 +217,22 @@
       "status": "stub"
     },
     {
+      "id": "马可·奥勒留",
+      "label": "马可·奥勒留",
+      "url": "philosophers/马可·奥勒留/",
+      "type": "philosopher",
+      "group": "philosopher",
+      "status": "stub"
+    },
+    {
+      "id": "伊壁鸠鲁学派",
+      "label": "伊壁鸠鲁学派",
+      "url": "schools/伊壁鸠鲁学派/",
+      "type": "school",
+      "group": "school",
+      "status": "stub"
+    },
+    {
       "id": "斯多亚学派",
       "label": "斯多亚学派",
       "url": "schools/斯多亚学派/",
@@ -185,9 +241,25 @@
       "status": "stub"
     },
     {
+      "id": "新柏拉图学派",
+      "label": "新柏拉图学派",
+      "url": "schools/新柏拉图学派/",
+      "type": "school",
+      "group": "school",
+      "status": "stub"
+    },
+    {
       "id": "智者派",
       "label": "智者派",
       "url": "schools/智者派/",
+      "type": "school",
+      "group": "school",
+      "status": "stub"
+    },
+    {
+      "id": "犬儒学派",
+      "label": "犬儒学派",
+      "url": "schools/犬儒学派/",
       "type": "school",
       "group": "school",
       "status": "stub"
@@ -204,6 +276,14 @@
       "id": "平面国",
       "label": "平面国",
       "url": "works/平面国/",
+      "type": "work",
+      "group": "work",
+      "status": "stub"
+    },
+    {
+      "id": "沉思录",
+      "label": "沉思录",
+      "url": "works/沉思录/",
       "type": "work",
       "group": "work",
       "status": "stub"
@@ -250,12 +330,12 @@
       "toUrl": "graph/",
       "fromLabel": "Wiki 总索引",
       "toLabel": "知识图谱",
-      "firstLine": 94,
-      "firstAnchor": "cite-94-54",
+      "firstLine": 107,
+      "firstAnchor": "cite-107-75",
       "allOccurrences": [
         {
-          "line": 94,
-          "anchor": "cite-94-54"
+          "line": 107,
+          "anchor": "cite-107-75"
         }
       ]
     },
@@ -267,51 +347,76 @@
       "toUrl": "",
       "fromLabel": "Wiki 总索引",
       "toLabel": "wikilink",
-      "firstLine": 94,
-      "firstAnchor": "cite-94-55",
+      "firstLine": 107,
+      "firstAnchor": "cite-107-76",
       "allOccurrences": [
         {
-          "line": 94,
-          "anchor": "cite-94-55"
+          "line": 107,
+          "anchor": "cite-107-76"
         }
       ]
     },
     {
       "id": "e2",
       "from": "Wiki 总索引",
-      "to": "三段论",
+      "to": "一元论",
       "fromUrl": "",
-      "toUrl": "arguments/三段论/",
+      "toUrl": "concepts/一元论/",
       "fromLabel": "Wiki 总索引",
-      "toLabel": "三段论",
-      "firstLine": 75,
-      "firstAnchor": "cite-75-41",
+      "toLabel": "一元论",
+      "firstLine": 36,
+      "firstAnchor": "cite-36-23",
       "allOccurrences": [
         {
-          "line": 75,
-          "anchor": "cite-75-41"
+          "line": 36,
+          "anchor": "cite-36-23"
+        },
+        {
+          "line": 99,
+          "anchor": "cite-99-69"
+        },
+        {
+          "line": 101,
+          "anchor": "cite-101-74"
         }
       ]
     },
     {
       "id": "e3",
       "from": "Wiki 总索引",
-      "to": "中庸",
+      "to": "三段论",
       "fromUrl": "",
-      "toUrl": "concepts/中庸/",
+      "toUrl": "arguments/三段论/",
       "fromLabel": "Wiki 总索引",
-      "toLabel": "中庸",
-      "firstLine": 30,
-      "firstAnchor": "cite-30-16",
+      "toLabel": "三段论",
+      "firstLine": 85,
+      "firstAnchor": "cite-85-53",
       "allOccurrences": [
         {
-          "line": 30,
-          "anchor": "cite-30-16"
+          "line": 85,
+          "anchor": "cite-85-53"
         }
       ]
     },
     {
       "id": "e4",
+      "from": "Wiki 总索引",
+      "to": "中庸",
+      "fromUrl": "",
+      "toUrl": "concepts/中庸/",
+      "fromLabel": "Wiki 总索引",
+      "toLabel": "中庸",
+      "firstLine": 33,
+      "firstAnchor": "cite-33-20",
+      "allOccurrences": [
+        {
+          "line": 33,
+          "anchor": "cite-33-20"
+        }
+      ]
+    },
+    {
+      "id": "e5",
       "from": "Wiki 总索引",
       "to": "亚里士多德",
       "fromUrl": "",
@@ -326,309 +431,393 @@
           "anchor": "cite-13-3"
         },
         {
-          "line": 84,
-          "anchor": "cite-84-48"
-        }
-      ]
-    },
-    {
-      "id": "e5",
-      "from": "Wiki 总索引",
-      "to": "伊壁鸠鲁学派",
-      "fromUrl": "",
-      "toUrl": "",
-      "fromLabel": "Wiki 总索引",
-      "toLabel": "伊壁鸠鲁学派",
-      "firstLine": 62,
-      "firstAnchor": "cite-62-38",
-      "allOccurrences": [
-        {
-          "line": 62,
-          "anchor": "cite-62-38"
+          "line": 94,
+          "anchor": "cite-94-60"
         }
       ]
     },
     {
       "id": "e6",
       "from": "Wiki 总索引",
-      "to": "先验论",
+      "to": "伊壁鸠鲁",
       "fromUrl": "",
-      "toUrl": "concepts/先验论/",
+      "toUrl": "philosophers/伊壁鸠鲁/",
       "fromLabel": "Wiki 总索引",
-      "toLabel": "先验论",
-      "firstLine": 37,
-      "firstAnchor": "cite-37-23",
+      "toLabel": "伊壁鸠鲁",
+      "firstLine": 14,
+      "firstAnchor": "cite-14-4",
       "allOccurrences": [
         {
-          "line": 37,
-          "anchor": "cite-37-23"
-        },
-        {
-          "line": 82,
-          "anchor": "cite-82-43"
+          "line": 14,
+          "anchor": "cite-14-4"
         }
       ]
     },
     {
       "id": "e7",
       "from": "Wiki 总索引",
-      "to": "分有",
+      "to": "伊壁鸠鲁学派",
       "fromUrl": "",
-      "toUrl": "",
+      "toUrl": "schools/伊壁鸠鲁学派/",
       "fromLabel": "Wiki 总索引",
-      "toLabel": "分有",
-      "firstLine": 38,
-      "firstAnchor": "cite-38-24",
+      "toLabel": "伊壁鸠鲁学派",
+      "firstLine": 67,
+      "firstAnchor": "cite-67-45",
       "allOccurrences": [
         {
-          "line": 38,
-          "anchor": "cite-38-24"
+          "line": 67,
+          "anchor": "cite-67-45"
         }
       ]
     },
     {
       "id": "e8",
       "from": "Wiki 总索引",
-      "to": "分类学",
+      "to": "先验论",
       "fromUrl": "",
-      "toUrl": "concepts/分类学/",
+      "toUrl": "concepts/先验论/",
       "fromLabel": "Wiki 总索引",
-      "toLabel": "分类学",
-      "firstLine": 31,
-      "firstAnchor": "cite-31-17",
+      "toLabel": "先验论",
+      "firstLine": 42,
+      "firstAnchor": "cite-42-29",
       "allOccurrences": [
         {
-          "line": 31,
-          "anchor": "cite-31-17"
+          "line": 42,
+          "anchor": "cite-42-29"
+        },
+        {
+          "line": 92,
+          "anchor": "cite-92-55"
         }
       ]
     },
     {
       "id": "e9",
       "from": "Wiki 总索引",
-      "to": "前苏格拉底时期",
+      "to": "分有",
       "fromUrl": "",
-      "toUrl": "periods/前苏格拉底时期/",
+      "toUrl": "",
       "fromLabel": "Wiki 总索引",
-      "toLabel": "前苏格拉底时期",
-      "firstLine": 68,
-      "firstAnchor": "cite-68-39",
+      "toLabel": "分有",
+      "firstLine": 43,
+      "firstAnchor": "cite-43-30",
       "allOccurrences": [
         {
-          "line": 68,
-          "anchor": "cite-68-39"
-        },
-        {
-          "line": 81,
-          "anchor": "cite-81-42"
+          "line": 43,
+          "anchor": "cite-43-30"
         }
       ]
     },
     {
       "id": "e10",
       "from": "Wiki 总索引",
-      "to": "哲人王",
+      "to": "分类学",
       "fromUrl": "",
-      "toUrl": "",
+      "toUrl": "concepts/分类学/",
       "fromLabel": "Wiki 总索引",
-      "toLabel": "哲人王",
-      "firstLine": 39,
-      "firstAnchor": "cite-39-25",
+      "toLabel": "分类学",
+      "firstLine": 34,
+      "firstAnchor": "cite-34-21",
       "allOccurrences": [
         {
-          "line": 39,
-          "anchor": "cite-39-25"
+          "line": 34,
+          "anchor": "cite-34-21"
         }
       ]
     },
     {
       "id": "e11",
       "from": "Wiki 总索引",
-      "to": "善的理念",
+      "to": "前苏格拉底时期",
       "fromUrl": "",
-      "toUrl": "",
+      "toUrl": "periods/前苏格拉底时期/",
       "fromLabel": "Wiki 总索引",
-      "toLabel": "善的理念",
-      "firstLine": 40,
-      "firstAnchor": "cite-40-26",
+      "toLabel": "前苏格拉底时期",
+      "firstLine": 77,
+      "firstAnchor": "cite-77-50",
       "allOccurrences": [
         {
-          "line": 40,
-          "anchor": "cite-40-26"
+          "line": 77,
+          "anchor": "cite-77-50"
+        },
+        {
+          "line": 91,
+          "anchor": "cite-91-54"
         }
       ]
     },
     {
       "id": "e12",
       "from": "Wiki 总索引",
-      "to": "四因说",
+      "to": "哲人王",
       "fromUrl": "",
-      "toUrl": "concepts/四因说/",
+      "toUrl": "",
       "fromLabel": "Wiki 总索引",
-      "toLabel": "四因说",
-      "firstLine": 27,
-      "firstAnchor": "cite-27-13",
+      "toLabel": "哲人王",
+      "firstLine": 44,
+      "firstAnchor": "cite-44-31",
       "allOccurrences": [
         {
-          "line": 27,
-          "anchor": "cite-27-13"
-        },
-        {
-          "line": 86,
-          "anchor": "cite-86-51"
+          "line": 44,
+          "anchor": "cite-44-31"
         }
       ]
     },
     {
       "id": "e13",
       "from": "Wiki 总索引",
-      "to": "回忆说",
+      "to": "善的理念",
       "fromUrl": "",
-      "toUrl": "concepts/回忆说/",
+      "toUrl": "",
       "fromLabel": "Wiki 总索引",
-      "toLabel": "回忆说",
-      "firstLine": 36,
-      "firstAnchor": "cite-36-22",
+      "toLabel": "善的理念",
+      "firstLine": 45,
+      "firstAnchor": "cite-45-32",
       "allOccurrences": [
         {
-          "line": 36,
-          "anchor": "cite-36-22"
-        },
-        {
-          "line": 82,
-          "anchor": "cite-82-44"
+          "line": 45,
+          "anchor": "cite-45-32"
         }
       ]
     },
     {
       "id": "e14",
       "from": "Wiki 总索引",
-      "to": "塞涅卡",
+      "to": "四因说",
       "fromUrl": "",
-      "toUrl": "",
+      "toUrl": "concepts/四因说/",
       "fromLabel": "Wiki 总索引",
-      "toLabel": "塞涅卡",
-      "firstLine": 15,
-      "firstAnchor": "cite-15-5",
+      "toLabel": "四因说",
+      "firstLine": 30,
+      "firstAnchor": "cite-30-17",
       "allOccurrences": [
         {
-          "line": 15,
-          "anchor": "cite-15-5"
+          "line": 30,
+          "anchor": "cite-30-17"
+        },
+        {
+          "line": 96,
+          "anchor": "cite-96-63"
         }
       ]
     },
     {
       "id": "e15",
       "from": "Wiki 总索引",
-      "to": "平面国",
+      "to": "回忆说",
       "fromUrl": "",
-      "toUrl": "works/平面国/",
+      "toUrl": "concepts/回忆说/",
       "fromLabel": "Wiki 总索引",
-      "toLabel": "平面国",
-      "firstLine": 51,
-      "firstAnchor": "cite-51-32",
+      "toLabel": "回忆说",
+      "firstLine": 41,
+      "firstAnchor": "cite-41-28",
       "allOccurrences": [
         {
-          "line": 51,
-          "anchor": "cite-51-32"
+          "line": 41,
+          "anchor": "cite-41-28"
         },
         {
-          "line": 88,
-          "anchor": "cite-88-53"
+          "line": 92,
+          "anchor": "cite-92-56"
         }
       ]
     },
     {
       "id": "e16",
       "from": "Wiki 总索引",
-      "to": "康德",
+      "to": "塞涅卡",
       "fromUrl": "",
       "toUrl": "",
       "fromLabel": "Wiki 总索引",
-      "toLabel": "康德",
-      "firstLine": 18,
-      "firstAnchor": "cite-18-8",
+      "toLabel": "塞涅卡",
+      "firstLine": 17,
+      "firstAnchor": "cite-17-7",
       "allOccurrences": [
         {
-          "line": 18,
-          "anchor": "cite-18-8"
+          "line": 17,
+          "anchor": "cite-17-7"
         }
       ]
     },
     {
       "id": "e17",
       "from": "Wiki 总索引",
-      "to": "形式与质料",
+      "to": "希腊化时期",
       "fromUrl": "",
-      "toUrl": "concepts/形式与质料/",
+      "toUrl": "periods/希腊化时期/",
       "fromLabel": "Wiki 总索引",
-      "toLabel": "形式与质料",
-      "firstLine": 25,
-      "firstAnchor": "cite-25-11",
+      "toLabel": "希腊化时期",
+      "firstLine": 78,
+      "firstAnchor": "cite-78-51",
       "allOccurrences": [
         {
-          "line": 25,
-          "anchor": "cite-25-11"
-        },
-        {
-          "line": 26,
-          "anchor": "cite-26-12"
+          "line": 78,
+          "anchor": "cite-78-51"
         }
       ]
     },
     {
       "id": "e18",
       "from": "Wiki 总索引",
-      "to": "惊异",
+      "to": "平面国",
       "fromUrl": "",
-      "toUrl": "concepts/惊异/",
+      "toUrl": "works/平面国/",
       "fromLabel": "Wiki 总索引",
-      "toLabel": "惊异",
-      "firstLine": 34,
-      "firstAnchor": "cite-34-20",
+      "toLabel": "平面国",
+      "firstLine": 58,
+      "firstAnchor": "cite-58-41",
       "allOccurrences": [
         {
-          "line": 34,
-          "anchor": "cite-34-20"
+          "line": 58,
+          "anchor": "cite-58-41"
+        },
+        {
+          "line": 98,
+          "anchor": "cite-98-65"
         }
       ]
     },
     {
       "id": "e19",
       "from": "Wiki 总索引",
-      "to": "斯多亚学派",
+      "to": "康德",
       "fromUrl": "",
-      "toUrl": "schools/斯多亚学派/",
+      "toUrl": "",
       "fromLabel": "Wiki 总索引",
-      "toLabel": "斯多亚学派",
-      "firstLine": 59,
-      "firstAnchor": "cite-59-35",
+      "toLabel": "康德",
+      "firstLine": 21,
+      "firstAnchor": "cite-21-11",
       "allOccurrences": [
         {
-          "line": 59,
-          "anchor": "cite-59-35"
+          "line": 21,
+          "anchor": "cite-21-11"
         }
       ]
     },
     {
       "id": "e20",
       "from": "Wiki 总索引",
-      "to": "智者派",
+      "to": "形式与质料",
       "fromUrl": "",
-      "toUrl": "schools/智者派/",
+      "toUrl": "concepts/形式与质料/",
       "fromLabel": "Wiki 总索引",
-      "toLabel": "智者派",
-      "firstLine": 58,
-      "firstAnchor": "cite-58-34",
+      "toLabel": "形式与质料",
+      "firstLine": 28,
+      "firstAnchor": "cite-28-14",
       "allOccurrences": [
         {
-          "line": 58,
-          "anchor": "cite-58-34"
+          "line": 28,
+          "anchor": "cite-28-14"
+        },
+        {
+          "line": 29,
+          "anchor": "cite-29-16"
         }
       ]
     },
     {
       "id": "e21",
+      "from": "Wiki 总索引",
+      "to": "惊异",
+      "fromUrl": "",
+      "toUrl": "concepts/惊异/",
+      "fromLabel": "Wiki 总索引",
+      "toLabel": "惊异",
+      "firstLine": 39,
+      "firstAnchor": "cite-39-26",
+      "allOccurrences": [
+        {
+          "line": 39,
+          "anchor": "cite-39-26"
+        }
+      ]
+    },
+    {
+      "id": "e22",
+      "from": "Wiki 总索引",
+      "to": "斯多亚学派",
+      "fromUrl": "",
+      "toUrl": "schools/斯多亚学派/",
+      "fromLabel": "Wiki 总索引",
+      "toLabel": "斯多亚学派",
+      "firstLine": 66,
+      "firstAnchor": "cite-66-44",
+      "allOccurrences": [
+        {
+          "line": 66,
+          "anchor": "cite-66-44"
+        }
+      ]
+    },
+    {
+      "id": "e23",
+      "from": "Wiki 总索引",
+      "to": "新柏拉图学派",
+      "fromUrl": "",
+      "toUrl": "schools/新柏拉图学派/",
+      "fromLabel": "Wiki 总索引",
+      "toLabel": "新柏拉图学派",
+      "firstLine": 68,
+      "firstAnchor": "cite-68-46",
+      "allOccurrences": [
+        {
+          "line": 68,
+          "anchor": "cite-68-46"
+        },
+        {
+          "line": 101,
+          "anchor": "cite-101-73"
+        }
+      ]
+    },
+    {
+      "id": "e24",
+      "from": "Wiki 总索引",
+      "to": "普罗提诺",
+      "fromUrl": "",
+      "toUrl": "philosophers/普罗提诺/",
+      "fromLabel": "Wiki 总索引",
+      "toLabel": "普罗提诺",
+      "firstLine": 15,
+      "firstAnchor": "cite-15-5",
+      "allOccurrences": [
+        {
+          "line": 15,
+          "anchor": "cite-15-5"
+        },
+        {
+          "line": 28,
+          "anchor": "cite-28-15"
+        },
+        {
+          "line": 99,
+          "anchor": "cite-99-68"
+        },
+        {
+          "line": 101,
+          "anchor": "cite-101-72"
+        }
+      ]
+    },
+    {
+      "id": "e25",
+      "from": "Wiki 总索引",
+      "to": "智者派",
+      "fromUrl": "",
+      "toUrl": "schools/智者派/",
+      "fromLabel": "Wiki 总索引",
+      "toLabel": "智者派",
+      "firstLine": 69,
+      "firstAnchor": "cite-69-47",
+      "allOccurrences": [
+        {
+          "line": 69,
+          "anchor": "cite-69-47"
+        }
+      ]
+    },
+    {
+      "id": "e26",
       "from": "Wiki 总索引",
       "to": "柏拉图",
       "fromUrl": "",
@@ -643,188 +832,192 @@
           "anchor": "cite-12-2"
         },
         {
-          "line": 84,
-          "anchor": "cite-84-47"
-        }
-      ]
-    },
-    {
-      "id": "e22",
-      "from": "Wiki 总索引",
-      "to": "柏拉图学园",
-      "fromUrl": "",
-      "toUrl": "",
-      "fromLabel": "Wiki 总索引",
-      "toLabel": "柏拉图学园",
-      "firstLine": 60,
-      "firstAnchor": "cite-60-36",
-      "allOccurrences": [
-        {
-          "line": 60,
-          "anchor": "cite-60-36"
-        }
-      ]
-    },
-    {
-      "id": "e23",
-      "from": "Wiki 总索引",
-      "to": "洞穴比喻",
-      "fromUrl": "",
-      "toUrl": "arguments/洞穴比喻/",
-      "fromLabel": "Wiki 总索引",
-      "toLabel": "洞穴比喻",
-      "firstLine": 74,
-      "firstAnchor": "cite-74-40",
-      "allOccurrences": [
-        {
-          "line": 74,
-          "anchor": "cite-74-40"
-        }
-      ]
-    },
-    {
-      "id": "e24",
-      "from": "Wiki 总索引",
-      "to": "理念论",
-      "fromUrl": "",
-      "toUrl": "concepts/理念论/",
-      "fromLabel": "Wiki 总索引",
-      "toLabel": "理念论",
-      "firstLine": 25,
-      "firstAnchor": "cite-25-10",
-      "allOccurrences": [
-        {
-          "line": 25,
-          "anchor": "cite-25-10"
-        },
-        {
-          "line": 83,
-          "anchor": "cite-83-45"
-        }
-      ]
-    },
-    {
-      "id": "e25",
-      "from": "Wiki 总索引",
-      "to": "理想国",
-      "fromUrl": "",
-      "toUrl": "works/理想国/",
-      "fromLabel": "Wiki 总索引",
-      "toLabel": "理想国",
-      "firstLine": 47,
-      "firstAnchor": "cite-47-28",
-      "allOccurrences": [
-        {
-          "line": 47,
-          "anchor": "cite-47-28"
-        }
-      ]
-    },
-    {
-      "id": "e26",
-      "from": "Wiki 总索引",
-      "to": "目的因",
-      "fromUrl": "",
-      "toUrl": "concepts/目的因/",
-      "fromLabel": "Wiki 总索引",
-      "toLabel": "目的因",
-      "firstLine": 28,
-      "firstAnchor": "cite-28-14",
-      "allOccurrences": [
-        {
-          "line": 28,
-          "anchor": "cite-28-14"
-        },
-        {
-          "line": 86,
-          "anchor": "cite-86-50"
+          "line": 94,
+          "anchor": "cite-94-59"
         }
       ]
     },
     {
       "id": "e27",
       "from": "Wiki 总索引",
-      "to": "笛卡尔",
+      "to": "柏拉图学园",
       "fromUrl": "",
       "toUrl": "",
       "fromLabel": "Wiki 总索引",
-      "toLabel": "笛卡尔",
-      "firstLine": 16,
-      "firstAnchor": "cite-16-6",
+      "toLabel": "柏拉图学园",
+      "firstLine": 70,
+      "firstAnchor": "cite-70-48",
       "allOccurrences": [
         {
-          "line": 16,
-          "anchor": "cite-16-6"
+          "line": 70,
+          "anchor": "cite-70-48"
         }
       ]
     },
     {
       "id": "e28",
       "from": "Wiki 总索引",
-      "to": "第一推动者",
+      "to": "民胞物与",
       "fromUrl": "",
-      "toUrl": "concepts/第一推动者/",
+      "toUrl": "",
       "fromLabel": "Wiki 总索引",
-      "toLabel": "第一推动者",
-      "firstLine": 29,
-      "firstAnchor": "cite-29-15",
+      "toLabel": "民胞物与",
+      "firstLine": 47,
+      "firstAnchor": "cite-47-34",
       "allOccurrences": [
         {
-          "line": 29,
-          "anchor": "cite-29-15"
-        },
-        {
-          "line": 87,
-          "anchor": "cite-87-52"
+          "line": 47,
+          "anchor": "cite-47-34"
         }
       ]
     },
     {
       "id": "e29",
       "from": "Wiki 总索引",
-      "to": "米利都学派",
+      "to": "沉思录",
       "fromUrl": "",
-      "toUrl": "",
+      "toUrl": "works/沉思录/",
       "fromLabel": "Wiki 总索引",
-      "toLabel": "米利都学派",
-      "firstLine": 61,
-      "firstAnchor": "cite-61-37",
+      "toLabel": "沉思录",
+      "firstLine": 56,
+      "firstAnchor": "cite-56-38",
       "allOccurrences": [
         {
-          "line": 61,
-          "anchor": "cite-61-37"
+          "line": 56,
+          "anchor": "cite-56-38"
+        },
+        {
+          "line": 99,
+          "anchor": "cite-99-66"
         }
       ]
     },
     {
       "id": "e30",
       "from": "Wiki 总索引",
-      "to": "经验论",
+      "to": "洞穴比喻",
       "fromUrl": "",
-      "toUrl": "concepts/经验论/",
+      "toUrl": "arguments/洞穴比喻/",
       "fromLabel": "Wiki 总索引",
-      "toLabel": "经验论",
-      "firstLine": 32,
-      "firstAnchor": "cite-32-18",
+      "toLabel": "洞穴比喻",
+      "firstLine": 84,
+      "firstAnchor": "cite-84-52",
       "allOccurrences": [
         {
-          "line": 32,
-          "anchor": "cite-32-18"
-        },
-        {
-          "line": 85,
-          "anchor": "cite-85-49"
+          "line": 84,
+          "anchor": "cite-84-52"
         }
       ]
     },
     {
       "id": "e31",
       "from": "Wiki 总索引",
-      "to": "胡塞尔",
+      "to": "犬儒学派",
+      "fromUrl": "",
+      "toUrl": "schools/犬儒学派/",
+      "fromLabel": "Wiki 总索引",
+      "toLabel": "犬儒学派",
+      "firstLine": 65,
+      "firstAnchor": "cite-65-43",
+      "allOccurrences": [
+        {
+          "line": 65,
+          "anchor": "cite-65-43"
+        }
+      ]
+    },
+    {
+      "id": "e32",
+      "from": "Wiki 总索引",
+      "to": "理念论",
+      "fromUrl": "",
+      "toUrl": "concepts/理念论/",
+      "fromLabel": "Wiki 总索引",
+      "toLabel": "理念论",
+      "firstLine": 28,
+      "firstAnchor": "cite-28-13",
+      "allOccurrences": [
+        {
+          "line": 28,
+          "anchor": "cite-28-13"
+        },
+        {
+          "line": 93,
+          "anchor": "cite-93-57"
+        }
+      ]
+    },
+    {
+      "id": "e33",
+      "from": "Wiki 总索引",
+      "to": "理想国",
+      "fromUrl": "",
+      "toUrl": "works/理想国/",
+      "fromLabel": "Wiki 总索引",
+      "toLabel": "理想国",
+      "firstLine": 53,
+      "firstAnchor": "cite-53-35",
+      "allOccurrences": [
+        {
+          "line": 53,
+          "anchor": "cite-53-35"
+        }
+      ]
+    },
+    {
+      "id": "e34",
+      "from": "Wiki 总索引",
+      "to": "目的因",
+      "fromUrl": "",
+      "toUrl": "concepts/目的因/",
+      "fromLabel": "Wiki 总索引",
+      "toLabel": "目的因",
+      "firstLine": 31,
+      "firstAnchor": "cite-31-18",
+      "allOccurrences": [
+        {
+          "line": 31,
+          "anchor": "cite-31-18"
+        },
+        {
+          "line": 96,
+          "anchor": "cite-96-62"
+        }
+      ]
+    },
+    {
+      "id": "e35",
+      "from": "Wiki 总索引",
+      "to": "神秘主义",
+      "fromUrl": "",
+      "toUrl": "concepts/神秘主义/",
+      "fromLabel": "Wiki 总索引",
+      "toLabel": "神秘主义",
+      "firstLine": 37,
+      "firstAnchor": "cite-37-24",
+      "allOccurrences": [
+        {
+          "line": 37,
+          "anchor": "cite-37-24"
+        },
+        {
+          "line": 99,
+          "anchor": "cite-99-70"
+        },
+        {
+          "line": 100,
+          "anchor": "cite-100-71"
+        }
+      ]
+    },
+    {
+      "id": "e36",
+      "from": "Wiki 总索引",
+      "to": "笛卡尔",
       "fromUrl": "",
       "toUrl": "",
       "fromLabel": "Wiki 总索引",
-      "toLabel": "胡塞尔",
+      "toLabel": "笛卡尔",
       "firstLine": 19,
       "firstAnchor": "cite-19-9",
       "allOccurrences": [
@@ -835,41 +1028,117 @@
       ]
     },
     {
-      "id": "e32",
+      "id": "e37",
+      "from": "Wiki 总索引",
+      "to": "第一推动者",
+      "fromUrl": "",
+      "toUrl": "concepts/第一推动者/",
+      "fromLabel": "Wiki 总索引",
+      "toLabel": "第一推动者",
+      "firstLine": 32,
+      "firstAnchor": "cite-32-19",
+      "allOccurrences": [
+        {
+          "line": 32,
+          "anchor": "cite-32-19"
+        },
+        {
+          "line": 97,
+          "anchor": "cite-97-64"
+        }
+      ]
+    },
+    {
+      "id": "e38",
+      "from": "Wiki 总索引",
+      "to": "米利都学派",
+      "fromUrl": "",
+      "toUrl": "",
+      "fromLabel": "Wiki 总索引",
+      "toLabel": "米利都学派",
+      "firstLine": 71,
+      "firstAnchor": "cite-71-49",
+      "allOccurrences": [
+        {
+          "line": 71,
+          "anchor": "cite-71-49"
+        }
+      ]
+    },
+    {
+      "id": "e39",
+      "from": "Wiki 总索引",
+      "to": "经验论",
+      "fromUrl": "",
+      "toUrl": "concepts/经验论/",
+      "fromLabel": "Wiki 总索引",
+      "toLabel": "经验论",
+      "firstLine": 35,
+      "firstAnchor": "cite-35-22",
+      "allOccurrences": [
+        {
+          "line": 35,
+          "anchor": "cite-35-22"
+        },
+        {
+          "line": 95,
+          "anchor": "cite-95-61"
+        }
+      ]
+    },
+    {
+      "id": "e40",
+      "from": "Wiki 总索引",
+      "to": "胡塞尔",
+      "fromUrl": "",
+      "toUrl": "",
+      "fromLabel": "Wiki 总索引",
+      "toLabel": "胡塞尔",
+      "firstLine": 22,
+      "firstAnchor": "cite-22-12",
+      "allOccurrences": [
+        {
+          "line": 22,
+          "anchor": "cite-22-12"
+        }
+      ]
+    },
+    {
+      "id": "e41",
       "from": "Wiki 总索引",
       "to": "自然权利",
       "fromUrl": "",
       "toUrl": "",
       "fromLabel": "Wiki 总索引",
       "toLabel": "自然权利",
-      "firstLine": 41,
-      "firstAnchor": "cite-41-27",
+      "firstLine": 46,
+      "firstAnchor": "cite-46-33",
       "allOccurrences": [
         {
-          "line": 41,
-          "anchor": "cite-41-27"
+          "line": 46,
+          "anchor": "cite-46-33"
         }
       ]
     },
     {
-      "id": "e33",
+      "id": "e42",
       "from": "Wiki 总索引",
       "to": "自然法",
       "fromUrl": "",
       "toUrl": "concepts/自然法/",
       "fromLabel": "Wiki 总索引",
       "toLabel": "自然法",
-      "firstLine": 33,
-      "firstAnchor": "cite-33-19",
+      "firstLine": 38,
+      "firstAnchor": "cite-38-25",
       "allOccurrences": [
         {
-          "line": 33,
-          "anchor": "cite-33-19"
+          "line": 38,
+          "anchor": "cite-38-25"
         }
       ]
     },
     {
-      "id": "e34",
+      "id": "e43",
       "from": "Wiki 总索引",
       "to": "苏格拉底",
       "fromUrl": "",
@@ -884,153 +1153,901 @@
           "anchor": "cite-11-1"
         },
         {
-          "line": 83,
-          "anchor": "cite-83-46"
+          "line": 93,
+          "anchor": "cite-93-58"
         }
       ]
     },
     {
-      "id": "e35",
+      "id": "e44",
       "from": "Wiki 总索引",
       "to": "苏格拉底的转向",
       "fromUrl": "",
       "toUrl": "concepts/苏格拉底的转向/",
       "fromLabel": "Wiki 总索引",
       "toLabel": "苏格拉底的转向",
-      "firstLine": 35,
-      "firstAnchor": "cite-35-21",
+      "firstLine": 40,
+      "firstAnchor": "cite-40-27",
       "allOccurrences": [
         {
-          "line": 35,
-          "anchor": "cite-35-21"
+          "line": 40,
+          "anchor": "cite-40-27"
         }
       ]
     },
     {
-      "id": "e36",
+      "id": "e45",
       "from": "Wiki 总索引",
       "to": "苏菲的世界",
       "fromUrl": "",
       "toUrl": "works/苏菲的世界/",
       "fromLabel": "Wiki 总索引",
       "toLabel": "苏菲的世界",
-      "firstLine": 50,
-      "firstAnchor": "cite-50-31",
+      "firstLine": 57,
+      "firstAnchor": "cite-57-40",
       "allOccurrences": [
         {
-          "line": 50,
-          "anchor": "cite-50-31"
+          "line": 57,
+          "anchor": "cite-57-40"
         }
       ]
     },
     {
-      "id": "e37",
+      "id": "e46",
       "from": "Wiki 总索引",
       "to": "莱布尼茨",
       "fromUrl": "",
       "toUrl": "",
       "fromLabel": "Wiki 总索引",
       "toLabel": "莱布尼茨",
-      "firstLine": 17,
-      "firstAnchor": "cite-17-7",
+      "firstLine": 20,
+      "firstAnchor": "cite-20-10",
       "allOccurrences": [
         {
-          "line": 17,
-          "anchor": "cite-17-7"
+          "line": 20,
+          "anchor": "cite-20-10"
         }
       ]
     },
     {
-      "id": "e38",
+      "id": "e47",
       "from": "Wiki 总索引",
       "to": "西塞罗",
       "fromUrl": "",
       "toUrl": "philosophers/西塞罗/",
       "fromLabel": "Wiki 总索引",
       "toLabel": "西塞罗",
-      "firstLine": 14,
-      "firstAnchor": "cite-14-4",
+      "firstLine": 16,
+      "firstAnchor": "cite-16-6",
       "allOccurrences": [
         {
-          "line": 14,
-          "anchor": "cite-14-4"
+          "line": 16,
+          "anchor": "cite-16-6"
         }
       ]
     },
     {
-      "id": "e39",
+      "id": "e48",
       "from": "Wiki 总索引",
       "to": "论共和国",
       "fromUrl": "",
       "toUrl": "works/论共和国/",
       "fromLabel": "Wiki 总索引",
       "toLabel": "论共和国",
-      "firstLine": 48,
-      "firstAnchor": "cite-48-29",
+      "firstLine": 54,
+      "firstAnchor": "cite-54-36",
       "allOccurrences": [
         {
-          "line": 48,
-          "anchor": "cite-48-29"
+          "line": 54,
+          "anchor": "cite-54-36"
         }
       ]
     },
     {
-      "id": "e40",
+      "id": "e49",
       "from": "Wiki 总索引",
       "to": "论法律",
       "fromUrl": "",
       "toUrl": "works/论法律/",
       "fromLabel": "Wiki 总索引",
       "toLabel": "论法律",
-      "firstLine": 49,
-      "firstAnchor": "cite-49-30",
+      "firstLine": 55,
+      "firstAnchor": "cite-55-37",
       "allOccurrences": [
         {
-          "line": 49,
-          "anchor": "cite-49-30"
+          "line": 55,
+          "anchor": "cite-55-37"
         }
       ]
     },
     {
-      "id": "e41",
+      "id": "e50",
       "from": "Wiki 总索引",
       "to": "逍遥学派",
       "fromUrl": "",
       "toUrl": "schools/逍遥学派/",
       "fromLabel": "Wiki 总索引",
       "toLabel": "逍遥学派",
-      "firstLine": 57,
-      "firstAnchor": "cite-57-33",
+      "firstLine": 64,
+      "firstAnchor": "cite-64-42",
       "allOccurrences": [
         {
-          "line": 57,
-          "anchor": "cite-57-33"
+          "line": 64,
+          "anchor": "cite-64-42"
         }
       ]
     },
     {
-      "id": "e42",
+      "id": "e51",
       "from": "Wiki 总索引",
       "to": "链接",
       "fromUrl": "",
       "toUrl": "",
       "fromLabel": "Wiki 总索引",
       "toLabel": "链接",
-      "firstLine": 116,
-      "firstAnchor": "cite-116-56",
+      "firstLine": 130,
+      "firstAnchor": "cite-130-77",
       "allOccurrences": [
         {
-          "line": 116,
-          "anchor": "cite-116-56"
+          "line": 130,
+          "anchor": "cite-130-77"
         },
         {
-          "line": 117,
-          "anchor": "cite-117-57"
+          "line": 131,
+          "anchor": "cite-131-78"
         }
       ]
     },
     {
-      "id": "e44",
+      "id": "e52",
+      "from": "Wiki 总索引",
+      "to": "马可·奥勒留",
+      "fromUrl": "",
+      "toUrl": "philosophers/马可·奥勒留/",
+      "fromLabel": "Wiki 总索引",
+      "toLabel": "马可·奥勒留",
+      "firstLine": 18,
+      "firstAnchor": "cite-18-8",
+      "allOccurrences": [
+        {
+          "line": 18,
+          "anchor": "cite-18-8"
+        },
+        {
+          "line": 56,
+          "anchor": "cite-56-39"
+        },
+        {
+          "line": 99,
+          "anchor": "cite-99-67"
+        }
+      ]
+    },
+    {
+      "id": "e53",
+      "from": "一元论",
+      "to": "logos",
+      "fromUrl": "concepts/一元论/",
+      "toUrl": "",
+      "fromLabel": "一元论",
+      "toLabel": "logos",
+      "firstLine": 115,
+      "firstAnchor": "cite-115-42",
+      "allOccurrences": [
+        {
+          "line": 115,
+          "anchor": "cite-115-42"
+        }
+      ]
+    },
+    {
+      "id": "e55",
+      "from": "一元论",
+      "to": "二元论",
+      "fromUrl": "concepts/一元论/",
+      "toUrl": "",
+      "fromLabel": "一元论",
+      "toLabel": "二元论",
+      "firstLine": 3,
+      "firstAnchor": "cite-3-2",
+      "allOccurrences": [
+        {
+          "line": 3,
+          "anchor": "cite-3-2"
+        },
+        {
+          "line": 105,
+          "anchor": "cite-105-35"
+        }
+      ]
+    },
+    {
+      "id": "e56",
+      "from": "一元论",
+      "to": "伊壁鸠鲁学派",
+      "fromUrl": "concepts/一元论/",
+      "toUrl": "schools/伊壁鸠鲁学派/",
+      "fromLabel": "一元论",
+      "toLabel": "伊壁鸠鲁学派",
+      "firstLine": 31,
+      "firstAnchor": "cite-31-11",
+      "allOccurrences": [
+        {
+          "line": 31,
+          "anchor": "cite-31-11"
+        }
+      ]
+    },
+    {
+      "id": "e57",
+      "from": "一元论",
+      "to": "努斯",
+      "fromUrl": "concepts/一元论/",
+      "toUrl": "",
+      "fromLabel": "一元论",
+      "toLabel": "努斯",
+      "firstLine": 114,
+      "firstAnchor": "cite-114-41",
+      "allOccurrences": [
+        {
+          "line": 114,
+          "anchor": "cite-114-41"
+        }
+      ]
+    },
+    {
+      "id": "e58",
+      "from": "一元论",
+      "to": "商羯罗",
+      "fromUrl": "concepts/一元论/",
+      "toUrl": "",
+      "fromLabel": "一元论",
+      "toLabel": "商羯罗",
+      "firstLine": 64,
+      "firstAnchor": "cite-64-24",
+      "allOccurrences": [
+        {
+          "line": 64,
+          "anchor": "cite-64-24"
+        },
+        {
+          "line": 126,
+          "anchor": "cite-126-52"
+        }
+      ]
+    },
+    {
+      "id": "e59",
+      "from": "一元论",
+      "to": "太一",
+      "fromUrl": "concepts/一元论/",
+      "toUrl": "",
+      "fromLabel": "一元论",
+      "toLabel": "太一",
+      "firstLine": 112,
+      "firstAnchor": "cite-112-39",
+      "allOccurrences": [
+        {
+          "line": 112,
+          "anchor": "cite-112-39"
+        }
+      ]
+    },
+    {
+      "id": "e60",
+      "from": "一元论",
+      "to": "奥古斯丁",
+      "fromUrl": "concepts/一元论/",
+      "toUrl": "",
+      "fromLabel": "一元论",
+      "toLabel": "奥古斯丁",
+      "firstLine": 92,
+      "firstAnchor": "cite-92-34",
+      "allOccurrences": [
+        {
+          "line": 92,
+          "anchor": "cite-92-34"
+        }
+      ]
+    },
+    {
+      "id": "e61",
+      "from": "一元论",
+      "to": "威廉·詹姆斯",
+      "fromUrl": "concepts/一元论/",
+      "toUrl": "",
+      "fromLabel": "一元论",
+      "toLabel": "威廉·詹姆斯",
+      "firstLine": 132,
+      "firstAnchor": "cite-132-55",
+      "allOccurrences": [
+        {
+          "line": 132,
+          "anchor": "cite-132-55"
+        }
+      ]
+    },
+    {
+      "id": "e62",
+      "from": "一元论",
+      "to": "安乐哲",
+      "fromUrl": "concepts/一元论/",
+      "toUrl": "",
+      "fromLabel": "一元论",
+      "toLabel": "安乐哲",
+      "firstLine": 83,
+      "firstAnchor": "cite-83-33",
+      "allOccurrences": [
+        {
+          "line": 83,
+          "anchor": "cite-83-33"
+        }
+      ]
+    },
+    {
+      "id": "e63",
+      "from": "一元论",
+      "to": "庄子",
+      "fromUrl": "concepts/一元论/",
+      "toUrl": "",
+      "fromLabel": "一元论",
+      "toLabel": "庄子",
+      "firstLine": 80,
+      "firstAnchor": "cite-80-31",
+      "allOccurrences": [
+        {
+          "line": 80,
+          "anchor": "cite-80-31"
+        },
+        {
+          "line": 124,
+          "anchor": "cite-124-49"
+        }
+      ]
+    },
+    {
+      "id": "e64",
+      "from": "一元论",
+      "to": "德谟克利特",
+      "fromUrl": "concepts/一元论/",
+      "toUrl": "",
+      "fromLabel": "一元论",
+      "toLabel": "德谟克利特",
+      "firstLine": 31,
+      "firstAnchor": "cite-31-10",
+      "allOccurrences": [
+        {
+          "line": 31,
+          "anchor": "cite-31-10"
+        }
+      ]
+    },
+    {
+      "id": "e65",
+      "from": "一元论",
+      "to": "心物关系",
+      "fromUrl": "concepts/一元论/",
+      "toUrl": "",
+      "fromLabel": "一元论",
+      "toLabel": "心物关系",
+      "firstLine": 107,
+      "firstAnchor": "cite-107-37",
+      "allOccurrences": [
+        {
+          "line": 107,
+          "anchor": "cite-107-37"
+        }
+      ]
+    },
+    {
+      "id": "e66",
+      "from": "一元论",
+      "to": "怀特海",
+      "fromUrl": "concepts/一元论/",
+      "toUrl": "",
+      "fromLabel": "一元论",
+      "toLabel": "怀特海",
+      "firstLine": 59,
+      "firstAnchor": "cite-59-22",
+      "allOccurrences": [
+        {
+          "line": 59,
+          "anchor": "cite-59-22"
+        }
+      ]
+    },
+    {
+      "id": "e67",
+      "from": "一元论",
+      "to": "斯多亚学派",
+      "fromUrl": "concepts/一元论/",
+      "toUrl": "schools/斯多亚学派/",
+      "fromLabel": "一元论",
+      "toLabel": "斯多亚学派",
+      "firstLine": 21,
+      "firstAnchor": "cite-21-5",
+      "allOccurrences": [
+        {
+          "line": 21,
+          "anchor": "cite-21-5"
+        }
+      ]
+    },
+    {
+      "id": "e68",
+      "from": "一元论",
+      "to": "斯宾诺莎",
+      "fromUrl": "concepts/一元论/",
+      "toUrl": "",
+      "fromLabel": "一元论",
+      "toLabel": "斯宾诺莎",
+      "firstLine": 122,
+      "firstAnchor": "cite-122-46",
+      "allOccurrences": [
+        {
+          "line": 122,
+          "anchor": "cite-122-46"
+        }
+      ]
+    },
+    {
+      "id": "e69",
+      "from": "一元论",
+      "to": "新柏拉图学派",
+      "fromUrl": "concepts/一元论/",
+      "toUrl": "schools/新柏拉图学派/",
+      "fromLabel": "一元论",
+      "toLabel": "新柏拉图学派",
+      "firstLine": 21,
+      "firstAnchor": "cite-21-4",
+      "allOccurrences": [
+        {
+          "line": 21,
+          "anchor": "cite-21-4"
+        },
+        {
+          "line": 53,
+          "anchor": "cite-53-20"
+        }
+      ]
+    },
+    {
+      "id": "e70",
+      "from": "一元论",
+      "to": "普罗提诺",
+      "fromUrl": "concepts/一元论/",
+      "toUrl": "philosophers/普罗提诺/",
+      "fromLabel": "一元论",
+      "toLabel": "普罗提诺",
+      "firstLine": 53,
+      "firstAnchor": "cite-53-21",
+      "allOccurrences": [
+        {
+          "line": 53,
+          "anchor": "cite-53-21"
+        },
+        {
+          "line": 70,
+          "anchor": "cite-70-25"
+        },
+        {
+          "line": 76,
+          "anchor": "cite-76-26"
+        },
+        {
+          "line": 121,
+          "anchor": "cite-121-45"
+        }
+      ]
+    },
+    {
+      "id": "e71",
+      "from": "一元论",
+      "to": "本体论",
+      "fromUrl": "concepts/一元论/",
+      "toUrl": "",
+      "fromLabel": "一元论",
+      "toLabel": "本体论",
+      "firstLine": 108,
+      "firstAnchor": "cite-108-38",
+      "allOccurrences": [
+        {
+          "line": 108,
+          "anchor": "cite-108-38"
+        }
+      ]
+    },
+    {
+      "id": "e72",
+      "from": "一元论",
+      "to": "朱熹",
+      "fromUrl": "concepts/一元论/",
+      "toUrl": "",
+      "fromLabel": "一元论",
+      "toLabel": "朱熹",
+      "firstLine": 78,
+      "firstAnchor": "cite-78-28",
+      "allOccurrences": [
+        {
+          "line": 78,
+          "anchor": "cite-78-28"
+        },
+        {
+          "line": 125,
+          "anchor": "cite-125-50"
+        }
+      ]
+    },
+    {
+      "id": "e73",
+      "from": "一元论",
+      "to": "柏拉图",
+      "fromUrl": "concepts/一元论/",
+      "toUrl": "philosophers/柏拉图/",
+      "fromLabel": "一元论",
+      "toLabel": "柏拉图",
+      "firstLine": 3,
+      "firstAnchor": "cite-3-3",
+      "allOccurrences": [
+        {
+          "line": 3,
+          "anchor": "cite-3-3"
+        },
+        {
+          "line": 21,
+          "anchor": "cite-21-6"
+        },
+        {
+          "line": 39,
+          "anchor": "cite-39-15"
+        },
+        {
+          "line": 131,
+          "anchor": "cite-131-54"
+        }
+      ]
+    },
+    {
+      "id": "e74",
+      "from": "一元论",
+      "to": "柏格森",
+      "fromUrl": "concepts/一元论/",
+      "toUrl": "",
+      "fromLabel": "一元论",
+      "toLabel": "柏格森",
+      "firstLine": 59,
+      "firstAnchor": "cite-59-23",
+      "allOccurrences": [
+        {
+          "line": 59,
+          "anchor": "cite-59-23"
+        }
+      ]
+    },
+    {
+      "id": "e75",
+      "from": "一元论",
+      "to": "泛神论",
+      "fromUrl": "concepts/一元论/",
+      "toUrl": "",
+      "fromLabel": "一元论",
+      "toLabel": "泛神论",
+      "firstLine": 130,
+      "firstAnchor": "cite-130-53",
+      "allOccurrences": [
+        {
+          "line": 130,
+          "anchor": "cite-130-53"
+        }
+      ]
+    },
+    {
+      "id": "e76",
+      "from": "一元论",
+      "to": "流溢说",
+      "fromUrl": "concepts/一元论/",
+      "toUrl": "",
+      "fromLabel": "一元论",
+      "toLabel": "流溢说",
+      "firstLine": 113,
+      "firstAnchor": "cite-113-40",
+      "allOccurrences": [
+        {
+          "line": 113,
+          "anchor": "cite-113-40"
+        }
+      ]
+    },
+    {
+      "id": "e77",
+      "from": "一元论",
+      "to": "物质",
+      "fromUrl": "concepts/一元论/",
+      "toUrl": "",
+      "fromLabel": "一元论",
+      "toLabel": "物质",
+      "firstLine": 116,
+      "firstAnchor": "cite-116-43",
+      "allOccurrences": [
+        {
+          "line": 116,
+          "anchor": "cite-116-43"
+        }
+      ]
+    },
+    {
+      "id": "e78",
+      "from": "一元论",
+      "to": "王阳明",
+      "fromUrl": "concepts/一元论/",
+      "toUrl": "",
+      "fromLabel": "一元论",
+      "toLabel": "王阳明",
+      "firstLine": 78,
+      "firstAnchor": "cite-78-29",
+      "allOccurrences": [
+        {
+          "line": 78,
+          "anchor": "cite-78-29"
+        },
+        {
+          "line": 125,
+          "anchor": "cite-125-51"
+        }
+      ]
+    },
+    {
+      "id": "e79",
+      "from": "一元论",
+      "to": "理念论",
+      "fromUrl": "concepts/一元论/",
+      "toUrl": "concepts/理念论/",
+      "fromLabel": "一元论",
+      "toLabel": "理念论",
+      "firstLine": 21,
+      "firstAnchor": "cite-21-7",
+      "allOccurrences": [
+        {
+          "line": 21,
+          "anchor": "cite-21-7"
+        },
+        {
+          "line": 106,
+          "anchor": "cite-106-36"
+        }
+      ]
+    },
+    {
+      "id": "e80",
+      "from": "一元论",
+      "to": "笛卡尔",
+      "fromUrl": "concepts/一元论/",
+      "toUrl": "",
+      "fromLabel": "一元论",
+      "toLabel": "笛卡尔",
+      "firstLine": 21,
+      "firstAnchor": "cite-21-9",
+      "allOccurrences": [
+        {
+          "line": 21,
+          "anchor": "cite-21-9"
+        }
+      ]
+    },
+    {
+      "id": "e81",
+      "from": "一元论",
+      "to": "精神",
+      "fromUrl": "concepts/一元论/",
+      "toUrl": "",
+      "fromLabel": "一元论",
+      "toLabel": "精神",
+      "firstLine": 117,
+      "firstAnchor": "cite-117-44",
+      "allOccurrences": [
+        {
+          "line": 117,
+          "anchor": "cite-117-44"
+        }
+      ]
+    },
+    {
+      "id": "e82",
+      "from": "一元论",
+      "to": "老子",
+      "fromUrl": "concepts/一元论/",
+      "toUrl": "",
+      "fromLabel": "一元论",
+      "toLabel": "老子",
+      "firstLine": 78,
+      "firstAnchor": "cite-78-27",
+      "allOccurrences": [
+        {
+          "line": 78,
+          "anchor": "cite-78-27"
+        },
+        {
+          "line": 124,
+          "anchor": "cite-124-48"
+        }
+      ]
+    },
+    {
+      "id": "e83",
+      "from": "一元论",
+      "to": "詹姆斯",
+      "fromUrl": "concepts/一元论/",
+      "toUrl": "",
+      "fromLabel": "一元论",
+      "toLabel": "詹姆斯",
+      "firstLine": 47,
+      "firstAnchor": "cite-47-19",
+      "allOccurrences": [
+        {
+          "line": 47,
+          "anchor": "cite-47-19"
+        }
+      ]
+    },
+    {
+      "id": "e84",
+      "from": "一元论",
+      "to": "诺斯替主义",
+      "fromUrl": "concepts/一元论/",
+      "toUrl": "",
+      "fromLabel": "一元论",
+      "toLabel": "诺斯替主义",
+      "firstLine": 21,
+      "firstAnchor": "cite-21-8",
+      "allOccurrences": [
+        {
+          "line": 21,
+          "anchor": "cite-21-8"
+        }
+      ]
+    },
+    {
+      "id": "e85",
+      "from": "一元论",
+      "to": "贝克莱",
+      "fromUrl": "concepts/一元论/",
+      "toUrl": "",
+      "fromLabel": "一元论",
+      "toLabel": "贝克莱",
+      "firstLine": 40,
+      "firstAnchor": "cite-40-16",
+      "allOccurrences": [
+        {
+          "line": 40,
+          "anchor": "cite-40-16"
+        }
+      ]
+    },
+    {
+      "id": "e86",
+      "from": "一元论",
+      "to": "道德经",
+      "fromUrl": "concepts/一元论/",
+      "toUrl": "",
+      "fromLabel": "一元论",
+      "toLabel": "道德经",
+      "firstLine": 79,
+      "firstAnchor": "cite-79-30",
+      "allOccurrences": [
+        {
+          "line": 79,
+          "anchor": "cite-79-30"
+        }
+      ]
+    },
+    {
+      "id": "e87",
+      "from": "一元论",
+      "to": "郝大维",
+      "fromUrl": "concepts/一元论/",
+      "toUrl": "",
+      "fromLabel": "一元论",
+      "toLabel": "郝大维",
+      "firstLine": 83,
+      "firstAnchor": "cite-83-32",
+      "allOccurrences": [
+        {
+          "line": 83,
+          "anchor": "cite-83-32"
+        }
+      ]
+    },
+    {
+      "id": "e88",
+      "from": "一元论",
+      "to": "霍尔巴赫",
+      "fromUrl": "concepts/一元论/",
+      "toUrl": "",
+      "fromLabel": "一元论",
+      "toLabel": "霍尔巴赫",
+      "firstLine": 32,
+      "firstAnchor": "cite-32-13",
+      "allOccurrences": [
+        {
+          "line": 32,
+          "anchor": "cite-32-13"
+        }
+      ]
+    },
+    {
+      "id": "e89",
+      "from": "一元论",
+      "to": "霍布斯",
+      "fromUrl": "concepts/一元论/",
+      "toUrl": "",
+      "fromLabel": "一元论",
+      "toLabel": "霍布斯",
+      "firstLine": 32,
+      "firstAnchor": "cite-32-12",
+      "allOccurrences": [
+        {
+          "line": 32,
+          "anchor": "cite-32-12"
+        }
+      ]
+    },
+    {
+      "id": "e90",
+      "from": "一元论",
+      "to": "马克思",
+      "fromUrl": "concepts/一元论/",
+      "toUrl": "",
+      "fromLabel": "一元论",
+      "toLabel": "马克思",
+      "firstLine": 32,
+      "firstAnchor": "cite-32-14",
+      "allOccurrences": [
+        {
+          "line": 32,
+          "anchor": "cite-32-14"
+        }
+      ]
+    },
+    {
+      "id": "e91",
+      "from": "一元论",
+      "to": "马赫",
+      "fromUrl": "concepts/一元论/",
+      "toUrl": "",
+      "fromLabel": "一元论",
+      "toLabel": "马赫",
+      "firstLine": 47,
+      "firstAnchor": "cite-47-18",
+      "allOccurrences": [
+        {
+          "line": 47,
+          "anchor": "cite-47-18"
+        }
+      ]
+    },
+    {
+      "id": "e92",
+      "from": "一元论",
+      "to": "黑格尔",
+      "fromUrl": "concepts/一元论/",
+      "toUrl": "",
+      "fromLabel": "一元论",
+      "toLabel": "黑格尔",
+      "firstLine": 41,
+      "firstAnchor": "cite-41-17",
+      "allOccurrences": [
+        {
+          "line": 41,
+          "anchor": "cite-41-17"
+        },
+        {
+          "line": 123,
+          "anchor": "cite-123-47"
+        }
+      ]
+    },
+    {
+      "id": "e94",
       "from": "三段论",
       "to": "亚里士多德",
       "fromUrl": "arguments/三段论/",
@@ -1059,7 +2076,7 @@
       ]
     },
     {
-      "id": "e46",
+      "id": "e96",
       "from": "中庸",
       "to": "亚里士多德",
       "fromUrl": "concepts/中庸/",
@@ -1084,7 +2101,7 @@
       ]
     },
     {
-      "id": "e47",
+      "id": "e97",
       "from": "中庸",
       "to": "柏拉图",
       "fromUrl": "concepts/中庸/",
@@ -1105,7 +2122,7 @@
       ]
     },
     {
-      "id": "e48",
+      "id": "e98",
       "from": "中庸",
       "to": "目的因",
       "fromUrl": "concepts/中庸/",
@@ -1126,7 +2143,7 @@
       ]
     },
     {
-      "id": "e49",
+      "id": "e99",
       "from": "亚里士多德",
       "to": "三段论",
       "fromUrl": "philosophers/亚里士多德/",
@@ -1151,7 +2168,7 @@
       ]
     },
     {
-      "id": "e50",
+      "id": "e100",
       "from": "亚里士多德",
       "to": "中庸",
       "fromUrl": "philosophers/亚里士多德/",
@@ -1176,7 +2193,7 @@
       ]
     },
     {
-      "id": "e52",
+      "id": "e102",
       "from": "亚里士多德",
       "to": "先验论",
       "fromUrl": "philosophers/亚里士多德/",
@@ -1201,7 +2218,7 @@
       ]
     },
     {
-      "id": "e53",
+      "id": "e103",
       "from": "亚里士多德",
       "to": "分类学",
       "fromUrl": "philosophers/亚里士多德/",
@@ -1218,7 +2235,7 @@
       ]
     },
     {
-      "id": "e54",
+      "id": "e104",
       "from": "亚里士多德",
       "to": "哲人王",
       "fromUrl": "philosophers/亚里士多德/",
@@ -1235,7 +2252,7 @@
       ]
     },
     {
-      "id": "e55",
+      "id": "e105",
       "from": "亚里士多德",
       "to": "四因说",
       "fromUrl": "philosophers/亚里士多德/",
@@ -1256,7 +2273,7 @@
       ]
     },
     {
-      "id": "e56",
+      "id": "e106",
       "from": "亚里士多德",
       "to": "回忆说",
       "fromUrl": "philosophers/亚里士多德/",
@@ -1277,7 +2294,7 @@
       ]
     },
     {
-      "id": "e57",
+      "id": "e107",
       "from": "亚里士多德",
       "to": "平面国",
       "fromUrl": "philosophers/亚里士多德/",
@@ -1294,7 +2311,7 @@
       ]
     },
     {
-      "id": "e58",
+      "id": "e108",
       "from": "亚里士多德",
       "to": "形式与质料",
       "fromUrl": "philosophers/亚里士多德/",
@@ -1311,7 +2328,7 @@
       ]
     },
     {
-      "id": "e59",
+      "id": "e109",
       "from": "亚里士多德",
       "to": "柏拉图",
       "fromUrl": "philosophers/亚里士多德/",
@@ -1344,7 +2361,7 @@
       ]
     },
     {
-      "id": "e60",
+      "id": "e110",
       "from": "亚里士多德",
       "to": "柏拉图学园",
       "fromUrl": "philosophers/亚里士多德/",
@@ -1361,7 +2378,7 @@
       ]
     },
     {
-      "id": "e61",
+      "id": "e111",
       "from": "亚里士多德",
       "to": "理念论",
       "fromUrl": "philosophers/亚里士多德/",
@@ -1382,7 +2399,7 @@
       ]
     },
     {
-      "id": "e62",
+      "id": "e112",
       "from": "亚里士多德",
       "to": "目的因",
       "fromUrl": "philosophers/亚里士多德/",
@@ -1399,7 +2416,7 @@
       ]
     },
     {
-      "id": "e63",
+      "id": "e113",
       "from": "亚里士多德",
       "to": "第一推动者",
       "fromUrl": "philosophers/亚里士多德/",
@@ -1416,7 +2433,7 @@
       ]
     },
     {
-      "id": "e64",
+      "id": "e114",
       "from": "亚里士多德",
       "to": "苏格拉底",
       "fromUrl": "philosophers/亚里士多德/",
@@ -1433,7 +2450,7 @@
       ]
     },
     {
-      "id": "e65",
+      "id": "e115",
       "from": "亚里士多德",
       "to": "西塞罗",
       "fromUrl": "philosophers/亚里士多德/",
@@ -1450,7 +2467,7 @@
       ]
     },
     {
-      "id": "e66",
+      "id": "e116",
       "from": "亚里士多德",
       "to": "逍遥学派",
       "fromUrl": "philosophers/亚里士多德/",
@@ -1471,7 +2488,748 @@
       ]
     },
     {
-      "id": "e67",
+      "id": "e118",
+      "from": "伊壁鸠鲁",
+      "to": "伊壁鸠鲁学派",
+      "fromUrl": "philosophers/伊壁鸠鲁/",
+      "toUrl": "schools/伊壁鸠鲁学派/",
+      "fromLabel": "伊壁鸠鲁",
+      "toLabel": "伊壁鸠鲁学派",
+      "firstLine": 7,
+      "firstAnchor": "cite-7-3",
+      "allOccurrences": [
+        {
+          "line": 7,
+          "anchor": "cite-7-3"
+        },
+        {
+          "line": 158,
+          "anchor": "cite-158-34"
+        }
+      ]
+    },
+    {
+      "id": "e119",
+      "from": "伊壁鸠鲁",
+      "to": "伊多墨纽斯",
+      "fromUrl": "philosophers/伊壁鸠鲁/",
+      "toUrl": "",
+      "fromLabel": "伊壁鸠鲁",
+      "toLabel": "伊多墨纽斯",
+      "firstLine": 13,
+      "firstAnchor": "cite-13-6",
+      "allOccurrences": [
+        {
+          "line": 13,
+          "anchor": "cite-13-6"
+        }
+      ]
+    },
+    {
+      "id": "e120",
+      "from": "伊壁鸠鲁",
+      "to": "伽桑狄",
+      "fromUrl": "philosophers/伊壁鸠鲁/",
+      "toUrl": "",
+      "fromLabel": "伊壁鸠鲁",
+      "toLabel": "伽桑狄",
+      "firstLine": 123,
+      "firstAnchor": "cite-123-16",
+      "allOccurrences": [
+        {
+          "line": 123,
+          "anchor": "cite-123-16"
+        },
+        {
+          "line": 140,
+          "anchor": "cite-140-29"
+        }
+      ]
+    },
+    {
+      "id": "e121",
+      "from": "伊壁鸠鲁",
+      "to": "卢克莱修",
+      "fromUrl": "philosophers/伊壁鸠鲁/",
+      "toUrl": "",
+      "fromLabel": "伊壁鸠鲁",
+      "toLabel": "卢克莱修",
+      "firstLine": 19,
+      "firstAnchor": "cite-19-8",
+      "allOccurrences": [
+        {
+          "line": 19,
+          "anchor": "cite-19-8"
+        },
+        {
+          "line": 99,
+          "anchor": "cite-99-11"
+        },
+        {
+          "line": 110,
+          "anchor": "cite-110-12"
+        },
+        {
+          "line": 140,
+          "anchor": "cite-140-28"
+        },
+        {
+          "line": 152,
+          "anchor": "cite-152-33"
+        }
+      ]
+    },
+    {
+      "id": "e122",
+      "from": "伊壁鸠鲁",
+      "to": "原子论",
+      "fromUrl": "philosophers/伊壁鸠鲁/",
+      "toUrl": "",
+      "fromLabel": "伊壁鸠鲁",
+      "toLabel": "原子论",
+      "firstLine": 77,
+      "firstAnchor": "cite-77-10",
+      "allOccurrences": [
+        {
+          "line": 77,
+          "anchor": "cite-77-10"
+        },
+        {
+          "line": 136,
+          "anchor": "cite-136-22"
+        }
+      ]
+    },
+    {
+      "id": "e123",
+      "from": "伊壁鸠鲁",
+      "to": "希腊化时期",
+      "fromUrl": "philosophers/伊壁鸠鲁/",
+      "toUrl": "periods/希腊化时期/",
+      "fromLabel": "伊壁鸠鲁",
+      "toLabel": "希腊化时期",
+      "firstLine": 7,
+      "firstAnchor": "cite-7-4",
+      "allOccurrences": [
+        {
+          "line": 7,
+          "anchor": "cite-7-4"
+        }
+      ]
+    },
+    {
+      "id": "e124",
+      "from": "伊壁鸠鲁",
+      "to": "形而上学",
+      "fromUrl": "philosophers/伊壁鸠鲁/",
+      "toUrl": "",
+      "fromLabel": "伊壁鸠鲁",
+      "toLabel": "形而上学",
+      "firstLine": 123,
+      "firstAnchor": "cite-123-18",
+      "allOccurrences": [
+        {
+          "line": 123,
+          "anchor": "cite-123-18"
+        }
+      ]
+    },
+    {
+      "id": "e125",
+      "from": "伊壁鸠鲁",
+      "to": "德谟克利特",
+      "fromUrl": "philosophers/伊壁鸠鲁/",
+      "toUrl": "",
+      "fromLabel": "伊壁鸠鲁",
+      "toLabel": "德谟克利特",
+      "firstLine": 77,
+      "firstAnchor": "cite-77-9",
+      "allOccurrences": [
+        {
+          "line": 77,
+          "anchor": "cite-77-9"
+        },
+        {
+          "line": 136,
+          "anchor": "cite-136-21"
+        },
+        {
+          "line": 137,
+          "anchor": "cite-137-24"
+        }
+      ]
+    },
+    {
+      "id": "e126",
+      "from": "伊壁鸠鲁",
+      "to": "斯多亚学派",
+      "fromUrl": "philosophers/伊壁鸠鲁/",
+      "toUrl": "schools/斯多亚学派/",
+      "fromLabel": "伊壁鸠鲁",
+      "toLabel": "斯多亚学派",
+      "firstLine": 118,
+      "firstAnchor": "cite-118-14",
+      "allOccurrences": [
+        {
+          "line": 118,
+          "anchor": "cite-118-14"
+        },
+        {
+          "line": 138,
+          "anchor": "cite-138-25"
+        }
+      ]
+    },
+    {
+      "id": "e127",
+      "from": "伊壁鸠鲁",
+      "to": "柏拉图",
+      "fromUrl": "philosophers/伊壁鸠鲁/",
+      "toUrl": "philosophers/柏拉图/",
+      "fromLabel": "伊壁鸠鲁",
+      "toLabel": "柏拉图",
+      "firstLine": 10,
+      "firstAnchor": "cite-10-5",
+      "allOccurrences": [
+        {
+          "line": 10,
+          "anchor": "cite-10-5"
+        },
+        {
+          "line": 139,
+          "anchor": "cite-139-26"
+        }
+      ]
+    },
+    {
+      "id": "e128",
+      "from": "伊壁鸠鲁",
+      "to": "柏拉图学园",
+      "fromUrl": "philosophers/伊壁鸠鲁/",
+      "toUrl": "",
+      "fromLabel": "伊壁鸠鲁",
+      "toLabel": "柏拉图学园",
+      "firstLine": 137,
+      "firstAnchor": "cite-137-23",
+      "allOccurrences": [
+        {
+          "line": 137,
+          "anchor": "cite-137-23"
+        }
+      ]
+    },
+    {
+      "id": "e129",
+      "from": "伊壁鸠鲁",
+      "to": "查斯丁",
+      "fromUrl": "philosophers/伊壁鸠鲁/",
+      "toUrl": "",
+      "fromLabel": "伊壁鸠鲁",
+      "toLabel": "查斯丁",
+      "firstLine": 119,
+      "firstAnchor": "cite-119-15",
+      "allOccurrences": [
+        {
+          "line": 119,
+          "anchor": "cite-119-15"
+        }
+      ]
+    },
+    {
+      "id": "e130",
+      "from": "伊壁鸠鲁",
+      "to": "洛克",
+      "fromUrl": "philosophers/伊壁鸠鲁/",
+      "toUrl": "",
+      "fromLabel": "伊壁鸠鲁",
+      "toLabel": "洛克",
+      "firstLine": 124,
+      "firstAnchor": "cite-124-19",
+      "allOccurrences": [
+        {
+          "line": 124,
+          "anchor": "cite-124-19"
+        },
+        {
+          "line": 140,
+          "anchor": "cite-140-30"
+        }
+      ]
+    },
+    {
+      "id": "e131",
+      "from": "伊壁鸠鲁",
+      "to": "理念论",
+      "fromUrl": "philosophers/伊壁鸠鲁/",
+      "toUrl": "concepts/理念论/",
+      "fromLabel": "伊壁鸠鲁",
+      "toLabel": "理念论",
+      "firstLine": 139,
+      "firstAnchor": "cite-139-27",
+      "allOccurrences": [
+        {
+          "line": 139,
+          "anchor": "cite-139-27"
+        }
+      ]
+    },
+    {
+      "id": "e132",
+      "from": "伊壁鸠鲁",
+      "to": "笛卡尔",
+      "fromUrl": "philosophers/伊壁鸠鲁/",
+      "toUrl": "",
+      "fromLabel": "伊壁鸠鲁",
+      "toLabel": "笛卡尔",
+      "firstLine": 123,
+      "firstAnchor": "cite-123-17",
+      "allOccurrences": [
+        {
+          "line": 123,
+          "anchor": "cite-123-17"
+        }
+      ]
+    },
+    {
+      "id": "e133",
+      "from": "伊壁鸠鲁",
+      "to": "第欧根尼·拉尔久",
+      "fromUrl": "philosophers/伊壁鸠鲁/",
+      "toUrl": "",
+      "fromLabel": "伊壁鸠鲁",
+      "toLabel": "第欧根尼·拉尔久",
+      "firstLine": 151,
+      "firstAnchor": "cite-151-32",
+      "allOccurrences": [
+        {
+          "line": 151,
+          "anchor": "cite-151-32"
+        }
+      ]
+    },
+    {
+      "id": "e134",
+      "from": "伊壁鸠鲁",
+      "to": "第欧根尼·拉尔修",
+      "fromUrl": "philosophers/伊壁鸠鲁/",
+      "toUrl": "",
+      "fromLabel": "伊壁鸠鲁",
+      "toLabel": "第欧根尼·拉尔修",
+      "firstLine": 18,
+      "firstAnchor": "cite-18-7",
+      "allOccurrences": [
+        {
+          "line": 18,
+          "anchor": "cite-18-7"
+        },
+        {
+          "line": 111,
+          "anchor": "cite-111-13"
+        }
+      ]
+    },
+    {
+      "id": "e135",
+      "from": "伊壁鸠鲁",
+      "to": "马克思",
+      "fromUrl": "philosophers/伊壁鸠鲁/",
+      "toUrl": "",
+      "fromLabel": "伊壁鸠鲁",
+      "toLabel": "马克思",
+      "firstLine": 126,
+      "firstAnchor": "cite-126-20",
+      "allOccurrences": [
+        {
+          "line": 126,
+          "anchor": "cite-126-20"
+        },
+        {
+          "line": 140,
+          "anchor": "cite-140-31"
+        }
+      ]
+    },
+    {
+      "id": "e136",
+      "from": "伊壁鸠鲁学派",
+      "to": "clinamen",
+      "fromUrl": "schools/伊壁鸠鲁学派/",
+      "toUrl": "",
+      "fromLabel": "伊壁鸠鲁学派",
+      "toLabel": "clinamen",
+      "firstLine": 117,
+      "firstAnchor": "cite-117-23",
+      "allOccurrences": [
+        {
+          "line": 117,
+          "anchor": "cite-117-23"
+        }
+      ]
+    },
+    {
+      "id": "e137",
+      "from": "伊壁鸠鲁学派",
+      "to": "不动心",
+      "fromUrl": "schools/伊壁鸠鲁学派/",
+      "toUrl": "",
+      "fromLabel": "伊壁鸠鲁学派",
+      "toLabel": "不动心",
+      "firstLine": 115,
+      "firstAnchor": "cite-115-21",
+      "allOccurrences": [
+        {
+          "line": 115,
+          "anchor": "cite-115-21"
+        }
+      ]
+    },
+    {
+      "id": "e138",
+      "from": "伊壁鸠鲁学派",
+      "to": "伊壁鸠鲁",
+      "fromUrl": "schools/伊壁鸠鲁学派/",
+      "toUrl": "philosophers/伊壁鸠鲁/",
+      "fromLabel": "伊壁鸠鲁学派",
+      "toLabel": "伊壁鸠鲁",
+      "firstLine": 7,
+      "firstAnchor": "cite-7-3",
+      "allOccurrences": [
+        {
+          "line": 7,
+          "anchor": "cite-7-3"
+        },
+        {
+          "line": 124,
+          "anchor": "cite-124-27"
+        },
+        {
+          "line": 144,
+          "anchor": "cite-144-33"
+        }
+      ]
+    },
+    {
+      "id": "e140",
+      "from": "伊壁鸠鲁学派",
+      "to": "伽桑狄",
+      "fromUrl": "schools/伊壁鸠鲁学派/",
+      "toUrl": "",
+      "fromLabel": "伊壁鸠鲁学派",
+      "toLabel": "伽桑狄",
+      "firstLine": 107,
+      "firstAnchor": "cite-107-18",
+      "allOccurrences": [
+        {
+          "line": 107,
+          "anchor": "cite-107-18"
+        },
+        {
+          "line": 126,
+          "anchor": "cite-126-29"
+        }
+      ]
+    },
+    {
+      "id": "e141",
+      "from": "伊壁鸠鲁学派",
+      "to": "卢克莱修",
+      "fromUrl": "schools/伊壁鸠鲁学派/",
+      "toUrl": "",
+      "fromLabel": "伊壁鸠鲁学派",
+      "toLabel": "卢克莱修",
+      "firstLine": 10,
+      "firstAnchor": "cite-10-4",
+      "allOccurrences": [
+        {
+          "line": 10,
+          "anchor": "cite-10-4"
+        },
+        {
+          "line": 79,
+          "anchor": "cite-79-8"
+        },
+        {
+          "line": 125,
+          "anchor": "cite-125-28"
+        },
+        {
+          "line": 145,
+          "anchor": "cite-145-34"
+        }
+      ]
+    },
+    {
+      "id": "e142",
+      "from": "伊壁鸠鲁学派",
+      "to": "原子论",
+      "fromUrl": "schools/伊壁鸠鲁学派/",
+      "toUrl": "",
+      "fromLabel": "伊壁鸠鲁学派",
+      "toLabel": "原子论",
+      "firstLine": 65,
+      "firstAnchor": "cite-65-7",
+      "allOccurrences": [
+        {
+          "line": 65,
+          "anchor": "cite-65-7"
+        },
+        {
+          "line": 116,
+          "anchor": "cite-116-22"
+        }
+      ]
+    },
+    {
+      "id": "e143",
+      "from": "伊壁鸠鲁学派",
+      "to": "友谊",
+      "fromUrl": "schools/伊壁鸠鲁学派/",
+      "toUrl": "",
+      "fromLabel": "伊壁鸠鲁学派",
+      "toLabel": "友谊",
+      "firstLine": 119,
+      "firstAnchor": "cite-119-25",
+      "allOccurrences": [
+        {
+          "line": 119,
+          "anchor": "cite-119-25"
+        }
+      ]
+    },
+    {
+      "id": "e144",
+      "from": "伊壁鸠鲁学派",
+      "to": "四种草药",
+      "fromUrl": "schools/伊壁鸠鲁学派/",
+      "toUrl": "",
+      "fromLabel": "伊壁鸠鲁学派",
+      "toLabel": "四种草药",
+      "firstLine": 118,
+      "firstAnchor": "cite-118-24",
+      "allOccurrences": [
+        {
+          "line": 118,
+          "anchor": "cite-118-24"
+        }
+      ]
+    },
+    {
+      "id": "e145",
+      "from": "伊壁鸠鲁学派",
+      "to": "希腊化时期",
+      "fromUrl": "schools/伊壁鸠鲁学派/",
+      "toUrl": "periods/希腊化时期/",
+      "fromLabel": "伊壁鸠鲁学派",
+      "toLabel": "希腊化时期",
+      "firstLine": 3,
+      "firstAnchor": "cite-3-2",
+      "allOccurrences": [
+        {
+          "line": 3,
+          "anchor": "cite-3-2"
+        }
+      ]
+    },
+    {
+      "id": "e146",
+      "from": "伊壁鸠鲁学派",
+      "to": "德谟克利特",
+      "fromUrl": "schools/伊壁鸠鲁学派/",
+      "toUrl": "",
+      "fromLabel": "伊壁鸠鲁学派",
+      "toLabel": "德谟克利特",
+      "firstLine": 65,
+      "firstAnchor": "cite-65-6",
+      "allOccurrences": [
+        {
+          "line": 65,
+          "anchor": "cite-65-6"
+        },
+        {
+          "line": 97,
+          "anchor": "cite-97-12"
+        },
+        {
+          "line": 123,
+          "anchor": "cite-123-26"
+        }
+      ]
+    },
+    {
+      "id": "e147",
+      "from": "伊壁鸠鲁学派",
+      "to": "快乐",
+      "fromUrl": "schools/伊壁鸠鲁学派/",
+      "toUrl": "",
+      "fromLabel": "伊壁鸠鲁学派",
+      "toLabel": "快乐",
+      "firstLine": 114,
+      "firstAnchor": "cite-114-20",
+      "allOccurrences": [
+        {
+          "line": 114,
+          "anchor": "cite-114-20"
+        }
+      ]
+    },
+    {
+      "id": "e148",
+      "from": "伊壁鸠鲁学派",
+      "to": "斯多亚学派",
+      "fromUrl": "schools/伊壁鸠鲁学派/",
+      "toUrl": "schools/斯多亚学派/",
+      "fromLabel": "伊壁鸠鲁学派",
+      "toLabel": "斯多亚学派",
+      "firstLine": 84,
+      "firstAnchor": "cite-84-9",
+      "allOccurrences": [
+        {
+          "line": 84,
+          "anchor": "cite-84-9"
+        },
+        {
+          "line": 130,
+          "anchor": "cite-130-30"
+        }
+      ]
+    },
+    {
+      "id": "e149",
+      "from": "伊壁鸠鲁学派",
+      "to": "柏拉图",
+      "fromUrl": "schools/伊壁鸠鲁学派/",
+      "toUrl": "philosophers/柏拉图/",
+      "fromLabel": "伊壁鸠鲁学派",
+      "toLabel": "柏拉图",
+      "firstLine": 95,
+      "firstAnchor": "cite-95-10",
+      "allOccurrences": [
+        {
+          "line": 95,
+          "anchor": "cite-95-10"
+        },
+        {
+          "line": 97,
+          "anchor": "cite-97-11"
+        },
+        {
+          "line": 99,
+          "anchor": "cite-99-14"
+        }
+      ]
+    },
+    {
+      "id": "e150",
+      "from": "伊壁鸠鲁学派",
+      "to": "柏拉图学园",
+      "fromUrl": "schools/伊壁鸠鲁学派/",
+      "toUrl": "",
+      "fromLabel": "伊壁鸠鲁学派",
+      "toLabel": "柏拉图学园",
+      "firstLine": 132,
+      "firstAnchor": "cite-132-32",
+      "allOccurrences": [
+        {
+          "line": 132,
+          "anchor": "cite-132-32"
+        }
+      ]
+    },
+    {
+      "id": "e151",
+      "from": "伊壁鸠鲁学派",
+      "to": "洛克",
+      "fromUrl": "schools/伊壁鸠鲁学派/",
+      "toUrl": "",
+      "fromLabel": "伊壁鸠鲁学派",
+      "toLabel": "洛克",
+      "firstLine": 107,
+      "firstAnchor": "cite-107-19",
+      "allOccurrences": [
+        {
+          "line": 107,
+          "anchor": "cite-107-19"
+        }
+      ]
+    },
+    {
+      "id": "e152",
+      "from": "伊壁鸠鲁学派",
+      "to": "犬儒学派",
+      "fromUrl": "schools/伊壁鸠鲁学派/",
+      "toUrl": "schools/犬儒学派/",
+      "fromLabel": "伊壁鸠鲁学派",
+      "toLabel": "犬儒学派",
+      "firstLine": 101,
+      "firstAnchor": "cite-101-15",
+      "allOccurrences": [
+        {
+          "line": 101,
+          "anchor": "cite-101-15"
+        },
+        {
+          "line": 103,
+          "anchor": "cite-103-16"
+        },
+        {
+          "line": 131,
+          "anchor": "cite-131-31"
+        }
+      ]
+    },
+    {
+      "id": "e153",
+      "from": "伊壁鸠鲁学派",
+      "to": "理念论",
+      "fromUrl": "schools/伊壁鸠鲁学派/",
+      "toUrl": "concepts/理念论/",
+      "fromLabel": "伊壁鸠鲁学派",
+      "toLabel": "理念论",
+      "firstLine": 98,
+      "firstAnchor": "cite-98-13",
+      "allOccurrences": [
+        {
+          "line": 98,
+          "anchor": "cite-98-13"
+        }
+      ]
+    },
+    {
+      "id": "e154",
+      "from": "伊壁鸠鲁学派",
+      "to": "第欧根尼·拉尔修",
+      "fromUrl": "schools/伊壁鸠鲁学派/",
+      "toUrl": "",
+      "fromLabel": "伊壁鸠鲁学派",
+      "toLabel": "第欧根尼·拉尔修",
+      "firstLine": 147,
+      "firstAnchor": "cite-147-35",
+      "allOccurrences": [
+        {
+          "line": 147,
+          "anchor": "cite-147-35"
+        }
+      ]
+    },
+    {
+      "id": "e155",
+      "from": "伊壁鸠鲁学派",
+      "to": "菲洛德穆",
+      "fromUrl": "schools/伊壁鸠鲁学派/",
+      "toUrl": "",
+      "fromLabel": "伊壁鸠鲁学派",
+      "toLabel": "菲洛德穆",
+      "firstLine": 10,
+      "firstAnchor": "cite-10-5",
+      "allOccurrences": [
+        {
+          "line": 10,
+          "anchor": "cite-10-5"
+        }
+      ]
+    },
+    {
+      "id": "e156",
       "from": "先验论",
       "to": "先天综合判断",
       "fromUrl": "concepts/先验论/",
@@ -1488,7 +3246,7 @@
       ]
     },
     {
-      "id": "e68",
+      "id": "e157",
       "from": "先验论",
       "to": "先验演绎",
       "fromUrl": "concepts/先验论/",
@@ -1505,7 +3263,7 @@
       ]
     },
     {
-      "id": "e70",
+      "id": "e159",
       "from": "先验论",
       "to": "回忆说",
       "fromUrl": "concepts/先验论/",
@@ -1538,7 +3296,7 @@
       ]
     },
     {
-      "id": "e71",
+      "id": "e160",
       "from": "先验论",
       "to": "天赋观念",
       "fromUrl": "concepts/先验论/",
@@ -1555,7 +3313,7 @@
       ]
     },
     {
-      "id": "e72",
+      "id": "e161",
       "from": "先验论",
       "to": "康德",
       "fromUrl": "concepts/先验论/",
@@ -1584,7 +3342,7 @@
       ]
     },
     {
-      "id": "e73",
+      "id": "e162",
       "from": "先验论",
       "to": "忏悔录",
       "fromUrl": "concepts/先验论/",
@@ -1601,7 +3359,7 @@
       ]
     },
     {
-      "id": "e74",
+      "id": "e163",
       "from": "先验论",
       "to": "柏拉图",
       "fromUrl": "concepts/先验论/",
@@ -1630,7 +3388,7 @@
       ]
     },
     {
-      "id": "e75",
+      "id": "e164",
       "from": "先验论",
       "to": "现象学",
       "fromUrl": "concepts/先验论/",
@@ -1647,7 +3405,7 @@
       ]
     },
     {
-      "id": "e76",
+      "id": "e165",
       "from": "先验论",
       "to": "理念论",
       "fromUrl": "concepts/先验论/",
@@ -1668,7 +3426,7 @@
       ]
     },
     {
-      "id": "e77",
+      "id": "e166",
       "from": "先验论",
       "to": "笛卡尔",
       "fromUrl": "concepts/先验论/",
@@ -1697,7 +3455,7 @@
       ]
     },
     {
-      "id": "e78",
+      "id": "e167",
       "from": "先验论",
       "to": "经验论",
       "fromUrl": "concepts/先验论/",
@@ -1718,7 +3476,7 @@
       ]
     },
     {
-      "id": "e79",
+      "id": "e168",
       "from": "先验论",
       "to": "胡塞尔",
       "fromUrl": "concepts/先验论/",
@@ -1743,7 +3501,7 @@
       ]
     },
     {
-      "id": "e80",
+      "id": "e169",
       "from": "先验论",
       "to": "范畴",
       "fromUrl": "concepts/先验论/",
@@ -1760,7 +3518,7 @@
       ]
     },
     {
-      "id": "e81",
+      "id": "e170",
       "from": "先验论",
       "to": "莱布尼茨",
       "fromUrl": "concepts/先验论/",
@@ -1785,7 +3543,7 @@
       ]
     },
     {
-      "id": "e82",
+      "id": "e171",
       "from": "分类学",
       "to": "三段论",
       "fromUrl": "concepts/分类学/",
@@ -1818,7 +3576,7 @@
       ]
     },
     {
-      "id": "e83",
+      "id": "e172",
       "from": "分类学",
       "to": "亚里士多德",
       "fromUrl": "concepts/分类学/",
@@ -1843,7 +3601,7 @@
       ]
     },
     {
-      "id": "e85",
+      "id": "e174",
       "from": "分类学",
       "to": "柏拉图",
       "fromUrl": "concepts/分类学/",
@@ -1860,7 +3618,7 @@
       ]
     },
     {
-      "id": "e86",
+      "id": "e175",
       "from": "分类学",
       "to": "逍遥学派",
       "fromUrl": "concepts/分类学/",
@@ -1877,7 +3635,7 @@
       ]
     },
     {
-      "id": "e87",
+      "id": "e176",
       "from": "前苏格拉底时期",
       "to": "亚里士多德",
       "fromUrl": "periods/前苏格拉底时期/",
@@ -1898,7 +3656,7 @@
       ]
     },
     {
-      "id": "e89",
+      "id": "e178",
       "from": "前苏格拉底时期",
       "to": "巴门尼德",
       "fromUrl": "periods/前苏格拉底时期/",
@@ -1915,11 +3673,11 @@
       ]
     },
     {
-      "id": "e90",
+      "id": "e179",
       "from": "前苏格拉底时期",
       "to": "希腊化时期",
       "fromUrl": "periods/前苏格拉底时期/",
-      "toUrl": "",
+      "toUrl": "periods/希腊化时期/",
       "fromLabel": "前苏格拉底时期",
       "toLabel": "希腊化时期",
       "firstLine": 58,
@@ -1932,7 +3690,7 @@
       ]
     },
     {
-      "id": "e91",
+      "id": "e180",
       "from": "前苏格拉底时期",
       "to": "德谟克利特",
       "fromUrl": "periods/前苏格拉底时期/",
@@ -1949,7 +3707,7 @@
       ]
     },
     {
-      "id": "e92",
+      "id": "e181",
       "from": "前苏格拉底时期",
       "to": "斯多亚学派",
       "fromUrl": "periods/前苏格拉底时期/",
@@ -1966,7 +3724,7 @@
       ]
     },
     {
-      "id": "e93",
+      "id": "e182",
       "from": "前苏格拉底时期",
       "to": "柏拉图",
       "fromUrl": "periods/前苏格拉底时期/",
@@ -1987,7 +3745,7 @@
       ]
     },
     {
-      "id": "e94",
+      "id": "e183",
       "from": "前苏格拉底时期",
       "to": "泰勒斯",
       "fromUrl": "periods/前苏格拉底时期/",
@@ -2012,7 +3770,7 @@
       ]
     },
     {
-      "id": "e95",
+      "id": "e184",
       "from": "前苏格拉底时期",
       "to": "苏格拉底",
       "fromUrl": "periods/前苏格拉底时期/",
@@ -2033,7 +3791,7 @@
       ]
     },
     {
-      "id": "e96",
+      "id": "e185",
       "from": "前苏格拉底时期",
       "to": "苏菲的世界",
       "fromUrl": "periods/前苏格拉底时期/",
@@ -2058,7 +3816,7 @@
       ]
     },
     {
-      "id": "e97",
+      "id": "e186",
       "from": "前苏格拉底时期",
       "to": "赫拉克利特",
       "fromUrl": "periods/前苏格拉底时期/",
@@ -2075,7 +3833,7 @@
       ]
     },
     {
-      "id": "e98",
+      "id": "e187",
       "from": "四因说",
       "to": "亚里士多德",
       "fromUrl": "concepts/四因说/",
@@ -2100,7 +3858,7 @@
       ]
     },
     {
-      "id": "e100",
+      "id": "e189",
       "from": "四因说",
       "to": "形式与质料",
       "fromUrl": "concepts/四因说/",
@@ -2125,7 +3883,7 @@
       ]
     },
     {
-      "id": "e101",
+      "id": "e190",
       "from": "四因说",
       "to": "目的因",
       "fromUrl": "concepts/四因说/",
@@ -2146,7 +3904,7 @@
       ]
     },
     {
-      "id": "e102",
+      "id": "e191",
       "from": "四因说",
       "to": "第一推动者",
       "fromUrl": "concepts/四因说/",
@@ -2167,7 +3925,7 @@
       ]
     },
     {
-      "id": "e103",
+      "id": "e192",
       "from": "回忆说",
       "to": "亚里士多德",
       "fromUrl": "concepts/回忆说/",
@@ -2184,7 +3942,7 @@
       ]
     },
     {
-      "id": "e104",
+      "id": "e193",
       "from": "回忆说",
       "to": "会饮",
       "fromUrl": "concepts/回忆说/",
@@ -2201,7 +3959,7 @@
       ]
     },
     {
-      "id": "e105",
+      "id": "e194",
       "from": "回忆说",
       "to": "先天综合判断",
       "fromUrl": "concepts/回忆说/",
@@ -2218,7 +3976,7 @@
       ]
     },
     {
-      "id": "e106",
+      "id": "e195",
       "from": "回忆说",
       "to": "先验论",
       "fromUrl": "concepts/回忆说/",
@@ -2239,7 +3997,7 @@
       ]
     },
     {
-      "id": "e108",
+      "id": "e197",
       "from": "回忆说",
       "to": "天赋观念",
       "fromUrl": "concepts/回忆说/",
@@ -2256,7 +4014,7 @@
       ]
     },
     {
-      "id": "e109",
+      "id": "e198",
       "from": "回忆说",
       "to": "奥古斯丁",
       "fromUrl": "concepts/回忆说/",
@@ -2273,7 +4031,7 @@
       ]
     },
     {
-      "id": "e110",
+      "id": "e199",
       "from": "回忆说",
       "to": "康德",
       "fromUrl": "concepts/回忆说/",
@@ -2290,7 +4048,7 @@
       ]
     },
     {
-      "id": "e111",
+      "id": "e200",
       "from": "回忆说",
       "to": "斐多",
       "fromUrl": "concepts/回忆说/",
@@ -2319,7 +4077,7 @@
       ]
     },
     {
-      "id": "e112",
+      "id": "e201",
       "from": "回忆说",
       "to": "斐德罗",
       "fromUrl": "concepts/回忆说/",
@@ -2344,11 +4102,11 @@
       ]
     },
     {
-      "id": "e113",
+      "id": "e202",
       "from": "回忆说",
       "to": "普罗提诺",
       "fromUrl": "concepts/回忆说/",
-      "toUrl": "",
+      "toUrl": "philosophers/普罗提诺/",
       "fromLabel": "回忆说",
       "toLabel": "普罗提诺",
       "firstLine": 59,
@@ -2365,7 +4123,7 @@
       ]
     },
     {
-      "id": "e114",
+      "id": "e203",
       "from": "回忆说",
       "to": "柏拉图",
       "fromUrl": "concepts/回忆说/",
@@ -2386,7 +4144,7 @@
       ]
     },
     {
-      "id": "e115",
+      "id": "e204",
       "from": "回忆说",
       "to": "洞穴比喻",
       "fromUrl": "concepts/回忆说/",
@@ -2407,7 +4165,7 @@
       ]
     },
     {
-      "id": "e116",
+      "id": "e205",
       "from": "回忆说",
       "to": "灵魂",
       "fromUrl": "concepts/回忆说/",
@@ -2424,7 +4182,7 @@
       ]
     },
     {
-      "id": "e117",
+      "id": "e206",
       "from": "回忆说",
       "to": "理念论",
       "fromUrl": "concepts/回忆说/",
@@ -2457,7 +4215,7 @@
       ]
     },
     {
-      "id": "e118",
+      "id": "e207",
       "from": "回忆说",
       "to": "理想国",
       "fromUrl": "concepts/回忆说/",
@@ -2474,7 +4232,7 @@
       ]
     },
     {
-      "id": "e119",
+      "id": "e208",
       "from": "回忆说",
       "to": "笛卡尔",
       "fromUrl": "concepts/回忆说/",
@@ -2491,7 +4249,7 @@
       ]
     },
     {
-      "id": "e120",
+      "id": "e209",
       "from": "回忆说",
       "to": "美诺",
       "fromUrl": "concepts/回忆说/",
@@ -2516,7 +4274,7 @@
       ]
     },
     {
-      "id": "e121",
+      "id": "e210",
       "from": "回忆说",
       "to": "苏菲的世界",
       "fromUrl": "concepts/回忆说/",
@@ -2533,7 +4291,647 @@
       ]
     },
     {
-      "id": "e123",
+      "id": "e211",
+      "from": "希腊化时期",
+      "to": "logos",
+      "fromUrl": "periods/希腊化时期/",
+      "toUrl": "",
+      "fromLabel": "希腊化时期",
+      "toLabel": "logos",
+      "firstLine": 95,
+      "firstAnchor": "cite-95-27",
+      "allOccurrences": [
+        {
+          "line": 95,
+          "anchor": "cite-95-27"
+        }
+      ]
+    },
+    {
+      "id": "e212",
+      "from": "希腊化时期",
+      "to": "一元论",
+      "fromUrl": "periods/希腊化时期/",
+      "toUrl": "concepts/一元论/",
+      "fromLabel": "希腊化时期",
+      "toLabel": "一元论",
+      "firstLine": 102,
+      "firstAnchor": "cite-102-34",
+      "allOccurrences": [
+        {
+          "line": 102,
+          "anchor": "cite-102-34"
+        }
+      ]
+    },
+    {
+      "id": "e213",
+      "from": "希腊化时期",
+      "to": "不动心",
+      "fromUrl": "periods/希腊化时期/",
+      "toUrl": "",
+      "fromLabel": "希腊化时期",
+      "toLabel": "不动心",
+      "firstLine": 98,
+      "firstAnchor": "cite-98-30",
+      "allOccurrences": [
+        {
+          "line": 98,
+          "anchor": "cite-98-30"
+        }
+      ]
+    },
+    {
+      "id": "e214",
+      "from": "希腊化时期",
+      "to": "东西方哲学比较",
+      "fromUrl": "periods/希腊化时期/",
+      "toUrl": "",
+      "fromLabel": "希腊化时期",
+      "toLabel": "东西方哲学比较",
+      "firstLine": 77,
+      "firstAnchor": "cite-77-18",
+      "allOccurrences": [
+        {
+          "line": 77,
+          "anchor": "cite-77-18"
+        }
+      ]
+    },
+    {
+      "id": "e215",
+      "from": "希腊化时期",
+      "to": "亚里士多德",
+      "fromUrl": "periods/希腊化时期/",
+      "toUrl": "philosophers/亚里士多德/",
+      "fromLabel": "希腊化时期",
+      "toLabel": "亚里士多德",
+      "firstLine": 106,
+      "firstAnchor": "cite-106-37",
+      "allOccurrences": [
+        {
+          "line": 106,
+          "anchor": "cite-106-37"
+        },
+        {
+          "line": 121,
+          "anchor": "cite-121-56"
+        }
+      ]
+    },
+    {
+      "id": "e216",
+      "from": "希腊化时期",
+      "to": "享乐主义",
+      "fromUrl": "periods/希腊化时期/",
+      "toUrl": "",
+      "fromLabel": "希腊化时期",
+      "toLabel": "享乐主义",
+      "firstLine": 99,
+      "firstAnchor": "cite-99-31",
+      "allOccurrences": [
+        {
+          "line": 99,
+          "anchor": "cite-99-31"
+        }
+      ]
+    },
+    {
+      "id": "e217",
+      "from": "希腊化时期",
+      "to": "伊壁鸠鲁",
+      "fromUrl": "periods/希腊化时期/",
+      "toUrl": "philosophers/伊壁鸠鲁/",
+      "fromLabel": "希腊化时期",
+      "toLabel": "伊壁鸠鲁",
+      "firstLine": 49,
+      "firstAnchor": "cite-49-10",
+      "allOccurrences": [
+        {
+          "line": 49,
+          "anchor": "cite-49-10"
+        },
+        {
+          "line": 107,
+          "anchor": "cite-107-40"
+        }
+      ]
+    },
+    {
+      "id": "e218",
+      "from": "希腊化时期",
+      "to": "伊壁鸠鲁学派",
+      "fromUrl": "periods/希腊化时期/",
+      "toUrl": "schools/伊壁鸠鲁学派/",
+      "fromLabel": "希腊化时期",
+      "toLabel": "伊壁鸠鲁学派",
+      "firstLine": 52,
+      "firstAnchor": "cite-52-11",
+      "allOccurrences": [
+        {
+          "line": 52,
+          "anchor": "cite-52-11"
+        },
+        {
+          "line": 88,
+          "anchor": "cite-88-23"
+        },
+        {
+          "line": 89,
+          "anchor": "cite-89-25"
+        },
+        {
+          "line": 114,
+          "anchor": "cite-114-50"
+        }
+      ]
+    },
+    {
+      "id": "e219",
+      "from": "希腊化时期",
+      "to": "伽桑狄",
+      "fromUrl": "periods/希腊化时期/",
+      "toUrl": "",
+      "fromLabel": "希腊化时期",
+      "toLabel": "伽桑狄",
+      "firstLine": 83,
+      "firstAnchor": "cite-83-20",
+      "allOccurrences": [
+        {
+          "line": 83,
+          "anchor": "cite-83-20"
+        }
+      ]
+    },
+    {
+      "id": "e220",
+      "from": "希腊化时期",
+      "to": "卡尔涅阿德斯",
+      "fromUrl": "periods/希腊化时期/",
+      "toUrl": "",
+      "fromLabel": "希腊化时期",
+      "toLabel": "卡尔涅阿德斯",
+      "firstLine": 58,
+      "firstAnchor": "cite-58-14",
+      "allOccurrences": [
+        {
+          "line": 58,
+          "anchor": "cite-58-14"
+        }
+      ]
+    },
+    {
+      "id": "e221",
+      "from": "希腊化时期",
+      "to": "原子论",
+      "fromUrl": "periods/希腊化时期/",
+      "toUrl": "",
+      "fromLabel": "希腊化时期",
+      "toLabel": "原子论",
+      "firstLine": 100,
+      "firstAnchor": "cite-100-32",
+      "allOccurrences": [
+        {
+          "line": 100,
+          "anchor": "cite-100-32"
+        }
+      ]
+    },
+    {
+      "id": "e222",
+      "from": "希腊化时期",
+      "to": "塞涅卡",
+      "fromUrl": "periods/希腊化时期/",
+      "toUrl": "",
+      "fromLabel": "希腊化时期",
+      "toLabel": "塞涅卡",
+      "firstLine": 44,
+      "firstAnchor": "cite-44-7",
+      "allOccurrences": [
+        {
+          "line": 44,
+          "anchor": "cite-44-7"
+        },
+        {
+          "line": 108,
+          "anchor": "cite-108-43"
+        }
+      ]
+    },
+    {
+      "id": "e223",
+      "from": "希腊化时期",
+      "to": "奥古斯丁",
+      "fromUrl": "periods/希腊化时期/",
+      "toUrl": "",
+      "fromLabel": "希腊化时期",
+      "toLabel": "奥古斯丁",
+      "firstLine": 64,
+      "firstAnchor": "cite-64-16",
+      "allOccurrences": [
+        {
+          "line": 64,
+          "anchor": "cite-64-16"
+        },
+        {
+          "line": 82,
+          "anchor": "cite-82-19"
+        },
+        {
+          "line": 110,
+          "anchor": "cite-110-47"
+        }
+      ]
+    },
+    {
+      "id": "e225",
+      "from": "希腊化时期",
+      "to": "德性",
+      "fromUrl": "periods/希腊化时期/",
+      "toUrl": "",
+      "fromLabel": "希腊化时期",
+      "toLabel": "德性",
+      "firstLine": 97,
+      "firstAnchor": "cite-97-29",
+      "allOccurrences": [
+        {
+          "line": 97,
+          "anchor": "cite-97-29"
+        }
+      ]
+    },
+    {
+      "id": "e226",
+      "from": "希腊化时期",
+      "to": "斯多亚学派",
+      "fromUrl": "periods/希腊化时期/",
+      "toUrl": "schools/斯多亚学派/",
+      "fromLabel": "希腊化时期",
+      "toLabel": "斯多亚学派",
+      "firstLine": 45,
+      "firstAnchor": "cite-45-9",
+      "allOccurrences": [
+        {
+          "line": 45,
+          "anchor": "cite-45-9"
+        },
+        {
+          "line": 89,
+          "anchor": "cite-89-24"
+        },
+        {
+          "line": 114,
+          "anchor": "cite-114-49"
+        }
+      ]
+    },
+    {
+      "id": "e227",
+      "from": "希腊化时期",
+      "to": "新柏拉图学派",
+      "fromUrl": "periods/希腊化时期/",
+      "toUrl": "schools/新柏拉图学派/",
+      "fromLabel": "希腊化时期",
+      "toLabel": "新柏拉图学派",
+      "firstLine": 65,
+      "firstAnchor": "cite-65-17",
+      "allOccurrences": [
+        {
+          "line": 65,
+          "anchor": "cite-65-17"
+        },
+        {
+          "line": 90,
+          "anchor": "cite-90-26"
+        },
+        {
+          "line": 114,
+          "anchor": "cite-114-51"
+        }
+      ]
+    },
+    {
+      "id": "e228",
+      "from": "希腊化时期",
+      "to": "普罗提诺",
+      "fromUrl": "periods/希腊化时期/",
+      "toUrl": "philosophers/普罗提诺/",
+      "fromLabel": "希腊化时期",
+      "toLabel": "普罗提诺",
+      "firstLine": 62,
+      "firstAnchor": "cite-62-15",
+      "allOccurrences": [
+        {
+          "line": 62,
+          "anchor": "cite-62-15"
+        },
+        {
+          "line": 109,
+          "anchor": "cite-109-46"
+        }
+      ]
+    },
+    {
+      "id": "e229",
+      "from": "希腊化时期",
+      "to": "柏拉图",
+      "fromUrl": "periods/希腊化时期/",
+      "toUrl": "philosophers/柏拉图/",
+      "fromLabel": "希腊化时期",
+      "toLabel": "柏拉图",
+      "firstLine": 106,
+      "firstAnchor": "cite-106-36",
+      "allOccurrences": [
+        {
+          "line": 106,
+          "anchor": "cite-106-36"
+        },
+        {
+          "line": 121,
+          "anchor": "cite-121-55"
+        }
+      ]
+    },
+    {
+      "id": "e230",
+      "from": "希腊化时期",
+      "to": "柏拉图学园",
+      "fromUrl": "periods/希腊化时期/",
+      "toUrl": "",
+      "fromLabel": "希腊化时期",
+      "toLabel": "柏拉图学园",
+      "firstLine": 58,
+      "firstAnchor": "cite-58-13",
+      "allOccurrences": [
+        {
+          "line": 58,
+          "anchor": "cite-58-13"
+        },
+        {
+          "line": 115,
+          "anchor": "cite-115-52"
+        }
+      ]
+    },
+    {
+      "id": "e231",
+      "from": "希腊化时期",
+      "to": "洛克",
+      "fromUrl": "periods/希腊化时期/",
+      "toUrl": "",
+      "fromLabel": "希腊化时期",
+      "toLabel": "洛克",
+      "firstLine": 83,
+      "firstAnchor": "cite-83-21",
+      "allOccurrences": [
+        {
+          "line": 83,
+          "anchor": "cite-83-21"
+        }
+      ]
+    },
+    {
+      "id": "e232",
+      "from": "希腊化时期",
+      "to": "流溢说",
+      "fromUrl": "periods/希腊化时期/",
+      "toUrl": "",
+      "fromLabel": "希腊化时期",
+      "toLabel": "流溢说",
+      "firstLine": 101,
+      "firstAnchor": "cite-101-33",
+      "allOccurrences": [
+        {
+          "line": 101,
+          "anchor": "cite-101-33"
+        }
+      ]
+    },
+    {
+      "id": "e233",
+      "from": "希腊化时期",
+      "to": "爱比克泰德",
+      "fromUrl": "periods/希腊化时期/",
+      "toUrl": "",
+      "fromLabel": "希腊化时期",
+      "toLabel": "爱比克泰德",
+      "firstLine": 108,
+      "firstAnchor": "cite-108-44",
+      "allOccurrences": [
+        {
+          "line": 108,
+          "anchor": "cite-108-44"
+        }
+      ]
+    },
+    {
+      "id": "e234",
+      "from": "希腊化时期",
+      "to": "犬儒学派",
+      "fromUrl": "periods/希腊化时期/",
+      "toUrl": "schools/犬儒学派/",
+      "fromLabel": "希腊化时期",
+      "toLabel": "犬儒学派",
+      "firstLine": 38,
+      "firstAnchor": "cite-38-4",
+      "allOccurrences": [
+        {
+          "line": 38,
+          "anchor": "cite-38-4"
+        },
+        {
+          "line": 88,
+          "anchor": "cite-88-22"
+        },
+        {
+          "line": 114,
+          "anchor": "cite-114-48"
+        }
+      ]
+    },
+    {
+      "id": "e235",
+      "from": "希腊化时期",
+      "to": "皮浪",
+      "fromUrl": "periods/希腊化时期/",
+      "toUrl": "",
+      "fromLabel": "希腊化时期",
+      "toLabel": "皮浪",
+      "firstLine": 56,
+      "firstAnchor": "cite-56-12",
+      "allOccurrences": [
+        {
+          "line": 56,
+          "anchor": "cite-56-12"
+        },
+        {
+          "line": 107,
+          "anchor": "cite-107-41"
+        }
+      ]
+    },
+    {
+      "id": "e236",
+      "from": "希腊化时期",
+      "to": "第欧根尼",
+      "fromUrl": "periods/希腊化时期/",
+      "toUrl": "",
+      "fromLabel": "希腊化时期",
+      "toLabel": "第欧根尼",
+      "firstLine": 36,
+      "firstAnchor": "cite-36-3",
+      "allOccurrences": [
+        {
+          "line": 36,
+          "anchor": "cite-36-3"
+        },
+        {
+          "line": 107,
+          "anchor": "cite-107-38"
+        }
+      ]
+    },
+    {
+      "id": "e237",
+      "from": "希腊化时期",
+      "to": "米利都学派",
+      "fromUrl": "periods/希腊化时期/",
+      "toUrl": "",
+      "fromLabel": "希腊化时期",
+      "toLabel": "米利都学派",
+      "firstLine": 116,
+      "firstAnchor": "cite-116-53",
+      "allOccurrences": [
+        {
+          "line": 116,
+          "anchor": "cite-116-53"
+        }
+      ]
+    },
+    {
+      "id": "e238",
+      "from": "希腊化时期",
+      "to": "自然法",
+      "fromUrl": "periods/希腊化时期/",
+      "toUrl": "concepts/自然法/",
+      "fromLabel": "希腊化时期",
+      "toLabel": "自然法",
+      "firstLine": 96,
+      "firstAnchor": "cite-96-28",
+      "allOccurrences": [
+        {
+          "line": 96,
+          "anchor": "cite-96-28"
+        }
+      ]
+    },
+    {
+      "id": "e239",
+      "from": "希腊化时期",
+      "to": "芝诺",
+      "fromUrl": "periods/希腊化时期/",
+      "toUrl": "",
+      "fromLabel": "希腊化时期",
+      "toLabel": "芝诺",
+      "firstLine": 42,
+      "firstAnchor": "cite-42-5",
+      "allOccurrences": [
+        {
+          "line": 42,
+          "anchor": "cite-42-5"
+        },
+        {
+          "line": 107,
+          "anchor": "cite-107-39"
+        }
+      ]
+    },
+    {
+      "id": "e240",
+      "from": "希腊化时期",
+      "to": "苏格拉底",
+      "fromUrl": "periods/希腊化时期/",
+      "toUrl": "philosophers/苏格拉底/",
+      "fromLabel": "希腊化时期",
+      "toLabel": "苏格拉底",
+      "firstLine": 106,
+      "firstAnchor": "cite-106-35",
+      "allOccurrences": [
+        {
+          "line": 106,
+          "anchor": "cite-106-35"
+        },
+        {
+          "line": 121,
+          "anchor": "cite-121-54"
+        }
+      ]
+    },
+    {
+      "id": "e241",
+      "from": "希腊化时期",
+      "to": "苏菲的世界",
+      "fromUrl": "periods/希腊化时期/",
+      "toUrl": "works/苏菲的世界/",
+      "fromLabel": "希腊化时期",
+      "toLabel": "苏菲的世界",
+      "firstLine": 12,
+      "firstAnchor": "cite-12-2",
+      "allOccurrences": [
+        {
+          "line": 12,
+          "anchor": "cite-12-2"
+        },
+        {
+          "line": 127,
+          "anchor": "cite-127-57"
+        }
+      ]
+    },
+    {
+      "id": "e242",
+      "from": "希腊化时期",
+      "to": "西塞罗",
+      "fromUrl": "periods/希腊化时期/",
+      "toUrl": "philosophers/西塞罗/",
+      "fromLabel": "希腊化时期",
+      "toLabel": "西塞罗",
+      "firstLine": 44,
+      "firstAnchor": "cite-44-6",
+      "allOccurrences": [
+        {
+          "line": 44,
+          "anchor": "cite-44-6"
+        },
+        {
+          "line": 108,
+          "anchor": "cite-108-42"
+        }
+      ]
+    },
+    {
+      "id": "e243",
+      "from": "希腊化时期",
+      "to": "马可·奥勒留",
+      "fromUrl": "periods/希腊化时期/",
+      "toUrl": "philosophers/马可·奥勒留/",
+      "fromLabel": "希腊化时期",
+      "toLabel": "马可·奥勒留",
+      "firstLine": 44,
+      "firstAnchor": "cite-44-8",
+      "allOccurrences": [
+        {
+          "line": 44,
+          "anchor": "cite-44-8"
+        },
+        {
+          "line": 108,
+          "anchor": "cite-108-45"
+        }
+      ]
+    },
+    {
+      "id": "e245",
       "from": "平面国",
       "to": "柏拉图",
       "fromUrl": "works/平面国/",
@@ -2558,7 +4956,7 @@
       ]
     },
     {
-      "id": "e124",
+      "id": "e246",
       "from": "形式与质料",
       "to": "亚里士多德",
       "fromUrl": "concepts/形式与质料/",
@@ -2583,7 +4981,7 @@
       ]
     },
     {
-      "id": "e125",
+      "id": "e247",
       "from": "形式与质料",
       "to": "四因说",
       "fromUrl": "concepts/形式与质料/",
@@ -2604,7 +5002,7 @@
       ]
     },
     {
-      "id": "e127",
+      "id": "e249",
       "from": "形式与质料",
       "to": "柏拉图",
       "fromUrl": "concepts/形式与质料/",
@@ -2633,7 +5031,7 @@
       ]
     },
     {
-      "id": "e128",
+      "id": "e250",
       "from": "形式与质料",
       "to": "理念论",
       "fromUrl": "concepts/形式与质料/",
@@ -2654,7 +5052,7 @@
       ]
     },
     {
-      "id": "e129",
+      "id": "e251",
       "from": "形式与质料",
       "to": "目的因",
       "fromUrl": "concepts/形式与质料/",
@@ -2671,7 +5069,7 @@
       ]
     },
     {
-      "id": "e130",
+      "id": "e252",
       "from": "惊异",
       "to": "亚里士多德",
       "fromUrl": "concepts/惊异/",
@@ -2700,7 +5098,7 @@
       ]
     },
     {
-      "id": "e131",
+      "id": "e253",
       "from": "惊异",
       "to": "前苏格拉底时期",
       "fromUrl": "concepts/惊异/",
@@ -2717,7 +5115,7 @@
       ]
     },
     {
-      "id": "e132",
+      "id": "e254",
       "from": "惊异",
       "to": "好奇心",
       "fromUrl": "concepts/惊异/",
@@ -2734,7 +5132,7 @@
       ]
     },
     {
-      "id": "e133",
+      "id": "e255",
       "from": "惊异",
       "to": "形而上学",
       "fromUrl": "concepts/惊异/",
@@ -2767,7 +5165,7 @@
       ]
     },
     {
-      "id": "e134",
+      "id": "e256",
       "from": "惊异",
       "to": "怀疑论",
       "fromUrl": "concepts/惊异/",
@@ -2784,7 +5182,7 @@
       ]
     },
     {
-      "id": "e136",
+      "id": "e258",
       "from": "惊异",
       "to": "无知",
       "fromUrl": "concepts/惊异/",
@@ -2801,7 +5199,7 @@
       ]
     },
     {
-      "id": "e137",
+      "id": "e259",
       "from": "惊异",
       "to": "柏拉图",
       "fromUrl": "concepts/惊异/",
@@ -2830,7 +5228,7 @@
       ]
     },
     {
-      "id": "e138",
+      "id": "e260",
       "from": "惊异",
       "to": "泰阿泰德",
       "fromUrl": "concepts/惊异/",
@@ -2859,7 +5257,7 @@
       ]
     },
     {
-      "id": "e139",
+      "id": "e261",
       "from": "惊异",
       "to": "洞穴比喻",
       "fromUrl": "concepts/惊异/",
@@ -2880,7 +5278,7 @@
       ]
     },
     {
-      "id": "e140",
+      "id": "e262",
       "from": "惊异",
       "to": "理想国",
       "fromUrl": "concepts/惊异/",
@@ -2897,7 +5295,7 @@
       ]
     },
     {
-      "id": "e141",
+      "id": "e263",
       "from": "惊异",
       "to": "苏格拉底",
       "fromUrl": "concepts/惊异/",
@@ -2918,7 +5316,7 @@
       ]
     },
     {
-      "id": "e142",
+      "id": "e264",
       "from": "惊异",
       "to": "苏格拉底反诘法",
       "fromUrl": "concepts/惊异/",
@@ -2935,7 +5333,7 @@
       ]
     },
     {
-      "id": "e143",
+      "id": "e265",
       "from": "惊异",
       "to": "苏菲的世界",
       "fromUrl": "concepts/惊异/",
@@ -2956,7 +5354,7 @@
       ]
     },
     {
-      "id": "e144",
+      "id": "e266",
       "from": "斯多亚学派",
       "to": "亚里士多德",
       "fromUrl": "schools/斯多亚学派/",
@@ -2973,11 +5371,11 @@
       ]
     },
     {
-      "id": "e145",
+      "id": "e267",
       "from": "斯多亚学派",
       "to": "伊壁鸠鲁学派",
       "fromUrl": "schools/斯多亚学派/",
-      "toUrl": "",
+      "toUrl": "schools/伊壁鸠鲁学派/",
       "fromLabel": "斯多亚学派",
       "toLabel": "伊壁鸠鲁学派",
       "firstLine": 64,
@@ -2990,7 +5388,7 @@
       ]
     },
     {
-      "id": "e146",
+      "id": "e268",
       "from": "斯多亚学派",
       "to": "塞涅卡",
       "fromUrl": "schools/斯多亚学派/",
@@ -3003,11 +5401,15 @@
         {
           "line": 24,
           "anchor": "cite-24-4"
+        },
+        {
+          "line": 84,
+          "anchor": "cite-84-18"
         }
       ]
     },
     {
-      "id": "e147",
+      "id": "e269",
       "from": "斯多亚学派",
       "to": "奥古斯丁",
       "fromUrl": "schools/斯多亚学派/",
@@ -3028,7 +5430,7 @@
       ]
     },
     {
-      "id": "e149",
+      "id": "e271",
       "from": "斯多亚学派",
       "to": "柏拉图",
       "fromUrl": "schools/斯多亚学派/",
@@ -3045,7 +5447,7 @@
       ]
     },
     {
-      "id": "e150",
+      "id": "e272",
       "from": "斯多亚学派",
       "to": "柏拉图学园",
       "fromUrl": "schools/斯多亚学派/",
@@ -3062,7 +5464,45 @@
       ]
     },
     {
-      "id": "e151",
+      "id": "e273",
+      "from": "斯多亚学派",
+      "to": "沉思录",
+      "fromUrl": "schools/斯多亚学派/",
+      "toUrl": "works/沉思录/",
+      "fromLabel": "斯多亚学派",
+      "toLabel": "沉思录",
+      "firstLine": 84,
+      "firstAnchor": "cite-84-20",
+      "allOccurrences": [
+        {
+          "line": 84,
+          "anchor": "cite-84-20"
+        },
+        {
+          "line": 84,
+          "anchor": "cite-84-22"
+        }
+      ]
+    },
+    {
+      "id": "e274",
+      "from": "斯多亚学派",
+      "to": "犬儒学派",
+      "fromUrl": "schools/斯多亚学派/",
+      "toUrl": "schools/犬儒学派/",
+      "fromLabel": "斯多亚学派",
+      "toLabel": "犬儒学派",
+      "firstLine": 84,
+      "firstAnchor": "cite-84-16",
+      "allOccurrences": [
+        {
+          "line": 84,
+          "anchor": "cite-84-16"
+        }
+      ]
+    },
+    {
+      "id": "e275",
       "from": "斯多亚学派",
       "to": "自然法",
       "fromUrl": "schools/斯多亚学派/",
@@ -3087,7 +5527,7 @@
       ]
     },
     {
-      "id": "e152",
+      "id": "e276",
       "from": "斯多亚学派",
       "to": "芝诺",
       "fromUrl": "schools/斯多亚学派/",
@@ -3108,7 +5548,7 @@
       ]
     },
     {
-      "id": "e153",
+      "id": "e277",
       "from": "斯多亚学派",
       "to": "西塞罗",
       "fromUrl": "schools/斯多亚学派/",
@@ -3121,11 +5561,15 @@
         {
           "line": 67,
           "anchor": "cite-67-14"
+        },
+        {
+          "line": 84,
+          "anchor": "cite-84-17"
         }
       ]
     },
     {
-      "id": "e154",
+      "id": "e278",
       "from": "斯多亚学派",
       "to": "赫拉克利特",
       "fromUrl": "schools/斯多亚学派/",
@@ -3142,7 +5586,1237 @@
       ]
     },
     {
-      "id": "e155",
+      "id": "e279",
+      "from": "斯多亚学派",
+      "to": "马可·奥勒留",
+      "fromUrl": "schools/斯多亚学派/",
+      "toUrl": "philosophers/马可·奥勒留/",
+      "fromLabel": "斯多亚学派",
+      "toLabel": "马可·奥勒留",
+      "firstLine": 84,
+      "firstAnchor": "cite-84-19",
+      "allOccurrences": [
+        {
+          "line": 84,
+          "anchor": "cite-84-19"
+        },
+        {
+          "line": 84,
+          "anchor": "cite-84-21"
+        }
+      ]
+    },
+    {
+      "id": "e280",
+      "from": "新柏拉图学派",
+      "to": "一元论",
+      "fromUrl": "schools/新柏拉图学派/",
+      "toUrl": "concepts/一元论/",
+      "fromLabel": "新柏拉图学派",
+      "toLabel": "一元论",
+      "firstLine": 130,
+      "firstAnchor": "cite-130-42",
+      "allOccurrences": [
+        {
+          "line": 130,
+          "anchor": "cite-130-42"
+        },
+        {
+          "line": 163,
+          "anchor": "cite-163-62"
+        }
+      ]
+    },
+    {
+      "id": "e281",
+      "from": "新柏拉图学派",
+      "to": "上帝",
+      "fromUrl": "schools/新柏拉图学派/",
+      "toUrl": "",
+      "fromLabel": "新柏拉图学派",
+      "toLabel": "上帝",
+      "firstLine": 150,
+      "firstAnchor": "cite-150-55",
+      "allOccurrences": [
+        {
+          "line": 150,
+          "anchor": "cite-150-55"
+        }
+      ]
+    },
+    {
+      "id": "e282",
+      "from": "新柏拉图学派",
+      "to": "亚里士多德",
+      "fromUrl": "schools/新柏拉图学派/",
+      "toUrl": "philosophers/亚里士多德/",
+      "fromLabel": "新柏拉图学派",
+      "toLabel": "亚里士多德",
+      "firstLine": 3,
+      "firstAnchor": "cite-3-5",
+      "allOccurrences": [
+        {
+          "line": 3,
+          "anchor": "cite-3-5"
+        },
+        {
+          "line": 98,
+          "anchor": "cite-98-19"
+        },
+        {
+          "line": 118,
+          "anchor": "cite-118-33"
+        },
+        {
+          "line": 135,
+          "anchor": "cite-135-44"
+        }
+      ]
+    },
+    {
+      "id": "e283",
+      "from": "新柏拉图学派",
+      "to": "伪狄奥尼修斯",
+      "fromUrl": "schools/新柏拉图学派/",
+      "toUrl": "",
+      "fromLabel": "新柏拉图学派",
+      "toLabel": "伪狄奥尼修斯",
+      "firstLine": 107,
+      "firstAnchor": "cite-107-26",
+      "allOccurrences": [
+        {
+          "line": 107,
+          "anchor": "cite-107-26"
+        }
+      ]
+    },
+    {
+      "id": "e284",
+      "from": "新柏拉图学派",
+      "to": "佛罗伦萨学园",
+      "fromUrl": "schools/新柏拉图学派/",
+      "toUrl": "",
+      "fromLabel": "新柏拉图学派",
+      "toLabel": "佛罗伦萨学园",
+      "firstLine": 110,
+      "firstAnchor": "cite-110-29",
+      "allOccurrences": [
+        {
+          "line": 110,
+          "anchor": "cite-110-29"
+        }
+      ]
+    },
+    {
+      "id": "e285",
+      "from": "新柏拉图学派",
+      "to": "创世记",
+      "fromUrl": "schools/新柏拉图学派/",
+      "toUrl": "",
+      "fromLabel": "新柏拉图学派",
+      "toLabel": "创世记",
+      "firstLine": 151,
+      "firstAnchor": "cite-151-56",
+      "allOccurrences": [
+        {
+          "line": 151,
+          "anchor": "cite-151-56"
+        }
+      ]
+    },
+    {
+      "id": "e286",
+      "from": "新柏拉图学派",
+      "to": "努斯",
+      "fromUrl": "schools/新柏拉图学派/",
+      "toUrl": "",
+      "fromLabel": "新柏拉图学派",
+      "toLabel": "努斯",
+      "firstLine": 127,
+      "firstAnchor": "cite-127-39",
+      "allOccurrences": [
+        {
+          "line": 127,
+          "anchor": "cite-127-39"
+        }
+      ]
+    },
+    {
+      "id": "e287",
+      "from": "新柏拉图学派",
+      "to": "卡巴拉",
+      "fromUrl": "schools/新柏拉图学派/",
+      "toUrl": "",
+      "fromLabel": "新柏拉图学派",
+      "toLabel": "卡巴拉",
+      "firstLine": 109,
+      "firstAnchor": "cite-109-28",
+      "allOccurrences": [
+        {
+          "line": 109,
+          "anchor": "cite-109-28"
+        }
+      ]
+    },
+    {
+      "id": "e288",
+      "from": "新柏拉图学派",
+      "to": "唯心论",
+      "fromUrl": "schools/新柏拉图学派/",
+      "toUrl": "",
+      "fromLabel": "新柏拉图学派",
+      "toLabel": "唯心论",
+      "firstLine": 111,
+      "firstAnchor": "cite-111-30",
+      "allOccurrences": [
+        {
+          "line": 111,
+          "anchor": "cite-111-30"
+        }
+      ]
+    },
+    {
+      "id": "e289",
+      "from": "新柏拉图学派",
+      "to": "基督教",
+      "fromUrl": "schools/新柏拉图学派/",
+      "toUrl": "",
+      "fromLabel": "新柏拉图学派",
+      "toLabel": "基督教",
+      "firstLine": 153,
+      "firstAnchor": "cite-153-57",
+      "allOccurrences": [
+        {
+          "line": 153,
+          "anchor": "cite-153-57"
+        }
+      ]
+    },
+    {
+      "id": "e290",
+      "from": "新柏拉图学派",
+      "to": "太一",
+      "fromUrl": "schools/新柏拉图学派/",
+      "toUrl": "",
+      "fromLabel": "新柏拉图学派",
+      "toLabel": "太一",
+      "firstLine": 125,
+      "firstAnchor": "cite-125-37",
+      "allOccurrences": [
+        {
+          "line": 125,
+          "anchor": "cite-125-37"
+        }
+      ]
+    },
+    {
+      "id": "e291",
+      "from": "新柏拉图学派",
+      "to": "奥古斯丁",
+      "fromUrl": "schools/新柏拉图学派/",
+      "toUrl": "",
+      "fromLabel": "新柏拉图学派",
+      "toLabel": "奥古斯丁",
+      "firstLine": 3,
+      "firstAnchor": "cite-3-6",
+      "allOccurrences": [
+        {
+          "line": 3,
+          "anchor": "cite-3-6"
+        },
+        {
+          "line": 86,
+          "anchor": "cite-86-15"
+        },
+        {
+          "line": 107,
+          "anchor": "cite-107-25"
+        },
+        {
+          "line": 120,
+          "anchor": "cite-120-35"
+        },
+        {
+          "line": 137,
+          "anchor": "cite-137-46"
+        },
+        {
+          "line": 145,
+          "anchor": "cite-145-53"
+        }
+      ]
+    },
+    {
+      "id": "e292",
+      "from": "新柏拉图学派",
+      "to": "希帕提亚",
+      "fromUrl": "schools/新柏拉图学派/",
+      "toUrl": "",
+      "fromLabel": "新柏拉图学派",
+      "toLabel": "希帕提亚",
+      "firstLine": 15,
+      "firstAnchor": "cite-15-12",
+      "allOccurrences": [
+        {
+          "line": 15,
+          "anchor": "cite-15-12"
+        },
+        {
+          "line": 139,
+          "anchor": "cite-139-50"
+        }
+      ]
+    },
+    {
+      "id": "e293",
+      "from": "新柏拉图学派",
+      "to": "形式与质料",
+      "fromUrl": "schools/新柏拉图学派/",
+      "toUrl": "concepts/形式与质料/",
+      "fromLabel": "新柏拉图学派",
+      "toLabel": "形式与质料",
+      "firstLine": 98,
+      "firstAnchor": "cite-98-20",
+      "allOccurrences": [
+        {
+          "line": 98,
+          "anchor": "cite-98-20"
+        }
+      ]
+    },
+    {
+      "id": "e294",
+      "from": "新柏拉图学派",
+      "to": "救赎",
+      "fromUrl": "schools/新柏拉图学派/",
+      "toUrl": "",
+      "fromLabel": "新柏拉图学派",
+      "toLabel": "救赎",
+      "firstLine": 153,
+      "firstAnchor": "cite-153-58",
+      "allOccurrences": [
+        {
+          "line": 153,
+          "anchor": "cite-153-58"
+        }
+      ]
+    },
+    {
+      "id": "e295",
+      "from": "新柏拉图学派",
+      "to": "教父",
+      "fromUrl": "schools/新柏拉图学派/",
+      "toUrl": "",
+      "fromLabel": "新柏拉图学派",
+      "toLabel": "教父",
+      "firstLine": 107,
+      "firstAnchor": "cite-107-24",
+      "allOccurrences": [
+        {
+          "line": 107,
+          "anchor": "cite-107-24"
+        }
+      ]
+    },
+    {
+      "id": "e296",
+      "from": "新柏拉图学派",
+      "to": "斐洛",
+      "fromUrl": "schools/新柏拉图学派/",
+      "toUrl": "",
+      "fromLabel": "新柏拉图学派",
+      "toLabel": "斐洛",
+      "firstLine": 100,
+      "firstAnchor": "cite-100-22",
+      "allOccurrences": [
+        {
+          "line": 100,
+          "anchor": "cite-100-22"
+        }
+      ]
+    },
+    {
+      "id": "e297",
+      "from": "新柏拉图学派",
+      "to": "斯多亚学派",
+      "fromUrl": "schools/新柏拉图学派/",
+      "toUrl": "schools/斯多亚学派/",
+      "fromLabel": "新柏拉图学派",
+      "toLabel": "斯多亚学派",
+      "firstLine": 99,
+      "firstAnchor": "cite-99-21",
+      "allOccurrences": [
+        {
+          "line": 99,
+          "anchor": "cite-99-21"
+        },
+        {
+          "line": 119,
+          "anchor": "cite-119-34"
+        },
+        {
+          "line": 144,
+          "anchor": "cite-144-52"
+        }
+      ]
+    },
+    {
+      "id": "e299",
+      "from": "新柏拉图学派",
+      "to": "普罗克洛",
+      "fromUrl": "schools/新柏拉图学派/",
+      "toUrl": "",
+      "fromLabel": "新柏拉图学派",
+      "toLabel": "普罗克洛",
+      "firstLine": 14,
+      "firstAnchor": "cite-14-11",
+      "allOccurrences": [
+        {
+          "line": 14,
+          "anchor": "cite-14-11"
+        },
+        {
+          "line": 138,
+          "anchor": "cite-138-49"
+        }
+      ]
+    },
+    {
+      "id": "e300",
+      "from": "新柏拉图学派",
+      "to": "普罗提诺",
+      "fromUrl": "schools/新柏拉图学派/",
+      "toUrl": "philosophers/普罗提诺/",
+      "fromLabel": "新柏拉图学派",
+      "toLabel": "普罗提诺",
+      "firstLine": 3,
+      "firstAnchor": "cite-3-2",
+      "allOccurrences": [
+        {
+          "line": 3,
+          "anchor": "cite-3-2"
+        },
+        {
+          "line": 7,
+          "anchor": "cite-7-7"
+        },
+        {
+          "line": 11,
+          "anchor": "cite-11-8"
+        },
+        {
+          "line": 136,
+          "anchor": "cite-136-45"
+        },
+        {
+          "line": 157,
+          "anchor": "cite-157-59"
+        },
+        {
+          "line": 163,
+          "anchor": "cite-163-61"
+        }
+      ]
+    },
+    {
+      "id": "e301",
+      "from": "新柏拉图学派",
+      "to": "杨布里科",
+      "fromUrl": "schools/新柏拉图学派/",
+      "toUrl": "",
+      "fromLabel": "新柏拉图学派",
+      "toLabel": "杨布里科",
+      "firstLine": 13,
+      "firstAnchor": "cite-13-10",
+      "allOccurrences": [
+        {
+          "line": 13,
+          "anchor": "cite-13-10"
+        },
+        {
+          "line": 138,
+          "anchor": "cite-138-48"
+        }
+      ]
+    },
+    {
+      "id": "e302",
+      "from": "新柏拉图学派",
+      "to": "柏拉图",
+      "fromUrl": "schools/新柏拉图学派/",
+      "toUrl": "philosophers/柏拉图/",
+      "fromLabel": "新柏拉图学派",
+      "toLabel": "柏拉图",
+      "firstLine": 3,
+      "firstAnchor": "cite-3-3",
+      "allOccurrences": [
+        {
+          "line": 3,
+          "anchor": "cite-3-3"
+        },
+        {
+          "line": 94,
+          "anchor": "cite-94-16"
+        },
+        {
+          "line": 97,
+          "anchor": "cite-97-17"
+        },
+        {
+          "line": 134,
+          "anchor": "cite-134-43"
+        }
+      ]
+    },
+    {
+      "id": "e303",
+      "from": "新柏拉图学派",
+      "to": "柏拉图学园",
+      "fromUrl": "schools/新柏拉图学派/",
+      "toUrl": "",
+      "fromLabel": "新柏拉图学派",
+      "toLabel": "柏拉图学园",
+      "firstLine": 117,
+      "firstAnchor": "cite-117-32",
+      "allOccurrences": [
+        {
+          "line": 117,
+          "anchor": "cite-117-32"
+        },
+        {
+          "line": 143,
+          "anchor": "cite-143-51"
+        }
+      ]
+    },
+    {
+      "id": "e304",
+      "from": "新柏拉图学派",
+      "to": "波菲利",
+      "fromUrl": "schools/新柏拉图学派/",
+      "toUrl": "",
+      "fromLabel": "新柏拉图学派",
+      "toLabel": "波菲利",
+      "firstLine": 12,
+      "firstAnchor": "cite-12-9",
+      "allOccurrences": [
+        {
+          "line": 12,
+          "anchor": "cite-12-9"
+        },
+        {
+          "line": 138,
+          "anchor": "cite-138-47"
+        },
+        {
+          "line": 159,
+          "anchor": "cite-159-60"
+        }
+      ]
+    },
+    {
+      "id": "e305",
+      "from": "新柏拉图学派",
+      "to": "流溢说",
+      "fromUrl": "schools/新柏拉图学派/",
+      "toUrl": "",
+      "fromLabel": "新柏拉图学派",
+      "toLabel": "流溢说",
+      "firstLine": 126,
+      "firstAnchor": "cite-126-38",
+      "allOccurrences": [
+        {
+          "line": 126,
+          "anchor": "cite-126-38"
+        }
+      ]
+    },
+    {
+      "id": "e306",
+      "from": "新柏拉图学派",
+      "to": "灵魂",
+      "fromUrl": "schools/新柏拉图学派/",
+      "toUrl": "",
+      "fromLabel": "新柏拉图学派",
+      "toLabel": "灵魂",
+      "firstLine": 128,
+      "firstAnchor": "cite-128-40",
+      "allOccurrences": [
+        {
+          "line": 128,
+          "anchor": "cite-128-40"
+        }
+      ]
+    },
+    {
+      "id": "e307",
+      "from": "新柏拉图学派",
+      "to": "理念论",
+      "fromUrl": "schools/新柏拉图学派/",
+      "toUrl": "concepts/理念论/",
+      "fromLabel": "新柏拉图学派",
+      "toLabel": "理念论",
+      "firstLine": 3,
+      "firstAnchor": "cite-3-4",
+      "allOccurrences": [
+        {
+          "line": 3,
+          "anchor": "cite-3-4"
+        },
+        {
+          "line": 97,
+          "anchor": "cite-97-18"
+        }
+      ]
+    },
+    {
+      "id": "e308",
+      "from": "新柏拉图学派",
+      "to": "神秘主义",
+      "fromUrl": "schools/新柏拉图学派/",
+      "toUrl": "concepts/神秘主义/",
+      "fromLabel": "新柏拉图学派",
+      "toLabel": "神秘主义",
+      "firstLine": 80,
+      "firstAnchor": "cite-80-14",
+      "allOccurrences": [
+        {
+          "line": 80,
+          "anchor": "cite-80-14"
+        },
+        {
+          "line": 104,
+          "anchor": "cite-104-23"
+        },
+        {
+          "line": 121,
+          "anchor": "cite-121-36"
+        },
+        {
+          "line": 146,
+          "anchor": "cite-146-54"
+        }
+      ]
+    },
+    {
+      "id": "e309",
+      "from": "新柏拉图学派",
+      "to": "神秘合一",
+      "fromUrl": "schools/新柏拉图学派/",
+      "toUrl": "",
+      "fromLabel": "新柏拉图学派",
+      "toLabel": "神秘合一",
+      "firstLine": 129,
+      "firstAnchor": "cite-129-41",
+      "allOccurrences": [
+        {
+          "line": 129,
+          "anchor": "cite-129-41"
+        }
+      ]
+    },
+    {
+      "id": "e310",
+      "from": "新柏拉图学派",
+      "to": "苏菲派",
+      "fromUrl": "schools/新柏拉图学派/",
+      "toUrl": "",
+      "fromLabel": "新柏拉图学派",
+      "toLabel": "苏菲派",
+      "firstLine": 108,
+      "firstAnchor": "cite-108-27",
+      "allOccurrences": [
+        {
+          "line": 108,
+          "anchor": "cite-108-27"
+        }
+      ]
+    },
+    {
+      "id": "e311",
+      "from": "新柏拉图学派",
+      "to": "诺斯替主义",
+      "fromUrl": "schools/新柏拉图学派/",
+      "toUrl": "",
+      "fromLabel": "新柏拉图学派",
+      "toLabel": "诺斯替主义",
+      "firstLine": 53,
+      "firstAnchor": "cite-53-13",
+      "allOccurrences": [
+        {
+          "line": 53,
+          "anchor": "cite-53-13"
+        }
+      ]
+    },
+    {
+      "id": "e312",
+      "from": "新柏拉图学派",
+      "to": "黑格尔",
+      "fromUrl": "schools/新柏拉图学派/",
+      "toUrl": "",
+      "fromLabel": "新柏拉图学派",
+      "toLabel": "黑格尔",
+      "firstLine": 111,
+      "firstAnchor": "cite-111-31",
+      "allOccurrences": [
+        {
+          "line": 111,
+          "anchor": "cite-111-31"
+        }
+      ]
+    },
+    {
+      "id": "e313",
+      "from": "普罗提诺",
+      "to": "Ammonius Saccas",
+      "fromUrl": "philosophers/普罗提诺/",
+      "toUrl": "",
+      "fromLabel": "普罗提诺",
+      "toLabel": "Ammonius Saccas",
+      "firstLine": 10,
+      "firstAnchor": "cite-10-4",
+      "allOccurrences": [
+        {
+          "line": 10,
+          "anchor": "cite-10-4"
+        }
+      ]
+    },
+    {
+      "id": "e314",
+      "from": "普罗提诺",
+      "to": "al-Ghazali",
+      "fromUrl": "philosophers/普罗提诺/",
+      "toUrl": "",
+      "fromLabel": "普罗提诺",
+      "toLabel": "al-Ghazali",
+      "firstLine": 77,
+      "firstAnchor": "cite-77-14",
+      "allOccurrences": [
+        {
+          "line": 77,
+          "anchor": "cite-77-14"
+        },
+        {
+          "line": 125,
+          "anchor": "cite-125-24"
+        }
+      ]
+    },
+    {
+      "id": "e315",
+      "from": "普罗提诺",
+      "to": "一元论",
+      "fromUrl": "philosophers/普罗提诺/",
+      "toUrl": "concepts/一元论/",
+      "fromLabel": "普罗提诺",
+      "toLabel": "一元论",
+      "firstLine": 161,
+      "firstAnchor": "cite-161-44",
+      "allOccurrences": [
+        {
+          "line": 161,
+          "anchor": "cite-161-44"
+        }
+      ]
+    },
+    {
+      "id": "e316",
+      "from": "普罗提诺",
+      "to": "上帝",
+      "fromUrl": "philosophers/普罗提诺/",
+      "toUrl": "",
+      "fromLabel": "普罗提诺",
+      "toLabel": "上帝",
+      "firstLine": 148,
+      "firstAnchor": "cite-148-39",
+      "allOccurrences": [
+        {
+          "line": 148,
+          "anchor": "cite-148-39"
+        }
+      ]
+    },
+    {
+      "id": "e317",
+      "from": "普罗提诺",
+      "to": "不二论吠檀多",
+      "fromUrl": "philosophers/普罗提诺/",
+      "toUrl": "",
+      "fromLabel": "普罗提诺",
+      "toLabel": "不二论吠檀多",
+      "firstLine": 130,
+      "firstAnchor": "cite-130-28",
+      "allOccurrences": [
+        {
+          "line": 130,
+          "anchor": "cite-130-28"
+        }
+      ]
+    },
+    {
+      "id": "e318",
+      "from": "普罗提诺",
+      "to": "九章集",
+      "fromUrl": "philosophers/普罗提诺/",
+      "toUrl": "",
+      "fromLabel": "普罗提诺",
+      "toLabel": "九章集",
+      "firstLine": 155,
+      "firstAnchor": "cite-155-41",
+      "allOccurrences": [
+        {
+          "line": 155,
+          "anchor": "cite-155-41"
+        }
+      ]
+    },
+    {
+      "id": "e319",
+      "from": "普罗提诺",
+      "to": "亚里士多德",
+      "fromUrl": "philosophers/普罗提诺/",
+      "toUrl": "philosophers/亚里士多德/",
+      "fromLabel": "普罗提诺",
+      "toLabel": "亚里士多德",
+      "firstLine": 140,
+      "firstAnchor": "cite-140-34",
+      "allOccurrences": [
+        {
+          "line": 140,
+          "anchor": "cite-140-34"
+        }
+      ]
+    },
+    {
+      "id": "e320",
+      "from": "普罗提诺",
+      "to": "伊壁鸠鲁学派",
+      "fromUrl": "philosophers/普罗提诺/",
+      "toUrl": "schools/伊壁鸠鲁学派/",
+      "fromLabel": "普罗提诺",
+      "toLabel": "伊壁鸠鲁学派",
+      "firstLine": 143,
+      "firstAnchor": "cite-143-37",
+      "allOccurrences": [
+        {
+          "line": 143,
+          "anchor": "cite-143-37"
+        }
+      ]
+    },
+    {
+      "id": "e321",
+      "from": "普罗提诺",
+      "to": "伊斯兰",
+      "fromUrl": "philosophers/普罗提诺/",
+      "toUrl": "",
+      "fromLabel": "普罗提诺",
+      "toLabel": "伊斯兰",
+      "firstLine": 122,
+      "firstAnchor": "cite-122-22",
+      "allOccurrences": [
+        {
+          "line": 122,
+          "anchor": "cite-122-22"
+        }
+      ]
+    },
+    {
+      "id": "e322",
+      "from": "普罗提诺",
+      "to": "伪狄奥尼修斯",
+      "fromUrl": "philosophers/普罗提诺/",
+      "toUrl": "",
+      "fromLabel": "普罗提诺",
+      "toLabel": "伪狄奥尼修斯",
+      "firstLine": 76,
+      "firstAnchor": "cite-76-12",
+      "allOccurrences": [
+        {
+          "line": 76,
+          "anchor": "cite-76-12"
+        },
+        {
+          "line": 120,
+          "anchor": "cite-120-21"
+        }
+      ]
+    },
+    {
+      "id": "e323",
+      "from": "普罗提诺",
+      "to": "佛罗伦萨学园",
+      "fromUrl": "philosophers/普罗提诺/",
+      "toUrl": "",
+      "fromLabel": "普罗提诺",
+      "toLabel": "佛罗伦萨学园",
+      "firstLine": 78,
+      "firstAnchor": "cite-78-15",
+      "allOccurrences": [
+        {
+          "line": 78,
+          "anchor": "cite-78-15"
+        }
+      ]
+    },
+    {
+      "id": "e324",
+      "from": "普罗提诺",
+      "to": "印度",
+      "fromUrl": "philosophers/普罗提诺/",
+      "toUrl": "",
+      "fromLabel": "普罗提诺",
+      "toLabel": "印度",
+      "firstLine": 127,
+      "firstAnchor": "cite-127-25",
+      "allOccurrences": [
+        {
+          "line": 127,
+          "anchor": "cite-127-25"
+        }
+      ]
+    },
+    {
+      "id": "e325",
+      "from": "普罗提诺",
+      "to": "吠檀多",
+      "fromUrl": "philosophers/普罗提诺/",
+      "toUrl": "",
+      "fromLabel": "普罗提诺",
+      "toLabel": "吠檀多",
+      "firstLine": 127,
+      "firstAnchor": "cite-127-26",
+      "allOccurrences": [
+        {
+          "line": 127,
+          "anchor": "cite-127-26"
+        }
+      ]
+    },
+    {
+      "id": "e326",
+      "from": "普罗提诺",
+      "to": "唯心论",
+      "fromUrl": "philosophers/普罗提诺/",
+      "toUrl": "",
+      "fromLabel": "普罗提诺",
+      "toLabel": "唯心论",
+      "firstLine": 79,
+      "firstAnchor": "cite-79-16",
+      "allOccurrences": [
+        {
+          "line": 79,
+          "anchor": "cite-79-16"
+        },
+        {
+          "line": 132,
+          "anchor": "cite-132-30"
+        }
+      ]
+    },
+    {
+      "id": "e327",
+      "from": "普罗提诺",
+      "to": "圣十字约翰",
+      "fromUrl": "philosophers/普罗提诺/",
+      "toUrl": "",
+      "fromLabel": "普罗提诺",
+      "toLabel": "圣十字约翰",
+      "firstLine": 76,
+      "firstAnchor": "cite-76-13",
+      "allOccurrences": [
+        {
+          "line": 76,
+          "anchor": "cite-76-13"
+        }
+      ]
+    },
+    {
+      "id": "e328",
+      "from": "普罗提诺",
+      "to": "奥利金",
+      "fromUrl": "philosophers/普罗提诺/",
+      "toUrl": "",
+      "fromLabel": "普罗提诺",
+      "toLabel": "奥利金",
+      "firstLine": 10,
+      "firstAnchor": "cite-10-5",
+      "allOccurrences": [
+        {
+          "line": 10,
+          "anchor": "cite-10-5"
+        }
+      ]
+    },
+    {
+      "id": "e329",
+      "from": "普罗提诺",
+      "to": "奥古斯丁",
+      "fromUrl": "philosophers/普罗提诺/",
+      "toUrl": "",
+      "fromLabel": "普罗提诺",
+      "toLabel": "奥古斯丁",
+      "firstLine": 76,
+      "firstAnchor": "cite-76-11",
+      "allOccurrences": [
+        {
+          "line": 76,
+          "anchor": "cite-76-11"
+        },
+        {
+          "line": 117,
+          "anchor": "cite-117-20"
+        },
+        {
+          "line": 144,
+          "anchor": "cite-144-38"
+        }
+      ]
+    },
+    {
+      "id": "e330",
+      "from": "普罗提诺",
+      "to": "德国",
+      "fromUrl": "philosophers/普罗提诺/",
+      "toUrl": "",
+      "fromLabel": "普罗提诺",
+      "toLabel": "德国",
+      "firstLine": 132,
+      "firstAnchor": "cite-132-29",
+      "allOccurrences": [
+        {
+          "line": 132,
+          "anchor": "cite-132-29"
+        }
+      ]
+    },
+    {
+      "id": "e331",
+      "from": "普罗提诺",
+      "to": "戈狄安努斯三世",
+      "fromUrl": "philosophers/普罗提诺/",
+      "toUrl": "",
+      "fromLabel": "普罗提诺",
+      "toLabel": "戈狄安努斯三世",
+      "firstLine": 11,
+      "firstAnchor": "cite-11-6",
+      "allOccurrences": [
+        {
+          "line": 11,
+          "anchor": "cite-11-6"
+        }
+      ]
+    },
+    {
+      "id": "e332",
+      "from": "普罗提诺",
+      "to": "斯多亚学派",
+      "fromUrl": "philosophers/普罗提诺/",
+      "toUrl": "schools/斯多亚学派/",
+      "fromLabel": "普罗提诺",
+      "toLabel": "斯多亚学派",
+      "firstLine": 141,
+      "firstAnchor": "cite-141-35",
+      "allOccurrences": [
+        {
+          "line": 141,
+          "anchor": "cite-141-35"
+        }
+      ]
+    },
+    {
+      "id": "e333",
+      "from": "普罗提诺",
+      "to": "新柏拉图学派",
+      "fromUrl": "philosophers/普罗提诺/",
+      "toUrl": "schools/新柏拉图学派/",
+      "fromLabel": "普罗提诺",
+      "toLabel": "新柏拉图学派",
+      "firstLine": 7,
+      "firstAnchor": "cite-7-3",
+      "allOccurrences": [
+        {
+          "line": 7,
+          "anchor": "cite-7-3"
+        },
+        {
+          "line": 161,
+          "anchor": "cite-161-43"
+        }
+      ]
+    },
+    {
+      "id": "e335",
+      "from": "普罗提诺",
+      "to": "柏拉图",
+      "fromUrl": "philosophers/普罗提诺/",
+      "toUrl": "philosophers/柏拉图/",
+      "fromLabel": "普罗提诺",
+      "toLabel": "柏拉图",
+      "firstLine": 52,
+      "firstAnchor": "cite-52-8",
+      "allOccurrences": [
+        {
+          "line": 52,
+          "anchor": "cite-52-8"
+        },
+        {
+          "line": 58,
+          "anchor": "cite-58-9"
+        },
+        {
+          "line": 139,
+          "anchor": "cite-139-32"
+        }
+      ]
+    },
+    {
+      "id": "e336",
+      "from": "普罗提诺",
+      "to": "波菲利",
+      "fromUrl": "philosophers/普罗提诺/",
+      "toUrl": "",
+      "fromLabel": "普罗提诺",
+      "toLabel": "波菲利",
+      "firstLine": 15,
+      "firstAnchor": "cite-15-7",
+      "allOccurrences": [
+        {
+          "line": 15,
+          "anchor": "cite-15-7"
+        },
+        {
+          "line": 105,
+          "anchor": "cite-105-19"
+        },
+        {
+          "line": 129,
+          "anchor": "cite-129-27"
+        },
+        {
+          "line": 157,
+          "anchor": "cite-157-42"
+        }
+      ]
+    },
+    {
+      "id": "e337",
+      "from": "普罗提诺",
+      "to": "理念论",
+      "fromUrl": "philosophers/普罗提诺/",
+      "toUrl": "concepts/理念论/",
+      "fromLabel": "普罗提诺",
+      "toLabel": "理念论",
+      "firstLine": 58,
+      "firstAnchor": "cite-58-10",
+      "allOccurrences": [
+        {
+          "line": 58,
+          "anchor": "cite-58-10"
+        },
+        {
+          "line": 139,
+          "anchor": "cite-139-33"
+        }
+      ]
+    },
+    {
+      "id": "e338",
+      "from": "普罗提诺",
+      "to": "神秘主义",
+      "fromUrl": "philosophers/普罗提诺/",
+      "toUrl": "concepts/神秘主义/",
+      "fromLabel": "普罗提诺",
+      "toLabel": "神秘主义",
+      "firstLine": 161,
+      "firstAnchor": "cite-161-45",
+      "allOccurrences": [
+        {
+          "line": 161,
+          "anchor": "cite-161-45"
+        }
+      ]
+    },
+    {
+      "id": "e339",
+      "from": "普罗提诺",
+      "to": "老子",
+      "fromUrl": "philosophers/普罗提诺/",
+      "toUrl": "",
+      "fromLabel": "普罗提诺",
+      "toLabel": "老子",
+      "firstLine": 151,
+      "firstAnchor": "cite-151-40",
+      "allOccurrences": [
+        {
+          "line": 151,
+          "anchor": "cite-151-40"
+        }
+      ]
+    },
+    {
+      "id": "e340",
+      "from": "普罗提诺",
+      "to": "苏菲派",
+      "fromUrl": "philosophers/普罗提诺/",
+      "toUrl": "",
+      "fromLabel": "普罗提诺",
+      "toLabel": "苏菲派",
+      "firstLine": 122,
+      "firstAnchor": "cite-122-23",
+      "allOccurrences": [
+        {
+          "line": 122,
+          "anchor": "cite-122-23"
+        }
+      ]
+    },
+    {
+      "id": "e341",
+      "from": "普罗提诺",
+      "to": "诺斯替主义",
+      "fromUrl": "philosophers/普罗提诺/",
+      "toUrl": "",
+      "fromLabel": "普罗提诺",
+      "toLabel": "诺斯替主义",
+      "firstLine": 100,
+      "firstAnchor": "cite-100-18",
+      "allOccurrences": [
+        {
+          "line": 100,
+          "anchor": "cite-100-18"
+        },
+        {
+          "line": 142,
+          "anchor": "cite-142-36"
+        }
+      ]
+    },
+    {
+      "id": "e342",
+      "from": "普罗提诺",
+      "to": "黑格尔",
+      "fromUrl": "philosophers/普罗提诺/",
+      "toUrl": "",
+      "fromLabel": "普罗提诺",
+      "toLabel": "黑格尔",
+      "firstLine": 79,
+      "firstAnchor": "cite-79-17",
+      "allOccurrences": [
+        {
+          "line": 79,
+          "anchor": "cite-79-17"
+        },
+        {
+          "line": 134,
+          "anchor": "cite-134-31"
+        }
+      ]
+    },
+    {
+      "id": "e343",
       "from": "智者派",
       "to": "亚里士多德",
       "fromUrl": "schools/智者派/",
@@ -3179,7 +6853,7 @@
       ]
     },
     {
-      "id": "e156",
+      "id": "e344",
       "from": "智者派",
       "to": "伯罗奔尼撒战争",
       "fromUrl": "schools/智者派/",
@@ -3196,7 +6870,7 @@
       ]
     },
     {
-      "id": "e157",
+      "id": "e345",
       "from": "智者派",
       "to": "回忆说",
       "fromUrl": "schools/智者派/",
@@ -3213,7 +6887,7 @@
       ]
     },
     {
-      "id": "e158",
+      "id": "e346",
       "from": "智者派",
       "to": "塞克斯都·恩披里柯",
       "fromUrl": "schools/智者派/",
@@ -3230,7 +6904,7 @@
       ]
     },
     {
-      "id": "e159",
+      "id": "e347",
       "from": "智者派",
       "to": "斯多亚学派",
       "fromUrl": "schools/智者派/",
@@ -3247,7 +6921,7 @@
       ]
     },
     {
-      "id": "e160",
+      "id": "e348",
       "from": "智者派",
       "to": "普罗泰戈拉",
       "fromUrl": "schools/智者派/",
@@ -3272,7 +6946,7 @@
       ]
     },
     {
-      "id": "e162",
+      "id": "e350",
       "from": "智者派",
       "to": "柏拉图",
       "fromUrl": "schools/智者派/",
@@ -3321,7 +6995,7 @@
       ]
     },
     {
-      "id": "e163",
+      "id": "e351",
       "from": "智者派",
       "to": "泰阿泰德",
       "fromUrl": "schools/智者派/",
@@ -3342,7 +7016,7 @@
       ]
     },
     {
-      "id": "e164",
+      "id": "e352",
       "from": "智者派",
       "to": "理念论",
       "fromUrl": "schools/智者派/",
@@ -3363,7 +7037,7 @@
       ]
     },
     {
-      "id": "e165",
+      "id": "e353",
       "from": "智者派",
       "to": "皮浪",
       "fromUrl": "schools/智者派/",
@@ -3380,7 +7054,7 @@
       ]
     },
     {
-      "id": "e166",
+      "id": "e354",
       "from": "智者派",
       "to": "美诺",
       "fromUrl": "schools/智者派/",
@@ -3401,7 +7075,7 @@
       ]
     },
     {
-      "id": "e167",
+      "id": "e355",
       "from": "智者派",
       "to": "自然法",
       "fromUrl": "schools/智者派/",
@@ -3418,7 +7092,7 @@
       ]
     },
     {
-      "id": "e168",
+      "id": "e356",
       "from": "智者派",
       "to": "色诺芬",
       "fromUrl": "schools/智者派/",
@@ -3435,7 +7109,7 @@
       ]
     },
     {
-      "id": "e169",
+      "id": "e357",
       "from": "智者派",
       "to": "苏格拉底",
       "fromUrl": "schools/智者派/",
@@ -3484,7 +7158,7 @@
       ]
     },
     {
-      "id": "e170",
+      "id": "e358",
       "from": "智者派",
       "to": "苏菲的世界",
       "fromUrl": "schools/智者派/",
@@ -3501,7 +7175,7 @@
       ]
     },
     {
-      "id": "e171",
+      "id": "e359",
       "from": "智者派",
       "to": "高尔吉亚",
       "fromUrl": "schools/智者派/",
@@ -3522,7 +7196,7 @@
       ]
     },
     {
-      "id": "e172",
+      "id": "e360",
       "from": "柏拉图",
       "to": "三段论",
       "fromUrl": "philosophers/柏拉图/",
@@ -3539,7 +7213,7 @@
       ]
     },
     {
-      "id": "e173",
+      "id": "e361",
       "from": "柏拉图",
       "to": "中庸",
       "fromUrl": "philosophers/柏拉图/",
@@ -3560,7 +7234,7 @@
       ]
     },
     {
-      "id": "e174",
+      "id": "e362",
       "from": "柏拉图",
       "to": "亚里士多德",
       "fromUrl": "philosophers/柏拉图/",
@@ -3589,7 +7263,7 @@
       ]
     },
     {
-      "id": "e175",
+      "id": "e363",
       "from": "柏拉图",
       "to": "会饮",
       "fromUrl": "philosophers/柏拉图/",
@@ -3606,7 +7280,7 @@
       ]
     },
     {
-      "id": "e176",
+      "id": "e364",
       "from": "柏拉图",
       "to": "先验论",
       "fromUrl": "philosophers/柏拉图/",
@@ -3635,7 +7309,7 @@
       ]
     },
     {
-      "id": "e177",
+      "id": "e365",
       "from": "柏拉图",
       "to": "分类学",
       "fromUrl": "philosophers/柏拉图/",
@@ -3652,7 +7326,7 @@
       ]
     },
     {
-      "id": "e178",
+      "id": "e366",
       "from": "柏拉图",
       "to": "哲人王",
       "fromUrl": "philosophers/柏拉图/",
@@ -3669,7 +7343,7 @@
       ]
     },
     {
-      "id": "e179",
+      "id": "e367",
       "from": "柏拉图",
       "to": "四因说",
       "fromUrl": "philosophers/柏拉图/",
@@ -3690,7 +7364,7 @@
       ]
     },
     {
-      "id": "e180",
+      "id": "e368",
       "from": "柏拉图",
       "to": "回忆说",
       "fromUrl": "philosophers/柏拉图/",
@@ -3719,7 +7393,7 @@
       ]
     },
     {
-      "id": "e181",
+      "id": "e369",
       "from": "柏拉图",
       "to": "奥古斯丁",
       "fromUrl": "philosophers/柏拉图/",
@@ -3740,7 +7414,7 @@
       ]
     },
     {
-      "id": "e182",
+      "id": "e370",
       "from": "柏拉图",
       "to": "巴门尼德",
       "fromUrl": "philosophers/柏拉图/",
@@ -3761,7 +7435,7 @@
       ]
     },
     {
-      "id": "e183",
+      "id": "e371",
       "from": "柏拉图",
       "to": "平面国",
       "fromUrl": "philosophers/柏拉图/",
@@ -3778,7 +7452,7 @@
       ]
     },
     {
-      "id": "e184",
+      "id": "e372",
       "from": "柏拉图",
       "to": "康德",
       "fromUrl": "philosophers/柏拉图/",
@@ -3795,7 +7469,7 @@
       ]
     },
     {
-      "id": "e185",
+      "id": "e373",
       "from": "柏拉图",
       "to": "形式与质料",
       "fromUrl": "philosophers/柏拉图/",
@@ -3816,7 +7490,7 @@
       ]
     },
     {
-      "id": "e186",
+      "id": "e374",
       "from": "柏拉图",
       "to": "斐多",
       "fromUrl": "philosophers/柏拉图/",
@@ -3837,7 +7511,7 @@
       ]
     },
     {
-      "id": "e187",
+      "id": "e375",
       "from": "柏拉图",
       "to": "斐德罗",
       "fromUrl": "philosophers/柏拉图/",
@@ -3858,7 +7532,7 @@
       ]
     },
     {
-      "id": "e188",
+      "id": "e376",
       "from": "柏拉图",
       "to": "新柏拉图主义",
       "fromUrl": "philosophers/柏拉图/",
@@ -3875,11 +7549,11 @@
       ]
     },
     {
-      "id": "e189",
+      "id": "e377",
       "from": "柏拉图",
       "to": "普罗提诺",
       "fromUrl": "philosophers/柏拉图/",
-      "toUrl": "",
+      "toUrl": "philosophers/普罗提诺/",
       "fromLabel": "柏拉图",
       "toLabel": "普罗提诺",
       "firstLine": 71,
@@ -3892,7 +7566,7 @@
       ]
     },
     {
-      "id": "e190",
+      "id": "e378",
       "from": "柏拉图",
       "to": "智者派",
       "fromUrl": "philosophers/柏拉图/",
@@ -3909,7 +7583,7 @@
       ]
     },
     {
-      "id": "e192",
+      "id": "e380",
       "from": "柏拉图",
       "to": "柏拉图学园",
       "fromUrl": "philosophers/柏拉图/",
@@ -3926,7 +7600,7 @@
       ]
     },
     {
-      "id": "e193",
+      "id": "e381",
       "from": "柏拉图",
       "to": "毕达哥拉斯学派",
       "fromUrl": "philosophers/柏拉图/",
@@ -3943,7 +7617,7 @@
       ]
     },
     {
-      "id": "e194",
+      "id": "e382",
       "from": "柏拉图",
       "to": "泰阿泰德",
       "fromUrl": "philosophers/柏拉图/",
@@ -3960,7 +7634,7 @@
       ]
     },
     {
-      "id": "e195",
+      "id": "e383",
       "from": "柏拉图",
       "to": "洞穴比喻",
       "fromUrl": "philosophers/柏拉图/",
@@ -3985,7 +7659,7 @@
       ]
     },
     {
-      "id": "e196",
+      "id": "e384",
       "from": "柏拉图",
       "to": "理念论",
       "fromUrl": "philosophers/柏拉图/",
@@ -4002,7 +7676,7 @@
       ]
     },
     {
-      "id": "e197",
+      "id": "e385",
       "from": "柏拉图",
       "to": "理想国",
       "fromUrl": "philosophers/柏拉图/",
@@ -4027,7 +7701,7 @@
       ]
     },
     {
-      "id": "e198",
+      "id": "e386",
       "from": "柏拉图",
       "to": "目的因",
       "fromUrl": "philosophers/柏拉图/",
@@ -4044,7 +7718,7 @@
       ]
     },
     {
-      "id": "e199",
+      "id": "e387",
       "from": "柏拉图",
       "to": "笛卡尔",
       "fromUrl": "philosophers/柏拉图/",
@@ -4061,7 +7735,7 @@
       ]
     },
     {
-      "id": "e200",
+      "id": "e388",
       "from": "柏拉图",
       "to": "第一推动者",
       "fromUrl": "philosophers/柏拉图/",
@@ -4078,7 +7752,7 @@
       ]
     },
     {
-      "id": "e201",
+      "id": "e389",
       "from": "柏拉图",
       "to": "经验论",
       "fromUrl": "philosophers/柏拉图/",
@@ -4099,7 +7773,7 @@
       ]
     },
     {
-      "id": "e202",
+      "id": "e390",
       "from": "柏拉图",
       "to": "美诺",
       "fromUrl": "philosophers/柏拉图/",
@@ -4124,7 +7798,7 @@
       ]
     },
     {
-      "id": "e203",
+      "id": "e391",
       "from": "柏拉图",
       "to": "胡塞尔",
       "fromUrl": "philosophers/柏拉图/",
@@ -4141,7 +7815,7 @@
       ]
     },
     {
-      "id": "e204",
+      "id": "e392",
       "from": "柏拉图",
       "to": "苏格拉底",
       "fromUrl": "philosophers/柏拉图/",
@@ -4162,7 +7836,7 @@
       ]
     },
     {
-      "id": "e205",
+      "id": "e393",
       "from": "柏拉图",
       "to": "赫拉克利特",
       "fromUrl": "philosophers/柏拉图/",
@@ -4179,7 +7853,7 @@
       ]
     },
     {
-      "id": "e206",
+      "id": "e394",
       "from": "柏拉图",
       "to": "逍遥学派",
       "fromUrl": "philosophers/柏拉图/",
@@ -4200,7 +7874,499 @@
       ]
     },
     {
-      "id": "e207",
+      "id": "e395",
+      "from": "沉思录",
+      "to": "Alexander of Cotiaeum",
+      "fromUrl": "works/沉思录/",
+      "toUrl": "",
+      "fromLabel": "沉思录",
+      "toLabel": "Alexander of Cotiaeum",
+      "firstLine": 99,
+      "firstAnchor": "cite-99-6",
+      "allOccurrences": [
+        {
+          "line": 99,
+          "anchor": "cite-99-6"
+        }
+      ]
+    },
+    {
+      "id": "e396",
+      "from": "沉思录",
+      "to": "Matthew Arnold",
+      "fromUrl": "works/沉思录/",
+      "toUrl": "",
+      "fromLabel": "沉思录",
+      "toLabel": "Matthew Arnold",
+      "firstLine": 169,
+      "firstAnchor": "cite-169-13",
+      "allOccurrences": [
+        {
+          "line": 169,
+          "anchor": "cite-169-13"
+        }
+      ]
+    },
+    {
+      "id": "e397",
+      "from": "沉思录",
+      "to": "Ryan Holiday",
+      "fromUrl": "works/沉思录/",
+      "toUrl": "",
+      "fromLabel": "沉思录",
+      "toLabel": "Ryan Holiday",
+      "firstLine": 153,
+      "firstAnchor": "cite-153-12",
+      "allOccurrences": [
+        {
+          "line": 153,
+          "anchor": "cite-153-12"
+        }
+      ]
+    },
+    {
+      "id": "e398",
+      "from": "沉思录",
+      "to": "amor fati",
+      "fromUrl": "works/沉思录/",
+      "toUrl": "",
+      "fromLabel": "沉思录",
+      "toLabel": "amor fati",
+      "firstLine": 186,
+      "firstAnchor": "cite-186-22",
+      "allOccurrences": [
+        {
+          "line": 186,
+          "anchor": "cite-186-22"
+        }
+      ]
+    },
+    {
+      "id": "e399",
+      "from": "沉思录",
+      "to": "logos",
+      "fromUrl": "works/沉思录/",
+      "toUrl": "",
+      "fromLabel": "沉思录",
+      "toLabel": "logos",
+      "firstLine": 184,
+      "firstAnchor": "cite-184-20",
+      "allOccurrences": [
+        {
+          "line": 184,
+          "anchor": "cite-184-20"
+        }
+      ]
+    },
+    {
+      "id": "e400",
+      "from": "沉思录",
+      "to": "世界主义",
+      "fromUrl": "works/沉思录/",
+      "toUrl": "",
+      "fromLabel": "沉思录",
+      "toLabel": "世界主义",
+      "firstLine": 187,
+      "firstAnchor": "cite-187-23",
+      "allOccurrences": [
+        {
+          "line": 187,
+          "anchor": "cite-187-23"
+        }
+      ]
+    },
+    {
+      "id": "e401",
+      "from": "沉思录",
+      "to": "佛朗哥",
+      "fromUrl": "works/沉思录/",
+      "toUrl": "",
+      "fromLabel": "沉思录",
+      "toLabel": "佛朗哥",
+      "firstLine": 99,
+      "firstAnchor": "cite-99-5",
+      "allOccurrences": [
+        {
+          "line": 99,
+          "anchor": "cite-99-5"
+        }
+      ]
+    },
+    {
+      "id": "e402",
+      "from": "沉思录",
+      "to": "佛经",
+      "fromUrl": "works/沉思录/",
+      "toUrl": "",
+      "fromLabel": "沉思录",
+      "toLabel": "佛经",
+      "firstLine": 179,
+      "firstAnchor": "cite-179-18",
+      "allOccurrences": [
+        {
+          "line": 179,
+          "anchor": "cite-179-18"
+        }
+      ]
+    },
+    {
+      "id": "e403",
+      "from": "沉思录",
+      "to": "佛罗伦萨学园",
+      "fromUrl": "works/沉思录/",
+      "toUrl": "",
+      "fromLabel": "沉思录",
+      "toLabel": "佛罗伦萨学园",
+      "firstLine": 141,
+      "firstAnchor": "cite-141-8",
+      "allOccurrences": [
+        {
+          "line": 141,
+          "anchor": "cite-141-8"
+        }
+      ]
+    },
+    {
+      "id": "e404",
+      "from": "沉思录",
+      "to": "保罗书信",
+      "fromUrl": "works/沉思录/",
+      "toUrl": "",
+      "fromLabel": "沉思录",
+      "toLabel": "保罗书信",
+      "firstLine": 176,
+      "firstAnchor": "cite-176-15",
+      "allOccurrences": [
+        {
+          "line": 176,
+          "anchor": "cite-176-15"
+        }
+      ]
+    },
+    {
+      "id": "e405",
+      "from": "沉思录",
+      "to": "可控与不可控",
+      "fromUrl": "works/沉思录/",
+      "toUrl": "",
+      "fromLabel": "沉思录",
+      "toLabel": "可控与不可控",
+      "firstLine": 185,
+      "firstAnchor": "cite-185-21",
+      "allOccurrences": [
+        {
+          "line": 185,
+          "anchor": "cite-185-21"
+        }
+      ]
+    },
+    {
+      "id": "e406",
+      "from": "沉思录",
+      "to": "塞涅卡",
+      "fromUrl": "works/沉思录/",
+      "toUrl": "",
+      "fromLabel": "沉思录",
+      "toLabel": "塞涅卡",
+      "firstLine": 195,
+      "firstAnchor": "cite-195-29",
+      "allOccurrences": [
+        {
+          "line": 195,
+          "anchor": "cite-195-29"
+        }
+      ]
+    },
+    {
+      "id": "e407",
+      "from": "沉思录",
+      "to": "奥古斯丁",
+      "fromUrl": "works/沉思录/",
+      "toUrl": "",
+      "fromLabel": "沉思录",
+      "toLabel": "奥古斯丁",
+      "firstLine": 136,
+      "firstAnchor": "cite-136-7",
+      "allOccurrences": [
+        {
+          "line": 136,
+          "anchor": "cite-136-7"
+        }
+      ]
+    },
+    {
+      "id": "e408",
+      "from": "沉思录",
+      "to": "宇宙理性",
+      "fromUrl": "works/沉思录/",
+      "toUrl": "",
+      "fromLabel": "沉思录",
+      "toLabel": "宇宙理性",
+      "firstLine": 190,
+      "firstAnchor": "cite-190-26",
+      "allOccurrences": [
+        {
+          "line": 190,
+          "anchor": "cite-190-26"
+        }
+      ]
+    },
+    {
+      "id": "e409",
+      "from": "沉思录",
+      "to": "安东尼努斯·庇护",
+      "fromUrl": "works/沉思录/",
+      "toUrl": "",
+      "fromLabel": "沉思录",
+      "toLabel": "安东尼努斯·庇护",
+      "firstLine": 97,
+      "firstAnchor": "cite-97-4",
+      "allOccurrences": [
+        {
+          "line": 97,
+          "anchor": "cite-97-4"
+        }
+      ]
+    },
+    {
+      "id": "e410",
+      "from": "沉思录",
+      "to": "庄子",
+      "fromUrl": "works/沉思录/",
+      "toUrl": "",
+      "fromLabel": "沉思录",
+      "toLabel": "庄子",
+      "firstLine": 177,
+      "firstAnchor": "cite-177-16",
+      "allOccurrences": [
+        {
+          "line": 177,
+          "anchor": "cite-177-16"
+        }
+      ]
+    },
+    {
+      "id": "e411",
+      "from": "沉思录",
+      "to": "康德",
+      "fromUrl": "works/沉思录/",
+      "toUrl": "",
+      "fromLabel": "沉思录",
+      "toLabel": "康德",
+      "firstLine": 145,
+      "firstAnchor": "cite-145-10",
+      "allOccurrences": [
+        {
+          "line": 145,
+          "anchor": "cite-145-10"
+        }
+      ]
+    },
+    {
+      "id": "e412",
+      "from": "沉思录",
+      "to": "斯多亚学派",
+      "fromUrl": "works/沉思录/",
+      "toUrl": "schools/斯多亚学派/",
+      "fromLabel": "沉思录",
+      "toLabel": "斯多亚学派",
+      "firstLine": 183,
+      "firstAnchor": "cite-183-19",
+      "allOccurrences": [
+        {
+          "line": 183,
+          "anchor": "cite-183-19"
+        },
+        {
+          "line": 195,
+          "anchor": "cite-195-28"
+        },
+        {
+          "line": 199,
+          "anchor": "cite-199-32"
+        }
+      ]
+    },
+    {
+      "id": "e413",
+      "from": "沉思录",
+      "to": "新柏拉图学派",
+      "fromUrl": "works/沉思录/",
+      "toUrl": "schools/新柏拉图学派/",
+      "fromLabel": "沉思录",
+      "toLabel": "新柏拉图学派",
+      "firstLine": 200,
+      "firstAnchor": "cite-200-33",
+      "allOccurrences": [
+        {
+          "line": 200,
+          "anchor": "cite-200-33"
+        }
+      ]
+    },
+    {
+      "id": "e414",
+      "from": "沉思录",
+      "to": "新约",
+      "fromUrl": "works/沉思录/",
+      "toUrl": "",
+      "fromLabel": "沉思录",
+      "toLabel": "新约",
+      "firstLine": 176,
+      "firstAnchor": "cite-176-14",
+      "allOccurrences": [
+        {
+          "line": 176,
+          "anchor": "cite-176-14"
+        }
+      ]
+    },
+    {
+      "id": "e415",
+      "from": "沉思录",
+      "to": "普罗提诺",
+      "fromUrl": "works/沉思录/",
+      "toUrl": "philosophers/普罗提诺/",
+      "fromLabel": "沉思录",
+      "toLabel": "普罗提诺",
+      "firstLine": 141,
+      "firstAnchor": "cite-141-9",
+      "allOccurrences": [
+        {
+          "line": 141,
+          "anchor": "cite-141-9"
+        }
+      ]
+    },
+    {
+      "id": "e416",
+      "from": "沉思录",
+      "to": "民胞物与",
+      "fromUrl": "works/沉思录/",
+      "toUrl": "",
+      "fromLabel": "沉思录",
+      "toLabel": "民胞物与",
+      "firstLine": 188,
+      "firstAnchor": "cite-188-24",
+      "allOccurrences": [
+        {
+          "line": 188,
+          "anchor": "cite-188-24"
+        }
+      ]
+    },
+    {
+      "id": "e418",
+      "from": "沉思录",
+      "to": "沉思死亡",
+      "fromUrl": "works/沉思录/",
+      "toUrl": "",
+      "fromLabel": "沉思录",
+      "toLabel": "沉思死亡",
+      "firstLine": 189,
+      "firstAnchor": "cite-189-25",
+      "allOccurrences": [
+        {
+          "line": 189,
+          "anchor": "cite-189-25"
+        }
+      ]
+    },
+    {
+      "id": "e419",
+      "from": "沉思录",
+      "to": "爱比克泰德",
+      "fromUrl": "works/沉思录/",
+      "toUrl": "",
+      "fromLabel": "沉思录",
+      "toLabel": "爱比克泰德",
+      "firstLine": 195,
+      "firstAnchor": "cite-195-30",
+      "allOccurrences": [
+        {
+          "line": 195,
+          "anchor": "cite-195-30"
+        }
+      ]
+    },
+    {
+      "id": "e420",
+      "from": "沉思录",
+      "to": "老子",
+      "fromUrl": "works/沉思录/",
+      "toUrl": "",
+      "fromLabel": "沉思录",
+      "toLabel": "老子",
+      "firstLine": 178,
+      "firstAnchor": "cite-178-17",
+      "allOccurrences": [
+        {
+          "line": 178,
+          "anchor": "cite-178-17"
+        }
+      ]
+    },
+    {
+      "id": "e421",
+      "from": "沉思录",
+      "to": "西塞罗",
+      "fromUrl": "works/沉思录/",
+      "toUrl": "philosophers/西塞罗/",
+      "fromLabel": "沉思录",
+      "toLabel": "西塞罗",
+      "firstLine": 195,
+      "firstAnchor": "cite-195-31",
+      "allOccurrences": [
+        {
+          "line": 195,
+          "anchor": "cite-195-31"
+        }
+      ]
+    },
+    {
+      "id": "e422",
+      "from": "沉思录",
+      "to": "马可·奥勒留",
+      "fromUrl": "works/沉思录/",
+      "toUrl": "philosophers/马可·奥勒留/",
+      "fromLabel": "沉思录",
+      "toLabel": "马可·奥勒留",
+      "firstLine": 7,
+      "firstAnchor": "cite-7-2",
+      "allOccurrences": [
+        {
+          "line": 7,
+          "anchor": "cite-7-2"
+        },
+        {
+          "line": 16,
+          "anchor": "cite-16-3"
+        },
+        {
+          "line": 194,
+          "anchor": "cite-194-27"
+        }
+      ]
+    },
+    {
+      "id": "e423",
+      "from": "沉思录",
+      "to": "黑格尔",
+      "fromUrl": "works/沉思录/",
+      "toUrl": "",
+      "fromLabel": "沉思录",
+      "toLabel": "黑格尔",
+      "firstLine": 146,
+      "firstAnchor": "cite-146-11",
+      "allOccurrences": [
+        {
+          "line": 146,
+          "anchor": "cite-146-11"
+        }
+      ]
+    },
+    {
+      "id": "e424",
       "from": "洞穴比喻",
       "to": "回忆说",
       "fromUrl": "arguments/洞穴比喻/",
@@ -4217,7 +8383,7 @@
       ]
     },
     {
-      "id": "e209",
+      "id": "e426",
       "from": "洞穴比喻",
       "to": "理念论",
       "fromUrl": "arguments/洞穴比喻/",
@@ -4234,7 +8400,7 @@
       ]
     },
     {
-      "id": "e210",
+      "id": "e427",
       "from": "洞穴比喻",
       "to": "理想国",
       "fromUrl": "arguments/洞穴比喻/",
@@ -4255,7 +8421,372 @@
       ]
     },
     {
-      "id": "e211",
+      "id": "e428",
+      "from": "犬儒学派",
+      "to": "不动心",
+      "fromUrl": "schools/犬儒学派/",
+      "toUrl": "",
+      "fromLabel": "犬儒学派",
+      "toLabel": "不动心",
+      "firstLine": 111,
+      "firstAnchor": "cite-111-26",
+      "allOccurrences": [
+        {
+          "line": 111,
+          "anchor": "cite-111-26"
+        }
+      ]
+    },
+    {
+      "id": "e429",
+      "from": "犬儒学派",
+      "to": "世界主义",
+      "fromUrl": "schools/犬儒学派/",
+      "toUrl": "",
+      "fromLabel": "犬儒学派",
+      "toLabel": "世界主义",
+      "firstLine": 113,
+      "firstAnchor": "cite-113-28",
+      "allOccurrences": [
+        {
+          "line": 113,
+          "anchor": "cite-113-28"
+        }
+      ]
+    },
+    {
+      "id": "e430",
+      "from": "犬儒学派",
+      "to": "伊壁鸠鲁学派",
+      "fromUrl": "schools/犬儒学派/",
+      "toUrl": "schools/伊壁鸠鲁学派/",
+      "fromLabel": "犬儒学派",
+      "toLabel": "伊壁鸠鲁学派",
+      "firstLine": 90,
+      "firstAnchor": "cite-90-23",
+      "allOccurrences": [
+        {
+          "line": 90,
+          "anchor": "cite-90-23"
+        },
+        {
+          "line": 125,
+          "anchor": "cite-125-34"
+        },
+        {
+          "line": 142,
+          "anchor": "cite-142-36"
+        }
+      ]
+    },
+    {
+      "id": "e431",
+      "from": "犬儒学派",
+      "to": "佩雷格里努斯·普罗忒乌斯",
+      "fromUrl": "schools/犬儒学派/",
+      "toUrl": "",
+      "fromLabel": "犬儒学派",
+      "toLabel": "佩雷格里努斯·普罗忒乌斯",
+      "firstLine": 74,
+      "firstAnchor": "cite-74-16",
+      "allOccurrences": [
+        {
+          "line": 74,
+          "anchor": "cite-74-16"
+        }
+      ]
+    },
+    {
+      "id": "e432",
+      "from": "犬儒学派",
+      "to": "克拉底斯",
+      "fromUrl": "schools/犬儒学派/",
+      "toUrl": "",
+      "fromLabel": "犬儒学派",
+      "toLabel": "克拉底斯",
+      "firstLine": 11,
+      "firstAnchor": "cite-11-5",
+      "allOccurrences": [
+        {
+          "line": 11,
+          "anchor": "cite-11-5"
+        },
+        {
+          "line": 81,
+          "anchor": "cite-81-19"
+        }
+      ]
+    },
+    {
+      "id": "e433",
+      "from": "犬儒学派",
+      "to": "安提斯泰尼",
+      "fromUrl": "schools/犬儒学派/",
+      "toUrl": "",
+      "fromLabel": "犬儒学派",
+      "toLabel": "安提斯泰尼",
+      "firstLine": 71,
+      "firstAnchor": "cite-71-11",
+      "allOccurrences": [
+        {
+          "line": 71,
+          "anchor": "cite-71-11"
+        },
+        {
+          "line": 118,
+          "anchor": "cite-118-30"
+        }
+      ]
+    },
+    {
+      "id": "e434",
+      "from": "犬儒学派",
+      "to": "希腊化时期",
+      "fromUrl": "schools/犬儒学派/",
+      "toUrl": "periods/希腊化时期/",
+      "fromLabel": "犬儒学派",
+      "toLabel": "希腊化时期",
+      "firstLine": 3,
+      "firstAnchor": "cite-3-2",
+      "allOccurrences": [
+        {
+          "line": 3,
+          "anchor": "cite-3-2"
+        }
+      ]
+    },
+    {
+      "id": "e435",
+      "from": "犬儒学派",
+      "to": "德性",
+      "fromUrl": "schools/犬儒学派/",
+      "toUrl": "",
+      "fromLabel": "犬儒学派",
+      "toLabel": "德性",
+      "firstLine": 112,
+      "firstAnchor": "cite-112-27",
+      "allOccurrences": [
+        {
+          "line": 112,
+          "anchor": "cite-112-27"
+        }
+      ]
+    },
+    {
+      "id": "e436",
+      "from": "犬儒学派",
+      "to": "斯多亚学派",
+      "fromUrl": "schools/犬儒学派/",
+      "toUrl": "schools/斯多亚学派/",
+      "fromLabel": "犬儒学派",
+      "toLabel": "斯多亚学派",
+      "firstLine": 3,
+      "firstAnchor": "cite-3-3",
+      "allOccurrences": [
+        {
+          "line": 3,
+          "anchor": "cite-3-3"
+        },
+        {
+          "line": 33,
+          "anchor": "cite-33-7"
+        },
+        {
+          "line": 34,
+          "anchor": "cite-34-8"
+        },
+        {
+          "line": 78,
+          "anchor": "cite-78-17"
+        },
+        {
+          "line": 83,
+          "anchor": "cite-83-20"
+        },
+        {
+          "line": 124,
+          "anchor": "cite-124-33"
+        }
+      ]
+    },
+    {
+      "id": "e437",
+      "from": "犬儒学派",
+      "to": "梅尼普斯",
+      "fromUrl": "schools/犬儒学派/",
+      "toUrl": "",
+      "fromLabel": "犬儒学派",
+      "toLabel": "梅尼普斯",
+      "firstLine": 12,
+      "firstAnchor": "cite-12-6",
+      "allOccurrences": [
+        {
+          "line": 12,
+          "anchor": "cite-12-6"
+        },
+        {
+          "line": 73,
+          "anchor": "cite-73-13"
+        }
+      ]
+    },
+    {
+      "id": "e439",
+      "from": "犬儒学派",
+      "to": "第欧根尼",
+      "fromUrl": "schools/犬儒学派/",
+      "toUrl": "",
+      "fromLabel": "犬儒学派",
+      "toLabel": "第欧根尼",
+      "firstLine": 10,
+      "firstAnchor": "cite-10-4",
+      "allOccurrences": [
+        {
+          "line": 10,
+          "anchor": "cite-10-4"
+        },
+        {
+          "line": 71,
+          "anchor": "cite-71-12"
+        },
+        {
+          "line": 119,
+          "anchor": "cite-119-31"
+        }
+      ]
+    },
+    {
+      "id": "e440",
+      "from": "犬儒学派",
+      "to": "第欧根尼·拉尔修",
+      "fromUrl": "schools/犬儒学派/",
+      "toUrl": "",
+      "fromLabel": "犬儒学派",
+      "toLabel": "第欧根尼·拉尔修",
+      "firstLine": 73,
+      "firstAnchor": "cite-73-14",
+      "allOccurrences": [
+        {
+          "line": 73,
+          "anchor": "cite-73-14"
+        },
+        {
+          "line": 73,
+          "anchor": "cite-73-15"
+        },
+        {
+          "line": 136,
+          "anchor": "cite-136-35"
+        }
+      ]
+    },
+    {
+      "id": "e441",
+      "from": "犬儒学派",
+      "to": "自然",
+      "fromUrl": "schools/犬儒学派/",
+      "toUrl": "",
+      "fromLabel": "犬儒学派",
+      "toLabel": "自然",
+      "firstLine": 110,
+      "firstAnchor": "cite-110-25",
+      "allOccurrences": [
+        {
+          "line": 110,
+          "anchor": "cite-110-25"
+        }
+      ]
+    },
+    {
+      "id": "e442",
+      "from": "犬儒学派",
+      "to": "自足",
+      "fromUrl": "schools/犬儒学派/",
+      "toUrl": "",
+      "fromLabel": "犬儒学派",
+      "toLabel": "自足",
+      "firstLine": 109,
+      "firstAnchor": "cite-109-24",
+      "allOccurrences": [
+        {
+          "line": 109,
+          "anchor": "cite-109-24"
+        }
+      ]
+    },
+    {
+      "id": "e443",
+      "from": "犬儒学派",
+      "to": "芝诺",
+      "fromUrl": "schools/犬儒学派/",
+      "toUrl": "",
+      "fromLabel": "犬儒学派",
+      "toLabel": "芝诺",
+      "firstLine": 81,
+      "firstAnchor": "cite-81-18",
+      "allOccurrences": [
+        {
+          "line": 81,
+          "anchor": "cite-81-18"
+        },
+        {
+          "line": 120,
+          "anchor": "cite-120-32"
+        }
+      ]
+    },
+    {
+      "id": "e444",
+      "from": "犬儒学派",
+      "to": "苏格拉底",
+      "fromUrl": "schools/犬儒学派/",
+      "toUrl": "philosophers/苏格拉底/",
+      "fromLabel": "犬儒学派",
+      "toLabel": "苏格拉底",
+      "firstLine": 38,
+      "firstAnchor": "cite-38-9",
+      "allOccurrences": [
+        {
+          "line": 38,
+          "anchor": "cite-38-9"
+        },
+        {
+          "line": 71,
+          "anchor": "cite-71-10"
+        },
+        {
+          "line": 85,
+          "anchor": "cite-85-21"
+        },
+        {
+          "line": 87,
+          "anchor": "cite-87-22"
+        },
+        {
+          "line": 117,
+          "anchor": "cite-117-29"
+        }
+      ]
+    },
+    {
+      "id": "e445",
+      "from": "理念论",
+      "to": "一元论",
+      "fromUrl": "concepts/理念论/",
+      "toUrl": "concepts/一元论/",
+      "fromLabel": "理念论",
+      "toLabel": "一元论",
+      "firstLine": 90,
+      "firstAnchor": "cite-90-26",
+      "allOccurrences": [
+        {
+          "line": 90,
+          "anchor": "cite-90-26"
+        }
+      ]
+    },
+    {
+      "id": "e446",
       "from": "理念论",
       "to": "亚里士多德",
       "fromUrl": "concepts/理念论/",
@@ -4276,7 +8807,7 @@
       ]
     },
     {
-      "id": "e212",
+      "id": "e447",
       "from": "理念论",
       "to": "先验理念",
       "fromUrl": "concepts/理念论/",
@@ -4293,7 +8824,7 @@
       ]
     },
     {
-      "id": "e213",
+      "id": "e448",
       "from": "理念论",
       "to": "分有",
       "fromUrl": "concepts/理念论/",
@@ -4310,7 +8841,7 @@
       ]
     },
     {
-      "id": "e214",
+      "id": "e449",
       "from": "理念论",
       "to": "奥卡姆",
       "fromUrl": "concepts/理念论/",
@@ -4327,7 +8858,7 @@
       ]
     },
     {
-      "id": "e215",
+      "id": "e450",
       "from": "理念论",
       "to": "形式",
       "fromUrl": "concepts/理念论/",
@@ -4344,7 +8875,7 @@
       ]
     },
     {
-      "id": "e216",
+      "id": "e451",
       "from": "理念论",
       "to": "形式与质料",
       "fromUrl": "concepts/理念论/",
@@ -4365,7 +8896,7 @@
       ]
     },
     {
-      "id": "e217",
+      "id": "e452",
       "from": "理念论",
       "to": "新柏拉图主义",
       "fromUrl": "concepts/理念论/",
@@ -4382,11 +8913,28 @@
       ]
     },
     {
-      "id": "e218",
+      "id": "e453",
+      "from": "理念论",
+      "to": "新柏拉图学派",
+      "fromUrl": "concepts/理念论/",
+      "toUrl": "schools/新柏拉图学派/",
+      "fromLabel": "理念论",
+      "toLabel": "新柏拉图学派",
+      "firstLine": 90,
+      "firstAnchor": "cite-90-24",
+      "allOccurrences": [
+        {
+          "line": 90,
+          "anchor": "cite-90-24"
+        }
+      ]
+    },
+    {
+      "id": "e454",
       "from": "理念论",
       "to": "普罗提诺",
       "fromUrl": "concepts/理念论/",
-      "toUrl": "",
+      "toUrl": "philosophers/普罗提诺/",
       "fromLabel": "理念论",
       "toLabel": "普罗提诺",
       "firstLine": 16,
@@ -4399,11 +8947,19 @@
         {
           "line": 64,
           "anchor": "cite-64-16"
+        },
+        {
+          "line": 90,
+          "anchor": "cite-90-23"
+        },
+        {
+          "line": 90,
+          "anchor": "cite-90-25"
         }
       ]
     },
     {
-      "id": "e219",
+      "id": "e455",
       "from": "理念论",
       "to": "柏拉图",
       "fromUrl": "concepts/理念论/",
@@ -4428,7 +8984,7 @@
       ]
     },
     {
-      "id": "e220",
+      "id": "e456",
       "from": "理念论",
       "to": "柏拉图主义",
       "fromUrl": "concepts/理念论/",
@@ -4445,7 +9001,7 @@
       ]
     },
     {
-      "id": "e221",
+      "id": "e457",
       "from": "理念论",
       "to": "洞穴比喻",
       "fromUrl": "concepts/理念论/",
@@ -4462,7 +9018,7 @@
       ]
     },
     {
-      "id": "e223",
+      "id": "e459",
       "from": "理念论",
       "to": "理想国",
       "fromUrl": "concepts/理念论/",
@@ -4479,7 +9035,7 @@
       ]
     },
     {
-      "id": "e224",
+      "id": "e460",
       "from": "理念论",
       "to": "苏格拉底",
       "fromUrl": "concepts/理念论/",
@@ -4508,7 +9064,7 @@
       ]
     },
     {
-      "id": "e225",
+      "id": "e461",
       "from": "理想国",
       "to": "哲人王",
       "fromUrl": "works/理想国/",
@@ -4525,7 +9081,7 @@
       ]
     },
     {
-      "id": "e226",
+      "id": "e462",
       "from": "理想国",
       "to": "善的理念",
       "fromUrl": "works/理想国/",
@@ -4542,11 +9098,11 @@
       ]
     },
     {
-      "id": "e227",
+      "id": "e463",
       "from": "理想国",
       "to": "普罗提诺",
       "fromUrl": "works/理想国/",
-      "toUrl": "",
+      "toUrl": "philosophers/普罗提诺/",
       "fromLabel": "理想国",
       "toLabel": "普罗提诺",
       "firstLine": 37,
@@ -4559,7 +9115,7 @@
       ]
     },
     {
-      "id": "e228",
+      "id": "e464",
       "from": "理想国",
       "to": "柏拉图",
       "fromUrl": "works/理想国/",
@@ -4576,7 +9132,7 @@
       ]
     },
     {
-      "id": "e229",
+      "id": "e465",
       "from": "理想国",
       "to": "洛克",
       "fromUrl": "works/理想国/",
@@ -4593,7 +9149,7 @@
       ]
     },
     {
-      "id": "e230",
+      "id": "e466",
       "from": "理想国",
       "to": "洞穴比喻",
       "fromUrl": "works/理想国/",
@@ -4614,7 +9170,7 @@
       ]
     },
     {
-      "id": "e232",
+      "id": "e468",
       "from": "理想国",
       "to": "罗尔斯",
       "fromUrl": "works/理想国/",
@@ -4631,7 +9187,7 @@
       ]
     },
     {
-      "id": "e233",
+      "id": "e469",
       "from": "理想国",
       "to": "苏格拉底",
       "fromUrl": "works/理想国/",
@@ -4648,7 +9204,7 @@
       ]
     },
     {
-      "id": "e234",
+      "id": "e470",
       "from": "目的因",
       "to": "亚里士多德",
       "fromUrl": "concepts/目的因/",
@@ -4669,7 +9225,7 @@
       ]
     },
     {
-      "id": "e235",
+      "id": "e471",
       "from": "目的因",
       "to": "四因说",
       "fromUrl": "concepts/目的因/",
@@ -4698,7 +9254,7 @@
       ]
     },
     {
-      "id": "e236",
+      "id": "e472",
       "from": "目的因",
       "to": "柏拉图",
       "fromUrl": "concepts/目的因/",
@@ -4719,7 +9275,7 @@
       ]
     },
     {
-      "id": "e238",
+      "id": "e474",
       "from": "目的因",
       "to": "第一推动者",
       "fromUrl": "concepts/目的因/",
@@ -4736,7 +9292,7 @@
       ]
     },
     {
-      "id": "e239",
+      "id": "e475",
       "from": "目的因",
       "to": "自然神学",
       "fromUrl": "concepts/目的因/",
@@ -4753,7 +9309,7 @@
       ]
     },
     {
-      "id": "e240",
+      "id": "e476",
       "from": "知识图谱",
       "to": "X",
       "fromUrl": "",
@@ -4770,7 +9326,7 @@
       ]
     },
     {
-      "id": "e241",
+      "id": "e477",
       "from": "知识图谱",
       "to": "link",
       "fromUrl": "",
@@ -4787,7 +9343,7 @@
       ]
     },
     {
-      "id": "e242",
+      "id": "e478",
       "from": "知识图谱",
       "to": "wikilink",
       "fromUrl": "",
@@ -4804,7 +9360,655 @@
       ]
     },
     {
-      "id": "e243",
+      "id": "e479",
+      "from": "神秘主义",
+      "to": "Daniel M. Wegner",
+      "fromUrl": "concepts/神秘主义/",
+      "toUrl": "",
+      "fromLabel": "神秘主义",
+      "toLabel": "Daniel M. Wegner",
+      "firstLine": 105,
+      "firstAnchor": "cite-105-22",
+      "allOccurrences": [
+        {
+          "line": 105,
+          "anchor": "cite-105-22"
+        },
+        {
+          "line": 165,
+          "anchor": "cite-165-46"
+        }
+      ]
+    },
+    {
+      "id": "e480",
+      "from": "神秘主义",
+      "to": "Husserl",
+      "fromUrl": "concepts/神秘主义/",
+      "toUrl": "",
+      "fromLabel": "神秘主义",
+      "toLabel": "Husserl",
+      "firstLine": 111,
+      "firstAnchor": "cite-111-25",
+      "allOccurrences": [
+        {
+          "line": 111,
+          "anchor": "cite-111-25"
+        }
+      ]
+    },
+    {
+      "id": "e481",
+      "from": "神秘主义",
+      "to": "Ibn Arabi",
+      "fromUrl": "concepts/神秘主义/",
+      "toUrl": "",
+      "fromLabel": "神秘主义",
+      "toLabel": "Ibn Arabi",
+      "firstLine": 36,
+      "firstAnchor": "cite-36-10",
+      "allOccurrences": [
+        {
+          "line": 36,
+          "anchor": "cite-36-10"
+        }
+      ]
+    },
+    {
+      "id": "e482",
+      "from": "神秘主义",
+      "to": "Merleau-Ponty",
+      "fromUrl": "concepts/神秘主义/",
+      "toUrl": "",
+      "fromLabel": "神秘主义",
+      "toLabel": "Merleau-Ponty",
+      "firstLine": 111,
+      "firstAnchor": "cite-111-26",
+      "allOccurrences": [
+        {
+          "line": 111,
+          "anchor": "cite-111-26"
+        }
+      ]
+    },
+    {
+      "id": "e483",
+      "from": "神秘主义",
+      "to": "Rudolf Otto",
+      "fromUrl": "concepts/神秘主义/",
+      "toUrl": "",
+      "fromLabel": "神秘主义",
+      "toLabel": "Rudolf Otto",
+      "firstLine": 116,
+      "firstAnchor": "cite-116-27",
+      "allOccurrences": [
+        {
+          "line": 116,
+          "anchor": "cite-116-27"
+        }
+      ]
+    },
+    {
+      "id": "e484",
+      "from": "神秘主义",
+      "to": "William James",
+      "fromUrl": "concepts/神秘主义/",
+      "toUrl": "",
+      "fromLabel": "神秘主义",
+      "toLabel": "William James",
+      "firstLine": 109,
+      "firstAnchor": "cite-109-23",
+      "allOccurrences": [
+        {
+          "line": 109,
+          "anchor": "cite-109-23"
+        },
+        {
+          "line": 143,
+          "anchor": "cite-143-44"
+        }
+      ]
+    },
+    {
+      "id": "e485",
+      "from": "神秘主义",
+      "to": "al-Ghazali",
+      "fromUrl": "concepts/神秘主义/",
+      "toUrl": "",
+      "fromLabel": "神秘主义",
+      "toLabel": "al-Ghazali",
+      "firstLine": 35,
+      "firstAnchor": "cite-35-9",
+      "allOccurrences": [
+        {
+          "line": 35,
+          "anchor": "cite-35-9"
+        }
+      ]
+    },
+    {
+      "id": "e486",
+      "from": "神秘主义",
+      "to": "乔布斯",
+      "fromUrl": "concepts/神秘主义/",
+      "toUrl": "",
+      "fromLabel": "神秘主义",
+      "toLabel": "乔布斯",
+      "firstLine": 96,
+      "firstAnchor": "cite-96-17",
+      "allOccurrences": [
+        {
+          "line": 96,
+          "anchor": "cite-96-17"
+        }
+      ]
+    },
+    {
+      "id": "e487",
+      "from": "神秘主义",
+      "to": "伪狄奥尼修斯",
+      "fromUrl": "concepts/神秘主义/",
+      "toUrl": "",
+      "fromLabel": "神秘主义",
+      "toLabel": "伪狄奥尼修斯",
+      "firstLine": 28,
+      "firstAnchor": "cite-28-5",
+      "allOccurrences": [
+        {
+          "line": 28,
+          "anchor": "cite-28-5"
+        },
+        {
+          "line": 141,
+          "anchor": "cite-141-42"
+        }
+      ]
+    },
+    {
+      "id": "e488",
+      "from": "神秘主义",
+      "to": "佐哈尔",
+      "fromUrl": "concepts/神秘主义/",
+      "toUrl": "",
+      "fromLabel": "神秘主义",
+      "toLabel": "佐哈尔",
+      "firstLine": 50,
+      "firstAnchor": "cite-50-14",
+      "allOccurrences": [
+        {
+          "line": 50,
+          "anchor": "cite-50-14"
+        }
+      ]
+    },
+    {
+      "id": "e489",
+      "from": "神秘主义",
+      "to": "卡巴拉",
+      "fromUrl": "concepts/神秘主义/",
+      "toUrl": "",
+      "fromLabel": "神秘主义",
+      "toLabel": "卡巴拉",
+      "firstLine": 50,
+      "firstAnchor": "cite-50-13",
+      "allOccurrences": [
+        {
+          "line": 50,
+          "anchor": "cite-50-13"
+        }
+      ]
+    },
+    {
+      "id": "e490",
+      "from": "神秘主义",
+      "to": "商羯罗",
+      "fromUrl": "concepts/神秘主义/",
+      "toUrl": "",
+      "fromLabel": "神秘主义",
+      "toLabel": "商羯罗",
+      "firstLine": 40,
+      "firstAnchor": "cite-40-11",
+      "allOccurrences": [
+        {
+          "line": 40,
+          "anchor": "cite-40-11"
+        },
+        {
+          "line": 139,
+          "anchor": "cite-139-40"
+        }
+      ]
+    },
+    {
+      "id": "e491",
+      "from": "神秘主义",
+      "to": "圣十字约翰",
+      "fromUrl": "concepts/神秘主义/",
+      "toUrl": "",
+      "fromLabel": "神秘主义",
+      "toLabel": "圣十字约翰",
+      "firstLine": 29,
+      "firstAnchor": "cite-29-6",
+      "allOccurrences": [
+        {
+          "line": 29,
+          "anchor": "cite-29-6"
+        }
+      ]
+    },
+    {
+      "id": "e492",
+      "from": "神秘主义",
+      "to": "埃克哈特大师",
+      "fromUrl": "concepts/神秘主义/",
+      "toUrl": "",
+      "fromLabel": "神秘主义",
+      "toLabel": "埃克哈特大师",
+      "firstLine": 30,
+      "firstAnchor": "cite-30-7",
+      "allOccurrences": [
+        {
+          "line": 30,
+          "anchor": "cite-30-7"
+        },
+        {
+          "line": 142,
+          "anchor": "cite-142-43"
+        }
+      ]
+    },
+    {
+      "id": "e493",
+      "from": "神秘主义",
+      "to": "太一",
+      "fromUrl": "concepts/神秘主义/",
+      "toUrl": "",
+      "fromLabel": "神秘主义",
+      "toLabel": "太一",
+      "firstLine": 129,
+      "firstAnchor": "cite-129-33",
+      "allOccurrences": [
+        {
+          "line": 129,
+          "anchor": "cite-129-33"
+        }
+      ]
+    },
+    {
+      "id": "e494",
+      "from": "神秘主义",
+      "to": "奥古斯丁",
+      "fromUrl": "concepts/神秘主义/",
+      "toUrl": "",
+      "fromLabel": "神秘主义",
+      "toLabel": "奥古斯丁",
+      "firstLine": 27,
+      "firstAnchor": "cite-27-4",
+      "allOccurrences": [
+        {
+          "line": 27,
+          "anchor": "cite-27-4"
+        },
+        {
+          "line": 138,
+          "anchor": "cite-138-39"
+        }
+      ]
+    },
+    {
+      "id": "e495",
+      "from": "神秘主义",
+      "to": "安瑟伦",
+      "fromUrl": "concepts/神秘主义/",
+      "toUrl": "",
+      "fromLabel": "神秘主义",
+      "toLabel": "安瑟伦",
+      "firstLine": 110,
+      "firstAnchor": "cite-110-24",
+      "allOccurrences": [
+        {
+          "line": 110,
+          "anchor": "cite-110-24"
+        }
+      ]
+    },
+    {
+      "id": "e496",
+      "from": "神秘主义",
+      "to": "宗教",
+      "fromUrl": "concepts/神秘主义/",
+      "toUrl": "",
+      "fromLabel": "神秘主义",
+      "toLabel": "宗教",
+      "firstLine": 123,
+      "firstAnchor": "cite-123-30",
+      "allOccurrences": [
+        {
+          "line": 123,
+          "anchor": "cite-123-30"
+        }
+      ]
+    },
+    {
+      "id": "e497",
+      "from": "神秘主义",
+      "to": "庄子",
+      "fromUrl": "concepts/神秘主义/",
+      "toUrl": "",
+      "fromLabel": "神秘主义",
+      "toLabel": "庄子",
+      "firstLine": 140,
+      "firstAnchor": "cite-140-41",
+      "allOccurrences": [
+        {
+          "line": 140,
+          "anchor": "cite-140-41"
+        }
+      ]
+    },
+    {
+      "id": "e498",
+      "from": "神秘主义",
+      "to": "意识",
+      "fromUrl": "concepts/神秘主义/",
+      "toUrl": "",
+      "fromLabel": "神秘主义",
+      "toLabel": "意识",
+      "firstLine": 125,
+      "firstAnchor": "cite-125-32",
+      "allOccurrences": [
+        {
+          "line": 125,
+          "anchor": "cite-125-32"
+        }
+      ]
+    },
+    {
+      "id": "e499",
+      "from": "神秘主义",
+      "to": "新柏拉图学派",
+      "fromUrl": "concepts/神秘主义/",
+      "toUrl": "schools/新柏拉图学派/",
+      "fromLabel": "神秘主义",
+      "toLabel": "新柏拉图学派",
+      "firstLine": 22,
+      "firstAnchor": "cite-22-2",
+      "allOccurrences": [
+        {
+          "line": 22,
+          "anchor": "cite-22-2"
+        },
+        {
+          "line": 147,
+          "anchor": "cite-147-45"
+        }
+      ]
+    },
+    {
+      "id": "e500",
+      "from": "神秘主义",
+      "to": "无我",
+      "fromUrl": "concepts/神秘主义/",
+      "toUrl": "",
+      "fromLabel": "神秘主义",
+      "toLabel": "无我",
+      "firstLine": 132,
+      "firstAnchor": "cite-132-36",
+      "allOccurrences": [
+        {
+          "line": 132,
+          "anchor": "cite-132-36"
+        }
+      ]
+    },
+    {
+      "id": "e501",
+      "from": "神秘主义",
+      "to": "普罗提诺",
+      "fromUrl": "concepts/神秘主义/",
+      "toUrl": "philosophers/普罗提诺/",
+      "fromLabel": "神秘主义",
+      "toLabel": "普罗提诺",
+      "firstLine": 22,
+      "firstAnchor": "cite-22-3",
+      "allOccurrences": [
+        {
+          "line": 22,
+          "anchor": "cite-22-3"
+        },
+        {
+          "line": 97,
+          "anchor": "cite-97-18"
+        },
+        {
+          "line": 137,
+          "anchor": "cite-137-38"
+        }
+      ]
+    },
+    {
+      "id": "e502",
+      "from": "神秘主义",
+      "to": "暗夜",
+      "fromUrl": "concepts/神秘主义/",
+      "toUrl": "",
+      "fromLabel": "神秘主义",
+      "toLabel": "暗夜",
+      "firstLine": 131,
+      "firstAnchor": "cite-131-35",
+      "allOccurrences": [
+        {
+          "line": 131,
+          "anchor": "cite-131-35"
+        }
+      ]
+    },
+    {
+      "id": "e503",
+      "from": "神秘主义",
+      "to": "柏拉图",
+      "fromUrl": "concepts/神秘主义/",
+      "toUrl": "philosophers/柏拉图/",
+      "fromLabel": "神秘主义",
+      "toLabel": "柏拉图",
+      "firstLine": 97,
+      "firstAnchor": "cite-97-19",
+      "allOccurrences": [
+        {
+          "line": 97,
+          "anchor": "cite-97-19"
+        }
+      ]
+    },
+    {
+      "id": "e504",
+      "from": "神秘主义",
+      "to": "梵我一如",
+      "fromUrl": "concepts/神秘主义/",
+      "toUrl": "",
+      "fromLabel": "神秘主义",
+      "toLabel": "梵我一如",
+      "firstLine": 133,
+      "firstAnchor": "cite-133-37",
+      "allOccurrences": [
+        {
+          "line": 133,
+          "anchor": "cite-133-37"
+        }
+      ]
+    },
+    {
+      "id": "e505",
+      "from": "神秘主义",
+      "to": "灵魂回归",
+      "fromUrl": "concepts/神秘主义/",
+      "toUrl": "",
+      "fromLabel": "神秘主义",
+      "toLabel": "灵魂回归",
+      "firstLine": 130,
+      "firstAnchor": "cite-130-34",
+      "allOccurrences": [
+        {
+          "line": 130,
+          "anchor": "cite-130-34"
+        }
+      ]
+    },
+    {
+      "id": "e506",
+      "from": "神秘主义",
+      "to": "爱因斯坦",
+      "fromUrl": "concepts/神秘主义/",
+      "toUrl": "",
+      "fromLabel": "神秘主义",
+      "toLabel": "爱因斯坦",
+      "firstLine": 96,
+      "firstAnchor": "cite-96-16",
+      "allOccurrences": [
+        {
+          "line": 96,
+          "anchor": "cite-96-16"
+        }
+      ]
+    },
+    {
+      "id": "e507",
+      "from": "神秘主义",
+      "to": "理性主义",
+      "fromUrl": "concepts/神秘主义/",
+      "toUrl": "",
+      "fromLabel": "神秘主义",
+      "toLabel": "理性主义",
+      "firstLine": 121,
+      "firstAnchor": "cite-121-28",
+      "allOccurrences": [
+        {
+          "line": 121,
+          "anchor": "cite-121-28"
+        }
+      ]
+    },
+    {
+      "id": "e509",
+      "from": "神秘主义",
+      "to": "经验主义",
+      "fromUrl": "concepts/神秘主义/",
+      "toUrl": "",
+      "fromLabel": "神秘主义",
+      "toLabel": "经验主义",
+      "firstLine": 122,
+      "firstAnchor": "cite-122-29",
+      "allOccurrences": [
+        {
+          "line": 122,
+          "anchor": "cite-122-29"
+        }
+      ]
+    },
+    {
+      "id": "e510",
+      "from": "神秘主义",
+      "to": "罗摩奴阇",
+      "fromUrl": "concepts/神秘主义/",
+      "toUrl": "",
+      "fromLabel": "神秘主义",
+      "toLabel": "罗摩奴阇",
+      "firstLine": 41,
+      "firstAnchor": "cite-41-12",
+      "allOccurrences": [
+        {
+          "line": 41,
+          "anchor": "cite-41-12"
+        }
+      ]
+    },
+    {
+      "id": "e511",
+      "from": "神秘主义",
+      "to": "苏菲派",
+      "fromUrl": "concepts/神秘主义/",
+      "toUrl": "",
+      "fromLabel": "神秘主义",
+      "toLabel": "苏菲派",
+      "firstLine": 34,
+      "firstAnchor": "cite-34-8",
+      "allOccurrences": [
+        {
+          "line": 34,
+          "anchor": "cite-34-8"
+        }
+      ]
+    },
+    {
+      "id": "e512",
+      "from": "神秘主义",
+      "to": "解离",
+      "fromUrl": "concepts/神秘主义/",
+      "toUrl": "",
+      "fromLabel": "神秘主义",
+      "toLabel": "解离",
+      "firstLine": 124,
+      "firstAnchor": "cite-124-31",
+      "allOccurrences": [
+        {
+          "line": 124,
+          "anchor": "cite-124-31"
+        }
+      ]
+    },
+    {
+      "id": "e513",
+      "from": "神秘主义",
+      "to": "马丁·布伯",
+      "fromUrl": "concepts/神秘主义/",
+      "toUrl": "",
+      "fromLabel": "神秘主义",
+      "toLabel": "马丁·布伯",
+      "firstLine": 51,
+      "firstAnchor": "cite-51-15",
+      "allOccurrences": [
+        {
+          "line": 51,
+          "anchor": "cite-51-15"
+        }
+      ]
+    },
+    {
+      "id": "e514",
+      "from": "神秘主义",
+      "to": "高尔茨",
+      "fromUrl": "concepts/神秘主义/",
+      "toUrl": "",
+      "fromLabel": "神秘主义",
+      "toLabel": "高尔茨",
+      "firstLine": 103,
+      "firstAnchor": "cite-103-20",
+      "allOccurrences": [
+        {
+          "line": 103,
+          "anchor": "cite-103-20"
+        }
+      ]
+    },
+    {
+      "id": "e515",
+      "from": "神秘主义",
+      "to": "麦角酸二乙胺",
+      "fromUrl": "concepts/神秘主义/",
+      "toUrl": "",
+      "fromLabel": "神秘主义",
+      "toLabel": "麦角酸二乙胺",
+      "firstLine": 104,
+      "firstAnchor": "cite-104-21",
+      "allOccurrences": [
+        {
+          "line": 104,
+          "anchor": "cite-104-21"
+        }
+      ]
+    },
+    {
+      "id": "e516",
       "from": "第一推动者",
       "to": "亚里士多德",
       "fromUrl": "concepts/第一推动者/",
@@ -4829,7 +10033,7 @@
       ]
     },
     {
-      "id": "e244",
+      "id": "e517",
       "from": "第一推动者",
       "to": "四因说",
       "fromUrl": "concepts/第一推动者/",
@@ -4850,7 +10054,7 @@
       ]
     },
     {
-      "id": "e245",
+      "id": "e518",
       "from": "第一推动者",
       "to": "柏拉图",
       "fromUrl": "concepts/第一推动者/",
@@ -4867,7 +10071,7 @@
       ]
     },
     {
-      "id": "e246",
+      "id": "e519",
       "from": "第一推动者",
       "to": "目的因",
       "fromUrl": "concepts/第一推动者/",
@@ -4892,7 +10096,7 @@
       ]
     },
     {
-      "id": "e248",
+      "id": "e521",
       "from": "第一推动者",
       "to": "自然神学",
       "fromUrl": "concepts/第一推动者/",
@@ -4909,7 +10113,7 @@
       ]
     },
     {
-      "id": "e249",
+      "id": "e522",
       "from": "经验论",
       "to": "亚里士多德",
       "fromUrl": "concepts/经验论/",
@@ -4938,7 +10142,7 @@
       ]
     },
     {
-      "id": "e250",
+      "id": "e523",
       "from": "经验论",
       "to": "先验论",
       "fromUrl": "concepts/经验论/",
@@ -4967,7 +10171,7 @@
       ]
     },
     {
-      "id": "e251",
+      "id": "e524",
       "from": "经验论",
       "to": "回忆说",
       "fromUrl": "concepts/经验论/",
@@ -4988,7 +10192,7 @@
       ]
     },
     {
-      "id": "e252",
+      "id": "e525",
       "from": "经验论",
       "to": "柏拉图",
       "fromUrl": "concepts/经验论/",
@@ -5017,7 +10221,7 @@
       ]
     },
     {
-      "id": "e254",
+      "id": "e527",
       "from": "自然法",
       "to": "logos",
       "fromUrl": "concepts/自然法/",
@@ -5034,7 +10238,7 @@
       ]
     },
     {
-      "id": "e255",
+      "id": "e528",
       "from": "自然法",
       "to": "奥古斯丁",
       "fromUrl": "concepts/自然法/",
@@ -5055,7 +10259,7 @@
       ]
     },
     {
-      "id": "e256",
+      "id": "e529",
       "from": "自然法",
       "to": "实在法",
       "fromUrl": "concepts/自然法/",
@@ -5072,7 +10276,7 @@
       ]
     },
     {
-      "id": "e257",
+      "id": "e530",
       "from": "自然法",
       "to": "托马斯·阿奎那",
       "fromUrl": "concepts/自然法/",
@@ -5093,7 +10297,7 @@
       ]
     },
     {
-      "id": "e258",
+      "id": "e531",
       "from": "自然法",
       "to": "斯多亚学派",
       "fromUrl": "concepts/自然法/",
@@ -5114,7 +10318,7 @@
       ]
     },
     {
-      "id": "e259",
+      "id": "e532",
       "from": "自然法",
       "to": "正义",
       "fromUrl": "concepts/自然法/",
@@ -5131,7 +10335,7 @@
       ]
     },
     {
-      "id": "e260",
+      "id": "e533",
       "from": "自然法",
       "to": "洛克",
       "fromUrl": "concepts/自然法/",
@@ -5152,7 +10356,7 @@
       ]
     },
     {
-      "id": "e261",
+      "id": "e534",
       "from": "自然法",
       "to": "理性",
       "fromUrl": "concepts/自然法/",
@@ -5169,7 +10373,7 @@
       ]
     },
     {
-      "id": "e262",
+      "id": "e535",
       "from": "自然法",
       "to": "神法",
       "fromUrl": "concepts/自然法/",
@@ -5186,7 +10390,7 @@
       ]
     },
     {
-      "id": "e263",
+      "id": "e536",
       "from": "自然法",
       "to": "罗尔斯",
       "fromUrl": "concepts/自然法/",
@@ -5203,7 +10407,7 @@
       ]
     },
     {
-      "id": "e264",
+      "id": "e537",
       "from": "自然法",
       "to": "自然权利",
       "fromUrl": "concepts/自然法/",
@@ -5232,7 +10436,7 @@
       ]
     },
     {
-      "id": "e266",
+      "id": "e539",
       "from": "自然法",
       "to": "西塞罗",
       "fromUrl": "concepts/自然法/",
@@ -5253,7 +10457,7 @@
       ]
     },
     {
-      "id": "e267",
+      "id": "e540",
       "from": "自然法",
       "to": "论共和国",
       "fromUrl": "concepts/自然法/",
@@ -5270,7 +10474,7 @@
       ]
     },
     {
-      "id": "e268",
+      "id": "e541",
       "from": "自然法",
       "to": "论法律",
       "fromUrl": "concepts/自然法/",
@@ -5287,7 +10491,7 @@
       ]
     },
     {
-      "id": "e269",
+      "id": "e542",
       "from": "苏格拉底",
       "to": "亚里士多德",
       "fromUrl": "philosophers/苏格拉底/",
@@ -5304,7 +10508,7 @@
       ]
     },
     {
-      "id": "e270",
+      "id": "e543",
       "from": "苏格拉底",
       "to": "弗里德里希·施莱尔马赫",
       "fromUrl": "philosophers/苏格拉底/",
@@ -5321,7 +10525,7 @@
       ]
     },
     {
-      "id": "e271",
+      "id": "e544",
       "from": "苏格拉底",
       "to": "普罗泰戈拉",
       "fromUrl": "philosophers/苏格拉底/",
@@ -5338,7 +10542,7 @@
       ]
     },
     {
-      "id": "e272",
+      "id": "e545",
       "from": "苏格拉底",
       "to": "智者派",
       "fromUrl": "philosophers/苏格拉底/",
@@ -5363,7 +10567,7 @@
       ]
     },
     {
-      "id": "e273",
+      "id": "e546",
       "from": "苏格拉底",
       "to": "柏拉图",
       "fromUrl": "philosophers/苏格拉底/",
@@ -5388,7 +10592,7 @@
       ]
     },
     {
-      "id": "e274",
+      "id": "e547",
       "from": "苏格拉底",
       "to": "理念论",
       "fromUrl": "philosophers/苏格拉底/",
@@ -5409,7 +10613,7 @@
       ]
     },
     {
-      "id": "e275",
+      "id": "e548",
       "from": "苏格拉底",
       "to": "色诺芬",
       "fromUrl": "philosophers/苏格拉底/",
@@ -5430,7 +10634,7 @@
       ]
     },
     {
-      "id": "e277",
+      "id": "e550",
       "from": "苏格拉底",
       "to": "苏菲的世界",
       "fromUrl": "philosophers/苏格拉底/",
@@ -5447,7 +10651,7 @@
       ]
     },
     {
-      "id": "e278",
+      "id": "e551",
       "from": "苏格拉底",
       "to": "阿里斯托芬",
       "fromUrl": "philosophers/苏格拉底/",
@@ -5464,7 +10668,7 @@
       ]
     },
     {
-      "id": "e279",
+      "id": "e552",
       "from": "苏格拉底的转向",
       "to": "亚里士多德",
       "fromUrl": "concepts/苏格拉底的转向/",
@@ -5485,7 +10689,7 @@
       ]
     },
     {
-      "id": "e280",
+      "id": "e553",
       "from": "苏格拉底的转向",
       "to": "前苏格拉底时期",
       "fromUrl": "concepts/苏格拉底的转向/",
@@ -5506,7 +10710,7 @@
       ]
     },
     {
-      "id": "e281",
+      "id": "e554",
       "from": "苏格拉底的转向",
       "to": "巴门尼德",
       "fromUrl": "concepts/苏格拉底的转向/",
@@ -5527,7 +10731,7 @@
       ]
     },
     {
-      "id": "e282",
+      "id": "e555",
       "from": "苏格拉底的转向",
       "to": "形而上学",
       "fromUrl": "concepts/苏格拉底的转向/",
@@ -5544,7 +10748,7 @@
       ]
     },
     {
-      "id": "e283",
+      "id": "e556",
       "from": "苏格拉底的转向",
       "to": "德谟克利特",
       "fromUrl": "concepts/苏格拉底的转向/",
@@ -5561,7 +10765,7 @@
       ]
     },
     {
-      "id": "e284",
+      "id": "e557",
       "from": "苏格拉底的转向",
       "to": "恩培多克勒",
       "fromUrl": "concepts/苏格拉底的转向/",
@@ -5578,7 +10782,7 @@
       ]
     },
     {
-      "id": "e285",
+      "id": "e558",
       "from": "苏格拉底的转向",
       "to": "惊异",
       "fromUrl": "concepts/苏格拉底的转向/",
@@ -5599,7 +10803,7 @@
       ]
     },
     {
-      "id": "e286",
+      "id": "e559",
       "from": "苏格拉底的转向",
       "to": "普罗泰戈拉",
       "fromUrl": "concepts/苏格拉底的转向/",
@@ -5616,7 +10820,7 @@
       ]
     },
     {
-      "id": "e287",
+      "id": "e560",
       "from": "苏格拉底的转向",
       "to": "柏拉图",
       "fromUrl": "concepts/苏格拉底的转向/",
@@ -5637,7 +10841,7 @@
       ]
     },
     {
-      "id": "e288",
+      "id": "e561",
       "from": "苏格拉底的转向",
       "to": "泰勒斯",
       "fromUrl": "concepts/苏格拉底的转向/",
@@ -5654,7 +10858,7 @@
       ]
     },
     {
-      "id": "e289",
+      "id": "e562",
       "from": "苏格拉底的转向",
       "to": "洞穴比喻",
       "fromUrl": "concepts/苏格拉底的转向/",
@@ -5671,7 +10875,7 @@
       ]
     },
     {
-      "id": "e290",
+      "id": "e563",
       "from": "苏格拉底的转向",
       "to": "自然法",
       "fromUrl": "concepts/苏格拉底的转向/",
@@ -5688,7 +10892,7 @@
       ]
     },
     {
-      "id": "e291",
+      "id": "e564",
       "from": "苏格拉底的转向",
       "to": "色诺芬",
       "fromUrl": "concepts/苏格拉底的转向/",
@@ -5705,7 +10909,7 @@
       ]
     },
     {
-      "id": "e292",
+      "id": "e565",
       "from": "苏格拉底的转向",
       "to": "苏格拉底",
       "fromUrl": "concepts/苏格拉底的转向/",
@@ -5730,7 +10934,7 @@
       ]
     },
     {
-      "id": "e293",
+      "id": "e566",
       "from": "苏格拉底的转向",
       "to": "苏格拉底反诘法",
       "fromUrl": "concepts/苏格拉底的转向/",
@@ -5751,7 +10955,7 @@
       ]
     },
     {
-      "id": "e295",
+      "id": "e568",
       "from": "苏格拉底的转向",
       "to": "苏菲的世界",
       "fromUrl": "concepts/苏格拉底的转向/",
@@ -5776,7 +10980,7 @@
       ]
     },
     {
-      "id": "e296",
+      "id": "e569",
       "from": "苏格拉底的转向",
       "to": "西塞罗",
       "fromUrl": "concepts/苏格拉底的转向/",
@@ -5801,7 +11005,7 @@
       ]
     },
     {
-      "id": "e297",
+      "id": "e570",
       "from": "苏格拉底的转向",
       "to": "赫拉克利特",
       "fromUrl": "concepts/苏格拉底的转向/",
@@ -5826,7 +11030,7 @@
       ]
     },
     {
-      "id": "e298",
+      "id": "e571",
       "from": "苏格拉底的转向",
       "to": "阿那克萨戈拉",
       "fromUrl": "concepts/苏格拉底的转向/",
@@ -5843,7 +11047,7 @@
       ]
     },
     {
-      "id": "e299",
+      "id": "e572",
       "from": "苏格拉底的转向",
       "to": "阿那克西美尼",
       "fromUrl": "concepts/苏格拉底的转向/",
@@ -5860,7 +11064,7 @@
       ]
     },
     {
-      "id": "e300",
+      "id": "e573",
       "from": "苏格拉底的转向",
       "to": "阿里斯托芬",
       "fromUrl": "concepts/苏格拉底的转向/",
@@ -5877,7 +11081,7 @@
       ]
     },
     {
-      "id": "e301",
+      "id": "e574",
       "from": "苏菲的世界",
       "to": "亚里士多德",
       "fromUrl": "works/苏菲的世界/",
@@ -5894,11 +11098,11 @@
       ]
     },
     {
-      "id": "e302",
+      "id": "e575",
       "from": "苏菲的世界",
       "to": "伊壁鸠鲁学派",
       "fromUrl": "works/苏菲的世界/",
-      "toUrl": "",
+      "toUrl": "schools/伊壁鸠鲁学派/",
       "fromLabel": "苏菲的世界",
       "toLabel": "伊壁鸠鲁学派",
       "firstLine": 26,
@@ -5911,7 +11115,7 @@
       ]
     },
     {
-      "id": "e303",
+      "id": "e576",
       "from": "苏菲的世界",
       "to": "前苏格拉底时期",
       "fromUrl": "works/苏菲的世界/",
@@ -5928,7 +11132,7 @@
       ]
     },
     {
-      "id": "e304",
+      "id": "e577",
       "from": "苏菲的世界",
       "to": "奥古斯丁",
       "fromUrl": "works/苏菲的世界/",
@@ -5945,7 +11149,7 @@
       ]
     },
     {
-      "id": "e305",
+      "id": "e578",
       "from": "苏菲的世界",
       "to": "康德",
       "fromUrl": "works/苏菲的世界/",
@@ -5962,7 +11166,7 @@
       ]
     },
     {
-      "id": "e306",
+      "id": "e579",
       "from": "苏菲的世界",
       "to": "惊异",
       "fromUrl": "works/苏菲的世界/",
@@ -5979,7 +11183,7 @@
       ]
     },
     {
-      "id": "e307",
+      "id": "e580",
       "from": "苏菲的世界",
       "to": "托马斯·阿奎那",
       "fromUrl": "works/苏菲的世界/",
@@ -5996,7 +11200,7 @@
       ]
     },
     {
-      "id": "e308",
+      "id": "e581",
       "from": "苏菲的世界",
       "to": "斯多亚学派",
       "fromUrl": "works/苏菲的世界/",
@@ -6013,7 +11217,7 @@
       ]
     },
     {
-      "id": "e309",
+      "id": "e582",
       "from": "苏菲的世界",
       "to": "柏拉图",
       "fromUrl": "works/苏菲的世界/",
@@ -6030,7 +11234,7 @@
       ]
     },
     {
-      "id": "e310",
+      "id": "e583",
       "from": "苏菲的世界",
       "to": "理想国",
       "fromUrl": "works/苏菲的世界/",
@@ -6047,7 +11251,7 @@
       ]
     },
     {
-      "id": "e311",
+      "id": "e584",
       "from": "苏菲的世界",
       "to": "苏格拉底",
       "fromUrl": "works/苏菲的世界/",
@@ -6064,7 +11268,7 @@
       ]
     },
     {
-      "id": "e312",
+      "id": "e585",
       "from": "苏菲的世界",
       "to": "苏格拉底的转向",
       "fromUrl": "works/苏菲的世界/",
@@ -6081,7 +11285,7 @@
       ]
     },
     {
-      "id": "e314",
+      "id": "e587",
       "from": "苏菲的世界",
       "to": "论法律",
       "fromUrl": "works/苏菲的世界/",
@@ -6098,7 +11302,7 @@
       ]
     },
     {
-      "id": "e315",
+      "id": "e588",
       "from": "西塞罗",
       "to": "亚里士多德",
       "fromUrl": "philosophers/西塞罗/",
@@ -6115,7 +11319,7 @@
       ]
     },
     {
-      "id": "e316",
+      "id": "e589",
       "from": "西塞罗",
       "to": "卢克莱修",
       "fromUrl": "philosophers/西塞罗/",
@@ -6132,7 +11336,7 @@
       ]
     },
     {
-      "id": "e317",
+      "id": "e590",
       "from": "西塞罗",
       "to": "帕那提乌",
       "fromUrl": "philosophers/西塞罗/",
@@ -6149,7 +11353,7 @@
       ]
     },
     {
-      "id": "e318",
+      "id": "e591",
       "from": "西塞罗",
       "to": "托马斯·阿奎那",
       "fromUrl": "philosophers/西塞罗/",
@@ -6166,7 +11370,7 @@
       ]
     },
     {
-      "id": "e319",
+      "id": "e592",
       "from": "西塞罗",
       "to": "斯多亚学派",
       "fromUrl": "philosophers/西塞罗/",
@@ -6183,11 +11387,15 @@
         {
           "line": 40,
           "anchor": "cite-40-12"
+        },
+        {
+          "line": 60,
+          "anchor": "cite-60-22"
         }
       ]
     },
     {
-      "id": "e320",
+      "id": "e593",
       "from": "西塞罗",
       "to": "柏拉图",
       "fromUrl": "philosophers/西塞罗/",
@@ -6204,7 +11412,7 @@
       ]
     },
     {
-      "id": "e321",
+      "id": "e594",
       "from": "西塞罗",
       "to": "柏拉图学园",
       "fromUrl": "philosophers/西塞罗/",
@@ -6225,7 +11433,41 @@
       ]
     },
     {
-      "id": "e322",
+      "id": "e595",
+      "from": "西塞罗",
+      "to": "民胞物与",
+      "fromUrl": "philosophers/西塞罗/",
+      "toUrl": "",
+      "fromLabel": "西塞罗",
+      "toLabel": "民胞物与",
+      "firstLine": 60,
+      "firstAnchor": "cite-60-26",
+      "allOccurrences": [
+        {
+          "line": 60,
+          "anchor": "cite-60-26"
+        }
+      ]
+    },
+    {
+      "id": "e596",
+      "from": "西塞罗",
+      "to": "沉思录",
+      "fromUrl": "philosophers/西塞罗/",
+      "toUrl": "works/沉思录/",
+      "fromLabel": "西塞罗",
+      "toLabel": "沉思录",
+      "firstLine": 60,
+      "firstAnchor": "cite-60-25",
+      "allOccurrences": [
+        {
+          "line": 60,
+          "anchor": "cite-60-25"
+        }
+      ]
+    },
+    {
+      "id": "e597",
       "from": "西塞罗",
       "to": "波西多纽",
       "fromUrl": "philosophers/西塞罗/",
@@ -6242,7 +11484,7 @@
       ]
     },
     {
-      "id": "e323",
+      "id": "e598",
       "from": "西塞罗",
       "to": "洛克",
       "fromUrl": "philosophers/西塞罗/",
@@ -6259,7 +11501,7 @@
       ]
     },
     {
-      "id": "e324",
+      "id": "e599",
       "from": "西塞罗",
       "to": "理想国",
       "fromUrl": "philosophers/西塞罗/",
@@ -6276,7 +11518,7 @@
       ]
     },
     {
-      "id": "e325",
+      "id": "e600",
       "from": "西塞罗",
       "to": "自然法",
       "fromUrl": "philosophers/西塞罗/",
@@ -6301,11 +11543,15 @@
         {
           "line": 48,
           "anchor": "cite-48-21"
+        },
+        {
+          "line": 60,
+          "anchor": "cite-60-24"
         }
       ]
     },
     {
-      "id": "e327",
+      "id": "e602",
       "from": "西塞罗",
       "to": "论共和国",
       "fromUrl": "philosophers/西塞罗/",
@@ -6330,7 +11576,7 @@
       ]
     },
     {
-      "id": "e328",
+      "id": "e603",
       "from": "西塞罗",
       "to": "论法律",
       "fromUrl": "philosophers/西塞罗/",
@@ -6347,7 +11593,24 @@
       ]
     },
     {
-      "id": "e329",
+      "id": "e604",
+      "from": "西塞罗",
+      "to": "马可·奥勒留",
+      "fromUrl": "philosophers/西塞罗/",
+      "toUrl": "philosophers/马可·奥勒留/",
+      "fromLabel": "西塞罗",
+      "toLabel": "马可·奥勒留",
+      "firstLine": 60,
+      "firstAnchor": "cite-60-23",
+      "allOccurrences": [
+        {
+          "line": 60,
+          "anchor": "cite-60-23"
+        }
+      ]
+    },
+    {
+      "id": "e605",
       "from": "论共和国",
       "to": "奥古斯丁",
       "fromUrl": "works/论共和国/",
@@ -6364,7 +11627,7 @@
       ]
     },
     {
-      "id": "e330",
+      "id": "e606",
       "from": "论共和国",
       "to": "柏拉图",
       "fromUrl": "works/论共和国/",
@@ -6397,7 +11660,7 @@
       ]
     },
     {
-      "id": "e331",
+      "id": "e607",
       "from": "论共和国",
       "to": "理想国",
       "fromUrl": "works/论共和国/",
@@ -6422,7 +11685,7 @@
       ]
     },
     {
-      "id": "e332",
+      "id": "e608",
       "from": "论共和国",
       "to": "自然法",
       "fromUrl": "works/论共和国/",
@@ -6439,7 +11702,7 @@
       ]
     },
     {
-      "id": "e333",
+      "id": "e609",
       "from": "论共和国",
       "to": "西塞罗",
       "fromUrl": "works/论共和国/",
@@ -6456,7 +11719,7 @@
       ]
     },
     {
-      "id": "e335",
+      "id": "e611",
       "from": "论共和国",
       "to": "论法律",
       "fromUrl": "works/论共和国/",
@@ -6473,7 +11736,7 @@
       ]
     },
     {
-      "id": "e336",
+      "id": "e612",
       "from": "论法律",
       "to": "奥古斯丁",
       "fromUrl": "works/论法律/",
@@ -6490,7 +11753,7 @@
       ]
     },
     {
-      "id": "e337",
+      "id": "e613",
       "from": "论法律",
       "to": "托马斯·阿奎那",
       "fromUrl": "works/论法律/",
@@ -6507,7 +11770,7 @@
       ]
     },
     {
-      "id": "e338",
+      "id": "e614",
       "from": "论法律",
       "to": "柏拉图",
       "fromUrl": "works/论法律/",
@@ -6528,7 +11791,7 @@
       ]
     },
     {
-      "id": "e339",
+      "id": "e615",
       "from": "论法律",
       "to": "理想国",
       "fromUrl": "works/论法律/",
@@ -6545,7 +11808,7 @@
       ]
     },
     {
-      "id": "e340",
+      "id": "e616",
       "from": "论法律",
       "to": "自然法",
       "fromUrl": "works/论法律/",
@@ -6582,7 +11845,7 @@
       ]
     },
     {
-      "id": "e341",
+      "id": "e617",
       "from": "论法律",
       "to": "西塞罗",
       "fromUrl": "works/论法律/",
@@ -6599,7 +11862,7 @@
       ]
     },
     {
-      "id": "e342",
+      "id": "e618",
       "from": "论法律",
       "to": "论共和国",
       "fromUrl": "works/论法律/",
@@ -6620,7 +11883,7 @@
       ]
     },
     {
-      "id": "e344",
+      "id": "e620",
       "from": "逍遥学派",
       "to": "三段论",
       "fromUrl": "schools/逍遥学派/",
@@ -6641,7 +11904,7 @@
       ]
     },
     {
-      "id": "e345",
+      "id": "e621",
       "from": "逍遥学派",
       "to": "中庸",
       "fromUrl": "schools/逍遥学派/",
@@ -6662,7 +11925,7 @@
       ]
     },
     {
-      "id": "e346",
+      "id": "e622",
       "from": "逍遥学派",
       "to": "亚里士多德",
       "fromUrl": "schools/逍遥学派/",
@@ -6695,7 +11958,7 @@
       ]
     },
     {
-      "id": "e347",
+      "id": "e623",
       "from": "逍遥学派",
       "to": "分类学",
       "fromUrl": "schools/逍遥学派/",
@@ -6716,7 +11979,7 @@
       ]
     },
     {
-      "id": "e348",
+      "id": "e624",
       "from": "逍遥学派",
       "to": "吕克昂",
       "fromUrl": "schools/逍遥学派/",
@@ -6737,7 +12000,7 @@
       ]
     },
     {
-      "id": "e349",
+      "id": "e625",
       "from": "逍遥学派",
       "to": "四因说",
       "fromUrl": "schools/逍遥学派/",
@@ -6758,7 +12021,7 @@
       ]
     },
     {
-      "id": "e350",
+      "id": "e626",
       "from": "逍遥学派",
       "to": "形式与质料",
       "fromUrl": "schools/逍遥学派/",
@@ -6779,7 +12042,7 @@
       ]
     },
     {
-      "id": "e351",
+      "id": "e627",
       "from": "逍遥学派",
       "to": "柏拉图",
       "fromUrl": "schools/逍遥学派/",
@@ -6804,7 +12067,7 @@
       ]
     },
     {
-      "id": "e352",
+      "id": "e628",
       "from": "逍遥学派",
       "to": "柏拉图学园",
       "fromUrl": "schools/逍遥学派/",
@@ -6821,7 +12084,7 @@
       ]
     },
     {
-      "id": "e353",
+      "id": "e629",
       "from": "逍遥学派",
       "to": "目的因",
       "fromUrl": "schools/逍遥学派/",
@@ -6838,7 +12101,7 @@
       ]
     },
     {
-      "id": "e354",
+      "id": "e630",
       "from": "逍遥学派",
       "to": "第一推动者",
       "fromUrl": "schools/逍遥学派/",
@@ -6853,11 +12116,205 @@
           "anchor": "cite-40-17"
         }
       ]
+    },
+    {
+      "id": "e632",
+      "from": "马可·奥勒留",
+      "to": "Ryan Holiday",
+      "fromUrl": "philosophers/马可·奥勒留/",
+      "toUrl": "",
+      "fromLabel": "马可·奥勒留",
+      "toLabel": "Ryan Holiday",
+      "firstLine": 121,
+      "firstAnchor": "cite-121-12",
+      "allOccurrences": [
+        {
+          "line": 121,
+          "anchor": "cite-121-12"
+        }
+      ]
+    },
+    {
+      "id": "e633",
+      "from": "马可·奥勒留",
+      "to": "基督教",
+      "fromUrl": "philosophers/马可·奥勒留/",
+      "toUrl": "",
+      "fromLabel": "马可·奥勒留",
+      "toLabel": "基督教",
+      "firstLine": 138,
+      "firstAnchor": "cite-138-17",
+      "allOccurrences": [
+        {
+          "line": 138,
+          "anchor": "cite-138-17"
+        }
+      ]
+    },
+    {
+      "id": "e634",
+      "from": "马可·奥勒留",
+      "to": "塞涅卡",
+      "fromUrl": "philosophers/马可·奥勒留/",
+      "toUrl": "",
+      "fromLabel": "马可·奥勒留",
+      "toLabel": "塞涅卡",
+      "firstLine": 133,
+      "firstAnchor": "cite-133-15",
+      "allOccurrences": [
+        {
+          "line": 133,
+          "anchor": "cite-133-15"
+        }
+      ]
+    },
+    {
+      "id": "e635",
+      "from": "马可·奥勒留",
+      "to": "安东尼努斯·庇护",
+      "fromUrl": "philosophers/马可·奥勒留/",
+      "toUrl": "",
+      "fromLabel": "马可·奥勒留",
+      "toLabel": "安东尼努斯·庇护",
+      "firstLine": 10,
+      "firstAnchor": "cite-10-4",
+      "allOccurrences": [
+        {
+          "line": 10,
+          "anchor": "cite-10-4"
+        }
+      ]
+    },
+    {
+      "id": "e636",
+      "from": "马可·奥勒留",
+      "to": "安东尼瘟疫",
+      "fromUrl": "philosophers/马可·奥勒留/",
+      "toUrl": "",
+      "fromLabel": "马可·奥勒留",
+      "toLabel": "安东尼瘟疫",
+      "firstLine": 13,
+      "firstAnchor": "cite-13-6",
+      "allOccurrences": [
+        {
+          "line": 13,
+          "anchor": "cite-13-6"
+        }
+      ]
+    },
+    {
+      "id": "e637",
+      "from": "马可·奥勒留",
+      "to": "斯多亚学派",
+      "fromUrl": "philosophers/马可·奥勒留/",
+      "toUrl": "schools/斯多亚学派/",
+      "fromLabel": "马可·奥勒留",
+      "toLabel": "斯多亚学派",
+      "firstLine": 7,
+      "firstAnchor": "cite-7-3",
+      "allOccurrences": [
+        {
+          "line": 7,
+          "anchor": "cite-7-3"
+        },
+        {
+          "line": 16,
+          "anchor": "cite-16-9"
+        },
+        {
+          "line": 32,
+          "anchor": "cite-32-10"
+        },
+        {
+          "line": 131,
+          "anchor": "cite-131-13"
+        },
+        {
+          "line": 134,
+          "anchor": "cite-134-16"
+        }
+      ]
+    },
+    {
+      "id": "e638",
+      "from": "马可·奥勒留",
+      "to": "沉思录",
+      "fromUrl": "philosophers/马可·奥勒留/",
+      "toUrl": "works/沉思录/",
+      "fromLabel": "马可·奥勒留",
+      "toLabel": "沉思录",
+      "firstLine": 14,
+      "firstAnchor": "cite-14-8",
+      "allOccurrences": [
+        {
+          "line": 14,
+          "anchor": "cite-14-8"
+        },
+        {
+          "line": 108,
+          "anchor": "cite-108-11"
+        },
+        {
+          "line": 145,
+          "anchor": "cite-145-18"
+        }
+      ]
+    },
+    {
+      "id": "e639",
+      "from": "马可·奥勒留",
+      "to": "爱比克泰德",
+      "fromUrl": "philosophers/马可·奥勒留/",
+      "toUrl": "",
+      "fromLabel": "马可·奥勒留",
+      "toLabel": "爱比克泰德",
+      "firstLine": 132,
+      "firstAnchor": "cite-132-14",
+      "allOccurrences": [
+        {
+          "line": 132,
+          "anchor": "cite-132-14"
+        }
+      ]
+    },
+    {
+      "id": "e640",
+      "from": "马可·奥勒留",
+      "to": "维鲁斯",
+      "fromUrl": "philosophers/马可·奥勒留/",
+      "toUrl": "",
+      "fromLabel": "马可·奥勒留",
+      "toLabel": "维鲁斯",
+      "firstLine": 11,
+      "firstAnchor": "cite-11-5",
+      "allOccurrences": [
+        {
+          "line": 11,
+          "anchor": "cite-11-5"
+        }
+      ]
+    },
+    {
+      "id": "e641",
+      "from": "马可·奥勒留",
+      "to": "马克曼尼战争",
+      "fromUrl": "philosophers/马可·奥勒留/",
+      "toUrl": "",
+      "fromLabel": "马可·奥勒留",
+      "toLabel": "马克曼尼战争",
+      "firstLine": 13,
+      "firstAnchor": "cite-13-7",
+      "allOccurrences": [
+        {
+          "line": 13,
+          "anchor": "cite-13-7"
+        }
+      ]
     }
   ],
   "meta": {
     "generated_by": "hooks/graph.py",
-    "node_count": 30,
-    "edge_count": 328
+    "node_count": 40,
+    "edge_count": 605
   }
 }
