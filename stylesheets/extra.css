@@ -1,0 +1,220 @@
+/* Wiki 自定义样式
+ * - 反链面板（被引用于）
+ * - wikilink-stub（前向链接，待创建徽章）
+ * - 知识图谱图例与容器
+ */
+
+/* --- 反链面板 --- */
+.backlinks {
+  margin-top: 2rem;
+  padding: 1rem 1.2rem;
+  border-radius: 6px;
+  background: var(--md-default-fg-color--lightest);
+  border-left: 3px solid var(--md-primary-fg-color);
+}
+.backlinks h2 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+  color: var(--md-default-fg-color);
+}
+.backlinks ul {
+  margin: 0;
+  padding-left: 1.2rem;
+}
+.backlinks li {
+  margin: 0.25rem 0;
+}
+.backlinks-empty {
+  color: var(--md-default-fg-color--light);
+  font-style: italic;
+  margin: 0;
+}
+
+/* --- wikilink-stub（前向链接，待创建） --- */
+.wikilink-stub {
+  color: var(--md-primary-fg-color);
+  opacity: 0.75;
+  border-bottom: 1px dashed currentColor;
+  padding: 0 2px;
+  cursor: help;
+}
+.wikilink-stub-marker {
+  display: inline-block;
+  font-size: 0.6em;
+  margin-left: 4px;
+  background: var(--md-accent-fg-color);
+  color: white;
+  padding: 1px 5px;
+  border-radius: 3px;
+  vertical-align: super;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}
+
+/* --- 知识图谱 --- */
+#graph-container {
+  width: 100%;
+  height: 80vh;
+  min-height: 500px;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 6px;
+  background: var(--md-default-bg-color);
+}
+.graph-legend {
+  margin: 1rem 0;
+  font-size: 0.85rem;
+  color: var(--md-default-fg-color--light);
+}
+.legend-dot {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  margin-right: 4px;
+  vertical-align: middle;
+}
+
+/* --- 边悬浮提示（自定义实现，避免 vis-network 内置 tooltip 刷新延迟） --- */
+.edge-hover {
+  position: fixed;
+  z-index: 999;
+  background: var(--md-default-bg-color);
+  color: var(--md-default-fg-color);
+  border: 1px solid var(--md-default-fg-color--light);
+  border-radius: 4px;
+  padding: 0.35rem 0.6rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  font-size: 0.82rem;
+  /* Don't intercept mouse events — the cursor must pass through to the
+     edge underneath so hover/blur keep firing correctly. */
+  pointer-events: none;
+  max-width: 320px;
+  line-height: 1.4;
+}
+
+/* --- 边点击预览选单（出现在点击的箭头旁边） --- */
+.edge-popup {
+  position: fixed;
+  z-index: 1000;
+  background: var(--md-default-bg-color);
+  color: var(--md-default-fg-color);
+  border: 1px solid var(--md-default-fg-color--light);
+  border-radius: 6px;
+  padding: 0.6rem 0.8rem;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+  min-width: 220px;
+  max-width: 360px;
+  font-size: 0.9rem;
+}
+.edge-popup-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid var(--md-default-fg-color--lightest);
+  margin-bottom: 0.4rem;
+  gap: 0.5rem;
+}
+.edge-popup-title {
+  font-weight: 600;
+  flex: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.popup-relation {
+  margin: 0 0.4rem;
+  color: var(--md-default-fg-color--light);
+  font-weight: 400;
+  font-size: 0.85em;
+  opacity: 0.75;
+}
+.edge-popup-close {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.4rem;
+  line-height: 1;
+  color: var(--md-default-fg-color--light);
+  /* Generous tap target for mobile (~44px). */
+  padding: 0.4rem 0.6rem;
+  margin: -0.4rem -0.6rem -0.4rem 0;
+  border-radius: 4px;
+  min-width: 44px;
+  min-height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.edge-popup-close:hover {
+  color: var(--md-default-fg-color);
+}
+.edge-popup-hint {
+  color: var(--md-default-fg-color--light);
+  font-size: 0.82rem;
+  margin-bottom: 0.25rem;
+}
+.edge-popup-list {
+  margin: 0;
+  padding-left: 1.4rem;
+}
+.edge-popup-list li {
+  padding: 0.15rem 0;
+}
+.edge-popup-list a {
+  color: var(--md-primary-fg-color);
+  text-decoration: none;
+}
+.edge-popup-list a:hover {
+  text-decoration: underline;
+}
+/* --- 时间线 --- */
+#timeline-container {
+  width: 100%;
+  height: 70vh;
+  min-height: 500px;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 6px;
+  background: var(--md-default-bg-color);
+  font-family: 'Noto Sans SC', sans-serif;
+}
+.timeline-legend {
+  margin: 1rem 0;
+  font-size: 0.85rem;
+  color: var(--md-default-fg-color--light);
+}
+.timeline-legend .legend-dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  vertical-align: middle;
+  margin-right: 4px;
+}
+.vis-timeline {
+  border: none;
+  font-family: 'Noto Sans SC', sans-serif;
+  background: var(--md-default-bg-color);
+  color: var(--md-default-fg-color);
+}
+/* Period items render behind; lighten them so the schools/philosophers above
+   remain readable. The border ring is what makes them visually obvious. */
+.vis-timeline .vis-item.vis-background {
+  border: none !important;
+  opacity: 0.85;
+}
+.vis-timeline .vis-item .vis-item-content {
+  color: var(--md-default-fg-color);
+  padding: 0 4px;
+}
+.vis-timeline .vis-time-axis .vis-text,
+.vis-timeline .vis-time-axis .vis-grid {
+  color: var(--md-default-fg-color--light);
+}
+.vis-timeline .vis-current-time {
+  display: none;
+}
+.vis-timeline .vis-item.vis-selected {
+  box-shadow: 0 0 0 2px var(--md-primary-fg-color);
+}
