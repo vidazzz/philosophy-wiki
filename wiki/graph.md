@@ -38,9 +38,32 @@
 <!-- 边悬浮提示：自定义实现，避免 vis-network 内置 tooltip 刷新延迟 -->
 <div id="edge-hover" class="edge-hover" style="display: none;"></div>
 
-<script src="https://unpkg.com/vis-network@9.1.9/standalone/umd/vis-network.min.js"></script>
 <script>
 (async function() {
+  // ---- Dynamically load vis-network UMD bundle ----
+  // Don't use a plain <script src="..."> in the markdown: MkDocs Material's
+  // `navigation.instant` feature fetches subsequent pages via XHR and injects
+  // them with innerHTML — browsers do NOT execute <script src=...> tags that
+  // arrive via innerHTML, so the global `vis` would never be defined and
+  // `new vis.Network(...)` below would throw `ReferenceError: vis is not defined`.
+  // Loading dynamically inside the IIFE works in both first-load and instant-nav cases.
+  function loadScript(src) {
+    return new Promise((resolve, reject) => {
+      if (document.querySelector(`script[src="${src}"]`)) { resolve(); return; }
+      const s = document.createElement('script');
+      s.src = src;
+      s.onload = () => resolve();
+      s.onerror = () => reject(new Error('failed to load ' + src));
+      document.head.appendChild(s);
+    });
+  }
+  try {
+    await loadScript('https://unpkg.com/vis-network@9.1.9/standalone/umd/vis-network.min.js');
+  } catch (e) {
+    document.getElementById('graph-container').innerText = 'vis-network 加载失败：' + e.message;
+    return;
+  }
+
   const isDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
   const theme = {
     text:      isDark ? '#e0e0e0' : '#212121',
