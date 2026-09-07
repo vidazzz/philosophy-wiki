@@ -3447,13 +3447,13 @@
 
 
 <h1 id="_1">时间轴<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h1>
-<p>本页用 <strong>vis-timeline</strong> 渲染 Wiki 中所有<strong>有时间标记</strong>的页面 — 哲学家（寿命）、学派（活动期）、时期（背景带）。沿水平坐标一览整个哲学史的时间结构。</p>
+<p>本页用 <strong>vis-timeline</strong> 渲染 Wiki 中所有<strong>有时间标记</strong>的页面 — 哲学家（寿命）、学派（活动期）、时期（背景带）。沿垂直坐标从上往下俯瞰整个哲学史的时间结构。</p>
 <ul>
-<li><strong>三层堆叠</strong>（自上而下）：时期（背景色带）→ 学派（条带）→ 哲学家（细条）</li>
-<li><strong>拖动</strong>水平平移，<strong>滚轮</strong>缩放</li>
+<li><strong>三层并列</strong>（自左向右）：时期（背景色带）→ 学派（条带）→ 哲学家（细条）</li>
+<li><strong>垂直滚动</strong>沿时间线向下浏览，<strong>滚轮</strong>缩放</li>
 <li><strong>悬停</strong>查看精确生卒年/活跃期（tooltip 跟随鼠标）</li>
 <li><strong>点击</strong>跳转对应词条</li>
-<li><strong>BC / AD</strong> 时间轴自动分开（负年份在左）</li>
+<li><strong>BC / AD</strong> 时间轴自动分开（公元前在上半段）</li>
 </ul>
 <blockquote>
 <p>数据来源：每页 Markdown 的 frontmatter <code>birth_death</code> / <code>year_range</code> / <code>period</code> 字段；构建时由 <code>hooks/timeline.py</code> 解析为统一 ISO 格式并写入 <code>site/assets/timeline.json</code>。</p>
@@ -3573,7 +3573,10 @@
   const container = document.getElementById('timeline-container');
   const timeline = new vis.Timeline(container, items, {
     stack: true,
-    orientation: 'top',
+    // Vertical orientation: time flows top→bottom, groups (时期/学派/哲学家)
+    // stack left→right within each time band. Reading a philosopher's life
+    // becomes a single horizontal bar instead of a sliver in a packed row.
+    orientation: 'vertical',
     margin: { item: 6, axis: 8 },
     // ~1 month in, ~5000 years out — covers all of antiquity through modern
     zoomMin: 1000 * 60 * 60 * 24 * 30,
@@ -3581,7 +3584,7 @@
     showCurrentTime: false,
     multiselect: false,
     tooltip: { followMouse: true, overflowMethod: 'cap' },
-    // Group ordering: 时期 (top) → 学派 → 哲学家 (bottom)
+    // Group ordering: 时期 (left) → 学派 → 哲学家 (right)
     groups: payload.groups,
   });
 

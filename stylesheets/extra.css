@@ -172,8 +172,11 @@
 /* --- 时间线 --- */
 #timeline-container {
   width: 100%;
-  height: 70vh;
-  min-height: 500px;
+  /* Vertical timeline: time flows top→bottom, so a tall container
+     accommodates ~2500 years of philosophy without forcing the user to
+     scroll inside the timeline. The page itself scrolls through history. */
+  height: 85vh;
+  min-height: 700px;
   border: 1px solid var(--md-default-fg-color--lightest);
   border-radius: 6px;
   background: var(--md-default-bg-color);
