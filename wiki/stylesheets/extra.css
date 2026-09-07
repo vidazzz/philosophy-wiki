@@ -169,3 +169,55 @@
 .edge-popup-list a:hover {
   text-decoration: underline;
 }
+/* --- 时间线 --- */
+#timeline-container {
+  width: 100%;
+  /* Vertical timeline: time flows top→bottom, so a tall container
+     accommodates ~2500 years of philosophy without forcing the user to
+     scroll inside the timeline. The page itself scrolls through history. */
+  height: 85vh;
+  min-height: 700px;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 6px;
+  background: var(--md-default-bg-color);
+  font-family: 'Noto Sans SC', sans-serif;
+}
+.timeline-legend {
+  margin: 1rem 0;
+  font-size: 0.85rem;
+  color: var(--md-default-fg-color--light);
+}
+.timeline-legend .legend-dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  vertical-align: middle;
+  margin-right: 4px;
+}
+.vis-timeline {
+  border: none;
+  font-family: 'Noto Sans SC', sans-serif;
+  background: var(--md-default-bg-color);
+  color: var(--md-default-fg-color);
+}
+/* Period items render behind; lighten them so the schools/philosophers above
+   remain readable. The border ring is what makes them visually obvious. */
+.vis-timeline .vis-item.vis-background {
+  border: none !important;
+  opacity: 0.85;
+}
+.vis-timeline .vis-item .vis-item-content {
+  color: var(--md-default-fg-color);
+  padding: 0 4px;
+}
+.vis-timeline .vis-time-axis .vis-text,
+.vis-timeline .vis-time-axis .vis-grid {
+  color: var(--md-default-fg-color--light);
+}
+.vis-timeline .vis-current-time {
+  display: none;
+}
+.vis-timeline .vis-item.vis-selected {
+  box-shadow: 0 0 0 2px var(--md-primary-fg-color);
+}

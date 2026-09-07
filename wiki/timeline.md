@@ -4,13 +4,13 @@ title: 时间轴
 
 # 时间轴
 
-本页用 **vis-timeline** 渲染 Wiki 中所有**有时间标记**的页面 — 哲学家（寿命）、学派（活动期）、时期（背景带）。沿水平坐标一览整个哲学史的时间结构。
+本页用 **vis-timeline** 渲染 Wiki 中所有**有时间标记**的页面 — 哲学家（寿命）、学派（活动期）、时期（背景带）。沿垂直坐标从上往下俯瞰整个哲学史的时间结构。
 
-- **三层堆叠**（自上而下）：时期（背景色带）→ 学派（条带）→ 哲学家（细条）
-- **拖动**水平平移，**滚轮**缩放
+- **三层并列**（自左向右）：时期（背景色带）→ 学派（条带）→ 哲学家（细条）
+- **垂直滚动**沿时间线向下浏览，**滚轮**缩放
 - **悬停**查看精确生卒年/活跃期（tooltip 跟随鼠标）
 - **点击**跳转对应词条
-- **BC / AD** 时间轴自动分开（负年份在左）
+- **BC / AD** 时间轴自动分开（公元前在上半段）
 
 > 数据来源：每页 Markdown 的 frontmatter `birth_death` / `year_range` / `period` 字段；构建时由 `hooks/timeline.py` 解析为统一 ISO 格式并写入 `site/assets/timeline.json`。
 
@@ -129,7 +129,10 @@ title: 时间轴
   const container = document.getElementById('timeline-container');
   const timeline = new vis.Timeline(container, items, {
     stack: true,
-    orientation: 'top',
+    // Vertical orientation: time flows top→bottom, groups (时期/学派/哲学家)
+    // stack left→right within each time band. Reading a philosopher's life
+    // becomes a single horizontal bar instead of a sliver in a packed row.
+    orientation: 'vertical',
     margin: { item: 6, axis: 8 },
     // ~1 month in, ~5000 years out — covers all of antiquity through modern
     zoomMin: 1000 * 60 * 60 * 24 * 30,
@@ -137,7 +140,7 @@ title: 时间轴
     showCurrentTime: false,
     multiselect: false,
     tooltip: { followMouse: true, overflowMethod: 'cap' },
-    // Group ordering: 时期 (top) → 学派 → 哲学家 (bottom)
+    // Group ordering: 时期 (left) → 学派 → 哲学家 (right)
     groups: payload.groups,
   });
 
