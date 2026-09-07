@@ -58,7 +58,7 @@
     });
   }
   try {
-    await loadScript('https://unpkg.com/vis-network@9.1.9/standalone/umd/vis-network.min.js');
+    await loadScript('../javascripts/vendor/vis-network.min.js');
   } catch (e) {
     document.getElementById('graph-container').innerText = 'vis-network 加载失败：' + e.message;
     return;
