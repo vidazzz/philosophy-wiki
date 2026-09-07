@@ -3551,6 +3551,13 @@
   };
 
   // ---- Build vis-timeline items ----
+  // Graph2d's vertical orientation uses the *value* axis as the
+  // categorical X (where groups live) and the *time* axis as the
+  // scrolling Y. So we have to assign each item a numeric `value` —
+  // one per group — so periods/schools/philosophers stack into three
+  // distinct vertical columns. The `group` field keeps the existing
+  // grouping/styling intact.
+  const VALUE = { period: 1, school: 2, philosopher: 3 };
   const itemsById = {};
   const items = payload.items.map(it => {
     itemsById[it.id] = it;
@@ -3565,17 +3572,24 @@
       // 'range' draws as a normal bar (school + philosopher).
       type:    it.type,
       title:   it.title,
+      // Graph2d vertical: X = value, Y = time. Assign per-group values
+      // so the three layers stack left→right.
+      value:   VALUE[it.group] || 3,
       style:   `background-color:${c.background}; border-color:${c.border}; color:${theme.text};`,
     };
   });
 
-  // ---- Construct Timeline ----
+  // ---- Construct Timeline (Graph2d with vertical orientation) ----
+  // vis-timeline's `Timeline` class only supports horizontal orientation
+  // (`top` | `bottom` | `both` | `none`). To get a vertical timeline we
+  // use `vis.Graph2d` from the same bundle — it accepts `orientation:
+  // 'vertical'` and renders time on the Y axis with the value axis as
+  // a categorical X. Each group then becomes its own vertical column.
   const container = document.getElementById('timeline-container');
-  const timeline = new vis.Timeline(container, items, {
-    stack: true,
-    // Vertical orientation: time flows top→bottom, groups (时期/学派/哲学家)
-    // stack left→right within each time band. Reading a philosopher's life
-    // becomes a single horizontal bar instead of a sliver in a packed row.
+  const timeline = new vis.Graph2d(container, items, {
+    // Vertical: time flows top→bottom on Y axis; items at different
+    // `value`s stack left→right (X axis). Each philosopher's life
+    // becomes a single horizontal bar across its value column.
     orientation: 'vertical',
     margin: { item: 6, axis: 8 },
     // ~1 month in, ~5000 years out — covers all of antiquity through modern
@@ -3584,8 +3598,24 @@
     showCurrentTime: false,
     multiselect: false,
     tooltip: { followMouse: true, overflowMethod: 'cap' },
-    // Group ordering: 时期 (left) → 学派 → 哲学家 (right)
+    // Graph2d still accepts `groups` for named groupings; with vertical
+    // orientation, group labels render along the value (X) axis so
+    // each column is self-labelled (时期 / 学派 / 哲学家).
     groups: payload.groups,
+    // We only render range bars — no point markers — so this kills the
+    // default dot that Graph2d draws for each data point.
+    drawPoints: false,
+    shaded: false,
+    // Pin the value axis to our three group columns with a little padding
+    // so the bars don't kiss the chart border.
+    dataAxis: {
+      orientation: 'left',
+      visible: true,
+      left: { range: { min: 0, max: 4 } },
+      icons: false,
+      showMinorLabels: false,
+      majorLinesOffset: 1,
+    },
   });
 
   // Auto-fit the entire range on load — otherwise the user lands on
@@ -3593,11 +3623,13 @@
   timeline.fit({ margin: 30 });
 
   // ---- Click navigation ----
+  // Graph2d's click event uses `props.items` (array) instead of Timeline's
+  // `props.item` (single). Pick the first item if the user clicked a range bar.
   // timeline.md sits at /timeline/ — need ../ to escape before reaching
   // sibling directories like /philosophers/, /schools/, /periods/.
   timeline.on('click', props => {
-    if (props.item) {
-      const it = itemsById[props.item];
+    if (props.items && props.items.length > 0) {
+      const it = itemsById[props.items[0]];
       if (it && it.url) {
         window.location.href = '../' + it.url;
       }
