@@ -181,7 +181,16 @@
   border-radius: 6px;
   background: var(--md-default-bg-color);
   font-family: 'Noto Sans SC', sans-serif;
+  /* Padding replaces the `margin` option that vis-timeline supported but
+     vis-graph2d rejects. Keeps range bars off the container edges. */
+  padding: 8px;
+  box-sizing: border-box;
 }
+/* Group label styling — each column header (时期 / 学派 / 哲学家) gets a
+   distinct left-border accent so the three columns read as distinct lanes. */
+.vis-graph2d .vis-labelset .vis-label.g-period    { border-left: 3px solid #26c6da; padding-left: 6px; }
+.vis-graph2d .vis-labelset .vis-label.g-school    { border-left: 3px solid #ab47bc; padding-left: 6px; }
+.vis-graph2d .vis-labelset .vis-label.g-philosopher { border-left: 3px solid #5c6bc0; padding-left: 6px; }
 .timeline-legend {
   margin: 1rem 0;
   font-size: 0.85rem;
