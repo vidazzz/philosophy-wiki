@@ -3586,41 +3586,48 @@
   // 'vertical'` and renders time on the Y axis with the value axis as
   // a categorical X. Each group then becomes its own vertical column.
   const container = document.getElementById('timeline-container');
+
+  // Convert groups from Timeline-style array → Graph2d-style object
+  // keyed by group id: `{period: {...}, school: {...}, philosopher: {...}}`
+  // (without this, Graph2d throws `Arrays are not supported by deepExtend`).
+  const groupsObj = {};
+  for (const g of payload.groups) {
+    groupsObj[g.id] = { content: g.content, order: g.order, className: 'g-' + g.id };
+  }
+
   const timeline = new vis.Graph2d(container, items, {
     // Vertical: time flows top→bottom on Y axis; items at different
     // `value`s stack left→right (X axis). Each philosopher's life
     // becomes a single horizontal bar across its value column.
     orientation: 'vertical',
-    margin: { item: 6, axis: 8 },
     // ~1 month in, ~5000 years out — covers all of antiquity through modern
     zoomMin: 1000 * 60 * 60 * 24 * 30,
     zoomMax: 1000 * 60 * 60 * 24 * 365 * 5000,
     showCurrentTime: false,
     multiselect: false,
-    tooltip: { followMouse: true, overflowMethod: 'cap' },
-    // Graph2d still accepts `groups` for named groupings; with vertical
-    // orientation, group labels render along the value (X) axis so
-    // each column is self-labelled (时期 / 学派 / 哲学家).
-    groups: payload.groups,
+    // Graph2d: groups must be an object (not array). Class names let
+    // CSS distinguish the three columns.
+    groups: groupsObj,
     // We only render range bars — no point markers — so this kills the
     // default dot that Graph2d draws for each data point.
     drawPoints: false,
-    shaded: false,
+    shaded: { orientation: 'group' },
     // Pin the value axis to our three group columns with a little padding
-    // so the bars don't kiss the chart border.
+    // so the bars don't kiss the chart border. Graph2d supports only
+    // `visible`, `left/right.range`, `showMinorLabels`, `icons`, `width`.
     dataAxis: {
-      orientation: 'left',
       visible: true,
       left: { range: { min: 0, max: 4 } },
       icons: false,
       showMinorLabels: false,
-      majorLinesOffset: 1,
     },
+    // Item-level `title` is honoured by Graph2d for native tooltip on hover
+    // — no need for the timeline-style `tooltip` option here.
   });
 
   // Auto-fit the entire range on load — otherwise the user lands on
   // "now" (empty page) for an ancient-philosophy dataset.
-  timeline.fit({ margin: 30 });
+  timeline.fit();
 
   // ---- Click navigation ----
   // Graph2d's click event uses `props.items` (array) instead of Timeline's
