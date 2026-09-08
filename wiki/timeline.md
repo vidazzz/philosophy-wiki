@@ -143,13 +143,12 @@ title: 时间轴
   // a categorical X. Each group then becomes its own vertical column.
   const container = document.getElementById('timeline-container');
 
-  // Convert groups from Timeline-style array → Graph2d-style object
-  // keyed by group id: `{period: {...}, school: {...}, philosopher: {...}}`
-  // (without this, Graph2d throws `Arrays are not supported by deepExtend`).
-  const groupsObj = {};
-  for (const g of payload.groups) {
-    groupsObj[g.id] = { content: g.content, order: g.order, className: 'g-' + g.id };
-  }
+  // Note: Graph2d does NOT support Timeline-style `groups` — passing them
+  // even as `{id: {...}}` triggers validator errors like "Unknown option
+  // detected: period". Grouping is implicit via their `value` field:
+  // items at value=1 (period) stack at column 1, value=2 (school) at 2,
+  // value=3 (philosopher) at 3. The HTML legend at the top of the page
+  // tells the user which color is which group.
 
   const timeline = new vis.Graph2d(container, items, {
     // Vertical: time flows top→bottom on Y axis; items at different
@@ -161,13 +160,9 @@ title: 时间轴
     zoomMax: 1000 * 60 * 60 * 24 * 365 * 5000,
     showCurrentTime: false,
     multiselect: false,
-    // Graph2d: groups must be an object (not array). Class names let
-    // CSS distinguish the three columns.
-    groups: groupsObj,
     // We only render range bars — no point markers — so this kills the
     // default dot that Graph2d draws for each data point.
     drawPoints: false,
-    shaded: { orientation: 'group' },
     // Pin the value axis to our three group columns with a little padding
     // so the bars don't kiss the chart border. Graph2d supports only
     // `visible`, `left/right.range`, `showMinorLabels`, `icons`, `width`.
