@@ -2,7 +2,7 @@
   "meta": {
     "generated_by": "hooks/timeline.py",
     "entity_count": 35,
-    "earliest": "-0106-01-01",
+    "earliest": "-000106-01-01",
     "latest": "1827-12-31"
   },
   "groups": [
@@ -26,8 +26,8 @@
     {
       "id": "philosopher/西塞罗",
       "group": "philosopher",
-      "start": "-0106-01-01",
-      "end": "-0043-12-31",
+      "start": "-000106-01-01",
+      "end": "-000043-12-31",
       "type": "range",
       "content": "西塞罗",
       "title": "西塞罗（前 106 – 前 43）",
@@ -38,7 +38,7 @@
     {
       "id": "school/斯多亚学派",
       "group": "school",
-      "start": "-0300-01-01",
+      "start": "-000300-01-01",
       "end": "0300-12-31",
       "type": "range",
       "content": "斯多亚学派",
@@ -50,8 +50,8 @@
     {
       "id": "period/希腊化时期",
       "group": "period",
-      "start": "-0323-01-01",
-      "end": "-0031-12-31",
+      "start": "-000323-01-01",
+      "end": "-000031-12-31",
       "type": "background",
       "content": "希腊化时期",
       "title": "希腊化时期（约前 323 – 前 31 年（约 300 年））",
@@ -62,8 +62,8 @@
     {
       "id": "philosopher/伊壁鸠鲁",
       "group": "philosopher",
-      "start": "-0341-01-01",
-      "end": "-0270-12-31",
+      "start": "-000341-01-01",
+      "end": "-000270-12-31",
       "type": "range",
       "content": "伊壁鸠鲁",
       "title": "伊壁鸠鲁（前 341 – 前 270）",
@@ -74,8 +74,8 @@
     {
       "id": "philosopher/亚里士多德",
       "group": "philosopher",
-      "start": "-0384-01-01",
-      "end": "-0322-12-31",
+      "start": "-000384-01-01",
+      "end": "-000322-12-31",
       "type": "range",
       "content": "亚里士多德",
       "title": "亚里士多德（前 384 – 前 322）",
@@ -86,7 +86,7 @@
     {
       "id": "school/伊壁鸠鲁学派",
       "group": "school",
-      "start": "-0400-01-01",
+      "start": "-000400-01-01",
       "end": "0400-12-31",
       "type": "range",
       "content": "伊壁鸠鲁学派",
@@ -98,7 +98,7 @@
     {
       "id": "school/逍遥学派",
       "group": "school",
-      "start": "-0400-01-01",
+      "start": "-000400-01-01",
       "end": "0300-12-31",
       "type": "range",
       "content": "逍遥学派",
@@ -110,8 +110,8 @@
     {
       "id": "philosopher/柏拉图",
       "group": "philosopher",
-      "start": "-0427-01-01",
-      "end": "-0347-12-31",
+      "start": "-000427-01-01",
+      "end": "-000347-12-31",
       "type": "range",
       "content": "柏拉图",
       "title": "柏拉图（前 427 – 前 347）",
@@ -122,8 +122,8 @@
     {
       "id": "philosopher/苏格拉底",
       "group": "philosopher",
-      "start": "-0470-01-01",
-      "end": "-0399-12-31",
+      "start": "-000470-01-01",
+      "end": "-000399-12-31",
       "type": "range",
       "content": "苏格拉底",
       "title": "苏格拉底（前 470 – 前 399）",
@@ -134,8 +134,8 @@
     {
       "id": "school/智者派",
       "group": "school",
-      "start": "-0500-01-01",
-      "end": "-0401-12-31",
+      "start": "-000500-01-01",
+      "end": "-000401-12-31",
       "type": "range",
       "content": "智者派",
       "title": "智者派（前 5C 雅典）",
@@ -146,7 +146,7 @@
     {
       "id": "school/犬儒学派",
       "group": "school",
-      "start": "-0500-01-01",
+      "start": "-000500-01-01",
       "end": "0500-12-31",
       "type": "range",
       "content": "犬儒学派",
@@ -158,8 +158,8 @@
     {
       "id": "period/前苏格拉底时期",
       "group": "period",
-      "start": "-0600-01-01",
-      "end": "-0401-12-31",
+      "start": "-000600-01-01",
+      "end": "-000401-12-31",
       "type": "background",
       "content": "前苏格拉底时期",
       "title": "前苏格拉底时期（约前 6 世纪 – 前 5 世纪）",
