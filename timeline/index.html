@@ -3447,13 +3447,16 @@
 
 
 <h1 id="_1">时间轴<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h1>
-<p>本页用 <strong>vis-graph2d</strong> 渲染 Wiki 中所有<strong>有时间标记</strong>的页面 — 哲学家（出生年）、学派（创立年）、时期（开始年）。沿垂直坐标从上往下俯瞰整个哲学史的时间结构。</p>
+<p>本页用 CSS + JS 自渲染 Wiki 中所有<strong>有时间标记</strong>的页面 — 哲学家（寿命）、学派（活动期）、时期（背景色带）。从上往下俯瞰整个哲学史的时间结构。</p>
+<blockquote>
+<p><strong>为什么不用 vis-timeline / vis-graph2d？</strong> 两个库都不支持真正的纵向时间轴 —— Timeline 的 <code>orientation: 'vertical'</code> 被静默忽略；Graph2d 的 <code>orientation</code> 只接受 <code>bottom/top</code>，时间轴始终在 X 方向。所以这里用纯 CSS 渲染三列纵向时间轴，简单可控。</p>
+</blockquote>
 <ul>
-<li><strong>三层并列</strong>（自左向右）：时期 → 学派 → 哲学家（每层一列）</li>
-<li><strong>垂直滚动</strong>沿时间线向下浏览，<strong>滚轮</strong>缩放</li>
-<li><strong>悬停</strong>查看精确起止年（tooltip 跟随鼠标，完整寿命在 title 里）</li>
-<li><strong>点击</strong>跳转对应词条</li>
-<li><strong>BC / AD</strong> 时间轴自动分开（公元前在上半段）</li>
+<li><strong>三层并列</strong>（自左向右）：时期 → 学派 → 哲学家</li>
+<li><strong>每列内</strong>按起点年份从上到下排列（越早越靠上）</li>
+<li><strong>悬停</strong> → 卡片高亮 + tooltip 显示完整寿命</li>
+<li><strong>点击</strong> → 跳转到对应词条</li>
+<li><strong>BC / AD</strong> 标记自动区分</li>
 </ul>
 <blockquote>
 <p>数据来源：每页 Markdown 的 frontmatter <code>birth_death</code> / <code>year_range</code> / <code>period</code> 字段；构建时由 <code>hooks/timeline.py</code> 解析为统一 ISO 格式并写入 <code>site/assets/timeline.json</code>。</p>
@@ -3462,80 +3465,15 @@
   <span><span class="legend-dot" style="background:#26c6da"></span>时期（背景色带）</span> &nbsp;
   <span><span class="legend-dot" style="background:#ab47bc"></span>学派（条带）</span> &nbsp;
   <span><span class="legend-dot" style="background:#5c6bc0"></span>哲学家（寿命）</span> &nbsp;
-  <span style="margin-left:1em; font-size:0.85em; opacity:0.7">拖动 · 滚轮缩放 · 悬停查看 · 点击跳转</span>
+  <span style="margin-left:1em; font-size:0.85em; opacity:0.7">悬停查看 · 点击跳转</span>
 </div>
 
-<div id="timeline-container"></div>
+<div id="timeline-container" aria-busy="true">
+  <div class="timeline-loading">加载中…</div>
+</div>
 
 <script>
 (async function() {
-  // ---- Dynamically load vis-timeline UMD bundle ----
-  // Don't use a plain <script src="..."> in the markdown: MkDocs Material's
-  // `navigation.instant` feature fetches subsequent pages via XHR and injects
-  // them with innerHTML — browsers do NOT execute <script src=...> tags that
-  // arrive via innerHTML, so the global `vis` would never be defined and
-  // `new vis.Timeline(...)` below would throw `ReferenceError: vis is not defined`.
-  // Loading dynamically inside the IIFE works in both first-load and instant-nav cases.
-  function loadScript(src) {
-    return new Promise((resolve, reject) => {
-      if (document.querySelector(`script[src="${src}"]`)) { resolve(); return; }
-      const s = document.createElement('script');
-      s.src = src;
-      s.onload = () => resolve();
-      s.onerror = () => reject(new Error('failed to load ' + src));
-      document.head.appendChild(s);
-    });
-  }
-  try {
-    await loadScript('../javascripts/vendor/vis-timeline-graph2d.min.js');
-  } catch (e) {
-    document.getElementById('timeline-container').innerText = 'vis-timeline 加载失败：' + e.message;
-    return;
-  }
-
-  // ---- Inject vis-timeline stylesheet (must come before the timeline is
-  // created, so the container has correct sizing/styling on first paint). ----
-  // Markdown-wrapped <link> tags are inconsistent (some renderers wrap
-  // them in <p>), so we attach the stylesheet programmatically.
-  if (!document.querySelector('link[data-vis-timeline]')) {
-    const link = document.createElement('link');
-    link.rel = 'stylesheet';
-    link.type = 'text/css';
-    link.href = '../stylesheets/vendor/vis-timeline-graph2d.min.css';
-    link.dataset.visTimeline = '1';
-    document.head.appendChild(link);
-  }
-
-  // ---- Dark / light theme handling ----
-  const isDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-  const theme = {
-    text:      isDark ? '#e0e0e0' : '#212121',
-    edge:      isDark ? '#666666' : '#bdbdbd',
-    background: isDark ? '#1e1e1e' : '#ffffff',
-  };
-
-  // Material toggles `data-md-color-scheme` when the user clicks the
-  // palette switch — reload to pick up our updated `isDark`. Adopting the
-  // first observed value as the baseline, since Material sets it on
-  // bootstrap *after* this script sometimes.
-  let lastKnownScheme = document.body.getAttribute('data-md-color-scheme');
-  let observerReady = false;
-  let reloadTimer = null;
-  new MutationObserver(() => {
-    const current = document.body.getAttribute('data-md-color-scheme');
-    if (!observerReady) {
-      observerReady = true;
-      lastKnownScheme = current;
-      return;
-    }
-    if (current === lastKnownScheme || reloadTimer) return;
-    lastKnownScheme = current;
-    reloadTimer = setTimeout(() => location.reload(), 250);
-  }).observe(document.body, {
-    attributes: true,
-    attributeFilter: ['data-md-color-scheme'],
-  });
-
   // ---- Load timeline.json ----
   const res = await fetch('../assets/timeline.json');
   if (!res.ok) {
@@ -3545,105 +3483,93 @@
   const payload = await res.json();
 
   const COLOR = {
-    philosopher: { background: '#5c6bc0', border: '#3f51b5' },
-    school:      { background: '#ab47bc88', border: '#ab47bc' },
-    period:      { background: '#26c6da44', border: '#26c6da' },
+    philosopher: { fg: '#5c6bc0', bg: '#5c6bc022', border: '#3f51b5' },
+    school:      { fg: '#ab47bc', bg: '#ab47bc22', border: '#ab47bc' },
+    period:      { fg: '#26c6da', bg: '#26c6da33', border: '#26c6da' },
   };
 
-  // ---- Build Graph2d items (point form) ----
-  // Graph2d's binary search calls `.getTime()` on item.x and crashes if
-  // x is `{start, end}` (range items). Workaround: convert each entity
-  // to a single POINT item at the START date; the full date range is
-  // carried in `title` for the tooltip. Loses the bar visual but keeps
-  // the timeline functional top→bottom.
-  //
-  // For 'background' period bands we still pass start/end as `x` here
-  // by computing the midpoint and putting it in title — Graph2d treats
-  // background items via the same .getTime path.
-  const VALUE = { period: 1, school: 2, philosopher: 3 };
-  const itemsById = {};
-  const items = payload.items.map(it => {
-    itemsById[it.id] = it;
-    const c = COLOR[it.group] || COLOR.philosopher;
-    return {
-      id:      it.id,
-      group:   it.group,
-      content: it.content,
-      // Graph2d point items: `x` is the time coordinate (Date | string).
-      // Use the START of the entity's lifetime as its canonical time;
-      // full range is in `title` for tooltip.
-      x:       it.start,
-      // Graph2d vertical: Y = value, X = time. Assign per-group values
-      // so the three layers stack left→right.
-      y:       VALUE[it.group] || 3,
-      title:   it.title,
-      style:   `background-color:${c.background}; border-color:${c.border}; color:${theme.text};`,
-    };
-  });
+  // ---- Group items by category ----
+  // payload.items[] contains {id, group, content, start, end, title, url, type}
+  const groups = { period: [], school: [], philosopher: [] };
+  const itemById = {};
+  for (const it of payload.items) {
+    if (!groups[it.group]) continue;        // skip unknown groups
+    itemById[it.id] = it;
+    groups[it.group].push(it);
+  }
+  // Sort each group by start date (chronological top→bottom).
+  // `start` is an ISO string like "-000323-01-01" or "1712-01-01".
+  // String comparison on ISO 8601 dates is lexicographic and correct
+  // because the format is fixed-width with explicit BC sign.
+  for (const g of Object.keys(groups)) {
+    groups[g].sort((a, b) => a.start.localeCompare(b.start));
+  }
 
-  // ---- Construct Timeline (Graph2d with vertical orientation) ----
-  // vis-timeline's `Timeline` class only supports horizontal orientation
-  // (`top` | `bottom` | `both` | `none`). To get a vertical timeline we
-  // use `vis.Graph2d` from the same bundle — it accepts `orientation:
-  // 'vertical'` and renders time on the Y axis with the value axis as
-  // a categorical X. Each group then becomes its own vertical column.
+  // ---- Render three vertical columns ----
   const container = document.getElementById('timeline-container');
+  container.removeAttribute('aria-busy');
+  container.innerHTML = '';
 
-  // Note: Graph2d does NOT support Timeline-style `groups` — passing them
-  // even as `{id: {...}}` triggers validator errors like "Unknown option
-  // detected: period". Grouping is implicit via their `value` field:
-  // items at value=1 (period) stack at column 1, value=2 (school) at 2,
-  // value=3 (philosopher) at 3. The HTML legend at the top of the page
-  // tells the user which color is which group.
+  const COL_TITLES = {
+    period:      '时期（背景色带）',
+    school:      '学派（条带）',
+    philosopher: '哲学家（寿命）',
+  };
 
-  const timeline = new vis.Graph2d(container, items, {
-    // Vertical: time flows top→bottom on Y axis; items at different
-    // `value`s stack left→right (X axis). Each item is a POINT (not a
-    // range bar — see note above on the Graph2d binary-search crash),
-    // drawn as a small dot with the entity name visible.
-    orientation: 'vertical',
-    // ~1 month in, ~5000 years out — covers all of antiquity through modern
-    zoomMin: 1000 * 60 * 60 * 24 * 30,
-    zoomMax: 1000 * 60 * 60 * 24 * 365 * 5000,
-    showCurrentTime: false,
-    multiselect: false,
-    // Make each item visible: 8 px filled circle. (Default 6 px outline
-    // is easy to miss at this density.)
-    drawPoints: { size: 8, style: 'circle' },
-    // Hide the legend line Graph2d draws between points — we only have
-    // one point per entity, so a line would be a single segment of no
-    // value.
-    shaded: false,
-    // Hide Graph2d's auto-generated data-axis labels (1, 2, 3) and let
-    // CSS handle the column meaning via the HTML legend at the top.
-    dataAxis: {
-      visible: false,
-    },
-    // Item-level `title` is honoured by Graph2d for native tooltip on hover
-    // — shows the full lifetime string for each entity.
-  });
+  for (const groupKey of ['period', 'school', 'philosopher']) {
+    const col = document.createElement('div');
+    col.className = 'vt-column vt-column-' + groupKey;
 
-  // Auto-fit the entire range on load — otherwise the user lands on
-  // "now" (empty page) for an ancient-philosophy dataset.
-  timeline.fit();
+    const header = document.createElement('div');
+    header.className = 'vt-column-header';
+    header.textContent = COL_TITLES[groupKey];
+    col.appendChild(header);
 
-  // ---- Click navigation ----
-  // With point items, Graph2d's click event delivers `props.item` (the
-  // clicked entity's id). Fall back to `props.items[0]` if present.
-  // timeline.md sits at /timeline/ — need ../ to escape before reaching
-  // sibling directories like /philosophers/, /schools/, /periods/.
-  timeline.on('click', props => {
-    const id = props.item || (props.items && props.items[0]);
-    if (id) {
-      const it = itemsById[id];
-      if (it && it.url) {
-        window.location.href = '../' + it.url;
-      }
+    const list = document.createElement('div');
+    list.className = 'vt-list';
+    for (const it of groups[groupKey]) {
+      const card = document.createElement(it.url ? 'a' : 'div');
+      card.className = 'vt-card vt-card-' + groupKey;
+      card.href = it.url ? '../' + it.url : '';
+      card.title = it.title || it.content;
+      card.setAttribute('data-id', it.id);
+
+      const titleEl = document.createElement('div');
+      titleEl.className = 'vt-card-title';
+      titleEl.textContent = it.content;
+      card.appendChild(titleEl);
+
+      const dateEl = document.createElement('div');
+      dateEl.className = 'vt-card-date';
+      dateEl.textContent = formatYears(it.start, it.end);
+      card.appendChild(dateEl);
+
+      list.appendChild(card);
     }
-  });
+    col.appendChild(list);
+    container.appendChild(col);
+  }
+
+  // ---- Format ISO year string to "前 427" / "1650" ----
+  // Accepts "-000427-01-01" → "前 427", "1650-01-01" → "1650", etc.
+  // When start == end, just returns one year.
+  function formatYears(startIso, endIso) {
+    const sy = isoYear(startIso);
+    const ey = isoYear(endIso);
+    if (sy === ey) return sy;
+    return sy + ' – ' + ey;
+  }
+  function isoYear(iso) {
+    if (!iso) return '?';
+    if (iso.startsWith('-')) {
+      // ISO 8601 extended BC: "-000106" → year 106 BC
+      return '前 ' + String(Math.abs(parseInt(iso.slice(1, 5), 10)));
+    }
+    return String(parseInt(iso.slice(0, 4), 10));
+  }
 
   // ---- Expose for debugging ----
-  window.__timeline = timeline;
+  window.__timeline = { groups, itemById };
 })();
 </script>
 

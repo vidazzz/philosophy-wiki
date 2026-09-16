@@ -169,28 +169,7 @@
 .edge-popup-list a:hover {
   text-decoration: underline;
 }
-/* --- 时间线 --- */
-#timeline-container {
-  width: 100%;
-  /* Vertical timeline: time flows top→bottom, so a tall container
-     accommodates ~2500 years of philosophy without forcing the user to
-     scroll inside the timeline. The page itself scrolls through history. */
-  height: 85vh;
-  min-height: 700px;
-  border: 1px solid var(--md-default-fg-color--lightest);
-  border-radius: 6px;
-  background: var(--md-default-bg-color);
-  font-family: 'Noto Sans SC', sans-serif;
-  /* Padding replaces the `margin` option that vis-timeline supported but
-     vis-graph2d rejects. Keeps range bars off the container edges. */
-  padding: 8px;
-  box-sizing: border-box;
-}
-/* Group label styling — each column header (时期 / 学派 / 哲学家) gets a
-   distinct left-border accent so the three columns read as distinct lanes. */
-.vis-graph2d .vis-labelset .vis-label.g-period    { border-left: 3px solid #26c6da; padding-left: 6px; }
-.vis-graph2d .vis-labelset .vis-label.g-school    { border-left: 3px solid #ab47bc; padding-left: 6px; }
-.vis-graph2d .vis-labelset .vis-label.g-philosopher { border-left: 3px solid #5c6bc0; padding-left: 6px; }
+/* --- 时间轴（三列纵向，纯 CSS + JS 渲染） --- */
 .timeline-legend {
   margin: 1rem 0;
   font-size: 0.85rem;
@@ -204,29 +183,97 @@
   vertical-align: middle;
   margin-right: 4px;
 }
-.vis-timeline {
-  border: none;
-  font-family: 'Noto Sans SC', sans-serif;
+#timeline-container {
+  display: flex;
+  flex-direction: row;
+  gap: 0.75rem;
+  width: 100%;
+  /* Vertical layout: time flows top→bottom, so the container itself is
+     tall and each column scrolls independently. The full container does
+     NOT scroll horizontally — three columns are always visible. */
+  height: 85vh;
+  min-height: 600px;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 6px;
   background: var(--md-default-bg-color);
-  color: var(--md-default-fg-color);
+  padding: 8px;
+  box-sizing: border-box;
+  font-family: 'Noto Sans SC', sans-serif;
 }
-/* Period items render behind; lighten them so the schools/philosophers above
-   remain readable. The border ring is what makes them visually obvious. */
-.vis-timeline .vis-item.vis-background {
-  border: none !important;
-  opacity: 0.85;
-}
-.vis-timeline .vis-item .vis-item-content {
-  color: var(--md-default-fg-color);
-  padding: 0 4px;
-}
-.vis-timeline .vis-time-axis .vis-text,
-.vis-timeline .vis-time-axis .vis-grid {
+.timeline-loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
   color: var(--md-default-fg-color--light);
+  font-size: 0.9rem;
 }
-.vis-timeline .vis-current-time {
-  display: none;
+.vt-column {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;          /* allow shrinking below content width */
+  border-radius: 4px;
+  background: var(--md-default-fg-color--lightest);
+  padding: 0.5rem;
 }
-.vis-timeline .vis-item.vis-selected {
-  box-shadow: 0 0 0 2px var(--md-primary-fg-color);
+.vt-column-header {
+  font-weight: 600;
+  padding: 0.45rem 0.6rem;
+  margin-bottom: 0.6rem;
+  border-radius: 3px;
+  text-align: center;
+  font-size: 0.95rem;
+  color: var(--md-default-fg-color);
+}
+.vt-column-period     .vt-column-header { background: #26c6da33; }
+.vt-column-school     .vt-column-header { background: #ab47bc33; }
+.vt-column-philosopher .vt-column-header { background: #5c6bc033; }
+.vt-list {
+  flex: 1;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+  /* Reserve space so the scrollbar doesn't overlap the last card. */
+  padding-right: 4px;
+}
+/* Slim scrollbar that fits the column aesthetic. */
+.vt-list::-webkit-scrollbar { width: 6px; }
+.vt-list::-webkit-scrollbar-thumb {
+  background: var(--md-default-fg-color--light);
+  border-radius: 3px;
+}
+.vt-card {
+  display: block;
+  padding: 0.5rem 0.7rem 0.55rem;
+  border-radius: 4px;
+  border-left: 3px solid;
+  background: var(--md-default-bg-color);
+  color: inherit;
+  text-decoration: none;
+  transition: transform 0.12s ease, box-shadow 0.12s ease;
+  cursor: pointer;
+}
+.vt-card:hover {
+  transform: translateX(3px);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.18);
+}
+.vt-card-period      { border-color: #26c6da; background: #26c6da14; }
+.vt-card-school      { border-color: #ab47bc; background: #ab47bc14; }
+.vt-card-philosopher { border-color: #5c6bc0; background: #5c6bc014; }
+.vt-card-title {
+  font-weight: 600;
+  font-size: 0.92rem;
+  line-height: 1.3;
+  margin-bottom: 3px;
+  /* Keep multi-line titles compact. */
+  word-break: break-word;
+}
+.vt-card-date {
+  font-size: 0.74rem;
+  color: var(--md-default-fg-color--light);
+  font-family: ui-monospace, 'SF Mono', Menlo, monospace;
+  letter-spacing: 0.02em;
 }
