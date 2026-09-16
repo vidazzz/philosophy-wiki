@@ -4,11 +4,11 @@ title: 时间轴
 
 # 时间轴
 
-本页用 **vis-timeline** 渲染 Wiki 中所有**有时间标记**的页面 — 哲学家（寿命）、学派（活动期）、时期（背景带）。沿垂直坐标从上往下俯瞰整个哲学史的时间结构。
+本页用 **vis-graph2d** 渲染 Wiki 中所有**有时间标记**的页面 — 哲学家（出生年）、学派（创立年）、时期（开始年）。沿垂直坐标从上往下俯瞰整个哲学史的时间结构。
 
-- **三层并列**（自左向右）：时期（背景色带）→ 学派（条带）→ 哲学家（细条）
+- **三层并列**（自左向右）：时期 → 学派 → 哲学家（每层一列）
 - **垂直滚动**沿时间线向下浏览，**滚轮**缩放
-- **悬停**查看精确生卒年/活跃期（tooltip 跟随鼠标）
+- **悬停**查看精确起止年（tooltip 跟随鼠标，完整寿命在 title 里）
 - **点击**跳转对应词条
 - **BC / AD** 时间轴自动分开（公元前在上半段）
 
@@ -106,13 +106,16 @@ title: 时间轴
     period:      { background: '#26c6da44', border: '#26c6da' },
   };
 
-  // ---- Build vis-timeline items ----
-  // Graph2d's vertical orientation uses the *value* axis as the
-  // categorical X (where groups live) and the *time* axis as the
-  // scrolling Y. So we have to assign each item a numeric `value` —
-  // one per group — so periods/schools/philosophers stack into three
-  // distinct vertical columns. The `group` field keeps the existing
-  // grouping/styling intact.
+  // ---- Build Graph2d items (point form) ----
+  // Graph2d's binary search calls `.getTime()` on item.x and crashes if
+  // x is `{start, end}` (range items). Workaround: convert each entity
+  // to a single POINT item at the START date; the full date range is
+  // carried in `title` for the tooltip. Loses the bar visual but keeps
+  // the timeline functional top→bottom.
+  //
+  // For 'background' period bands we still pass start/end as `x` here
+  // by computing the midpoint and putting it in title — Graph2d treats
+  // background items via the same .getTime path.
   const VALUE = { period: 1, school: 2, philosopher: 3 };
   const itemsById = {};
   const items = payload.items.map(it => {
@@ -122,15 +125,14 @@ title: 时间轴
       id:      it.id,
       group:   it.group,
       content: it.content,
-      start:   it.start,
-      end:     it.end,
-      // 'background' renders behind everything (for period bands).
-      // 'range' draws as a normal bar (school + philosopher).
-      type:    it.type,
-      title:   it.title,
-      // Graph2d vertical: X = value, Y = time. Assign per-group values
+      // Graph2d point items: `x` is the time coordinate (Date | string).
+      // Use the START of the entity's lifetime as its canonical time;
+      // full range is in `title` for tooltip.
+      x:       it.start,
+      // Graph2d vertical: Y = value, X = time. Assign per-group values
       // so the three layers stack left→right.
-      value:   VALUE[it.group] || 3,
+      y:       VALUE[it.group] || 3,
+      title:   it.title,
       style:   `background-color:${c.background}; border-color:${c.border}; color:${theme.text};`,
     };
   });
@@ -152,28 +154,29 @@ title: 时间轴
 
   const timeline = new vis.Graph2d(container, items, {
     // Vertical: time flows top→bottom on Y axis; items at different
-    // `value`s stack left→right (X axis). Each philosopher's life
-    // becomes a single horizontal bar across its value column.
+    // `value`s stack left→right (X axis). Each item is a POINT (not a
+    // range bar — see note above on the Graph2d binary-search crash),
+    // drawn as a small dot with the entity name visible.
     orientation: 'vertical',
     // ~1 month in, ~5000 years out — covers all of antiquity through modern
     zoomMin: 1000 * 60 * 60 * 24 * 30,
     zoomMax: 1000 * 60 * 60 * 24 * 365 * 5000,
     showCurrentTime: false,
     multiselect: false,
-    // We only render range bars — no point markers — so this kills the
-    // default dot that Graph2d draws for each data point.
-    drawPoints: false,
-    // Pin the value axis to our three group columns with a little padding
-    // so the bars don't kiss the chart border. Graph2d supports only
-    // `visible`, `left/right.range`, `showMinorLabels`, `icons`, `width`.
+    // Make each item visible: 8 px filled circle. (Default 6 px outline
+    // is easy to miss at this density.)
+    drawPoints: { size: 8, style: 'circle' },
+    // Hide the legend line Graph2d draws between points — we only have
+    // one point per entity, so a line would be a single segment of no
+    // value.
+    shaded: false,
+    // Hide Graph2d's auto-generated data-axis labels (1, 2, 3) and let
+    // CSS handle the column meaning via the HTML legend at the top.
     dataAxis: {
-      visible: true,
-      left: { range: { min: 0, max: 4 } },
-      icons: false,
-      showMinorLabels: false,
+      visible: false,
     },
     // Item-level `title` is honoured by Graph2d for native tooltip on hover
-    // — no need for the timeline-style `tooltip` option here.
+    // — shows the full lifetime string for each entity.
   });
 
   // Auto-fit the entire range on load — otherwise the user lands on
@@ -181,13 +184,14 @@ title: 时间轴
   timeline.fit();
 
   // ---- Click navigation ----
-  // Graph2d's click event uses `props.items` (array) instead of Timeline's
-  // `props.item` (single). Pick the first item if the user clicked a range bar.
+  // With point items, Graph2d's click event delivers `props.item` (the
+  // clicked entity's id). Fall back to `props.items[0]` if present.
   // timeline.md sits at /timeline/ — need ../ to escape before reaching
   // sibling directories like /philosophers/, /schools/, /periods/.
   timeline.on('click', props => {
-    if (props.items && props.items.length > 0) {
-      const it = itemsById[props.items[0]];
+    const id = props.item || (props.items && props.items[0]);
+    if (id) {
+      const it = itemsById[id];
       if (it && it.url) {
         window.location.href = '../' + it.url;
       }
